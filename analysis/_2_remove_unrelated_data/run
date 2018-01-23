@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Removing unrelated posts"
+cd ../..
+py -m analysis_process._2_remove_unrelated_data.main

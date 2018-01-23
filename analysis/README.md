@@ -27,3 +27,15 @@ Note that `startDate` and `endDate` is given by client.
 ## 2. For every scrapped result, output a file for error checking in the future
 ### But how the file should be formatted?
 This question remains unknown. Will need to ask Dr. Victor in the future again.
+
+## How to run test for each process?
+Make sure you are in the dir of `analysis_process`.
+```
+$ ./test
+```
+
+## How to install missing packages?
+```
+$ python -m pip install <package_name>
+```
+That's all, enjoy!

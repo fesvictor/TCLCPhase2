@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Labelling semantics for each posts"
+cd ../..
+py -m analysis_process._3_label_semantic.main
+echo "DONE."

@@ -1,0 +1,19 @@
+#!/bin/bash
+cd './tests'
+pytest
+cd ..
+
+cd './_1_process_raw_data'
+./test
+cd ..
+
+cd './_2_remove_unrelated_data'
+./test
+cd ..
+
+cd './_3_label_semantic'
+./test
+cd ..
+
+cd './_4_classification'
+./test

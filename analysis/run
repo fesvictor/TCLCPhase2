@@ -1,0 +1,15 @@
+#!/bin/bash
+cd './_1_process_raw_data'
+./run
+cd ..
+
+cd './_2_remove_unrelated_data'
+./run
+cd ..
+
+cd './_3_label_semantic'
+./run
+cd ..
+
+cd './_4_classification'
+./run
