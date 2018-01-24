@@ -13,6 +13,13 @@ def main(language):
     sorted_posts = sorted(standardized, key=lambda x: x['date'])
     save_posts(sorted_posts, f'analysis/_4_classification/output/{language}.json')
 
+def get_date_format_of_each_sources(all_posts):
+    dic = {}
+    for post in all_posts:
+        if(post['source'] not in dic):
+            dic[post['source']] = post['date']
+    import pprint
+    pprint.pprint(dic)
 
 main('english')
 main('chinese')
