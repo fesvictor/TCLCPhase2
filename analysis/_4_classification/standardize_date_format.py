@@ -13,6 +13,7 @@ def standardize_date_format(all_posts):
             post['date'] = correct_date_format_of_facebook(post['date'])
         elif post['source'] == 'twitter':
             post['date'] = correct_date_format_of_twitter(post['date'])
+    return all_posts
 
 def correct_date_format_of_facebook(date):
     return ''.join(date.split(' ')[0].split('-'))

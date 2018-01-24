@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Classifying posts"
+cd ../..
+py -m analysis._4_classification.main
