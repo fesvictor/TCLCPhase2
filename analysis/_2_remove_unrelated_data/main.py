@@ -8,40 +8,28 @@ from analysis.load_posts import load_posts
 from analysis.save_posts import save_posts
 
 
-def main():
-    log("Loading english posts", 1)
-    english_posts = load_posts('analysis/_1_process_raw_data/output/english.json')
-    english_labels = get_english_labels()
-    label_post(english_posts, english_labels)
-    log("Removing unrelated posts", 1)
-    purified = [x for x in english_posts if len(x['related_to']) > 0]
-    log("Number of removed posts = " + str(len(english_posts) - len(purified)), 1)
-    save_posts(purified, 'analysis/_2_remove_unrelated_data/english.json')
-
-    log("Loading chinese posts", 1)
-    chinese_posts = load_posts('analysis/_1_process_raw_data/output/chinese.json')
-    chinese_labels = get_chinese_labels()
-    label_post(chinese_posts, chinese_labels)
-    log("Removing unrelated posts", 1)
-    purified = [x for x in chinese_posts if len(x['related_to']) > 0]
-    log("Number of removed posts = " + str(len(chinese_posts) - len(purified)), 1)
-    save_posts(purified, 'analysis/_2_remove_unrelated_data/chinese.json')
-    log("DONE.", 1)
+def main(language):
+    log(f"Loading {language} posts", 1)
+    posts = load_posts(f'analysis/_1_process_raw_data/output/{language}.json')
+    labels = get_labels(language)
+    label_post(posts, labels)
+    log(f"Removing unrelated posts", 1)
+    purified = [x for x in posts if len(x['related_to']) > 0]
+    log(f"Number of removed posts = " + str(len(posts) - len(purified)), 1)
+    save_posts(purified, f'analysis/_2_remove_unrelated_data/{language}.json')
 
 
-def get_english_labels():
-    log("Loading english labels", 1)
+def get_labels(language):
+    log(f"Loading {language} labels", 1)
     labels_dir = 'data/target/'
-    leaders = load_labels(labels_dir + 'leader.txt')
-    parties = load_labels(labels_dir + 'party.txt')
-    return leaders + parties
+    leaders = load_labels(labels_dir + f'{language}_leader.txt')
+    parties = load_labels(labels_dir + f'{language}_party.txt')
+    if language == 'english':
+        return leaders + parties
+    elif language == 'chinese':
+        simplified = list(map(HanziConv.toSimplified, leaders + parties))
+        return list(OrderedDict.fromkeys(simplified))
 
-def get_chinese_labels():
-    log("Loading chinese labels", 1)
-    labels_dir = 'data/target/'
-    leaders = load_labels(labels_dir + 'chinese_leader.txt')
-    parties = load_labels(labels_dir + 'chinese_party.txt')
-    simplified = list(map(HanziConv.toSimplified, leaders + parties))
-    return list(OrderedDict.fromkeys(simplified))
 
-main()
+main('english')
+main('chinese')
