@@ -1,0 +1,14 @@
+language: python
+
+# python version
+python:
+  - "3.6.3"
+
+# command to install dependencies
+install:
+  - pip install hanziconv
+
+# command to run tests
+script:
+  - cd analysis
+  - ./test
