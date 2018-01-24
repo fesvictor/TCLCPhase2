@@ -1,4 +1,4 @@
-from analysis_process._1_process_raw_data.parse_blog import parse_blog
+from analysis._1_process_raw_data.parse_blog import parse_blog
 
 
 def test1():
@@ -8,5 +8,8 @@ def test1():
         'value': "mahathir's cronies vs najib's cronies",
         'source': "blog",
         'related_to': None,
-        'semantic_value': None
+        'semantic_value': {
+            'positive': False,
+            'negative': False
+        }
     }

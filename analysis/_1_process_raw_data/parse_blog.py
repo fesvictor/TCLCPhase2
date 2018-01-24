@@ -1,7 +1,7 @@
 import csv
 from bs4 import UnicodeDammit
 from pprint import pprint
-from analysis_process.Post import Post
+from analysis.Post import Post
 
 def parse_blog(file_path):
     result = []

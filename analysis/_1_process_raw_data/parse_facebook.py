@@ -1,5 +1,5 @@
 import csv
-from analysis_process.Post import Post
+from analysis.Post import Post
 
 def parse_facebook(file_path):
     result = []

@@ -1,4 +1,4 @@
-from analysis_process._1_process_raw_data.parse_jbtalks import parse_jbtalks
+from analysis._1_process_raw_data.parse_jbtalks import parse_jbtalks
 
 
 def test1():
@@ -8,4 +8,4 @@ def test1():
     assert result[0].value.startswith('敦馬')
     assert result[1].source == 'jbtalks'
     assert result[1].date == '20160329'
-    assert result[1].value.endswith("《中國報》")
+    assert result[1].value.endswith("中国报》")

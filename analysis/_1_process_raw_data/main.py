@@ -1,11 +1,39 @@
 import os
-from analysis_process.log import log
-from analysis_process.save_posts import save_posts
-from analysis_process._1_process_raw_data.parse_blog import parse_blog
-from analysis_process._1_process_raw_data.parse_facebook import parse_facebook
-from analysis_process._1_process_raw_data.parse_jbtalks import parse_jbtalks
-from analysis_process._1_process_raw_data.parse_lowyat import parse_lowyat
-from analysis_process._1_process_raw_data.parse_twitter import parse_twitter
+from analysis.log import log
+from analysis.save_posts import save_posts
+from analysis._1_process_raw_data.parse_blog import parse_blog
+from analysis._1_process_raw_data.parse_facebook import parse_facebook
+from analysis._1_process_raw_data.parse_jbtalks import parse_jbtalks
+from analysis._1_process_raw_data.parse_lowyat import parse_lowyat
+from analysis._1_process_raw_data.parse_twitter import parse_twitter
+
+
+def main(jobs, language):
+    posts = []
+    log(f"Parsing {language} posts", 1)
+    for job in jobs:
+        posts += job.run()
+    save_posts(posts, f'analysis/_1_process_raw_data/output/{language}.json')
+    log(f"Number of {language} posts created : " + str(len(posts)), 1)
+
+
+class Job():
+    def __init__(self, directory, parser):
+        self.parser = parser
+        self.directory = directory
+
+    def run(self):
+        return self.parse_files_from(self.directory, self.parser)
+
+    def parse_files_from(self, directory, parser):
+        log("Parsing files from " + directory, 2)
+        posts = []
+        for file in os.listdir(directory):
+            if not file.endswith('.csv'):
+                continue
+            posts += parser(directory + file)
+        return posts
+
 
 PARENT_DIR = 'data/scraperesults/'
 FACEBOOK_DIR = PARENT_DIR + 'facebook/'
@@ -14,33 +42,16 @@ LOWYAT_DIR = PARENT_DIR + 'lowyat/'
 TWITTER_DIR = PARENT_DIR + 'twitter/'
 JBTALKS_DIR = PARENT_DIR + 'chinese/jbtalks/'
 
+ENGLISH_JOBS = [
+    Job(BLOG_DIR, parse_blog),
+    Job(FACEBOOK_DIR, parse_facebook),
+    Job(LOWYAT_DIR, parse_lowyat),
+    Job(TWITTER_DIR, parse_twitter)
+]
 
-def main():
-    english_posts = []
-    log("Parsing english posts", 1)
-    english_posts += parse_files_from(BLOG_DIR, parse_blog)
-    english_posts += parse_files_from(FACEBOOK_DIR, parse_facebook)
-    english_posts += parse_files_from(LOWYAT_DIR, parse_lowyat)
-    english_posts += parse_files_from(TWITTER_DIR, parse_twitter)
-    save_posts(english_posts, f'analysis_process/_1_process_raw_data/output/english.json')
-    log("Number of english posts created : " + str(len(english_posts)), 1)
+CHINESE_JOBS = [
+    Job(JBTALKS_DIR, parse_jbtalks)
+]
 
-    log("Parsing chinese posts", 1)
-    chinese_posts = []
-    chinese_posts += parse_files_from(JBTALKS_DIR, parse_jbtalks)
-    save_posts(chinese_posts, f'analysis_process/_1_process_raw_data/output/chinese.json')
-    log("Number of chinese posts created : " + str(len(chinese_posts)), 1)
-    log("DONE.", 1)
-
-
-def parse_files_from(directory, parser):
-    log("Parsing files from " + directory, 2)
-    posts = []
-    for file in os.listdir(directory):
-        if not file.endswith('.csv'):
-            continue
-        posts += parser(directory + file)
-    return posts
-
-
-main()
+main(ENGLISH_JOBS, 'english')
+main(CHINESE_JOBS, 'chinese')

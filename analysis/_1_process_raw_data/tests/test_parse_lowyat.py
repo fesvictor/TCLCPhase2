@@ -1,4 +1,4 @@
-from analysis_process._1_process_raw_data.parse_lowyat import parse_lowyat
+from analysis._1_process_raw_data.parse_lowyat import parse_lowyat
 
 
 def test1():

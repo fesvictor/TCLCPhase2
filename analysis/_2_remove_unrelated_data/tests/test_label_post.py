@@ -1,4 +1,4 @@
-from analysis_process._2_remove_unrelated_data.label_post import label_post
+from analysis._2_remove_unrelated_data.label_post import label_post
 
 sample_posts = [
     {

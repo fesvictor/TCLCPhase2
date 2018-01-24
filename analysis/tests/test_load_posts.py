@@ -1,4 +1,4 @@
-from analysis_process.load_posts import load_posts
+from analysis.load_posts import load_posts
 
 
 def test1():

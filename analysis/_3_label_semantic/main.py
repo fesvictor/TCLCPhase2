@@ -1,31 +1,32 @@
-from analysis_process.save_posts import save_posts
-from analysis_process.load_posts import load_posts
+from analysis.save_posts import save_posts
+from analysis.load_posts import load_posts
 
 
-def main():
-    input_dir = 'analysis_process/_2_remove_unrelated_data/output.json'
+def main(language):
+    print(f'Parsing {language} data')
+    input_dir = f'analysis/_2_remove_unrelated_data/{language}.json'
     all_posts = load_posts(input_dir)
     keyword_dir = 'data/categories/polarity/'
-    positive_keywords = load_keywords(keyword_dir + 'positive.txt', 1)
-    negative_keywords = load_keywords(keyword_dir + 'negative.txt', -1)
+    positive_keywords = load_keywords(keyword_dir + f'{language}_positive.txt', 'positive')
+    negative_keywords = load_keywords(keyword_dir + f'{language}_negative.txt', 'negative')
     all_keywords = positive_keywords + negative_keywords
     for post in all_posts:
-        post['semantic_value'] = 0
         for keyword in all_keywords:
             if keyword['word'] in post['value']:
-                post['semantic_value'] += keyword['value']
-    save_posts(all_posts, 'analysis_process/_3_label_semantic/output.json')
+                post['semantic_value'][keyword['value']] = True
+    save_posts(all_posts, f'analysis/_3_label_semantic/{language}.json')
 
 
 def load_keywords(file_path, semantic_value):
     result = []
-    with open(file_path) as file:
+    with open(file_path, encoding='utf8') as file:
         for word in file:
             result.append({
                 'word': word.rstrip('\n').strip(),
-                'value': semantic_value
+                'value': semantic_value # positive OR negative OR neutral
             })
     return result
 
 
-main()
+main('english')
+main('chinese')
