@@ -1,6 +1,6 @@
 import csv
 from hanziconv import HanziConv
-from analysis_process.Post import Post
+from analysis.Post import Post
 
 
 def parse_jbtalks(file_name):

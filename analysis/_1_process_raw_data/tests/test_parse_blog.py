@@ -1,4 +1,4 @@
-from analysis_process._1_process_raw_data.parse_blog import parse_blog
+from analysis._1_process_raw_data.parse_blog import parse_blog
 
 
 def test1():

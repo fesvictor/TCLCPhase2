@@ -1,6 +1,6 @@
 import pandas
 from bs4 import UnicodeDammit
-from analysis_process.Post import Post
+from analysis.Post import Post
 
 def parse_twitter(file_path):
     with open(file_path, 'r', errors='ignore') as file:

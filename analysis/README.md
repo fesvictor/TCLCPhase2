@@ -29,7 +29,7 @@ Note that `startDate` and `endDate` is given by client.
 This question remains unknown. Will need to ask Dr. Victor in the future again.
 
 ## How to run test for each process?
-Make sure you are in the dir of `analysis_process`.
+Make sure you are in the dir of `analysis`.
 ```
 $ ./test
 ```

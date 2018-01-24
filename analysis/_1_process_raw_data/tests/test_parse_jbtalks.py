@@ -1,4 +1,4 @@
-from analysis_process._1_process_raw_data.parse_jbtalks import parse_jbtalks
+from analysis._1_process_raw_data.parse_jbtalks import parse_jbtalks
 
 
 def test1():

@@ -1,4 +1,4 @@
-from analysis_process.log import log
+from analysis.log import log
 import json
 
 

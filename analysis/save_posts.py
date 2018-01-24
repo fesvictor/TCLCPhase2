@@ -1,5 +1,5 @@
 import json
-from analysis_process.log import log
+from analysis.log import log
 
 def save_posts(list_of_posts, file_name):
     log("Saving output to " + file_name, 1)

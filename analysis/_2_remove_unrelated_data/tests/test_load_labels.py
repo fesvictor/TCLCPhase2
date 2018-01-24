@@ -1,4 +1,4 @@
-from analysis_process._2_remove_unrelated_data.load_labels import load_labels
+from analysis._2_remove_unrelated_data.load_labels import load_labels
 
 
 def test1():

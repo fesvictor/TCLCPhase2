@@ -1,4 +1,4 @@
-from analysis_process._1_process_raw_data.parse_twitter import parse_twitter
+from analysis._1_process_raw_data.parse_twitter import parse_twitter
 
 
 def test1():

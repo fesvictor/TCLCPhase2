@@ -1,11 +1,11 @@
 import os
-from analysis_process.log import log
-from analysis_process.save_posts import save_posts
-from analysis_process._1_process_raw_data.parse_blog import parse_blog
-from analysis_process._1_process_raw_data.parse_facebook import parse_facebook
-from analysis_process._1_process_raw_data.parse_jbtalks import parse_jbtalks
-from analysis_process._1_process_raw_data.parse_lowyat import parse_lowyat
-from analysis_process._1_process_raw_data.parse_twitter import parse_twitter
+from analysis.log import log
+from analysis.save_posts import save_posts
+from analysis._1_process_raw_data.parse_blog import parse_blog
+from analysis._1_process_raw_data.parse_facebook import parse_facebook
+from analysis._1_process_raw_data.parse_jbtalks import parse_jbtalks
+from analysis._1_process_raw_data.parse_lowyat import parse_lowyat
+from analysis._1_process_raw_data.parse_twitter import parse_twitter
 
 PARENT_DIR = 'data/scraperesults/'
 FACEBOOK_DIR = PARENT_DIR + 'facebook/'
@@ -22,13 +22,13 @@ def main():
     english_posts += parse_files_from(FACEBOOK_DIR, parse_facebook)
     english_posts += parse_files_from(LOWYAT_DIR, parse_lowyat)
     english_posts += parse_files_from(TWITTER_DIR, parse_twitter)
-    save_posts(english_posts, f'analysis_process/_1_process_raw_data/output/english.json')
+    save_posts(english_posts, f'analysis/_1_process_raw_data/output/english.json')
     log("Number of english posts created : " + str(len(english_posts)), 1)
 
     log("Parsing chinese posts", 1)
     chinese_posts = []
     chinese_posts += parse_files_from(JBTALKS_DIR, parse_jbtalks)
-    save_posts(chinese_posts, f'analysis_process/_1_process_raw_data/output/chinese.json')
+    save_posts(chinese_posts, f'analysis/_1_process_raw_data/output/chinese.json')
     log("Number of chinese posts created : " + str(len(chinese_posts)), 1)
     log("DONE.", 1)
 

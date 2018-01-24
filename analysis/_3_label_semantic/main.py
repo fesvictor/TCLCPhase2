@@ -1,9 +1,9 @@
-from analysis_process.save_posts import save_posts
-from analysis_process.load_posts import load_posts
+from analysis.save_posts import save_posts
+from analysis.load_posts import load_posts
 
 
 def main():
-    input_dir = 'analysis_process/_2_remove_unrelated_data/output.json'
+    input_dir = 'analysis/_2_remove_unrelated_data/output.json'
     all_posts = load_posts(input_dir)
     keyword_dir = 'data/categories/polarity/'
     positive_keywords = load_keywords(keyword_dir + 'positive.txt', 1)
@@ -14,7 +14,7 @@ def main():
         for keyword in all_keywords:
             if keyword['word'] in post['value']:
                 post['semantic_value'] += keyword['value']
-    save_posts(all_posts, 'analysis_process/_3_label_semantic/output.json')
+    save_posts(all_posts, 'analysis/_3_label_semantic/output.json')
 
 
 def load_keywords(file_path, semantic_value):
