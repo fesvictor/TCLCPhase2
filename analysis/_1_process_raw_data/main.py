@@ -1,4 +1,5 @@
 import os
+from analysis.benchmark import benchmark
 from analysis.log import log
 from analysis.save_posts import save_posts
 from analysis._1_process_raw_data.parse_blog import parse_blog
@@ -7,13 +8,13 @@ from analysis._1_process_raw_data.parse_jbtalks import parse_jbtalks
 from analysis._1_process_raw_data.parse_lowyat import parse_lowyat
 from analysis._1_process_raw_data.parse_twitter import parse_twitter
 
+
 PARENT_DIR = 'data/scraperesults/'
 FACEBOOK_DIR = PARENT_DIR + 'facebook/'
 BLOG_DIR = PARENT_DIR + 'blog/'
 LOWYAT_DIR = PARENT_DIR + 'lowyat/'
 TWITTER_DIR = PARENT_DIR + 'twitter/'
 JBTALKS_DIR = PARENT_DIR + 'chinese/jbtalks/'
-
 
 def main():
     english_posts = []
@@ -43,4 +44,5 @@ def parse_files_from(directory, parser):
     return posts
 
 
-main()
+benchmark(main)
+
