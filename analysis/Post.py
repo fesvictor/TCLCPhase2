@@ -17,10 +17,16 @@ class Post:
         self.value = ""
         self.source = ""
         self.related_to = None
-        self.semantic_value = None
+        self.semantic_value = create_semantic()
 
     def default(self, o):
         return o.__dict__
 
     def __str__(self):
         return "date: %s\nvalue: %s\nsource: %s\nrelated_to: %s\nsemantic_value: %s" % (self.date, self.value, self.source, self.related_to, self.semantic_value)
+
+def create_semantic():
+    return {
+        'positive': False,
+        'negative': False
+    }
