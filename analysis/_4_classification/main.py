@@ -15,7 +15,8 @@ def main(language):
     log(f"Sorting post based on date", 1)
     sorted_posts = sorted(standardized, key=lambda x: x['date'])
     extracted = extract_data(sorted_posts, START_DATE, END_DATE, language )
-    json.dump(extracted, open(f'analysis/_4_classification/output/{language}_extracted.json', 'w'))
+    log(f'Storing results to analysis/results/{language}_extracted.json', 1)
+    json.dump(extracted, open(f'analysis/results/{language}_extracted.json', 'w'))
 
 def get_date_format_of_each_sources(all_posts):
     dic = {}
