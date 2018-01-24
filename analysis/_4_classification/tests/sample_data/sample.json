@@ -1,0 +1,111 @@
+[{
+  "date": "20130303",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "anwar", "najib"
+  ],
+  "semantic_value": {
+    "positive": true,
+    "negative": false
+  }
+}, {
+  "date": "20130304",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "najib"
+  ],
+  "semantic_value": {
+    "positive": false,
+    "negative": false
+  }
+}, {
+  "date": "20130304",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "anwar"
+  ],
+  "semantic_value": {
+    "positive": true,
+    "negative": false
+  }
+}, {
+  "date": "20130306",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "anwar", "najib"
+  ],
+  "semantic_value": {
+    "positive": true,
+    "negative": true
+  }
+}, {
+  "date": "20130306",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "pas"
+  ],
+  "semantic_value": {
+    "positive": false,
+    "negative": false
+  }
+}, {
+  "date": "20130307",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "anwar", "najib"
+  ],
+  "semantic_value": {
+    "positive": true,
+    "negative": false
+  }
+}, {
+  "date": "20130308",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "anwar", "najib"
+  ],
+  "semantic_value": {
+    "positive": true,
+    "negative": false
+  }
+}, {
+  "date": "20130309",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "anwar", "najib"
+  ],
+  "semantic_value": {
+    "positive": true,
+    "negative": false
+  }
+}, {
+  "date": "20130309",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "anwar", "najib"
+  ],
+  "semantic_value": {
+    "positive": true,
+    "negative": false
+  }
+}, {
+  "date": "20130310",
+  "value": "irrelevant",
+  "source": "irrelevant",
+  "related_to": [
+    "anwar", "najib"
+  ],
+  "semantic_value": {
+    "positive": true,
+    "negative": false
+  }
+}]

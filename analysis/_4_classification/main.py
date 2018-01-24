@@ -1,9 +1,12 @@
 from analysis._4_classification.standardize_date_format import standardize_date_format
+import json
+from analysis._4_classification.extract_data import extract_data
 from analysis.load_posts import load_posts
 from analysis.log import log
 from analysis.save_posts import save_posts
 
-
+START_DATE = '20170101'
+END_DATE = '20170108'
 def main(language):
     log(f"Standardizing date format of each {language} posts", 0)
     input_dir = f'analysis/_3_label_semantic/{language}.json'
@@ -11,7 +14,8 @@ def main(language):
     standardized = standardize_date_format(all_posts)
     log(f"Sorting post based on date", 1)
     sorted_posts = sorted(standardized, key=lambda x: x['date'])
-    save_posts(sorted_posts, f'analysis/_4_classification/output/{language}.json')
+    extracted = extract_data(sorted_posts, START_DATE, END_DATE, language )
+    json.dump(extracted, open(f'analysis/_4_classification/output/{language}_extracted.json', 'w'))
 
 def get_date_format_of_each_sources(all_posts):
     dic = {}
