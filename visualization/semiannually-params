@@ -16,7 +16,7 @@ party_different=dap,pkr,ppbm,pas,mca,umno,mic
 input_dir=../temp
 
 # Output data directory
-output_dir=../results
+output_dir=./results
 
 # Start and end period
 start_year=2017

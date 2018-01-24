@@ -6,5 +6,5 @@ def map_name_from_file(filename):
             for name in names:
                 name = name.strip('\n')
                 name_dict[name] = names[0]
-    name_dict.pop('')
+    name_dict.pop('', None)
     return name_dict
