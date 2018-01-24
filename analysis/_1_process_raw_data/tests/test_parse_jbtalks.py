@@ -8,4 +8,4 @@ def test1():
     assert result[0].value.startswith('敦馬')
     assert result[1].source == 'jbtalks'
     assert result[1].date == '20160329'
-    assert result[1].value.endswith("《中國報》")
+    assert result[1].value.endswith("中国报》")

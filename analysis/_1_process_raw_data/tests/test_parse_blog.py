@@ -8,5 +8,8 @@ def test1():
         'value': "mahathir's cronies vs najib's cronies",
         'source': "blog",
         'related_to': None,
-        'semantic_value': None
+        'semantic_value': {
+            'positive': False,
+            'negative': False
+        }
     }
