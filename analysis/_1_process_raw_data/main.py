@@ -35,7 +35,7 @@ class Job():
         return posts
 
 
-PARENT_DIR = 'data/scraperesults/'
+PARENT_DIR = 'temp_data/scraperesults/'
 FACEBOOK_DIR = PARENT_DIR + 'facebook/'
 BLOG_DIR = PARENT_DIR + 'blog/'
 LOWYAT_DIR = PARENT_DIR + 'lowyat/'

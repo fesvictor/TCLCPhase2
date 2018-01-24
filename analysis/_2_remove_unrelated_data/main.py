@@ -21,7 +21,7 @@ def main(language):
 
 def get_labels(language):
     log(f"Loading {language} labels", 1)
-    labels_dir = 'data/target/'
+    labels_dir = 'temp_data/target/'
     leaders = load_labels(labels_dir + f'{language}_leader.txt')
     parties = load_labels(labels_dir + f'{language}_party.txt')
     if language == 'english':

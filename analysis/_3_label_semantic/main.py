@@ -6,7 +6,7 @@ def main(language):
     print(f'Parsing {language} data')
     input_dir = f'analysis/_2_remove_unrelated_data/{language}.json'
     all_posts = load_posts(input_dir)
-    keyword_dir = 'data/categories/polarity/'
+    keyword_dir = 'temp_data/categories/polarity/'
     positive_keywords = load_keywords(keyword_dir + f'{language}_positive.txt', 'positive')
     negative_keywords = load_keywords(keyword_dir + f'{language}_negative.txt', 'negative')
     all_keywords = positive_keywords + negative_keywords

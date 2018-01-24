@@ -1,3 +1,10 @@
+# Scraped results
+temp_data/
+
+# Processed results
+chinese.json
+english.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
