@@ -3,18 +3,20 @@ from analysis.load_posts import load_posts
 
 
 def main():
-    input_dir = 'analysis/_2_remove_unrelated_data/output.json'
+    print("Parsing english data")
+    input_dir = 'analysis/_2_remove_unrelated_data/english.json'
     all_posts = load_posts(input_dir)
     keyword_dir = 'data/categories/polarity/'
-    positive_keywords = load_keywords(keyword_dir + 'positive.txt', 1)
-    negative_keywords = load_keywords(keyword_dir + 'negative.txt', -1)
+    positive_keywords = load_keywords(keyword_dir + 'positive.txt', 'positive')
+    negative_keywords = load_keywords(keyword_dir + 'negative.txt', 'negative')
     all_keywords = positive_keywords + negative_keywords
     for post in all_posts:
-        post['semantic_value'] = 0
         for keyword in all_keywords:
             if keyword['word'] in post['value']:
-                post['semantic_value'] += keyword['value']
-    save_posts(all_posts, 'analysis/_3_label_semantic/output.json')
+                post['semantic_value'][keyword['value']] = True
+    save_posts(all_posts, 'analysis/_3_label_semantic/english.json')
+
+    #TODO: Label semantic of chinese data
 
 
 def load_keywords(file_path, semantic_value):
@@ -23,7 +25,7 @@ def load_keywords(file_path, semantic_value):
         for word in file:
             result.append({
                 'word': word.rstrip('\n').strip(),
-                'value': semantic_value
+                'value': semantic_value # positive OR negative OR neutral
             })
     return result
 
