@@ -1,0 +1,31 @@
+# Same coalition leaders
+leader_same_bn=liow tiong lai,subramaniam,najib,mah siew keong
+leader_same_pakatan=lim kit siang,lim guan eng,anwar,mahathir,abdul hadi awang
+
+# Same coalition parties
+party_same_bn=mca,mic,umno,pbb,gerakan
+party_same_pakatan=dap,pkr,pas,ppbm,amanah
+
+# Different coalition leaders
+leader_different=lim kit siang,lim guan eng,anwar,mahathir,abdul hadi awang,liow tiong lai,subramaniam,najib
+
+# Different coalition parties
+party_different=dap,pkr,ppbm,pas,mca,umno,mic
+
+# Input data directory
+input_dir=../analysis/results
+
+# Output data directory
+output_dir=./results-json
+
+# Start and end period
+start_year=2017
+end_year=2017
+start_month=7
+end_month=12
+
+# Graph types
+graph_types=positive,negative,overall
+
+# Languages
+languages=english,chinese,mix
