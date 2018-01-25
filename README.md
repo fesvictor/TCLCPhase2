@@ -34,3 +34,8 @@ pipreqs ./ --force
 ```
 Basically, `pipreqs` will scan through all `*.py` files to see what import is required. For more information, read [here](http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/).
 
+
+### Why Travis CI is not running `.travis.yml`?
+There are 2 reasons:
+- You misspelled `.travis.yml`
+- The file contains error, you can those errors using [Travis Lint](https://lint.travis-ci.org/)

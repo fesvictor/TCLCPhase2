@@ -15,7 +15,8 @@ install:
 script:
   - cd analysis
   - ./test
-  - ./run
+  - alias py=python
+  - source ./run # using source allow the script to use aliases
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - git add ./analysis/results
