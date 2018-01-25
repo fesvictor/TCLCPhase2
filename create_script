@@ -1,0 +1,5 @@
+#!/bin/bash
+echo '#!/bin/bash' > $1
+git add $1
+git update-index --chmod=+x $1
+code $1
