@@ -7,8 +7,18 @@ python:
 # command to install dependencies
 install:
   - pip install hanziconv
+  - pip install pandas
+  - pip install bs4
+  - pip install python-dateutil
 
 # command to run tests
 script:
   - cd analysis
   - ./test
+  - ./run
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - git add ./analysis/results
+  - git commit --message "Uploading extracted data"
+  - git remote add origin-pages https://${GH_TOKEN}@github.com/wongjiahau/TCLCPhase2.git > /dev/null 2>&1
+  - git push --set-upstream origin-pages master
