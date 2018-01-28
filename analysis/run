@@ -1,14 +1,15 @@
 #!/bin/bash
+source activate my_env # Launch into Anaconda session, because some libraries are only available in Anaconda
 cd './_1_process_raw_data'
-source ./run
+./run
 cd ..
 
 cd './_2_remove_unrelated_data'
-source ./run
+./run
 cd ..
 
 cd './_3_label_semantic'
-source ./run
+./run
 cd ..
 
 cd './_4_classification'

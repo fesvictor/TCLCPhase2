@@ -1,4 +1,6 @@
 # What is analysis process doing?
+## Prerequisite
+Make sure you install `Anaconda`. The instructions can be found at https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04.
 ## 1. Output files in the following format 
 ```json
 {
@@ -28,10 +30,16 @@ Note that `startDate` and `endDate` is given by client.
 ### But how the file should be formatted?
 This question remains unknown. Will need to ask Dr. Victor in the future again.
 
+## How to run the whole process?
+Make sure you are in the dir of `analysis`.
+```
+./run
+```
+
 ## How to run test for each process?
 Make sure you are in the dir of `analysis`.
 ```
-$ ./test
+./test
 ```
 
 ## How to install missing packages?
