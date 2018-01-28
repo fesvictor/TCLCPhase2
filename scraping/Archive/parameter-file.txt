@@ -1,0 +1,81 @@
+
+# the purpose of this parameter file is to provide parameter-value
+# pairs that will be used by the scraping, analysis and visualization
+# components
+
+# directory to hold scraping output from facebook
+
+facebook.files=./data/scraperesults/facebook
+
+# directory to hold scraping output from malaysiakini
+
+malaysiakini.files=./data/scraperesults/malaysiakini
+
+# directory to hold scraping output in JSON format
+ 
+json.files=./data/scraperesults/json
+
+# directory to hold scraping output from lowyat forums
+
+lowyat.files=./data/scraperesults/lowyat
+
+# directory to hold scraping output from jbtalks forums
+
+jbtalks.files=./data/scraperesults/jbtalks
+
+# directory to hold scraping output from cari forums
+
+carinet.files=./data/scraperesults/carinet
+
+# directory to hold scraping output from twitter
+
+twitter.files=./data/scraperesults/twitter
+
+# directory for phrases for attitude to political parties
+
+political.attitudes.scale=./data/categories/attitudes
+
+# directory for phrases for perceptions on government policies
+
+policies.perception.scale=./data/categories/perceptions
+
+# directory for phrases for popularity of political parties
+
+popular.political=./data/categories/popularity
+
+# directory for phrases for popolarity of political parties/leader
+
+polarity.political=./data/categories/polarity
+
+# directory for targets to analyse
+target=./data/target
+
+# directory to hold intermediate results
+temp.mix.facebook.dir=./temp/mix/facebook
+
+temp.mix.tweet.dir=./temp/mix/twitter
+
+temp.mix.others.dir=./temp/mix/others
+
+temp.chinese.others.dir=./temp/chinese/others
+
+temp.english.facebook.dir=./temp/english/facebook
+
+temp.english.tweet.dir=./temp/english/twitter
+
+temp.english.others.dir=./temp/english/others
+
+# directory to hold output (png, jpg files, etc) from visualization program
+
+output.dir=./results
+
+# scrap links text file
+
+scrap.links=scrap_links.txt
+scraper.c.link=https://forum.lowyat.net/
+scraper.c.levels=2
+scraper.c.l1_search=kopi
+scraper.c.l2_search=serious
+
+#directory of regex module(regex.py)
+regex.files=./AnalysisLib

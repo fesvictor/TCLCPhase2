@@ -1,0 +1,12 @@
+scraping.py (09/06/17 00:14)
+
+1. Provide scraping links inside links files (specified by scrap.links parameter)
+2. Output of scraping text file is individually stored based on respective topic number
+3. Output of scraping text directory is specified by lowyat.files parameter
+
+Features:
+- Automatically scraps first 25 pages of a topic
+- Support links that are returned from forum search engine (different link format)
+	Eg:
+		Direct link = https://forum.lowyat.net/topic/4318258
+		Link returned by search engine = https://forum.lowyat.net/index.php?showtopic=4318258&hl=barisan

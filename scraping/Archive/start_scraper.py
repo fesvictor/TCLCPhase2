@@ -8,6 +8,7 @@ from ReadParameterFile import get_parameter_dict
 import datetime
 import re
 import pandas as pds
+import pathlib
 
 #Timestamp
 start_time = datetime.datetime.now()
@@ -18,6 +19,7 @@ titles = []
 dates = []
 pd = get_parameter_dict()
 save_dir = pd['lowyat.files'].strip('./')+'/'
+pathlib.Path(save_dir).mkdir(parents=True, exist_ok=True)
 
 #Read word list
 search_list = wl.read_wordlist()
@@ -32,13 +34,13 @@ l2_search = pd['scraper.c.l2_search'].split(',') #Level 2 filter (/Kopitiam/Seri
 #THREAD LINK scraper CONFIG
 page_limit = 1750 #Default 50
 #search_list = pd['scraper.t.search_list'].split(',')
-start_date = "20170101" #Format = yyyymmdd
+start_date = "20170901" #Format = yyyymmdd
 end_date = "today"
 t_verbose = True
 
 #POST scraper CONFIG
 page_limit_p = 999999 #Default 50
-p_verbose = False
+p_verbose = True
 #************CONFIGURATION END******************
 
 #CRAWLER

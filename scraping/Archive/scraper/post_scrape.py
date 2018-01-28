@@ -62,11 +62,20 @@ def post_scrape_main(link):
     userinfo = soup.find_all("table", class_="post_table")
     for a in userinfo:
         avatar_title.append(a.find("div", class_="avatar").get_text().strip())
-        info_group.append(list(a.find("div", class_="avatar_extra").stripped_strings)[0])
-        info_post_count.append(list(a.find("div", class_="avatar_extra").stripped_strings)[1])
-        join_date_string = list(a.find("div", class_="avatar_extra").stripped_strings)[2].split(':')[1].strip()
         
-        if ("Today" not in join_date_string) and ("Yesterday" not in join_date_string):
+        _a = a.find("div", class_="avatar_extra")
+        
+        if _a is not None:
+            stripped_strings = list(_a.stripped_strings)
+            info_group.append(stripped_strings[0])
+            info_post_count.append(stripped_strings[1])
+            join_date_string = stripped_strings[2].split(':')[1].strip()
+        else:
+            info_group.append("")
+            info_post_count.append("")
+            join_date_string = ""
+        
+        if (join_date_string != "") and ("Today" not in join_date_string) and ("Yesterday" not in join_date_string):
             join_date_string = time.strptime(join_date_string, "%b %Y")
             join_date_string = time.strftime("%Y%m", join_date_string)
         elif ("Today" in join_date_string):
@@ -78,7 +87,7 @@ def post_scrape_main(link):
         
         try:
             info_from.append(list(a.find("div", class_="avatar_extra").stripped_strings)[3])
-        except IndexError:
+        except:
             info_from.append("")
             
         try:
