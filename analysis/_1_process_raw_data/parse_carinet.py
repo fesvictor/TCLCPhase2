@@ -9,7 +9,7 @@ def parse_carinet(file_path):
     result = []
     result.append(read_title(file_path))
     with open(file_path, 'r', errors='ignore') as csvfile:
-        df = pandas.read_csv(csvfile, skiprows=[0])
+        df = pandas.read_csv(csvfile, skiprows=[0], error_bad_lines=False)
         for index, row in df.iterrows():
             p = Post()
             p.date = str(row['date'])

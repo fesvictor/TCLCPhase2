@@ -6,6 +6,7 @@ from analysis._1_process_raw_data.parse_facebook import parse_facebook
 from analysis._1_process_raw_data.parse_jbtalks import parse_jbtalks
 from analysis._1_process_raw_data.parse_lowyat import parse_lowyat
 from analysis._1_process_raw_data.parse_twitter import parse_twitter
+from analysis._1_process_raw_data.parse_carinet import parse_carinet
 
 
 def main(jobs, language):
@@ -53,7 +54,7 @@ ENGLISH_JOBS = [
 
 CHINESE_JOBS = [
     Job(JBTALKS_DIR, parse_jbtalks),
-    # Job(CARINET_DIR, parse_carinet) #TODO: Write carinet parser!
+    Job(CARINET_DIR, parse_carinet) 
 ]
 
 main(ENGLISH_JOBS, 'english')
