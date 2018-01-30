@@ -5,8 +5,8 @@ from analysis.load_posts import load_posts
 from analysis.log import log
 from analysis.save_posts import save_posts
 
-START_DATE = '20170101'
-END_DATE = '20170108'
+START_DATE = '20170701'
+END_DATE = '20171231'
 
 
 def main(language):

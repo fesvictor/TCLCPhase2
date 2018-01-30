@@ -35,12 +35,14 @@ class Job():
         return posts
 
 
-PARENT_DIR = 'temp_data/scraperesults/'
-FACEBOOK_DIR = PARENT_DIR + 'facebook/'
+PARENT_DIR = 'scrape-results/'
 BLOG_DIR = PARENT_DIR + 'blog/'
-LOWYAT_DIR = PARENT_DIR + 'lowyat/'
+FACEBOOK_DIR = PARENT_DIR + 'facebook/'
 TWITTER_DIR = PARENT_DIR + 'twitter/'
-JBTALKS_DIR = PARENT_DIR + 'chinese/jbtalks/'
+LOWYAT_DIR = PARENT_DIR + 'forum/lowyat/'
+CARINET_DIR = PARENT_DIR + 'forum/carinet/'
+JBTALKS_DIR = PARENT_DIR + 'forum/jbtalks/'
+MALAYSIA_KINI_DIR = PARENT_DIR + 'news/malaysiakini'
 
 ENGLISH_JOBS = [
     Job(BLOG_DIR, parse_blog),
@@ -50,7 +52,8 @@ ENGLISH_JOBS = [
 ]
 
 CHINESE_JOBS = [
-    Job(JBTALKS_DIR, parse_jbtalks)
+    Job(JBTALKS_DIR, parse_jbtalks),
+    # Job(CARINET_DIR, parse_carinet) #TODO: Write carinet parser!
 ]
 
 main(ENGLISH_JOBS, 'english')
