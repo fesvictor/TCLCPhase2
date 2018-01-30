@@ -15,14 +15,15 @@ The output file is name as `<language>_extracted.json`, for example: `english_ex
 
 
 ## How to get started
-First, clone the project 
+### First, clone the project
 ```
 git clone https://github.com/fesvictor/TCLCPhase1
 ```
-Secondly, install all the necessary packages 
+### Secondly, install all the necessary packages 
 ```
 pip install -r requirements.txt
 ```
+### Thirdly, download the scrape-results from Google Drive
 Now you can run anyfile by running, for example :
 ```
 py Analysis.py
