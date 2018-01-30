@@ -13,6 +13,8 @@ def parse_carinet(file_path):
         for index, row in df.iterrows():
             p = Post()
             p.date = str(row['date'])
+            if(type(row['text']) is not str): 
+                continue
             p.value = HanziConv.toSimplified(row['text'].replace("\n", "").strip())
             p.source = 'carinet'
             if(isinstance(p.value, str)):
