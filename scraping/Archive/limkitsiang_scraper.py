@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 import pandas as pd
 import time
 import datetime
-
+import pathlib
 def scrape_page(link):
     
     list_of_lists = []
@@ -92,4 +92,5 @@ def scrape(link, max_pages=50, file_name="wordpress.csv"):
         
 current_timestamp = datetime.datetime.now()
 current_timestamp = current_timestamp.strftime("%Y%m%d_%H%M%S")
+pathlib.Path("data/scraperesults/blog/").mkdir(parents=True, exist_ok=True)
 scrape("https://blog.limkitsiang.com/", max_pages=24, file_name="data/scraperesults/blog/limkitsiang_"+current_timestamp+".csv")
