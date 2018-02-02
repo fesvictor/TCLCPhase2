@@ -22,11 +22,12 @@ def post_scrape_main(link):
     post_content_list = []
     
     for a in all_post:
-        name = a.find('a', class_='xw1', target='_blank').get_text()
-        name_list.append(name)
-        date_posted = a.find('em', id=re.compile("^authorposton")).get_text()[4:]
-        date_posted_list.append(date_posted)
         try:
+            name = a.find('a', class_='xw1', target='_blank').get_text()
+            name_list.append(name)
+            date_posted = a.find('em', id=re.compile("^authorposton")).get_text()[4:]
+            date_posted_list.append(date_posted)
+        
             post_content = a.find('td', class_='t_f', id=re.compile('^postmessage_')).get_text().strip()
             post_content_list.append(post_content)
         except:

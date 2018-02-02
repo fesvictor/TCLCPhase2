@@ -1,8 +1,11 @@
 from bs4 import BeautifulSoup  
 import http.client
 import urllib
+import pathlib
 _current_page = 232
 _total_page = 1
+
+pathlib.Path('data/scraperesults/carinet').mkdir(parents=True, exist_ok=True)
 while _current_page != _total_page:
     _current_page += 1
     print("current page: ", _current_page)
@@ -49,7 +52,7 @@ while _current_page != _total_page:
         _link_list.append(['https://cforum1.cari.com.my/' + _b['href'] , _b.string.replace(',','')]) 
     
     for _link in _link_list:        
-        if _link[0] == 'https://cforum1.cari.com.my/forum.php?mod=viewthread&tid=3936394&extra=page%3D233':         
+        if _link[0] == 'https://cforum1.cari.com.my/forum.php?mod=viewthread&tid=3936394&extra=page%3D233' or _link[0] == 'https://cforum1.cari.com.my/forum.php?mod=viewthread&tid=3936394&extra=page%3D254':         
             continue
         _current_section = 0
         _total_section = 1
@@ -67,9 +70,11 @@ while _current_page != _total_page:
                     print('HTTP ERROR!!!!!!!!!')
                     print(_err.reason)
                     print(_link[0])
+                    pass
                 except urllib.error.URLError as _err:
                     print('URL ERROR!!!!!!!!!!')
                     print(_err.reason)
+                    pass
                     
             print(_link[0] + '&page=' + str(_current_section))
             _get_section_soup = True

@@ -8,12 +8,12 @@ Created on Mon Nov 13 03:18:39 2017
 import cn_scraper.cn_tlink_scraper as t
 import cn_scraper.cn_post_scraper as p
 import re
-
+import pathlib
 titles_retreived = []
 links_retrieved = []
 dates_retrieved = []
 
-page_limit = 3  
+page_limit = 10
 
 #THREAD LINK scraper
 print("[T] Link scraper initiated with page limit: " + str(page_limit))
@@ -27,6 +27,7 @@ print("[T] Link scraper task completed")
 #POST scraper
 count = 0
 print("\t[P] Post scraper initiated.")
+pathlib.Path('data/scraperesults/chinese/jbtalks/').mkdir(parents=True, exist_ok=True)
 for ttl,l,d in zip(titles_retreived, links_retrieved, dates_retrieved):
     count += 1
     print("\t\t[P] Post scraper task started for link: " + str(l) + " (" + str(count) + "/" + str(len(links_retrieved)) + ")")
