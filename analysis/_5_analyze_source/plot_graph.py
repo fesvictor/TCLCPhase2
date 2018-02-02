@@ -9,17 +9,17 @@ END_DATE = '20180131'
 
 
 def plot_graph(language):
+    print("Plotting graph . . .")
     with open(f'{language}_source.json', 'r') as f:
         dic = json.load(f)
         for name in dic:
             y = np.array(dic[name])
             plt.plot(y, label=name)
         xs, ticks = build_xticks(START_DATE, END_DATE)
-        print(xs)
-        print(ticks)
         plt.xticks(xs, ticks)
         plt.title("Scraped-result weightage from various sources")
-        plt.xlabel(f"Month (e.g. 1 means January) [start={START_DATE},end={END_DATE}]")
+        plt.xlabel(
+            f"Month (e.g. 1 means January) [start={'20170101'},end={END_DATE}]")
         plt.ylabel("Frequency")
         plt.legend()
         plt.show()
