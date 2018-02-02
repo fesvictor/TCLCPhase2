@@ -1,7 +1,6 @@
 #!/bin/bash
 echo "Classifying posts"
 cd ../..
-hel
 
 
 
