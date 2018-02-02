@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Analyzing source"
+cd ../..
+
+python3.6 -m analysis._5_analyze_source.main
