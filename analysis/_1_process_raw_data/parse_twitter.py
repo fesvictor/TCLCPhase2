@@ -14,6 +14,7 @@ def parse_twitter(file_path):
             p.date = str(row['created_at'])
             p.value = row['text']
             p.source = 'twitter'
+            p.origin = file_path
             if(isinstance(p.value, str)):
                 result.append(p)
     return result
