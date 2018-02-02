@@ -2,6 +2,7 @@ from analysis.load_posts import load_posts
 from analysis.log import log
 from analysis._4_classification.standardize_date_format import standardize_date_format
 from analysis._5_analyze_source.group_dates import group_dates
+from analysis._5_analyze_source.plot_graph import plot_graph
 import json
 
 
@@ -19,13 +20,12 @@ def main(language):
         dic[source].append(date)
         date_list.append(date)
     date_list = filter_date(date_list)
-    min_date = min(date_list)
-    max_date = max(date_list)
+    min_date = '20120601'
+    max_date = '20180131'
 
     for source_name in dic:
-        print(source_name)
-        print(len(dic[source_name]))
         dic[source_name] = filter_date(dic[source_name])
+        print(source_name)
         print(len(dic[source_name]))
         dic[source_name] = group_dates(min_date, max_date, dic[source_name])
 
@@ -37,5 +37,7 @@ def main(language):
 def filter_date(date_list):
     return sorted([x for x in date_list if len(x) == len('YYYYMMDD')])
 
-main('english')
-main('chinese')
+# main('english')
+# main('chinese')
+plot_graph('english')
+plot_graph('chinese')
