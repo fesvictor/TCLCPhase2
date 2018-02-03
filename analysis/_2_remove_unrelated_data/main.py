@@ -15,8 +15,10 @@ def main(language):
     label_post(posts, labels)
     log(f"Removing unrelated posts", 1)
     purified = [x for x in posts if len(x['related_to']) > 0]
+    dumped = [x for x in posts if len(x['related_to']) <= 0]
     log(f"Number of removed posts = " + str(len(posts) - len(purified)), 1)
     save_posts(purified, f'analysis/_2_remove_unrelated_data/{language}.json')
+    save_posts(dumped, f'analysis/_2_remove_unrelated_data/dumped_{language}.json')
 
 
 def get_labels(language):
