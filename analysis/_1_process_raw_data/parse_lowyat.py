@@ -13,9 +13,11 @@ def parse_lowyat(file_path):
     with open(file_path, 'r', errors='ignore') as csvfile:
         df = pandas.read_csv(csvfile, skiprows=[0])
         for index, row in df.iterrows():
+            if type(row['text']) is not str:
+                continue
             p = Post()
             p.date = str(row['date'])
-            p.value = row['text']
+            p.value = str.lower(row['text'])
             p.source = 'lowyat'
             if(isinstance(p.value, str)):
                 result.append(p)

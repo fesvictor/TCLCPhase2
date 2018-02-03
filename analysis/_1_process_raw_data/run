@@ -1,4 +1,14 @@
 #!/bin/bash
+for file in `ls parse*`
+do
+X=`cat $file | grep -E 'lower|hanzi'`
+if [[ -z $X ]]; then
+    echo "Error, $file does not contain lower() method"
+    echo "Please make sure the parsed value are lowerize."
+    echo "Or else when doing matching many result will be omitted."
+    exit 1
+fi
+done
 echo "Post-ifying scrapped data"
 cd ../..
 python3.6 -m analysis._1_process_raw_data.main
