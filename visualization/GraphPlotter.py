@@ -9,14 +9,14 @@ def plot_semiannual_graph(name, data, category, plot_kind="overall", save=False,
             plt.rcParams["font.family"] = "simhei"
         else:
             plt.rcParams["font.family"] = "sans-serif"
-    weeks = [i + 1 for i in range(0, len(data[list(data.keys())[0]][plot_kind]))]
+    weeks = [i for i in range(0, len(data[list(data.keys())[0]][plot_kind]))]
     dpi = 96
     plt.figure(figsize=(1366/dpi,768/dpi), dpi=dpi)
     plt.gca().set_color_cycle(['green', 'red', 'blue', 'purple', 'yellow', 'gray', 'orange', 'magenta'])
     
     plt.xlabel("Week")
     plt.ylabel("Polarity")
-    plt.xticks(weeks, ["W" + str((i % 5)) if i % 5 == 1 else str((i % 5)) for i in weeks])
+    plt.xticks(weeks, ["W" + str(1) if i % 5 == 0 else str((i % 5 + 1)) for i in weeks])
     
     graph_title = name + " " + plot_kind
     
