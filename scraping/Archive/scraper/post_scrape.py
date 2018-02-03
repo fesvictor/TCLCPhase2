@@ -20,7 +20,7 @@ def post_scrape_main(link):
         try:
             page = urllib.request.urlopen(link)
         except:
-            with open("data\scraperesults\lowyat\failed_links.txt", 'a') as f:
+            with open("failed_links.txt", 'a') as f:
                 for row in f:
                     f.write(link + '\n')
             return 0,0

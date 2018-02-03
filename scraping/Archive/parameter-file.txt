@@ -71,11 +71,20 @@ output.dir=./results
 
 # scrap links text file
 
-scrap.links=scrap_links.txt
+#scrap.links=scrap_links.txt
 scraper.c.link=https://forum.lowyat.net/
 scraper.c.levels=2
-scraper.c.l1_search=kopi
-scraper.c.l2_search=serious
+scraper.c.l1_search=Kopitiam
+scraper.c.l2_search=SeriousKopitiam
+
+# 2. Thread link scraper configuration
+scraper.t.page_limit=20
+#scraper.t.search_list=
+scraper.t.start_date=1/1/2017
+scraper.t.end_date=today
+
+# 3. Post scraper configuration
+scraper.p.page_limit_p=99999
 
 #directory of regex module(regex.py)
 regex.files=./AnalysisLib

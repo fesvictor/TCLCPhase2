@@ -1,6 +1,7 @@
 #Output csv files will be saved into "\data\scraperesults\lowyat"
 
-import scraper.crawler as c
+#import scraper.crawler as c
+import scraper.lowyat_crawler as c
 import scraper.tlink_scraper as t
 import scraper.post_scrape as p
 import read_wordlist as wl
@@ -32,10 +33,11 @@ l1_search = pd['scraper.c.l1_search'].split(',') #Level 1 filter (/Kopitiam)
 l2_search = pd['scraper.c.l2_search'].split(',') #Level 2 filter (/Kopitiam/SeriousKopitiam)
 
 #THREAD LINK scraper CONFIG
-page_limit = 1750 #Default 50
+page_limit = 1206 #Default 50
 #search_list = pd['scraper.t.search_list'].split(',')
-start_date = "20170901" #Format = yyyymmdd
-end_date = "today"
+start_date = "20170801" #Format = yyyymmdd
+#end_date = "today"
+end_date = "20170901"
 t_verbose = True
 
 #POST scraper CONFIG
@@ -63,7 +65,7 @@ print("\t[T] Link scraper task completed")
 ##Output to a file:
 list_of_list = list(zip(links_retrieved, titles, dates))
 tdf = pds.DataFrame(data = list_of_list, columns=['links_retrieved','title','dates'])
-tdf.to_csv("data\scraperesults\lowyat\links_retrieved.csv", header=True, index=False)
+tdf.to_csv("links_retrieved.csv", header=True, index=False)
 
 ##Use list
 #counter = 0
