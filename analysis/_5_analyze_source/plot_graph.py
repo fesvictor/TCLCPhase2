@@ -17,7 +17,7 @@ def plot_graph(language):
             plt.plot(y, label=name)
         xs, ticks = build_xticks(START_DATE, END_DATE)
         plt.xticks(xs, ticks)
-        plt.title("Scraped-result weightage from various sources")
+        plt.title(f"Scraped-result weightage from various sources ({language})")
         plt.xlabel(
             f"Month (e.g. 1 means January) [start={'20170101'},end={END_DATE}]")
         plt.ylabel("Frequency")

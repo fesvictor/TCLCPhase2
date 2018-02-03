@@ -37,7 +37,7 @@ def main(language):
 def filter_date(date_list):
     return sorted([x for x in date_list if len(x) == len('YYYYMMDD')])
 
-# main('english')
-# main('chinese')
+main('english')
+main('chinese')
 plot_graph('english')
 plot_graph('chinese')
