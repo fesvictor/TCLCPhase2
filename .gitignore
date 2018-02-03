@@ -2,6 +2,10 @@
 temp_data/
 scrape-results/
 
+# Processed data
+chinese.json
+english.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
