@@ -2,7 +2,7 @@
 temp_data/
 scrape-results/
 
-# Processed results
+# Processed data
 chinese.json
 english.json
 
