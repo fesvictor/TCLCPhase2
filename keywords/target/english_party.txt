@@ -6,16 +6,15 @@ keadilan
 kimma
 ldp
 mca
-pakatan
-pakatan rakyat
-pakatan harapan
+mic
+pakatan harapan, ph
+pakatan, pakatan rakyat
 parti islam amanah negara 
 parti pribumi bersatu malaysia
 pas
 pbb
-pbs
 pbrs
-ph
+pbs
 pkr
 ppbm
 ppp
@@ -23,3 +22,4 @@ prs
 spdp
 supp
 swp
+umno
