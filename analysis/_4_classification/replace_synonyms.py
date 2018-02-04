@@ -8,7 +8,7 @@ def replace_synonyms(posts_str, keywords):
                     continue
                 stdout += f" {words[i]}, "
                 result = result.replace(f"'{words[i]}'", f"'{words[0]}'")
-            stdout += "] with " + words[0]
+            stdout += f"] with '{words[0]}'"
             print(stdout)
     return result
                         

@@ -14,13 +14,9 @@ END_DATE = '20171231'
 
 def main(language):
     log(f"Standardizing date format of each {language} posts", 0)
-    input_dir = f'analysis/_3_label_semantic/{language}.json'
-    posts = load_posts(input_dir)
-    post_str = str(posts)
+    post_str = str(load_posts(f'analysis/_3_label_semantic/{language}.json'))
     post_str = replace_synonyms(post_str, "../../keywords/target/")
-    keywords = get_keywords(language)
-    desynonimized = replace_synonyms(post_str, keywords)
-    all_posts = eval(desynonimized)
+    all_posts = eval(replace_synonyms(post_str,  get_keywords(language)))
     standardized = standardize_date_format(all_posts)
     log(f"Sorting post based on date", 1)
     sorted_posts = sorted(standardized, key=lambda x: x['date'])
