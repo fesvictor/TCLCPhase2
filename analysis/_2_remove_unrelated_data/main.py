@@ -19,8 +19,8 @@ def main(language):
     dumped = [x for x in posts if len(x['related_to']) <= 0]
     log(f"Number of removed posts = " + str(len(posts) - len(purified)), 1)
     save_posts(purified, f'analysis/_2_remove_unrelated_data/{language}.json')
-    save_posts(
-        dumped, f'analysis/_2_remove_unrelated_data/dumped_{language}.json')
+    # save_posts(
+    #     dumped, f'analysis/_2_remove_unrelated_data/dumped_{language}.json')
 
 
 def get_labels(language):
