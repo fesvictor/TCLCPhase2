@@ -3,6 +3,7 @@ from collections import OrderedDict
 from hanziconv import HanziConv
 from analysis.log import log
 from analysis._2_remove_unrelated_data.load_labels import load_labels
+from analysis._2_remove_unrelated_data.load_labels import flatten
 from analysis._2_remove_unrelated_data.label_post import label_post
 from analysis.load_posts import load_posts
 from analysis.save_posts import save_posts
@@ -18,7 +19,8 @@ def main(language):
     dumped = [x for x in posts if len(x['related_to']) <= 0]
     log(f"Number of removed posts = " + str(len(posts) - len(purified)), 1)
     save_posts(purified, f'analysis/_2_remove_unrelated_data/{language}.json')
-    save_posts(dumped, f'analysis/_2_remove_unrelated_data/dumped_{language}.json')
+    save_posts(
+        dumped, f'analysis/_2_remove_unrelated_data/dumped_{language}.json')
 
 
 def get_labels(language):
@@ -27,9 +29,9 @@ def get_labels(language):
     leaders = load_labels(labels_dir + f'{language}_leader.txt')
     parties = load_labels(labels_dir + f'{language}_party.txt')
     if language == 'english':
-        return leaders + parties
+        return flatten(leaders + parties)
     elif language == 'chinese':
-        simplified = list(map(HanziConv.toSimplified, leaders + parties))
+        simplified = list(map(HanziConv.toSimplified, flatten(leaders + parties)))
         return list(OrderedDict.fromkeys(simplified))
 
 
