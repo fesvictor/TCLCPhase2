@@ -10,7 +10,6 @@ def crawler(link, search_list=[]):
         return
     
     soup = bs(page, "lxml")
-    
     #For debugging purposes, prints raw html to file
 #    with open('level1_raw_html.html', 'wb') as f:
 #        f.write(soup.prettify('utf8'))
