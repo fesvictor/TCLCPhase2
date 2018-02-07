@@ -7,13 +7,22 @@ function check_error {
 }
 
 function run_test_at {
+    if [ ! -d $1 ]; then
+        echo "no exist"
+        return
+    fi
     cd $1
     for file in `ls test*`
     do
         pytest -vv $file
         check_error "\n$1/$file"
     done
-    cd ..
+    cd ../..
+
+    # Check if the current session is in the analysis directory
+    if [ -d analysis ]; then
+        cd analysis
+    fi
 }
 
 run_test_at './tests'
