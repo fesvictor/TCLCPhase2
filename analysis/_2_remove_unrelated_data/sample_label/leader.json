@@ -1,0 +1,40 @@
+{
+    "najib": {
+        "name_cn": "纳吉·阿都拉萨",
+        "party": null,
+        "alias_en": [
+            "mo1",
+            "pm"
+        ],
+        "alias_cn": [
+            "纳吉",
+            "鸡哥",
+            "1马哥"
+        ]
+    },
+    "mahathir": {
+        "name_cn": "马哈迪·莫哈末",
+        "party": null,
+        "alias_en": [],
+        "alias_cn": [
+            "马哈迪",
+            "老马",
+            "敦马",
+            "老番薯"
+        ]
+    },
+    "mahfuz omar": {
+        "name_cn": null,
+        "party": null,
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "lim kit siang": {
+        "name_cn": "林吉祥",
+        "party": null,
+        "alias_en": [
+            "lks"
+        ],
+        "alias_cn": []
+    }
+}

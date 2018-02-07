@@ -1,9 +1,20 @@
-def load_labels(file_path):
+import json
+
+
+def load_labels(file_path, language):
     result = []
-    with open(file_path, encoding='utf8') as keywords:
-        for word in keywords:
-            result.append([x.strip() for x in word.rstrip('\n').replace('\ufeff', '').split(',')])
+    with open(file_path, encoding='utf8') as file:
+        dic = json.load(file)
+        for key in dic:
+            if language == 'english':
+                result.append(key)
+                result += dic[key]['alias_en']
+            elif language == 'chinese':
+                x = dic[key]['name_cn']
+                if x is not None:
+                    result.append(x)
+                result += dic[key]['alias_cn']
+            else:
+                raise Exception("Invalid language argument. Expected (chinese/english) but got " + language)
     return result
 
-def flatten(list):
-    return [item for sublist in list for item in sublist]
