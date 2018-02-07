@@ -47,3 +47,11 @@ Make sure you are in the dir of `analysis`.
 $ python -m pip install <package_name>
 ```
 That's all, enjoy!
+
+## Algorithm benchmark
+The benchmarker is named `benchmark_labelling_algo.py`.
+```
+regex = 5.67s
+dic_and_tokens = 1.89s
+```
+So, `dic_and_tokens` is faster. 
