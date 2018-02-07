@@ -1,20 +1,23 @@
 #!/bin/bash
 function check_error {
     if [ $? -ne 0 ]; then
-        echo "Please fix this failing test first."
+        printf "Please fix this failing test first at $1"
         exit 1
     fi
 }
 
 function run_test_at {
     cd $1
-    pytest -vv
-    check_error
+    for file in `ls test*`
+    do
+        pytest -vv $file
+        check_error "\n$1/$file"
+    done
     cd ..
 }
 
 run_test_at './tests'
-run_test_at './_1_process_raw_data'
-run_test_at './_2_remove_unrelated_data'
-run_test_at './_3_label_semantic'
-run_test_at './_4_classification'
+run_test_at './_1_process_raw_data/tests'
+run_test_at './_2_remove_unrelated_data/tests'
+run_test_at './_3_label_semantic/tests'
+run_test_at './_4_classification/tests'
