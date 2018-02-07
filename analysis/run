@@ -1,5 +1,7 @@
 #!/bin/bash
 source activate my_env # Launch into Anaconda session, because some libraries are only available in Anaconda
+./test
+
 cd './_1_process_raw_data'
 ./run
 cd ..
