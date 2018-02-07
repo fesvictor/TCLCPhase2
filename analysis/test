@@ -1,6 +1,6 @@
 #!/bin/bash
 cd './tests'
-pytest
+pytest -vvdic[key]['name_cn']
 cd ..
 
 cd './_1_process_raw_data'
