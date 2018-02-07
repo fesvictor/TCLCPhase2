@@ -1,6 +1,6 @@
 {
     "1mdb": {
-        "name_cn": null,
+        "name_cn": "一马",
         "party": null,
         "alias_en": [],
         "alias_cn": []
@@ -140,6 +140,12 @@
             "尿中来",
             "廖中菜"
         ]
+    },
+    "mah siew keong": {
+        "name_cn": "马袖强",
+        "party": null,
+        "alias_en": [],
+        "alias_cn": []
     },
     "mahathir": {
         "name_cn": "马哈迪·莫哈末",
@@ -325,26 +331,26 @@
         "alias_en": [],
         "alias_cn": []
     },
-    "曹观友": {
-        "name_cn": null,
+    "chow kon yeow": {
+        "name_cn": "曹观友",
         "party": null,
         "alias_en": [],
         "alias_cn": []
     },
-    "郑雨周": {
-        "name_cn": null,
+    "teh yee cheu": {
+        "name_cn": "郑雨周",
         "party": null,
         "alias_en": [],
         "alias_cn": []
     },
-    "魏家祥": {
-        "name_cn": null,
+    "wee ka siong": {
+        "name_cn": "魏家祥",
         "party": null,
         "alias_en": [],
         "alias_cn": []
     },
-    "许子根": {
-        "name_cn": null,
+    "koh tsu koon": {
+        "name_cn": "许子根",
         "party": null,
         "alias_en": [],
         "alias_cn": []
