@@ -1,21 +1,20 @@
 #!/bin/bash
-cd './tests'
-pytest -vvdic[key]['name_cn']
-cd ..
+function check_error {
+    if [ $? -ne 0 ]; then
+        echo "Please fix this failing test first."
+        exit 1
+    fi
+}
 
-cd './_1_process_raw_data'
-./test
-cd ..
+function run_test_at {
+    cd $1
+    pytest -vv
+    check_error
+    cd ..
+}
 
-cd './_2_remove_unrelated_data'
-./test
-cd ..
-
-cd './_3_label_semantic'
-./test
-cd ..
-
-cd './_4_classification'
-./test
-
-cd ..
+run_test_at './tests'
+run_test_at './_1_process_raw_data'
+run_test_at './_2_remove_unrelated_data'
+run_test_at './_3_label_semantic'
+run_test_at './_4_classification'

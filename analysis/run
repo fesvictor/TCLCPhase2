@@ -1,6 +1,14 @@
 #!/bin/bash
 source activate my_env # Launch into Anaconda session, because some libraries are only available in Anaconda
+
+
+# Run test
 ./test
+
+# If some test fail , exit with error
+if [ $? -ne 0 ]; then
+    exit 1
+fi
 
 cd './_1_process_raw_data'
 ./run
