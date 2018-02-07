@@ -34,16 +34,27 @@ def get_date_format_of_each_sources(all_posts):
     import pprint
     pprint.pprint(dic)
 
-
 def get_keywords(language):
+    import json
+    keywords = []
     log(f"Loading {language} labels", 1)
     labels_dir = 'keywords/target/'
-    leaders = load_labels(labels_dir + f'{language}_leader.txt')
-    parties = load_labels(labels_dir + f'{language}_party.txt')
     if language == 'english':
-        return leaders + parties
+        alias_key = 'alias_en'
     elif language == 'chinese':
-        simplified = (HanziConv.toSimplified(str(leaders + parties)))
+        alias_key = 'alias_cn'
+    else:
+        raise Exception("Expected (chinese/english) but got " + language)
+    dic = json.load(open(labels_dir + f'leader.json'))
+    for key in dic:
+        keywords.append([key] + dic[key][alias_key])
+    dic = json.load(open(labels_dir + f'party.json'))
+    for key in dic:
+        keywords.append([key] + dic[key][alias_key])
+    if language == 'english':
+        return keywords
+    elif language == 'chinese':
+        simplified = (HanziConv.toSimplified(str(keywords)))
         return eval(simplified)
 
 main('english')
