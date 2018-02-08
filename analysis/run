@@ -1,6 +1,8 @@
 #!/bin/bash
 source activate my_env # Launch into Anaconda session, because some libraries are only available in Anaconda
 
+# Redirect STDOUT to analysis_log
+exec > ./analysis_log
 
 # Run test
 ./test
@@ -23,4 +25,7 @@ cd './_3_label_semantic'
 cd ..
 
 cd './_4_classification'
-source ./run
+./run
+cd ..
+
+python './check_correctness.py'
