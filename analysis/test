@@ -14,7 +14,9 @@ function run_test_at {
     cd $1
     for file in `ls test*`
     do
-        pytest -vv $file
+        printf "Pytesting $file:"
+        pytest -q $file
+        printf "\n"
         check_error "\n$1/$file"
     done
     cd ../..
