@@ -1,11 +1,11 @@
 from analysis._2_remove_unrelated_data.load_labels import load_labels
 from analysis._4_classification.extract_data import extract_data
+from analysis._4_classification.get_keywords import get_keywords
 from analysis._4_classification.replace_synonyms import replace_synonyms
 from analysis._4_classification.standardize_date_format import standardize_date_format
 from analysis.load_posts import load_posts
 from analysis.log import log
 from analysis.save_posts import save_posts
-from hanziconv import HanziConv
 import json
 
 START_DATE = '20170701'
@@ -34,28 +34,7 @@ def get_date_format_of_each_sources(all_posts):
     import pprint
     pprint.pprint(dic)
 
-def get_keywords(language):
-    import json
-    keywords = []
-    log(f"Loading {language} labels", 1)
-    labels_dir = 'keywords/target/'
-    if language == 'english':
-        alias_key = 'alias_en'
-    elif language == 'chinese':
-        alias_key = 'alias_cn'
-    else:
-        raise Exception("Expected (chinese/english) but got " + language)
-    dic = json.load(open(labels_dir + f'leader.json'))
-    for key in dic:
-        keywords.append([key] + dic[key][alias_key])
-    dic = json.load(open(labels_dir + f'party.json'))
-    for key in dic:
-        keywords.append([key] + dic[key][alias_key])
-    if language == 'english':
-        return keywords
-    elif language == 'chinese':
-        simplified = (HanziConv.toSimplified(str(keywords)))
-        return eval(simplified)
+
 
 main('english')
 main('chinese')

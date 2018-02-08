@@ -1,0 +1,25 @@
+{
+    "amanah": {
+        "name_cn": "诚信党",
+        "parent_party": null,
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "bn": {
+        "name_cn": "国阵",
+        "parent_party": null,
+        "alias_en": ["barisan", "barisan nasional"],
+        "alias_cn": []
+    },
+    "dap": {
+        "name_cn": "行动党",
+        "parent_party": null,
+        "alias_en": [],
+        "alias_cn": [
+            "行动党",
+            "行洞党",
+            "火箭",
+            "火贱"
+        ]
+    }
+}
