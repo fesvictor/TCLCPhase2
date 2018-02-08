@@ -1,0 +1,204 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/tests, inifile:
+collecting ... collected 1 item
+
+test_load_posts.py::test1 PASSED
+
+=========================== 1 passed in 0.00 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
+collecting ... collected 1 item
+
+test_parse_blog.py::test1 PASSED
+
+=========================== 1 passed in 0.08 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
+collecting ... collected 1 item
+
+test_parse_carinet.py::test_parse_carinet_1 PASSED
+
+=========================== 1 passed in 0.34 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
+collecting ... collected 1 item
+
+test_parse_facebook.py::test1 PASSED
+
+=========================== 1 passed in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
+collecting ... collected 1 item
+
+test_parse_jbtalks.py::test1 PASSED
+
+=========================== 1 passed in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
+collecting ... collected 1 item
+
+test_parse_lowyat.py::test1 PASSED
+
+=========================== 1 passed in 0.33 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
+collecting ... collected 2 items
+
+test_parse_twitter.py::test1 PASSED
+test_parse_twitter.py::test2 PASSED
+
+=========================== 2 passed in 0.34 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_2_remove_unrelated_data/tests, inifile:
+collecting ... collected 1 item
+
+test_label_post.py::test_1 PASSED
+
+=========================== 1 passed in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_2_remove_unrelated_data/tests, inifile:
+collecting ... collected 2 items
+
+test_load_labels.py::test_load_english_labels PASSED
+test_load_labels.py::test_load_chinese_labels PASSED
+
+=========================== 2 passed in 0.01 seconds ===========================
+no exist
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_4_classification/tests, inifile:
+collecting ... collected 1 item
+
+test_extract_data.py::test_extract_data PASSED
+
+=========================== 1 passed in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_4_classification/tests, inifile:
+collecting ... collected 2 items
+
+test_get_keywords.py::test_get_keywords_chinese PASSED
+test_get_keywords.py::test_get_keywords_english PASSED
+
+=========================== 2 passed in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_4_classification/tests, inifile:
+collecting ... collected 1 item
+
+test_replace_synonyms.py::test_replace_synonyms PASSED
+
+=========================== 1 passed in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
+cachedir: .cache
+rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_4_classification/tests, inifile:
+collecting ... collected 2 items
+
+test_standardize_date_format.py::test_correct_date_format_of_facebook PASSED
+test_standardize_date_format.py::test_correct_date_format_of_twitter PASSED
+
+=========================== 2 passed in 0.01 seconds ===========================
+Post-ifying scrapped data
+---Parsing english posts
+------Parsing files from scrape-results/blog/
+------Parsing files from scrape-results/facebook/
+------Parsing files from scrape-results/forum/lowyat/
+------Parsing files from scrape-results/twitter/
+---Saving output to analysis/_1_process_raw_data/output/english.json
+---Number of english posts created : 92212
+---Parsing chinese posts
+------Parsing files from scrape-results/forum/jbtalks/
+------Parsing files from scrape-results/forum/carinet/
+---Saving output to analysis/_1_process_raw_data/output/chinese.json
+---Number of chinese posts created : 221841
+Removing unrelated posts
+---Loading english posts
+---Loading posts from analysis/_1_process_raw_data/output/english.json
+---Loading english labels from keywords/target/leader.json
+------54 english labels loaded
+---Loading english labels from keywords/target/party.json
+------29 english labels loaded
+---Labelling post
+---Removing unrelated posts
+---Number of removed posts = 64050
+---Saving output to analysis/_2_remove_unrelated_data/english.json
+---Loading chinese posts
+---Loading posts from analysis/_1_process_raw_data/output/chinese.json
+---Loading chinese labels from keywords/target/leader.json
+------50 chinese labels loaded
+---Loading chinese labels from keywords/target/party.json
+------22 chinese labels loaded
+---Labelling post
+---Removing unrelated posts
+---Number of removed posts = 174984
+---Saving output to analysis/_2_remove_unrelated_data/chinese.json
+Labelling semantics for each posts
+Parsing english data
+---Loading posts from analysis/_2_remove_unrelated_data/english.json
+---Saving output to analysis/_3_label_semantic/english.json
+Parsing chinese data
+---Loading posts from analysis/_2_remove_unrelated_data/chinese.json
+---Saving output to analysis/_3_label_semantic/chinese.json
+DONE.
+Classifying posts
+Standardizing date format of each english posts
+---Loading posts from analysis/_3_label_semantic/english.json
+---Loading english labels
+Replacing [ lks, ] with 'lim kit siang'
+Replacing [ mo1,  pm, ] with 'najib'
+Replacing [ barisan,  barisan nasional, ] with 'bn'
+Replacing [ ph, ] with 'pakatan harapan'
+Replacing [ pakatan rakyat, ] with 'pakatan'
+---Sorting post based on date
+---Storing results to analysis/results/english_extracted.json
+Standardizing date format of each chinese posts
+---Loading posts from analysis/_3_label_semantic/chinese.json
+---Loading chinese labels
+Replacing [ 安华,  安华, ] with '安华·依布拉欣'
+Replacing [ 林家,  林神,  冠英,  林大炮,  林观音,  林x英, ] with '林冠英'
+Replacing [ 尿中莱,  尿中来,  廖中菜, ] with '廖中莱'
+Replacing [ 马哈迪,  老马,  敦马,  老番薯, ] with '马哈迪·莫哈末'
+Replacing [ 纳吉,  鸡哥,  那鸡,  那只鸡,  纳鸡,  阿鸡,  鸡哥,  大马1号哥,  大马一号哥,  一马哥,  1马哥, ] with '纳吉·阿都拉萨'
+Replacing [ 拉菲兹, ] with '拉菲兹·南利'
+Replacing [ 罗斯玛,  螺丝玛,  螺丝马,  河马,  罗死马, ] with '罗斯玛·曼梳'
+Replacing [ 行动党,  行洞党,  火箭,  火贱, ] with '行动党'
+Replacing [ 卖花,  卖华, ] with '马华'
+Replacing [ 希望联盟, ] with '希盟'
+Replacing [ 巫桶,  汚桶, ] with '巫统'
+---Sorting post based on date
+---Storing results to analysis/results/chinese_extracted.json
+The following keywords are not found in english_extracted.json
+['ahmah zahid hamidi',
+ 'charles anthony santiago',
+ 'haron din',
+ 'jeff ooi',
+ 'nik mohamad abduh nik abdul aziz',
+ 'kimma',
+ 'parti islam amanah negara',
+ 'pbrs',
+ 'spdp',
+ 'swp']
+The following keywords are not found in chinese_extracted.json
+['马来西亚印度国民大会党', '马来西亚伊斯兰党']

@@ -1,6 +1,7 @@
 #!/bin/bash
 source activate my_env # Launch into Anaconda session, because some libraries are only available in Anaconda
 
+echo "Output is redirected to ./analysis_log, so you won't see any output here."
 # Redirect STDOUT to analysis_log
 exec > ./analysis_log
 
