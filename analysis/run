@@ -5,6 +5,8 @@ echo "Output is redirected to ./analysis_log, so you won't see any output here."
 # Redirect STDOUT to analysis_log
 exec > ./analysis_log
 
+START_TIME=`date`
+
 # Run test
 ./test
 
@@ -29,4 +31,11 @@ cd './_4_classification'
 ./run
 cd ..
 
+
+
 python './check_correctness.py'
+
+END_TIME=`date`
+
+echo "The analysis process started at : $START_TIME"
+echo "The analysis process ended at   : $END_TIME"

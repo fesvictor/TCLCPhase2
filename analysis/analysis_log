@@ -1,43 +1,30 @@
 Pytesting test_load_posts.py:.
 1 passed in 0.00 seconds
-
 Pytesting test_parse_blog.py:.
-1 passed in 0.11 seconds
-
+1 passed in 0.08 seconds
 Pytesting test_parse_carinet.py:.
-1 passed in 0.47 seconds
-
+1 passed in 0.34 seconds
 Pytesting test_parse_facebook.py:.
 1 passed in 0.01 seconds
-
 Pytesting test_parse_jbtalks.py:.
 1 passed in 0.01 seconds
-
 Pytesting test_parse_lowyat.py:.
-1 passed in 0.33 seconds
-
+1 passed in 0.34 seconds
 Pytesting test_parse_twitter.py:..
-2 passed in 0.34 seconds
-
+2 passed in 0.33 seconds
 Pytesting test_label_post.py:.
-1 passed in 0.01 seconds
-
+1 passed in 0.00 seconds
 Pytesting test_load_labels.py:..
-2 passed in 0.01 seconds
-
+2 passed in 0.00 seconds
 no exist
 Pytesting test_extract_data.py:.
 1 passed in 0.01 seconds
-
 Pytesting test_get_keywords.py:..
 2 passed in 0.01 seconds
-
 Pytesting test_replace_synonyms.py:.
 1 passed in 0.00 seconds
-
 Pytesting test_standardize_date_format.py:..
 2 passed in 0.01 seconds
-
 Post-ifying scrapped data
 ---Parsing english posts
 ------Parsing files from scrape-results/blog/
@@ -67,10 +54,10 @@ Removing unrelated posts
 ---Loading chinese labels from keywords/target/leader.json
 ------50 chinese labels loaded
 ---Loading chinese labels from keywords/target/party.json
-------24 chinese labels loaded
+------29 chinese labels loaded
 ---Labelling post
 ---Removing unrelated posts
----Number of removed posts = 174603
+---Number of removed posts = 173970
 ---Saving output to analysis/_2_remove_unrelated_data/chinese.json
 Labelling semantics for each posts
 Parsing english data
@@ -105,7 +92,9 @@ Replacing [ 行动党,  行洞党,  火箭,  火贱, ] with '行动党'
 Replacing [ 卖花,  卖华, ] with '马华'
 Replacing [ 国大党, ] with '马来西亚印度国民大会党'
 Replacing [ 希望联盟, ] with '希盟'
-Replacing [ 回教党, ] with '马来西亚伊斯兰党'
+Replacing [ 回教党,  伊党,  伊斯兰党, ] with '马来西亚伊斯兰党'
+Replacing [ 公正党,  人民公正党, ] with '蓝眼'
+Replacing [ 土团党, ] with '土着团结党'
 Replacing [ 巫桶,  汚桶, ] with '巫统'
 ---Sorting post based on date
 ---Storing results to analysis/results/chinese_extracted.json
@@ -122,3 +111,5 @@ The following keywords are not found in english_extracted.json
  'swp']
 The following keywords are not found in chinese_extracted.json
 []
+The analysis process started at : Kha Feb 22 13:34:57 +08 2018
+The analysis process ended at   : Kha Feb 22 13:38:42 +08 2018
