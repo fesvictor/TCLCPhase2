@@ -1,125 +1,43 @@
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/tests, inifile:
-collecting ... collected 1 item
+Pytesting test_load_posts.py:.
+1 passed in 0.00 seconds
 
-test_load_posts.py::test1 PASSED
+Pytesting test_parse_blog.py:.
+1 passed in 0.11 seconds
 
-=========================== 1 passed in 0.00 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
-collecting ... collected 1 item
+Pytesting test_parse_carinet.py:.
+1 passed in 0.47 seconds
 
-test_parse_blog.py::test1 PASSED
+Pytesting test_parse_facebook.py:.
+1 passed in 0.01 seconds
 
-=========================== 1 passed in 0.08 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
-collecting ... collected 1 item
+Pytesting test_parse_jbtalks.py:.
+1 passed in 0.01 seconds
 
-test_parse_carinet.py::test_parse_carinet_1 PASSED
+Pytesting test_parse_lowyat.py:.
+1 passed in 0.33 seconds
 
-=========================== 1 passed in 0.34 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
-collecting ... collected 1 item
+Pytesting test_parse_twitter.py:..
+2 passed in 0.34 seconds
 
-test_parse_facebook.py::test1 PASSED
+Pytesting test_label_post.py:.
+1 passed in 0.01 seconds
 
-=========================== 1 passed in 0.01 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
-collecting ... collected 1 item
+Pytesting test_load_labels.py:..
+2 passed in 0.01 seconds
 
-test_parse_jbtalks.py::test1 PASSED
-
-=========================== 1 passed in 0.01 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
-collecting ... collected 1 item
-
-test_parse_lowyat.py::test1 PASSED
-
-=========================== 1 passed in 0.33 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_1_process_raw_data/tests, inifile:
-collecting ... collected 2 items
-
-test_parse_twitter.py::test1 PASSED
-test_parse_twitter.py::test2 PASSED
-
-=========================== 2 passed in 0.34 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_2_remove_unrelated_data/tests, inifile:
-collecting ... collected 1 item
-
-test_label_post.py::test_1 PASSED
-
-=========================== 1 passed in 0.01 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_2_remove_unrelated_data/tests, inifile:
-collecting ... collected 2 items
-
-test_load_labels.py::test_load_english_labels PASSED
-test_load_labels.py::test_load_chinese_labels PASSED
-
-=========================== 2 passed in 0.01 seconds ===========================
 no exist
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_4_classification/tests, inifile:
-collecting ... collected 1 item
+Pytesting test_extract_data.py:.
+1 passed in 0.01 seconds
 
-test_extract_data.py::test_extract_data PASSED
+Pytesting test_get_keywords.py:..
+2 passed in 0.01 seconds
 
-=========================== 1 passed in 0.01 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_4_classification/tests, inifile:
-collecting ... collected 2 items
+Pytesting test_replace_synonyms.py:.
+1 passed in 0.00 seconds
 
-test_get_keywords.py::test_get_keywords_chinese PASSED
-test_get_keywords.py::test_get_keywords_english PASSED
+Pytesting test_standardize_date_format.py:..
+2 passed in 0.01 seconds
 
-=========================== 2 passed in 0.01 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_4_classification/tests, inifile:
-collecting ... collected 1 item
-
-test_replace_synonyms.py::test_replace_synonyms PASSED
-
-=========================== 1 passed in 0.01 seconds ===========================
-============================= test session starts ==============================
-platform linux -- Python 3.6.3, pytest-3.2.1, py-1.4.34, pluggy-0.4.0 -- /home/hou32hou/anaconda3/bin/python
-cachedir: .cache
-rootdir: /home/hou32hou/Repos/TCLCPhase2/analysis/_4_classification/tests, inifile:
-collecting ... collected 2 items
-
-test_standardize_date_format.py::test_correct_date_format_of_facebook PASSED
-test_standardize_date_format.py::test_correct_date_format_of_twitter PASSED
-
-=========================== 2 passed in 0.01 seconds ===========================
 Post-ifying scrapped data
 ---Parsing english posts
 ------Parsing files from scrape-results/blog/
@@ -149,10 +67,10 @@ Removing unrelated posts
 ---Loading chinese labels from keywords/target/leader.json
 ------50 chinese labels loaded
 ---Loading chinese labels from keywords/target/party.json
-------22 chinese labels loaded
+------24 chinese labels loaded
 ---Labelling post
 ---Removing unrelated posts
----Number of removed posts = 174984
+---Number of removed posts = 174603
 ---Saving output to analysis/_2_remove_unrelated_data/chinese.json
 Labelling semantics for each posts
 Parsing english data
@@ -185,7 +103,9 @@ Replacing [ 拉菲兹, ] with '拉菲兹·南利'
 Replacing [ 罗斯玛,  螺丝玛,  螺丝马,  河马,  罗死马, ] with '罗斯玛·曼梳'
 Replacing [ 行动党,  行洞党,  火箭,  火贱, ] with '行动党'
 Replacing [ 卖花,  卖华, ] with '马华'
+Replacing [ 国大党, ] with '马来西亚印度国民大会党'
 Replacing [ 希望联盟, ] with '希盟'
+Replacing [ 回教党, ] with '马来西亚伊斯兰党'
 Replacing [ 巫桶,  汚桶, ] with '巫统'
 ---Sorting post based on date
 ---Storing results to analysis/results/chinese_extracted.json
@@ -201,4 +121,4 @@ The following keywords are not found in english_extracted.json
  'spdp',
  'swp']
 The following keywords are not found in chinese_extracted.json
-['马来西亚印度国民大会党', '马来西亚伊斯兰党']
+[]
