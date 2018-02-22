@@ -59,7 +59,7 @@
         "name_cn": "马来西亚印度国民大会党",
         "parent_party": null,
         "alias_en": [],
-        "alias_cn": []
+        "alias_cn": ["国大党"]
     },
     "pakatan harapan": {
         "name_cn": "希盟",
@@ -95,7 +95,7 @@
         "name_cn": "马来西亚伊斯兰党",
         "parent_party": null,
         "alias_en": [],
-        "alias_cn": []
+        "alias_cn": ["回教党"]
     },
     "pbb": {
         "name_cn": null,
