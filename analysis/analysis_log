@@ -1,21 +1,21 @@
 Pytesting test_load_posts.py:.
 1 passed in 0.00 seconds
 Pytesting test_parse_blog.py:.
-1 passed in 0.08 seconds
+1 passed in 0.07 seconds
 Pytesting test_parse_carinet.py:.
-1 passed in 0.34 seconds
-Pytesting test_parse_facebook.py:.
+1 passed in 0.33 seconds
+Pytesting test_parse_facebook_csv.py:.
 1 passed in 0.01 seconds
 Pytesting test_parse_jbtalks.py:.
 1 passed in 0.01 seconds
 Pytesting test_parse_lowyat.py:.
-1 passed in 0.34 seconds
+1 passed in 0.33 seconds
 Pytesting test_parse_twitter.py:..
-2 passed in 0.33 seconds
+2 passed in 0.34 seconds
 Pytesting test_label_post.py:.
-1 passed in 0.00 seconds
+1 passed in 0.01 seconds
 Pytesting test_load_labels.py:..
-2 passed in 0.00 seconds
+2 passed in 0.01 seconds
 no exist
 Pytesting test_extract_data.py:.
 1 passed in 0.01 seconds
@@ -29,10 +29,11 @@ Post-ifying scrapped data
 ---Parsing english posts
 ------Parsing files from scrape-results/blog/
 ------Parsing files from scrape-results/facebook/
+------Parsing files from scrape-results/facebook/
 ------Parsing files from scrape-results/forum/lowyat/
 ------Parsing files from scrape-results/twitter/
 ---Saving output to analysis/_1_process_raw_data/output/english.json
----Number of english posts created : 92212
+---Number of english posts created : 183108
 ---Parsing chinese posts
 ------Parsing files from scrape-results/forum/jbtalks/
 ------Parsing files from scrape-results/forum/carinet/
@@ -47,7 +48,7 @@ Removing unrelated posts
 ------29 english labels loaded
 ---Labelling post
 ---Removing unrelated posts
----Number of removed posts = 64050
+---Number of removed posts = 138172
 ---Saving output to analysis/_2_remove_unrelated_data/english.json
 ---Loading chinese posts
 ---Loading posts from analysis/_1_process_raw_data/output/chinese.json
@@ -111,5 +112,5 @@ The following keywords are not found in english_extracted.json
  'swp']
 The following keywords are not found in chinese_extracted.json
 []
-The analysis process started at : Kha Feb 22 13:34:57 +08 2018
-The analysis process ended at   : Kha Feb 22 13:38:42 +08 2018
+The analysis process started at : Sun Mar  4 00:32:35 +08 2018
+The analysis process ended at   : Sun Mar  4 00:36:53 +08 2018

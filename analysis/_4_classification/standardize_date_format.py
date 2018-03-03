@@ -10,6 +10,7 @@
  """
 import time
 
+
 def standardize_date_format(all_posts):
     for post in all_posts:
         if post['source'] == 'facebook':
@@ -17,12 +18,14 @@ def standardize_date_format(all_posts):
         elif post['source'] == 'twitter':
             post['date'] = correct_date_format_of_twitter(post['date'])
         elif post['source'] == 'facebook-json':
-            post['date'] =correct_date_format_of_facebook_json(post['date'])
-        
+            post['date'] = correct_date_format_of_facebook_json(post['date'])
+
     return all_posts
+
 
 def correct_date_format_of_facebook(date):
     return ''.join(date.split(' ')[0].split('-'))
+
 
 def correct_date_format_of_twitter(date):
     months = {
@@ -37,6 +40,7 @@ def correct_date_format_of_twitter(date):
     month = months[tokens[1]]
     year = tokens[-1]
     return year + month + day.zfill(2)
+
 
 def correct_date_format_of_facebook_json(epoch):
     return time.strftime('%Y%m%d', time.localtime(epoch))

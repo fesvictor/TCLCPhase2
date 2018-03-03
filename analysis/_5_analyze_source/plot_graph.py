@@ -4,11 +4,8 @@ import numpy as np
 from dateutil.parser import parse
 from datetime import timedelta
 
-START_DATE = '20120601'
-END_DATE = '20180131'
 
-
-def plot_graph(language):
+def plot_graph(language, START_DATE, END_DATE):
     print("Plotting graph . . .")
     with open(f'{language}_source.json', 'r') as f:
         dic = json.load(f)
@@ -17,7 +14,8 @@ def plot_graph(language):
             plt.plot(y, label=name)
         xs, ticks = build_xticks(START_DATE, END_DATE)
         plt.xticks(xs, ticks)
-        plt.title(f"Scraped-result weightage from various sources ({language})")
+        plt.title(
+            f"Scraped-result weightage from various sources ({language})")
         plt.xlabel(
             f"Month (e.g. 1 means January) [start={'20170101'},end={END_DATE}]")
         plt.ylabel("Frequency")

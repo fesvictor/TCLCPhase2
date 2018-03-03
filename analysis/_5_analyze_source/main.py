@@ -5,10 +5,16 @@ from analysis._5_analyze_source.group_dates import group_dates
 from analysis._5_analyze_source.plot_graph import plot_graph
 import json
 
+MIN_DATE = '20120601'
+MAX_DATE = '20180303'
+
 
 def main(language):
     log(f"Analyzing {language} source", 1)
-    all_posts = load_posts(f'analysis/_1_process_raw_data/output/{language}.json')
+    dir1 = '_1_process_raw_data/output' # use dir1 to analyze raw source
+    dir2 = '_2_remove_unrelated_data' # use dir2 to analyze filtered source
+    all_posts = load_posts(
+        f'analysis/{dir2}/{language}.json')
     standardized = standardize_date_format(all_posts)
     dic = {}
     date_list = []
@@ -20,14 +26,12 @@ def main(language):
         dic[source].append(date)
         date_list.append(date)
     date_list = filter_date(date_list)
-    min_date = '20120601'
-    max_date = '20180131'
 
     for source_name in dic:
         dic[source_name] = filter_date(dic[source_name])
         print(source_name)
         print(len(dic[source_name]))
-        dic[source_name] = group_dates(min_date, max_date, dic[source_name])
+        dic[source_name] = group_dates(MIN_DATE, MAX_DATE, dic[source_name])
 
     with open(f'./{language}_source.json', 'w') as outfile:
         print("Saving ", {language})
@@ -37,7 +41,8 @@ def main(language):
 def filter_date(date_list):
     return sorted([x for x in date_list if len(x) == len('YYYYMMDD')])
 
+
 main('english')
+plot_graph('english', MIN_DATE, MAX_DATE)
 main('chinese')
-plot_graph('english')
-plot_graph('chinese')
+plot_graph('chinese', MIN_DATE, MAX_DATE)
