@@ -1,8 +1,10 @@
 import csv
 from analysis.Post import Post
 
-def parse_facebook(file_path):
+def parse_facebook_csv(file_path):
     result = []
+    if not file_path.endswith('.csv'):
+        return result
     with open(file_path, 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:

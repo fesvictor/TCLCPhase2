@@ -2,7 +2,7 @@ import os
 from analysis.log import log
 from analysis.save_posts import save_posts
 from analysis._1_process_raw_data.parse_blog import parse_blog
-from analysis._1_process_raw_data.parse_facebook import parse_facebook
+from analysis._1_process_raw_data.parse_facebook_csv import parse_facebook_csv
 from analysis._1_process_raw_data.parse_jbtalks import parse_jbtalks
 from analysis._1_process_raw_data.parse_lowyat import parse_lowyat
 from analysis._1_process_raw_data.parse_twitter import parse_twitter
@@ -30,7 +30,7 @@ class Job():
         log("Parsing files from " + directory, 2)
         posts = []
         for file in os.listdir(directory):
-            if not file.endswith('.csv'):
+            if not file.endswith('.csv') and not file.endswith('.json'):
                 continue
             posts += parser(directory + file)
         return posts
@@ -47,7 +47,7 @@ MALAYSIA_KINI_DIR = PARENT_DIR + 'news/malaysiakini'
 
 ENGLISH_JOBS = [
     Job(BLOG_DIR, parse_blog),
-    Job(FACEBOOK_DIR, parse_facebook),
+    Job(FACEBOOK_DIR, parse_facebook_csv),
     Job(LOWYAT_DIR, parse_lowyat),
     Job(TWITTER_DIR, parse_twitter)
 ]
