@@ -1,6 +1,7 @@
 # Scraped results
 temp_data/
 scrape-results/
+scraping/**/*.json
 
 # Processed data
 chinese.json
