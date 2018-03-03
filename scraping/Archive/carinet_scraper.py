@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 import http.client
 import urllib
 import pathlib
-_current_page = 232
-_total_page = 1
+_current_page = 0
+_total_page = 232
 
 pathlib.Path('data/scraperesults/carinet').mkdir(parents=True, exist_ok=True)
 while _current_page != _total_page:
@@ -12,7 +12,7 @@ while _current_page != _total_page:
     _get_url_checker1 = True
     while _get_url_checker1 == True:
         try:
-            _sauce = urllib.request.urlopen('https://cforum1.cari.com.my/forum.php?mod=forumdisplay&fid=562&page=' + str(_current_page))
+            _sauce = urllib.request.urlopen('https://cforum1.cari.com.my/forum.php?mod=forumdisplay&fid=562&orderby=lastpost&page=' + str(_current_page))
             _get_url_checker1 = False
         except urllib.error.HTTPError as _err:
             print('HTTP ERROR in page ' + str(_current_page) + ' when scraping the post address')

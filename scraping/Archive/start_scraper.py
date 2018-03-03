@@ -36,8 +36,8 @@ l2_search = pd['scraper.c.l2_search'].split(',') #Level 2 filter (/Kopitiam/Seri
 page_limit = 1206 #Default 50
 #search_list = pd['scraper.t.search_list'].split(',')
 start_date = "20170801" #Format = yyyymmdd
-#end_date = "today"
-end_date = "20170901"
+end_date = "today"
+#end_date = "20170901"
 t_verbose = True
 
 #POST scraper CONFIG
