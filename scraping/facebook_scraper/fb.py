@@ -14,6 +14,14 @@ def date_in_range(target_date, start_date, end_date):
     #print(sdi, tdi, edi, sdi <= tdi <= edi)
 
     return sdi <= tdi <= edi
+
+def bypass_date(target_date, end_date):
+    td = parser.parse(target_date)
+    ed = parser.parse(end_date)
+
+    tdi = int(td.timestamp())
+    edi = int(ed.timestamp())
+    return edi <= tdi
     
 def strip_next_page_token(url):
     return url.split("after=")[1]
@@ -34,9 +42,18 @@ class FacebookScraper:
             counter = 0
             print("Getting posts")
 
-
+            bypass = True
             while "next" in cursor["posts"]["paging"]:
                 next_page = strip_next_page_token(cursor["posts"]["paging"]["next"])
+
+                if bypass:
+                    if bypass_date(cursor["posts"]["data"][0]["created_time"], end_date):
+                        if verbose:
+                            print("Bypassing %s" % (cursor["posts"]["data"][0]["created_time"]))
+                        cursor = self.graph.get_object(id=page_id, fields="posts.limit(100).after(%s)" % (next_page))
+                        continue
+                    else:
+                        bypass = False
 
                 # Prepare data for time check
                 last_post_time = cursor["posts"]["data"][0]["created_time"]
@@ -61,7 +78,7 @@ class FacebookScraper:
             if not filter_stop:
                 posts += cursor["posts"]["data"]
 
-            self.posts_list = posts
+            self.posts_list += posts
 
     def get_comments(self, verbose=False):
         if not hasattr(self, 'posts_list'):
@@ -73,7 +90,7 @@ class FacebookScraper:
             post_id = post["id"]
 
             if verbose:
-                print("%5d/%5d" % (counter, len(self.posts_list)), post_id)
+                print("[%5d/%5d]" % (counter, len(self.posts_list)), post_id)
                 counter += 1
 
             cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100)")
