@@ -5,7 +5,7 @@ echo "Output is redirected to ./analysis_log, so you won't see any output here."
 # Redirect STDOUT to analysis_log
 exec > ./analysis_log
 
-START_TIME=`date`
+START_TIME=`date +%s`
 
 # Run test
 ./test
@@ -35,7 +35,11 @@ cd ..
 
 python './check_correctness.py'
 
-END_TIME=`date`
+END_TIME=`date +%s`
+MINUTES_TOOK=$((($END_TIME - $START_TIME)/60))
+SECONDS_TOOK=$((($END_TIME - $START_TIME)%60))
 
-echo "The analysis process started at : $START_TIME"
-echo "The analysis process ended at   : $END_TIME"
+echo "The analysis process started at : $(date -d @$START_TIME)"
+echo "The analysis process ended at   : $(date -d @$END_TIME)"
+echo "The analysis process took $MINUTES_TOOK minutes $SECONDS_TOOK seconds. "
+
