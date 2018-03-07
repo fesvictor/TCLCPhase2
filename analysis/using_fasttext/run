@@ -11,14 +11,35 @@ sed -i 's/@[a-z_]*//g' flattened.txt # remove all @tag
 sed -i 's/rt //g' flattened.txt # remove all literal 'rt' which means "Reply To"
 sed -i 's/&amp//g' flattened.txt # remove all literal '&amp'
 sed -i 's/[\"…;#:|]//g' flattened.txt # remove all weird symbols
-echo "$fasttext_home/fasttext predict $trained_model ./flattened.txt > ./predicted_label.txt" | bash
-echo "The labels are saved in predicted_label.txt"
-echo "Number of negative sentence = $(cat predicted_label.txt | grep 1 | wc -l)"
-echo "Number of positive sentence = $(cat predicted_label.txt | grep 2 | wc -l)"
+head -n 35296 flattened.txt > flattened.train.txt
+tail -n 8825 flattened.txt > flattened.test.txt
 
-python3.6 -m analysis.using_fasttext.extract_semantic_label
+# Train the model
+echo "$fasttext_home/fasttext supervised -input ./flattened.train.txt -output model_tclc" | bash
+
+# Predict the model with flattened.test.txt 
+echo "$fasttext_home/fasttext test model_tclc.bin flattened.test.txt" | bash
+
+# Predict the model with only positive statements
+cat ./flattened.txt | grep __positive > positive.txt
+echo "$fasttext_home/fasttext test model_tclc.bin positive.txt" | bash
+
+# Predict the model with only negative statements
+cat ./flattened.txt | grep __negative > negative.txt
+echo "$fasttext_home/fasttext test model_tclc.bin negative.txt" | bash
+
+
+# echo "The labels are saved in predicted_label.txt"
+# echo "Number of negative sentence = $(cat predicted_label.txt | grep 1 | wc -l)"
+# echo "Number of positive sentence = $(cat predicted_label.txt | grep 2 | wc -l)"
+
+# python3.6 -m analysis.using_fasttext.extract_semantic_label
 
 
 # Remove intermediate files
 rm predicted_label.txt
+rm flattened.train.txt
+rm flattened.test.txt
 rm flattened.txt
+rm positive.txt
+rm negative.txt
