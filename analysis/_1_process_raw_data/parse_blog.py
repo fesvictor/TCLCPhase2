@@ -14,6 +14,7 @@ def parse_blog(file_path):
                     continue
                 p = Post()
                 p.date = date
+                p.origin = file_path
                 p.value = str.lower(value)
                 p.source = 'blog'
                 result.append(p)

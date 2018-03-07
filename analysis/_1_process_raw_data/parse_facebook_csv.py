@@ -9,6 +9,7 @@ def parse_facebook_csv(file_path):
         reader = csv.DictReader(csvfile)
         for row in reader:
             p = Post()
+            p.origin = file_path
             p.date = row['status_published']
             p.value = str.lower(row['status_message'] + row['link_name'])
             p.source = 'facebook'

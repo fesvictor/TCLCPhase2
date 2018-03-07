@@ -33,5 +33,6 @@ def read_title(file_path):
     p = Post()
     p.date = file_path.split('_')[1]
     p.value = str.lower(file_path.split('_')[3].split('.')[0])
+    p.origin = file_path
     p.source = 'lowyat'
     return p

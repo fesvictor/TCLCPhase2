@@ -13,10 +13,10 @@ def parse_facebook_json(file_path):
         return result
     with open(file_path, 'r') as jsonfile:
         res = json.load(jsonfile)
-        result += translate_data_to_post(res['data'])
+        result += translate_data_to_post(res['data'], file_path)
     return result
 
-def translate_data_to_post(data_list):
+def translate_data_to_post(data_list, file_path):
     result = []
     if data_list is None:
         return result
@@ -26,7 +26,8 @@ def translate_data_to_post(data_list):
             p.date = data["created_time"]
             p.value = str.lower(data["message"])
             p.source = "facebook-json"
+            p.origin = file_path
             result.append(p)
         if "comments" in data and len(data["comments"]) > 0:
-            result += translate_data_to_post(data["comments"])
+            result += translate_data_to_post(data["comments"], file_path)
     return result

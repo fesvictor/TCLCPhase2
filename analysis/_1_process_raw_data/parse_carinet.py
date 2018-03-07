@@ -12,6 +12,7 @@ def parse_carinet(file_path):
         df = pandas.read_csv(csvfile, skiprows=[0], error_bad_lines=False)
         for index, row in df.iterrows():
             p = Post()
+            p.origin = file_path
             p.date = str(row['date'])
             if(type(row['text']) is not str): 
                 continue

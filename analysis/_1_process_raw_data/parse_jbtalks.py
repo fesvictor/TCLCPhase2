@@ -11,6 +11,7 @@ def parse_jbtalks(file_name):
         reader = csv.DictReader(csvfile)
         for row in reader:
             p = Post()
+            p.origin = file_name
             p.date = date
             p.value = HanziConv.toSimplified(row['text'].replace("\n", "").strip())
             p.source = 'jbtalks'
