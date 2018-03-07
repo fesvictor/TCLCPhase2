@@ -1,0 +1,18 @@
+#!/bin/bash
+source ./config.sh
+cd ../..
+python3.6 -m analysis.using_fasttext.main > ./analysis/using_fasttext/flattened.txt
+cd ./analysis/using_fasttext
+sed -i '1d' flattened.txt # delete the first line
+sed -i "s/[{][^}]*[}]//g" flattened.txt #remove all word enclosed in {}, e.g. {user} will be removed
+sed -i 's!http[s]\?[\\]\?://*\S*!!g' flattened.txt # remove all hyperlink
+sed -i 's/http[s]\?//g' flattened.txt # remove all literal 'http'
+sed -i 's/@[a-z_]*//g' flattened.txt # remove all @tag
+sed -i 's/rt //g' flattened.txt # remove all literal 'rt' which means "Reply To"
+sed -i 's/&amp//g' flattened.txt # remove all literal '&amp'
+sed -i 's/[\"…;#:|]//g' flattened.txt # remove all weird symbols
+echo "$fasttext_home/fasttext predict $trained_model ./flattened.txt > ./predicted_label.txt" | bash
+echo "The labels are saved in predicted_label.txt"
+echo "Number of negative sentence = $(cat predicted_label.txt | grep 1 | wc -l)"
+echo "Number of positive sentence = $(cat predicted_label.txt | grep 2 | wc -l)"
+rm flattened.txt
