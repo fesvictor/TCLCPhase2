@@ -15,4 +15,10 @@ echo "$fasttext_home/fasttext predict $trained_model ./flattened.txt > ./predict
 echo "The labels are saved in predicted_label.txt"
 echo "Number of negative sentence = $(cat predicted_label.txt | grep 1 | wc -l)"
 echo "Number of positive sentence = $(cat predicted_label.txt | grep 2 | wc -l)"
+
+python3.6 -m analysis.using_fasttext.extract_semantic_label
+
+
+# Remove intermediate files
+rm predicted_label.txt
 rm flattened.txt
