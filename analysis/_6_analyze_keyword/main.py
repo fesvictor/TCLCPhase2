@@ -36,7 +36,7 @@ def load_semantic_keywords(language):
     file2 = open(f'keywords/polarity/{language}_negative.txt')
     semantic_keywords = [x.strip() for x in file1.read().split('\n')]
     semantic_keywords += [x.strip() for x in file2.read().split('\n')]
-    semantic_keywords = [x.lower() for x in semantic_keywords if len(x) > 0]
+    semantic_keywords = [x.lower() for x in semantic_keywords if len(x) > 0 and not x.startswith(';')]
     return semantic_keywords
 
 def plot_hbar(y_labels, x_values):
