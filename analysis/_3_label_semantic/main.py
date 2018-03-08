@@ -22,7 +22,7 @@ def load_keywords(file_path, semantic_value):
     with open(file_path, encoding='utf8') as file:
         for word in file:
             result.append({
-                'word': word.rstrip('\n').strip(),
+                'word': word.rstrip('\n').strip().lower(),
                 'value': semantic_value # positive OR negative OR neutral
             })
     return result
