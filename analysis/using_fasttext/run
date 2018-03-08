@@ -17,14 +17,17 @@ tail -n 8825 flattened.txt > flattened.test.txt
 # Train the model
 echo "$fasttext_home/fasttext supervised -input ./flattened.train.txt -output model_tclc" | bash
 
-# Predict the model with flattened.test.txt 
+echo ""
+echo "Predict the model with flattened.test.txt"
 echo "$fasttext_home/fasttext test model_tclc.bin flattened.test.txt" | bash
 
-# Predict the model with only positive statements
+echo ""
+echo "Predict the model with only positive statements"
 cat ./flattened.txt | grep __positive > positive.txt
 echo "$fasttext_home/fasttext test model_tclc.bin positive.txt" | bash
 
-# Predict the model with only negative statements
+echo ""
+echo "Predict the model with only negative statements"
 cat ./flattened.txt | grep __negative > negative.txt
 echo "$fasttext_home/fasttext test model_tclc.bin negative.txt" | bash
 

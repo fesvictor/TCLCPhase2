@@ -18,6 +18,7 @@ def parse_lowyat(file_path):
             p = Post()
             p.date = str(row['date'])
             p.value = str.lower(row['text'])
+            p.origin = file_path
             p.source = 'lowyat'
             if(isinstance(p.value, str)):
                 result.append(p)
