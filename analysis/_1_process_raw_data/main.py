@@ -1,4 +1,5 @@
 import os
+from analysis.libs.AnalysisRunner import AnalysisRunner
 from analysis.log import log
 from analysis.save_posts import save_posts
 from analysis._1_process_raw_data.parse_blog import parse_blog
@@ -56,8 +57,17 @@ ENGLISH_JOBS = [
 
 CHINESE_JOBS = [
     Job(JBTALKS_DIR, parse_jbtalks),
-    Job(CARINET_DIR, parse_carinet) 
+    Job(CARINET_DIR, parse_carinet)
 ]
 
-main(ENGLISH_JOBS, 'english')
-main(CHINESE_JOBS, 'chinese')
+
+class ProcessRawData(AnalysisRunner):
+    def run_english(self):
+        main(ENGLISH_JOBS, 'english')
+    def run_chinese(self):
+        main(CHINESE_JOBS, 'chinese')
+
+ProcessRawData().run()
+
+
+

@@ -1,3 +1,4 @@
+from analysis.libs.AnalysisRunner import AnalysisRunner
 from analysis._2_remove_unrelated_data.load_labels import load_labels
 from analysis._4_classification.extract_data import extract_data
 from analysis._4_classification.get_keywords import get_keywords
@@ -34,7 +35,9 @@ def get_date_format_of_each_sources(all_posts):
     import pprint
     pprint.pprint(dic)
 
+class Classification(AnalysisRunner):
+    def run_english(self):
+        main('english')
+    def run_chinese(self):
+        main('chinese')
 
-
-main('english')
-main('chinese')

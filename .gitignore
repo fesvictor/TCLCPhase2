@@ -1,3 +1,5 @@
+# Temp files
+temp.*
 # Scraped results
 temp_data/
 scrape-results/

@@ -1,6 +1,7 @@
 from os import listdir
 from collections import OrderedDict
 from hanziconv import HanziConv
+from analysis.libs.AnalysisRunner import AnalysisRunner
 from analysis.log import log
 from analysis._2_remove_unrelated_data.load_labels import load_labels
 from analysis._2_remove_unrelated_data.label_post import label_post
@@ -34,6 +35,12 @@ def get_labels(language):
         simplified = list(map(HanziConv.toSimplified, (leaders + parties)))
         return list(OrderedDict.fromkeys(simplified))
 
+class RemoveUnrelatedData(AnalysisRunner):
+    def run_english(self):
+        main('english')
+    def run_chinese(self):
+        main('chinese')
 
-main('english')
-main('chinese')
+RemoveUnrelatedData().run()
+
+

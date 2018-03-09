@@ -16,22 +16,20 @@ if [ $? -ne 0 ]; then
 fi
 
 cd './_1_process_raw_data'
-./run
+./run $@
 cd ..
 
 cd './_2_remove_unrelated_data'
-./run
+./run $@
 cd ..
 
 cd './_3_label_semantic'
-./run
+./run $@
 cd ..
 
 cd './_4_classification'
-./run
+./run $@
 cd ..
-
-
 
 python './check_correctness.py'
 

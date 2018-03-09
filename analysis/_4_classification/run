@@ -1,7 +1,5 @@
 #!/bin/bash
 echo "Classifying posts"
 cd ../..
-
-
-
-python3.6 -m analysis._4_classification.main
+python3.6 -m analysis._4_classification.main $@
+echo "DONE"

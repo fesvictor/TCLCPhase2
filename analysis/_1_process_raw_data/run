@@ -11,4 +11,4 @@ fi
 done
 echo "Post-ifying scrapped data"
 cd ../..
-python3.6 -m analysis._1_process_raw_data.main
+python3.6 -m analysis._1_process_raw_data.main $@

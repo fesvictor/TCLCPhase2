@@ -1,21 +1,6 @@
 #!/bin/bash
-# How to do argument parsing : https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
+# How to do argument parsing in bash : https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
 echo "Labelling semantics for each posts"
 cd ../..
-if [ "$#" -eq 0 ]; then
-    python3.6 -m analysis._3_label_semantic.for_english
-    python3.6 -m analysis._3_label_semantic.for_chinese
-    exit 0
-fi
-for i in "$@"
-do
-case $i in
-    -chinese)
-        python3.6 -m analysis._3_label_semantic.for_chinese
-    ;;
-    -english)
-        python3.6 -m analysis._3_label_semantic.for_english
-    ;;
-esac
-done
+python3.6 -m analysis._3_label_semantic.main $@
 echo "DONE."
