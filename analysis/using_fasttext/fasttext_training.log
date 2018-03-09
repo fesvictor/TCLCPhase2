@@ -1,0 +1,23 @@
+LEGEND
+======
+P@1 means precision(e.g. 0.89 means 89% precision)
+
+Predict the model with flattened.test.txt
+N	8824
+P@1	0.81
+R@1	0.593
+
+Predict the model with only positive statements
+N	24826
+P@1	0.95
+R@1	0.534
+
+Predict the model with only negative statements
+N	29562
+P@1	0.962
+R@1	0.581
+
+Predict the model with only neutral statements
+N	9113
+P@1	0.886
+R@1	0.886

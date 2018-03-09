@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Output will be redirected to ./fasttext_training.log"
+exec > ./fasttext_training.log
 source ./config.sh
 cd ../..
 python3.6 -m analysis.using_fasttext.main > ./analysis/using_fasttext/flattened.txt
@@ -13,6 +15,11 @@ sed -i 's/&amp//g' flattened.txt # remove all literal '&amp'
 sed -i 's/[\"…;#:|]//g' flattened.txt # remove all weird symbols
 head -n 35296 flattened.txt > flattened.train.txt
 tail -n 8825 flattened.txt > flattened.test.txt
+
+# Legend
+echo "LEGEND"
+echo "======"
+echo "P@1 means precision(e.g. 0.89 means 89% precision)"
 
 # Train the model
 echo "$fasttext_home/fasttext supervised -input ./flattened.train.txt -output model_tclc" | bash
@@ -31,6 +38,11 @@ echo "Predict the model with only negative statements"
 cat ./flattened.txt | grep __negative > negative.txt
 echo "$fasttext_home/fasttext test model_tclc.bin negative.txt" | bash
 
+echo ""
+echo "Predict the model with only neutral statements"
+cat ./flattened.txt | grep __neutral > neutral.txt
+echo "$fasttext_home/fasttext test model_tclc.bin neutral.txt" | bash
+
 
 # echo "The labels are saved in predicted_label.txt"
 # echo "Number of negative sentence = $(cat predicted_label.txt | grep 1 | wc -l)"
@@ -46,3 +58,4 @@ rm flattened.test.txt
 rm flattened.txt
 rm positive.txt
 rm negative.txt
+rm neutral.txt
