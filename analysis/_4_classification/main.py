@@ -4,9 +4,9 @@ from analysis._4_classification.extract_data import extract_data
 from analysis._4_classification.get_keywords import get_keywords
 from analysis._4_classification.replace_synonyms import replace_synonyms
 from analysis._4_classification.standardize_date_format import standardize_date_format
-from analysis.load_posts import load_posts
-from analysis.log import log
-from analysis.save_posts import save_posts
+from analysis.libs.load_posts import load_posts
+from analysis.libs.log import log
+from analysis.libs.save_posts import save_posts
 import json
 
 START_DATE = '20170701'

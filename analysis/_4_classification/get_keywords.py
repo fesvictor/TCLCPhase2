@@ -1,4 +1,4 @@
-from analysis.log import log
+from analysis.libs.log import log
 from hanziconv import HanziConv
 import json
 

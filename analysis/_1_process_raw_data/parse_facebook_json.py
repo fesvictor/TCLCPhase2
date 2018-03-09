@@ -1,5 +1,5 @@
 import json
-from analysis.Post import Post
+from analysis.libs.Post import Post
 
 # ASSUMPTIONS:
 # - I assume that data without the key "message" will have the key "story"

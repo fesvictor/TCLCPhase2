@@ -1,5 +1,5 @@
 import json
-from analysis.log import log
+from analysis.libs.log import log
 
 
 def load_labels(file_path, language):

@@ -2,11 +2,11 @@ from os import listdir
 from collections import OrderedDict
 from hanziconv import HanziConv
 from analysis.libs.AnalysisRunner import AnalysisRunner
-from analysis.log import log
+from analysis.libs.log import log
 from analysis._2_remove_unrelated_data.load_labels import load_labels
 from analysis._2_remove_unrelated_data.label_post import label_post
-from analysis.load_posts import load_posts
-from analysis.save_posts import save_posts
+from analysis.libs.load_posts import load_posts
+from analysis.libs.save_posts import save_posts
 
 
 def main(language):

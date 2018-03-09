@@ -1,5 +1,5 @@
-from analysis.load_posts import load_posts
-from analysis.save_posts import save_posts
+from analysis.libs.load_posts import load_posts
+from analysis.libs.save_posts import save_posts
 
 
 posts = load_posts(f'analysis/using_fasttext/labelled_english_posts.json')

@@ -1,6 +1,6 @@
 import json
 import operator
-from analysis.load_posts import load_posts
+from analysis.libs.load_posts import load_posts
 from analysis._6_analyze_keyword.load_semantic_keywords_processor import load_semantic_keywords_processor
 
 

@@ -1,4 +1,4 @@
-from analysis.load_posts import load_posts
+from analysis.libs.load_posts import load_posts
 from analysis._4_classification.extract_data import extract_data
 
 

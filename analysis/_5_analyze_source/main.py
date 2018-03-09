@@ -1,5 +1,5 @@
-from analysis.load_posts import load_posts
-from analysis.log import log
+from analysis.libs.load_posts import load_posts
+from analysis.libs.log import log
 from analysis._4_classification.standardize_date_format import standardize_date_format
 from analysis._5_analyze_source.group_dates import group_dates
 from analysis._5_analyze_source.plot_graph import plot_graph

@@ -1,5 +1,5 @@
-from analysis.save_posts import save_posts
-from analysis.load_posts import load_posts
+from analysis.libs.save_posts import save_posts
+from analysis.libs.load_posts import load_posts
 from analysis._3_label_semantic.load_semantic_keywords import load_semantic_keywords
 
 def for_chinese():

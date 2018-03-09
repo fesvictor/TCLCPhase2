@@ -1,7 +1,7 @@
 import os
 from analysis.libs.AnalysisRunner import AnalysisRunner
-from analysis.log import log
-from analysis.save_posts import save_posts
+from analysis.libs.log import log
+from analysis.libs.save_posts import save_posts
 from analysis._1_process_raw_data.parse_blog import parse_blog
 from analysis._1_process_raw_data.parse_facebook_csv import parse_facebook_csv
 from analysis._1_process_raw_data.parse_facebook_json import parse_facebook_json
