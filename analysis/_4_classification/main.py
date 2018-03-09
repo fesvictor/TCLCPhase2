@@ -41,3 +41,4 @@ class Classification(AnalysisRunner):
     def run_chinese(self):
         main('chinese')
 
+Classification().run()

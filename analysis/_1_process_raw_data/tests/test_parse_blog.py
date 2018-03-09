@@ -7,7 +7,7 @@ def test1():
     assert result[0].__dict__ == {
         'date': "20170723",
         'value': "mahathir's cronies vs najib's cronies",
-        'origin': "",
+        'origin': '../sample_data/blog.csv',
         'source': "blog",
         'related_to': None,
         'semantic_value': {

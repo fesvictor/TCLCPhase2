@@ -29,6 +29,7 @@ def read_title(file_path):
     p = Post()
     p.date = file_path.split('_')[1]
     p.value = file_path.split('_')[2].split('.')[0]
+    p.origin = file_path
     p.source = 'carinet'
     return p
 
