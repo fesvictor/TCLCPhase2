@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "Analyzing frequencies of each semantic keyword"
 cd ../..
-python3.6 -m analysis._6_analyze_keyword.main
+python3.6 -m analysis._6_analyze_keyword.main $@
 echo "DONE."
