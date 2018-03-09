@@ -1,10 +1,11 @@
 import json
 import operator
 from analysis.load_posts import load_posts
+from analysis._6_analyze_keyword.load_semantic_keywords_processor import load_semantic_keywords_processor
 
 
 def main(language, number_of_keywords_to_be_shown):
-    keyword_processor = load_semantic_keywords(language)
+    keyword_processor = load_semantic_keywords_processor()
     posts = load_posts(f'analysis/_3_label_semantic/{language}.json')
     dic = {}
     for p in posts:
@@ -34,18 +35,6 @@ def main(language, number_of_keywords_to_be_shown):
     x_values = x_values[0: number_of_keywords_to_be_shown + 1]
     plot_hbar(y_labels, x_values)
 
-
-def load_semantic_keywords(language):
-    from flashtext import KeywordProcessor
-    kp = KeywordProcessor()
-    file1 = open(f'keywords/polarity/{language}_positive.txt')
-    file2 = open(f'keywords/polarity/{language}_negative.txt')
-    semantic_keywords = [x.strip() for x in file1.read().split('\n')]
-    semantic_keywords += [x.strip() for x in file2.read().split('\n')]
-    semantic_keywords = [x.lower() for x in semantic_keywords if len(x) > 0 and not x.startswith(';')]
-    for word in semantic_keywords:
-        kp.add_keyword(word)
-    return kp
 
 
 def plot_hbar(y_labels, x_values):

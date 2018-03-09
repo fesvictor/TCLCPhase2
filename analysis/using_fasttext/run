@@ -3,18 +3,18 @@ echo "Output will be redirected to ./fasttext_training.log"
 exec > ./fasttext_training.log
 source ./config.sh
 cd ../..
-python3.6 -m analysis.using_fasttext.main > ./analysis/using_fasttext/flattened.txt
+python3.6 -m analysis.using_fasttext.main > ./analysis/using_fasttext/temp.flattened.txt
 cd ./analysis/using_fasttext
-sed -i '1d' flattened.txt # delete the first line
-sed -i "s/[{][^}]*[}]//g" flattened.txt #remove all word enclosed in {}, e.g. {user} will be removed
-sed -i 's!http[s]\?[\\]\?://*\S*!!g' flattened.txt # remove all hyperlink
-sed -i 's/http[s]\?//g' flattened.txt # remove all literal 'http'
-sed -i 's/@[a-z_]*//g' flattened.txt # remove all @tag
-sed -i 's/rt //g' flattened.txt # remove all literal 'rt' which means "Reply To"
-sed -i 's/&amp//g' flattened.txt # remove all literal '&amp'
-sed -i 's/[\"…;#:|]//g' flattened.txt # remove all weird symbols
-head -n 35296 flattened.txt > flattened.train.txt
-tail -n 8825 flattened.txt > flattened.test.txt
+sed -i '1d' temp.flattened.txt # delete the first line
+sed -i "s/[{][^}]*[}]//g" temp.flattened.txt #remove all word enclosed in {}, e.g. {user} will be removed
+sed -i 's!http[s]\?[\\]\?://*\S*!!g' temp.flattened.txt # remove all hyperlink
+sed -i 's/http[s]\?//g' temp.flattened.txt # remove all literal 'http'
+sed -i 's/@[a-z_]*//g' temp.flattened.txt # remove all @tag
+sed -i 's/rt //g' temp.flattened.txt # remove all literal 'rt' which means "Reply To"
+sed -i 's/&amp//g' temp.flattened.txt # remove all literal '&amp'
+sed -i 's/[\"…;#:|]//g' temp.flattened.txt # remove all weird symbols
+head -n 35296 temp.flattened.txt > temp.flattened.train.txt
+tail -n 8825 temp.flattened.txt > temp.flattened.test.txt
 
 # Legend
 echo "LEGEND"
@@ -22,40 +22,32 @@ echo "======"
 echo "P@1 means precision(e.g. 0.89 means 89% precision)"
 
 # Train the model
-echo "$fasttext_home/fasttext supervised -input ./flattened.train.txt -output model_tclc" | bash
+echo "$fasttext_home/fasttext supervised -input ./temp.flattened.train.txt -output model_tclc" | bash
 
 echo ""
-echo "Predict the model with flattened.test.txt"
-echo "$fasttext_home/fasttext test model_tclc.bin flattened.test.txt" | bash
+echo "Predict the model with temp.flattened.test.txt"
+echo "$fasttext_home/fasttext test model_tclc.bin temp.flattened.test.txt" | bash
 
 echo ""
 echo "Predict the model with only positive statements"
-cat ./flattened.txt | grep __positive > positive.txt
-echo "$fasttext_home/fasttext test model_tclc.bin positive.txt" | bash
+cat ./temp.flattened.txt | grep "__positive [^_]" > temp.positive.txt
+echo "$fasttext_home/fasttext test model_tclc.bin temp.positive.txt" | bash
 
 echo ""
 echo "Predict the model with only negative statements"
-cat ./flattened.txt | grep __negative > negative.txt
-echo "$fasttext_home/fasttext test model_tclc.bin negative.txt" | bash
+cat ./temp.flattened.txt | grep "^__label__negative" > temp.negative.txt
+echo "$fasttext_home/fasttext test model_tclc.bin temp.negative.txt" | bash
 
 echo ""
 echo "Predict the model with only neutral statements"
-cat ./flattened.txt | grep __neutral > neutral.txt
-echo "$fasttext_home/fasttext test model_tclc.bin neutral.txt" | bash
+cat ./temp.flattened.txt | grep __neutral > temp.neutral.txt
+echo "$fasttext_home/fasttext test model_tclc.bin temp.neutral.txt" | bash
 
+echo ""
+echo "Predict the model with only positive-negative statements"
+cat ./temp.flattened.txt | grep "positive __label__negative"  > temp.posneg.txt
+echo "$fasttext_home/fasttext test model_tclc.bin temp.posneg.txt" | bash
 
-# echo "The labels are saved in predicted_label.txt"
-# echo "Number of negative sentence = $(cat predicted_label.txt | grep 1 | wc -l)"
-# echo "Number of positive sentence = $(cat predicted_label.txt | grep 2 | wc -l)"
-
-# python3.6 -m analysis.using_fasttext.extract_semantic_label
-
-
-# Remove intermediate files
-rm predicted_label.txt
-rm flattened.train.txt
-rm flattened.test.txt
-rm flattened.txt
-rm positive.txt
-rm negative.txt
-rm neutral.txt
+echo ""
+echo "To remove all temp files: run the following command: "
+echo "./remove_temp_files"

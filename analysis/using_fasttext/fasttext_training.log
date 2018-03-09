@@ -1,23 +1,33 @@
 LEGEND
 ======
-P@1 means precision(e.g. 0.89 means 89% precision)
+N   means Number of statements
+P@1 means Precision at One(e.g. 0.89 means 89% precision)
+R@1 means Recall at One
 
-Predict the model with flattened.test.txt
+Predict the model with temp.flattened.test.txt
 N	8824
-P@1	0.81
-R@1	0.593
+P@1	0.89
+R@1	0.746
 
 Predict the model with only positive statements
-N	24826
-P@1	0.95
-R@1	0.534
+N	7680
+P@1	0.894
+R@1	0.894
 
 Predict the model with only negative statements
-N	29562
-P@1	0.962
-R@1	0.581
+N	8114
+P@1	0.876
+R@1	0.876
 
 Predict the model with only neutral statements
-N	9113
-P@1	0.886
-R@1	0.886
+N	17179
+P@1	0.968
+R@1	0.968
+
+Predict the model with only positive-negative statements
+N	11145
+P@1	0.986
+R@1	0.493
+
+To remove all temp files: run the following command: 
+./remove_temp_files
