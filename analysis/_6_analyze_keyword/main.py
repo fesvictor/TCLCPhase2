@@ -54,11 +54,22 @@ def main(
             file.write(value + "\n")
     log(f'Top 100 keywords are save as {file_name}', 2)
 
-    log('Plotting graph', 2)
-    plot_hbar(y_labels, x_values, f'{semantic_type} keyword frequencies')
-    log('DONE', 1)
+    # log('Plotting graph', 2)
+    # plot_hbar(y_labels, x_values, f'{semantic_type}_keyword_frequencies')
+    # log('DONE', 1)
 
+    log('Plotting word cloud', 2)
+    plot_wordcloud(dict(zip(y_labels, x_values)), f'{semantic_type}_keywordcloud')
 
+def plot_wordcloud(word_freq, title):
+    from wordcloud import WordCloud
+    wordcloud = WordCloud().fit_words(word_freq)
+    import matplotlib.pyplot as plt
+    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.axis("off")
+    target_path = f'analysis/_6_analyze_keyword/{title}.png'
+    log("Saving word cloud as " + target_path, 2)
+    plt.savefig(target_path)
 
 def plot_hbar(y_labels, x_values, title):
     import matplotlib.pyplot as plt
@@ -80,7 +91,10 @@ def plot_hbar(y_labels, x_values, title):
     ax.set_xlabel('Frequencies')
     ax.set_title(title)
 
-    plt.show()
+    # plt.show()
+    target_path = f'analysis/_6_analyze_keyword/{title}.png'
+    log("Saving graph as " + target_path, 2)
+    plt.savefig(target_path)
 
 
 class AnalyzeKeyword(AnalysisRunner):
