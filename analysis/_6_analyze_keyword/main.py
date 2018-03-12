@@ -14,9 +14,9 @@ def main(
     log(f'Analyzing {semantic_type} keywords for {language} data', 1)
 
     if semantic_type == 'positive':
-        keyword_processor = load_semantic_keywords_processor(True, False) 
+        keyword_processor = load_semantic_keywords_processor(True, False, language) 
     elif semantic_type == 'negative':
-        keyword_processor = load_semantic_keywords_processor(False, True) 
+        keyword_processor = load_semantic_keywords_processor(False, True, language) 
     else:
         raise Exception("Invalid argument")
     
@@ -59,13 +59,16 @@ def main(
     # log('DONE', 1)
 
     log('Plotting word cloud', 2)
-    plot_wordcloud(dict(zip(y_labels, x_values)), f'{semantic_type}_keywordcloud')
+    plot_wordcloud(dict(zip(y_labels, x_values)), f'{language}_{semantic_type}_keywordcloud')
 
 def plot_wordcloud(word_freq, title):
     from wordcloud import WordCloud
-    wordcloud = WordCloud().fit_words(word_freq)
+    if('chinese' in title):
+        wc = WordCloud(font_path='/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc').fit_words(word_freq)
+    else:
+        wc = WordCloud().fit_words(word_freq)
     import matplotlib.pyplot as plt
-    plt.imshow(wordcloud, interpolation='bilinear')
+    plt.imshow(wc, interpolation='bilinear')
     plt.axis("off")
     target_path = f'analysis/_6_analyze_keyword/{title}.png'
     log("Saving word cloud as " + target_path, 2)

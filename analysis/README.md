@@ -33,8 +33,23 @@ This question remains unknown. Will need to ask Dr. Victor in the future again.
 ## How to run the whole process?
 Make sure you are in the dir of `analysis`.
 ```
+# To process only english data
+./run --english
+
+# To process only chiense data
+./run --chinese
+
+# To run the process for both language
 ./run
 ```
+
+## How to run only a specific process
+```
+# For example, if I only want to run step 1
+cd ./_1_process_raw_data
+./run
+```
+You can specify `--english` or `--chinese` if you want to run it for specific language.
 
 ## How to run test for each process?
 Make sure you are in the dir of `analysis`.
