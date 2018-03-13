@@ -7,7 +7,7 @@
     },
     "bn": {
         "name_cn": "国阵",
-        "parent_party": null,
+        "parent_party": "barisan nasional",
         "alias_en": ["barisan", "barisan nasional"],
         "alias_cn": []
     },
@@ -51,7 +51,7 @@
     },
     "pakatan harapan": {
         "name_cn": "希盟",
-        "parent_party": null,
+        "parent_party": "pakatan harapan",
         "alias_en": [
             "ph"
         ],

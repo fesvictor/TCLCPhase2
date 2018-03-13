@@ -17,16 +17,18 @@ if __name__ == "__main__":
 
 
     print("From: %s   To: %s" % (start_date, end_date))
-
+    output = {'data': {}}
     for page in pages:
         fs = FacebookScraper(token)
         fs.get_posts([page], start_date, end_date, verbose=True)
-        fs.get_comments(verbose=True)
+        fs.get_comments_count(verbose=True)
 
         print("%d posts scraped" % len(fs.posts))
-        output = {'data': fs.posts}
+        output['data'][fs.name] = {}
+        output['data'][fs.name]['data'] = fs.posts
+        output['data'][fs.name]['comment_count'] = fs.total_comment_count
 
-        output_filename = "fb__%s__%s__to__%s.json" % (fs.name, start_date, end_date)
+        output_filename = "fb__%s__to__%s__count.json" % (start_date, end_date)
 
         pathlib.Path('data').mkdir(parents=True, exist_ok=True)
         with open(os.path.join('data', output_filename), "w") as fout:
