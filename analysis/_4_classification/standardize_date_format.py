@@ -9,6 +9,7 @@
 }
  """
 import time
+import re
 
 
 def standardize_date_format(all_posts):
@@ -17,9 +18,15 @@ def standardize_date_format(all_posts):
             post['date'] = correct_date_format_of_facebook(post['date'])
         elif post['source'] == 'twitter':
             post['date'] = correct_date_format_of_twitter(post['date'])
-        elif post['source'] == 'facebook-json':
+        elif 'fb_' in post['source']:
             post['date'] = correct_date_format_of_facebook_json(post['date'])
 
+    for post in all_posts:
+        if not re.match('[2][0][01][0-9][01][0-9][0123][0-9]', post['date']):
+            print("Dates are not properly formatted.")
+            print("The post with invalid format is : ")
+            print(post)
+            exit(1)
     return all_posts
 
 

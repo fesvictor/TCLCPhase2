@@ -14,9 +14,9 @@ def main(
     log(f'Analyzing {semantic_type} keywords for {language} data', 1)
 
     if semantic_type == 'positive':
-        keyword_processor = load_semantic_keywords_processor(True, False, language) 
+        keyword_processor = load_semantic_keywords_processor('', True, False, language) 
     elif semantic_type == 'negative':
-        keyword_processor = load_semantic_keywords_processor(False, True, language) 
+        keyword_processor = load_semantic_keywords_processor('', False, True, language) 
     else:
         raise Exception("Invalid argument")
     

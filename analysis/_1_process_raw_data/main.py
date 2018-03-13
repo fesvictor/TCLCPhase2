@@ -40,22 +40,24 @@ class Job():
 
 PARENT_DIR = 'scrape-results/'
 BLOG_DIR = PARENT_DIR + 'blog/'
-FACEBOOK_DIR = PARENT_DIR + 'facebook/'
+FACEBOOK_EN_DIR = PARENT_DIR + 'facebook/english/'
+FACEBOOK_CN_DIR = PARENT_DIR + 'facebook/chinese/'
 TWITTER_DIR = PARENT_DIR + 'twitter/'
 LOWYAT_DIR = PARENT_DIR + 'forum/lowyat/'
 CARINET_DIR = PARENT_DIR + 'forum/carinet/'
 JBTALKS_DIR = PARENT_DIR + 'forum/jbtalks/'
-MALAYSIA_KINI_DIR = PARENT_DIR + 'news/malaysiakini'
+MALAYSIA_KINI_DIR = PARENT_DIR + 'news/malaysiakini/'
 
 ENGLISH_JOBS = [
     Job(BLOG_DIR, parse_blog),
-    Job(FACEBOOK_DIR, parse_facebook_csv),
-    Job(FACEBOOK_DIR, parse_facebook_json),
+    Job(FACEBOOK_EN_DIR, parse_facebook_csv),
+    Job(FACEBOOK_EN_DIR, parse_facebook_json),
     Job(LOWYAT_DIR, parse_lowyat),
     Job(TWITTER_DIR, parse_twitter)
 ]
 
 CHINESE_JOBS = [
+    Job(FACEBOOK_CN_DIR, parse_facebook_json),
     Job(JBTALKS_DIR, parse_jbtalks),
     Job(CARINET_DIR, parse_carinet)
 ]
