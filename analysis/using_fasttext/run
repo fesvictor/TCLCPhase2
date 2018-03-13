@@ -18,8 +18,11 @@ tail -n 8825 temp.flattened.txt > temp.flattened.test.txt
 
 # Legend
 echo "LEGEND"
-echo "======"
+echo "===================================================="
+echo "N   means Number of statements"
 echo "P@1 means precision(e.g. 0.89 means 89% precision)"
+echo "R@1 means Recall at One"
+echo "===================================================="
 
 # Train the model
 echo "$fasttext_home/fasttext supervised -input ./temp.flattened.train.txt -output model_tclc" | bash

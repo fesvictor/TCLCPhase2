@@ -14,9 +14,9 @@ def main(
     log(f'Analyzing {semantic_type} keywords for {language} data', 1)
 
     if semantic_type == 'positive':
-        keyword_processor = load_semantic_keywords_processor(True, False) 
+        keyword_processor = load_semantic_keywords_processor(True, False, language) 
     elif semantic_type == 'negative':
-        keyword_processor = load_semantic_keywords_processor(False, True) 
+        keyword_processor = load_semantic_keywords_processor(False, True, language) 
     else:
         raise Exception("Invalid argument")
     
@@ -54,11 +54,25 @@ def main(
             file.write(value + "\n")
     log(f'Top 100 keywords are save as {file_name}', 2)
 
-    log('Plotting graph', 2)
-    plot_hbar(y_labels, x_values, f'{semantic_type} keyword frequencies')
-    log('DONE', 1)
+    # log('Plotting graph', 2)
+    # plot_hbar(y_labels, x_values, f'{semantic_type}_keyword_frequencies')
+    # log('DONE', 1)
 
+    log('Plotting word cloud', 2)
+    plot_wordcloud(dict(zip(y_labels, x_values)), f'{language}_{semantic_type}_keywordcloud')
 
+def plot_wordcloud(word_freq, title):
+    from wordcloud import WordCloud
+    if('chinese' in title):
+        wc = WordCloud(font_path='/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc').fit_words(word_freq)
+    else:
+        wc = WordCloud().fit_words(word_freq)
+    import matplotlib.pyplot as plt
+    plt.imshow(wc, interpolation='bilinear')
+    plt.axis("off")
+    target_path = f'analysis/_6_analyze_keyword/{title}.png'
+    log("Saving word cloud as " + target_path, 2)
+    plt.savefig(target_path)
 
 def plot_hbar(y_labels, x_values, title):
     import matplotlib.pyplot as plt
@@ -80,7 +94,10 @@ def plot_hbar(y_labels, x_values, title):
     ax.set_xlabel('Frequencies')
     ax.set_title(title)
 
-    plt.show()
+    # plt.show()
+    target_path = f'analysis/_6_analyze_keyword/{title}.png'
+    log("Saving graph as " + target_path, 2)
+    plt.savefig(target_path)
 
 
 class AnalyzeKeyword(AnalysisRunner):

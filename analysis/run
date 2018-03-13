@@ -31,6 +31,10 @@ cd './_4_classification'
 ./run $@
 cd ..
 
+cd './_6_analyze_keyword'
+./run $@
+cd ..
+
 python './check_correctness.py'
 
 END_TIME=`date +%s`

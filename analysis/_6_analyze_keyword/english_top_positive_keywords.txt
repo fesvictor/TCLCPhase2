@@ -52,6 +52,7 @@ promise
 success
 successful
 freedom
+terima kasih
 helping
 confident
 powerful
@@ -81,6 +82,7 @@ faith
 favour
 benefits
 silent
+will vote for
 pride
 openly
 proper
@@ -97,5 +99,3 @@ stronger
 advantage
 beloved
 perfect
-harmony
-afford

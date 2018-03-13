@@ -1,6 +1,5 @@
 from analysis.libs.save_posts import save_posts
 from analysis.libs.load_posts import load_posts
-from analysis._3_label_semantic.load_semantic_keywords import load_semantic_keywords
 from analysis._6_analyze_keyword.load_semantic_keywords_processor import load_semantic_keywords_processor
 
 def for_english():

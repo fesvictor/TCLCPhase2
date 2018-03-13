@@ -5,6 +5,8 @@ from analysis.libs.AnalysisRunner import AnalysisRunner
 from analysis.libs.log import log
 from analysis._2_remove_unrelated_data.load_labels import load_labels
 from analysis._2_remove_unrelated_data.label_post import label_post
+from analysis._2_remove_unrelated_data.for_english import for_english
+from analysis._2_remove_unrelated_data.for_chinese import for_chinese
 from analysis.libs.load_posts import load_posts
 from analysis.libs.save_posts import save_posts
 
@@ -12,6 +14,7 @@ from analysis.libs.save_posts import save_posts
 def main(language):
     log(f"Loading {language} posts", 1)
     posts = load_posts(f'analysis/_1_process_raw_data/output/{language}.json')
+
     labels = get_labels(language)
     label_post(posts, labels)
     log(f"Removing unrelated posts", 1)
@@ -37,9 +40,9 @@ def get_labels(language):
 
 class RemoveUnrelatedData(AnalysisRunner):
     def run_english(self):
-        main('english')
+        for_english()
     def run_chinese(self):
-        main('chinese')
+        for_chinese()
 
 RemoveUnrelatedData().run()
 
