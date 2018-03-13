@@ -10,8 +10,8 @@ def for_chinese(date):
         date {str} -- Must be prefixed with underscore, e.g. '20180303_' 
     """
     all_posts = load_posts('analysis/_2_remove_unrelated_data/chinese.json')
-    positive_kp = load_semantic_keywords_processor(date, True, False)
-    negative_kp = load_semantic_keywords_processor(date, False, True)
+    positive_kp = load_semantic_keywords_processor(date, True, False, 'chinese')
+    negative_kp = load_semantic_keywords_processor(date, False, True, 'chinese')
 
     log("Labelling semantic of chinese post", 1)
     for p in all_posts:
