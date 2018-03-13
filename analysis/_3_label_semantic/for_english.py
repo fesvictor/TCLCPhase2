@@ -1,13 +1,19 @@
-from analysis.libs.save_posts import save_posts
-from analysis.libs.load_posts import load_posts
 from analysis._6_analyze_keyword.load_semantic_keywords_processor import load_semantic_keywords_processor
+from analysis.libs.load_posts import load_posts
+from analysis.libs.log import log
+from analysis.libs.save_posts import save_posts
 
-def for_english():
-    print(f'Parsing english data')
+def for_english(date):
+    """[summary]
+    
+    Arguments:
+        date {str} -- Must be prefixed with underscore, e.g. '20180303_' 
+    """
     all_posts = load_posts('analysis/_2_remove_unrelated_data/english.json')
-    positive_kp = load_semantic_keywords_processor(True, False)
-    negative_kp = load_semantic_keywords_processor(False, True)
+    positive_kp = load_semantic_keywords_processor(date, True, False)
+    negative_kp = load_semantic_keywords_processor(date, False, True)
 
+    log("Labelling semantic of english post", 1)
     for p in all_posts:
         matching_positive_keywords = positive_kp.extract_keywords(p["value"])
         matching_negative_keywords = negative_kp.extract_keywords(p["value"])
