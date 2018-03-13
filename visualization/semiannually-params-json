@@ -12,6 +12,15 @@ leader_different=lim kit siang,lim guan eng,anwar,mahathir,abdul hadi awang,liow
 # Different coalition parties
 party_different=dap,pkr,ppbm,pas,mca,umno,mic
 
+# Malay leaders
+leader_malay=najib,mahathir,anwar,abdul hadi awang
+
+# Chinese leaders
+leader_chinese=lim guan eng,liow tiong lai,lim kit siang,wee ka siong
+
+# Party compares
+mca_v_dap=mca,dap
+
 # Input data directory
 input_dir=../analysis/results
 
