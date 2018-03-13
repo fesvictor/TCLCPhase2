@@ -1,4 +1,5 @@
 import json
+import ntpath
 from analysis.libs.Post import Post
 
 # ASSUMPTIONS:
@@ -25,7 +26,7 @@ def translate_data_to_post(data_list, file_path):
             p = Post()
             p.date = data["created_time"]
             p.value = str.lower(data["message"])
-            p.source = '_'.join(file_path.split("__")[:2])
+            p.source = '_'.join(ntpath.basename(file_path).split("__")[:2])
             p.origin = file_path
             result.append(p)
         if "comments" in data and len(data["comments"]) > 0:

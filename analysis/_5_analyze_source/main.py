@@ -6,7 +6,7 @@ from analysis._5_analyze_source.plot_graph import plot_graph
 import json
 
 MIN_DATE = '20120601'
-MAX_DATE = '20180303'
+MAX_DATE = '20180404'
 
 
 def main(language):
@@ -33,7 +33,7 @@ def main(language):
         print(len(dic[source_name]))
         dic[source_name] = group_dates(MIN_DATE, MAX_DATE, dic[source_name])
 
-    with open(f'./{language}_source.json', 'w') as outfile:
+    with open(f'analysis/_5_analyze_source/{language}_source.json', 'w') as outfile:
         print("Saving ", {language})
         json.dump(dic, outfile)
 
