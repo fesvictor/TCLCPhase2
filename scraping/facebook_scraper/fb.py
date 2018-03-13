@@ -29,9 +29,14 @@ def strip_next_page_token(url):
 class FacebookScraper:
     def __init__(self, token):
         self.graph = facebook.GraphAPI(access_token=token, version="2.11")
-
+        
     def get_posts(self, page_ids, start_date, end_date, verbose=False):
         self.posts_list = []        
+        self.name = self.graph.get_object(id=page_ids[0], fields="name")["name"]
+
+        if verbose:
+            print("Scraping from %s" % (self.name))
+
         for page_id in page_ids:
             cursor = self.graph.get_object(id=page_id, fields="posts.limit(100)")
             
@@ -87,27 +92,64 @@ class FacebookScraper:
         posts = []
         counter = 1
         for post in self.posts_list:
-            post_id = post["id"]
+            try:
+                post_id = post["id"]
 
-            if verbose:
-                print("[%5d/%5d]" % (counter, len(self.posts_list)), post_id)
-                counter += 1
+                if verbose:
+                    print("[%5d/%5d]" % (counter, len(self.posts_list)), post_id)
+                    counter += 1
 
-            cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100)")
-            comments = []
+                cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100)")
+                comments = []
 
-            if "comments" in cursor:
-                while "next" in cursor["comments"]["paging"]:
-                    next_page = strip_next_page_token(cursor["comments"]["paging"]["next"])
-                    _comments = cursor["comments"]["data"]
+                if "comments" in cursor:
+                    while "next" in cursor["comments"]["paging"]:
+                        next_page = strip_next_page_token(cursor["comments"]["paging"]["next"])
+                        _comments = cursor["comments"]["data"]
 
-                    for _comment in _comments:
-                        _comment["created_time"] = int(parser.parse(_comment["created_time"]).timestamp())
-                    comments += _comments
+                        for _comment in _comments:
+                            _comment["created_time"] = int(parser.parse(_comment["created_time"]).timestamp())
+                        comments += _comments
 
-                    cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100).after(%s)" % (next_page))
+                        cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100).after(%s)" % (next_page))
 
-            post["comments"] = comments
-            posts.append(post)
-        
+                post["comments"] = comments
+                posts.append(post)
+            except facebook.GraphAPIError:
+                continue
         self.posts = posts
+
+    def get_comments_count(self, verbose=False):
+        if not hasattr(self, 'posts_list'):
+            raise Exception("get_posts is not ran yet")
+        
+        posts = []
+        counter = 1
+        total_comment_count = 0
+        for post in self.posts_list:
+            try:
+                post_id = post["id"]
+
+                if verbose:
+                    print("[%5d/%5d]" % (counter, len(self.posts_list)), post_id)
+                    counter += 1
+
+                cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100)")
+                comment_count = 0
+                post["comment_count"] = 0
+                if "comments" in cursor:
+                    while "next" in cursor["comments"]["paging"]:
+                        next_page = strip_next_page_token(cursor["comments"]["paging"]["next"])
+                        _comments = cursor["comments"]["data"]
+
+                        comment_count += len(_comments)
+                        print(comment_count)
+                        cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100).after(%s)" % (next_page))
+
+                        post["comment_count"] = comment_count
+                        total_comment_count += comment_count
+                posts.append(post)
+            except facebook.GraphAPIError:
+                continue
+        self.posts = posts
+        self.total_comment_count = total_comment_count

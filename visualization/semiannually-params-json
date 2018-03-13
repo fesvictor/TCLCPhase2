@@ -20,6 +20,7 @@ leader_chinese=lim guan eng,liow tiong lai,lim kit siang,wee ka siong
 
 # Party compares
 mca_v_dap=mca,dap
+bn_v_ph_v_pas=bn,pakatan harapan,pas
 
 # Input data directory
 input_dir=../analysis/results
