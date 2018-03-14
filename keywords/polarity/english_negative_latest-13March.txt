@@ -32,7 +32,6 @@ enemy
 idiot
 debt
 fall
-worry
 allegations
 hell
 losing
@@ -45,16 +44,7 @@ crime
 threat
 waste
 propaganda
-protest
 fail
 evil
 joke
 dirty
-prison
-stolen
-scandals
-reject
-break
-illegal
-weak
-afraid
