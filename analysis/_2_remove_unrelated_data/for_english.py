@@ -26,4 +26,4 @@ def for_english():
     purified = [x for x in all_posts if len(x['related_to']) > 0]
     log(f"Number of removed posts = " + str(len(all_posts) - len(purified)), 1)
 
-    save_posts(purified, f'analysis/_2_remove_unrelated_data/english.new.json')
+    save_posts(purified, f'analysis/_2_remove_unrelated_data/english.json')

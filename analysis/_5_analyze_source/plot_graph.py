@@ -7,7 +7,7 @@ from datetime import timedelta
 
 def plot_graph(language, START_DATE, END_DATE):
     print("Plotting graph . . .")
-    with open(f'{language}_source.json', 'r') as f:
+    with open(f'analysis/_5_analyze_source/{language}_source.json', 'r') as f:
         dic = json.load(f)
         for name in dic:
             y = np.array(dic[name])
