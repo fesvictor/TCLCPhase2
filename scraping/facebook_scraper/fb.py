@@ -30,6 +30,7 @@ def strip_next_page_token(url):
 
 class FacebookScraper:
     def __init__(self, token):
+        self.access_token = token
         self.graph = facebook.GraphAPI(access_token=token, version="2.11")
         
     def get_posts(self, page_ids, start_date, end_date, verbose=False):
@@ -100,17 +101,18 @@ class FacebookScraper:
             raise Exception("get_posts is not ran yet")
 
         posts = []
-        counter = 1
-        for post in self.posts_list:
+        for counter, post in enumerate(self.posts_list):
             try:
                 post_id = post["id"]
 
                 if verbose:
-                    print("[%5d/%5d]" % (counter, len(self.posts_list)), post_id)
-                    counter += 1
+                    print("[%5d/%5d]" % (counter + 1, len(self.posts_list)), post_id)
 
                 cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100)")
                 comments = []
+
+                if counter == 360:
+                    print(cursor)
 
                 if "comments" in cursor:
                     while "next" in cursor["comments"]["paging"]:
@@ -177,4 +179,6 @@ class FacebookScraper:
         n.show()
         access_token = input("Access token expired. Please enter a new access token: ")
         self.graph.access_token = access_token
+        self.access_token = access_token
+        n.close()
 

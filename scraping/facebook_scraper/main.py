@@ -33,3 +33,6 @@ if __name__ == "__main__":
         pathlib.Path('data').mkdir(parents=True, exist_ok=True)
         with open(os.path.join('data', output_filename), "w") as fout:
             fout.write(json.dumps(output))
+
+        # Bring over token
+        token = fs.access_token
