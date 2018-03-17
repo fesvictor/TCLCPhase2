@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Transforming format for mongoDb"
+cd ../..
+python3.6 -m analysis.transform_format_for_mongodb.main $@
+echo "DONE."
