@@ -2,8 +2,10 @@ from fb import FacebookScraper
 import json
 import pathlib
 import os
+import notify2
 
 if __name__ == "__main__":
+    notify2.init("Facebook scrapper")
     token = ""
     with open('params.json') as fin:
         obj = json.loads(fin.read())
@@ -31,3 +33,6 @@ if __name__ == "__main__":
         pathlib.Path('data').mkdir(parents=True, exist_ok=True)
         with open(os.path.join('data', output_filename), "w") as fout:
             fout.write(json.dumps(output))
+
+        # Bring over token
+        token = fs.access_token
