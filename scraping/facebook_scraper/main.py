@@ -2,8 +2,10 @@ from fb import FacebookScraper
 import json
 import pathlib
 import os
+import notify2
 
 if __name__ == "__main__":
+    notify2.init("Facebook scrapper")
     token = ""
     with open('params.json') as fin:
         obj = json.loads(fin.read())

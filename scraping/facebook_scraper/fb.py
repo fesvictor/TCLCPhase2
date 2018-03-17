@@ -1,4 +1,6 @@
 import facebook
+import notify2
+
 from dateutil import parser
 
 def date_in_range(target_date, start_date, end_date):
@@ -32,58 +34,66 @@ class FacebookScraper:
         
     def get_posts(self, page_ids, start_date, end_date, verbose=False):
         self.posts_list = []        
-        self.name = self.graph.get_object(id=page_ids[0], fields="name")["name"]
+
+        try:
+            self.name = self.graph.get_object(id=page_ids[0], fields="name")["name"]
+        except facebook.GraphAPIError:
+            self.reinsert_access_token()
+            self.name = self.graph.get_object(id=page_ids[0], fields="name")["name"]            
 
         if verbose:
             print("Scraping from %s" % (self.name))
 
         for page_id in page_ids:
-            cursor = self.graph.get_object(id=page_id, fields="posts.limit(100)")
-            
-            posts = []
+            try:
+                cursor = self.graph.get_object(id=page_id, fields="posts.limit(100)")
+                
+                posts = []
 
-            filter_stop = False
+                filter_stop = False
 
-            counter = 0
-            print("Getting posts")
+                counter = 0
+                print("Getting posts")
 
-            bypass = True
-            while "next" in cursor["posts"]["paging"]:
-                next_page = strip_next_page_token(cursor["posts"]["paging"]["next"])
+                bypass = True
+                while "next" in cursor["posts"]["paging"]:
+                    next_page = strip_next_page_token(cursor["posts"]["paging"]["next"])
 
-                if bypass:
-                    if bypass_date(cursor["posts"]["data"][0]["created_time"], end_date):
-                        if verbose:
-                            print("Bypassing %s" % (cursor["posts"]["data"][0]["created_time"]))
+                    if bypass:
+                        if bypass_date(cursor["posts"]["data"][0]["created_time"], end_date):
+                            if verbose:
+                                print("Bypassing %s" % (cursor["posts"]["data"][0]["created_time"]))
+                            cursor = self.graph.get_object(id=page_id, fields="posts.limit(100).after(%s)" % (next_page))
+                            continue
+                        else:
+                            bypass = False
+
+                    # Prepare data for time check
+                    last_post_time = cursor["posts"]["data"][0]["created_time"]
+
+                    for post in cursor["posts"]["data"]:
+                        if date_in_range(post["created_time"], start_date, end_date):
+                            post["created_time"] = int(parser.parse(post["created_time"]).timestamp())
+                            posts.append(post)
+
+                    if verbose:
+                        counter = len(posts)
+                        print("Current # of posts: %d" % (counter))
+
+                    if date_in_range(last_post_time, start_date, end_date):
                         cursor = self.graph.get_object(id=page_id, fields="posts.limit(100).after(%s)" % (next_page))
-                        continue
                     else:
-                        bypass = False
+                        filter_stop = True
+                        break
+                
+                # Take the last post because it is the end of all posts from the page
+                # and not stop because of filter
+                if not filter_stop:
+                    posts += cursor["posts"]["data"]
 
-                # Prepare data for time check
-                last_post_time = cursor["posts"]["data"][0]["created_time"]
-
-                for post in cursor["posts"]["data"]:
-                    if date_in_range(post["created_time"], start_date, end_date):
-                        post["created_time"] = int(parser.parse(post["created_time"]).timestamp())
-                        posts.append(post)
-
-                if verbose:
-                    counter = len(posts)
-                    print("Current # of posts: %d" % (counter))
-
-                if date_in_range(last_post_time, start_date, end_date):
-                    cursor = self.graph.get_object(id=page_id, fields="posts.limit(100).after(%s)" % (next_page))
-                else:
-                    filter_stop = True
-                    break
-            
-            # Take the last post because it is the end of all posts from the page
-            # and not stop because of filter
-            if not filter_stop:
-                posts += cursor["posts"]["data"]
-
-            self.posts_list += posts
+                self.posts_list += posts
+            except facebook.GraphAPIError:
+                self.reinsert_access_token()
 
     def get_comments(self, verbose=False):
         if not hasattr(self, 'posts_list'):
@@ -116,7 +126,7 @@ class FacebookScraper:
                 post["comments"] = comments
                 posts.append(post)
             except facebook.GraphAPIError:
-                continue
+                self.reinsert_access_token()
         self.posts = posts
 
     def get_comments_count(self, verbose=False):
@@ -150,6 +160,21 @@ class FacebookScraper:
                         total_comment_count += comment_count
                 posts.append(post)
             except facebook.GraphAPIError:
-                continue
+                self.reinsert_access_token()
         self.posts = posts
         self.total_comment_count = total_comment_count
+
+    def get_levelled_comments_count(self, verbose=False):
+        if not hasattr(self, 'posts_list'):
+            raise Exception("get_posts is not ran yet")
+
+        posts = []
+        counter = 1
+        total_comment_count = 0
+    
+    def reinsert_access_token(self):
+        n = notify2.Notification("Access token expired")
+        n.show()
+        access_token = input("Access token expired. Please enter a new access token: ")
+        self.graph.access_token = access_token
+
