@@ -1,0 +1,603 @@
+﻿{
+	"1mdb": {
+		"name_cn": "一个马来西亚发展有限公司",
+		"party": null,
+		"alias_en": [
+			"1Malaysia Development Berhad"
+		],
+		"alias_cn": [
+			"一马",
+			"一马公司"
+		]
+	},
+	"abdul hadi awang": {
+		"name_cn": "哈迪阿旺",
+		"party": null,
+		"alias_en": [
+			"Dato' Seri Tuan Guru Haji Abdul Hadi Awang"
+		],
+		"alias_cn": [
+			"哈迪"
+		]
+	},
+	"ahmad yakob": {
+		"name_cn": "阿末耶谷",
+		"party": null,
+		"alias_en": [
+			"Dato' Ahmad Yakob"
+		],
+		"alias_cn": [
+			"阿末耶谷"
+		]
+	},
+	"ahmah zahid hamidi": {
+		"name_cn": "阿末扎希·哈米迪",
+		"party": null,
+		"alias_en": [
+			"Dato' Seri Dr. Ahmad Zahid Hamidi",
+			"YAB Dato' Seri Dr. Ahmad Zahid bin Hamidi"
+		],
+		"alias_cn": [
+			"阿末扎希",
+			"阿末诈死"
+		]
+	},
+	"amar nik abdullah": {
+		"name_cn": "莫哈末阿玛阿都拉",
+		"party": null,
+		"alias_en": [
+			"Dato' Nik Amar",
+			"Datuk Haji Mohd Amar bin Abdullah"
+		],
+		"alias_cn": [
+			"拿督 DATUK",
+			"莫哈末阿玛"
+		]
+	},
+	"anwar": {
+		"name_cn": "安华·依布拉欣",
+		"party": null,
+		"alias_en": [
+			"Anwar Ibrahim",
+			"Datuk Seri Anwar Ibrahim"
+		],
+		"alias_cn": [
+			"安华",
+			"安华",
+			"安華",
+			"华哥"
+		]
+	},
+	"azmin ali": {
+		"name_cn": "阿兹敏阿里",
+		"party": null,
+		"alias_en": [
+			"Mohamed Azmin Ali",
+			"Datuk Seri Mohamed Azmin Ali"
+		],
+		"alias_cn": [
+			"阿茲敏",
+			"阿兹敏阿里"
+		]
+	},
+	"charles anthony santiago": {
+		"name_cn": "查尔斯圣地亚哥",
+		"party": null,
+		"alias_en": [
+			"Charles Santiago",
+			"Charles Anthony a/l R. Santiago"
+		],
+		"alias_cn": [
+			"查尔斯"
+		]
+	},
+	"chen man hin": {
+		"name_cn": "曾敏兴",
+		"party": null,
+		"alias_en": [
+			"Dr. Chen Man Hin"
+		],
+		"alias_cn": [
+			"曾敏兴"
+		]
+	},
+	"gobind singh deo": {
+		"name_cn": "哥宾星",
+		"party": null,
+		"alias_en": [
+			"Yang Berhormat Gobind Singh Deo a/l Karpal Singh"
+		],
+		"alias_cn": []
+	},
+	"hannah yeoh": {
+		"name_cn": "楊巧雙",
+		"party": null,
+		"alias_en": [
+			"YB Speaker Hannah Yeoh"
+		],
+		"alias_cn": []
+	},
+	"haron din": {
+		"name_cn": "哈伦丁",
+		"party": null,
+		"alias_en": [
+			"Tuan Guru Dato' Dr. Haji Haron Din"
+		],
+		"alias_cn": []
+	},
+	"hishammuddin": {
+		"name_cn": "希沙慕丁·宾·敦·侯赛因",
+		"party": null,
+		"alias_en": [
+			"Datuk Seri Hishammuddin Hussein",
+			" Dato' Seri Hishammuddin Tun Hussein"
+		],
+		"alias_cn": [
+			"希沙慕丁",
+			"希山慕丁"
+		]
+	},
+	"idris ahmad": {
+		"name_cn": null,
+		"party": null,
+		"alias_en": [
+			"Yang Berhormat Ustaz Idris Ahmad"
+		],
+		"alias_cn": [
+			"依德里斯阿末"
+		]
+	},
+	"idris haron": {
+		"name_cn": "依德里斯哈伦",
+		"party": null,
+		"alias_en": [
+			"Datuk Seri Utama Ir. Haji Idris bin Haron"
+		],
+		"alias_cn": [
+			"拿督斯里",
+			"依德里斯哈伦"
+		]
+	},
+	"jeff ooi": {
+		"name_cn": "黄泉安",
+		"party": null,
+		"alias_en": [
+			"Ooi Chuan Aun",
+			"jeff ooi"
+		],
+		"alias_cn": [
+			"黄泉安"
+		]
+	},
+	"karpal singh": {
+		"name_cn": "卡巴星",
+		"party": null,
+		"alias_en": [
+			"Karpal Singh Ram Singh",
+			"Tiger of Jelutong"
+		],
+		"alias_cn": [
+			"卡巴星"
+		]
+	},
+	"khairy": {
+		"name_cn": "凯里·嘉马鲁丁",
+		"party": null,
+		"alias_en": [
+			"Khairy Jamaluddin Abu Bakar",
+			"KJ"
+		],
+		"alias_cn": [
+			"KJ",
+			"凯里"
+		]
+	},
+	"lim guan eng": {
+		"name_cn": "林冠英",
+		"party": null,
+		"alias_en": [
+			"CM Lim Guan Eng",
+			"LGE"
+		],
+		"alias_cn": [
+			"林家",
+			"林神",
+			"冠英",
+			"林大炮",
+			"林观音",
+			"林x英",
+			"林首长",
+			"老板",
+			"林x英",
+			"淋神",
+			"神经病的人",
+			"槟首长"
+		]
+	},
+	"lim kit siang": {
+		"name_cn": "林吉祥",
+		"party": null,
+		"alias_en": [
+			"lks",
+			"Kit Siang"
+		],
+		"alias_cn": [
+			"林吉祥",
+			"林老"
+		]
+	},
+	"liow tiong lai": {
+		"name_cn": "廖中莱",
+		"party": null,
+		"alias_en": [
+			"Dato ' Sri Liow Tiong Lai"
+		],
+		"alias_cn": [
+			"尿中莱",
+			"尿中来",
+			"廖中菜",
+			"鸟肿来"
+		]
+	},
+	"mah siew keong": {
+		"name_cn": "马袖强",
+		"party": null,
+		"alias_en": [
+			"Datuk Seri Mah Siew Keong"
+		],
+		"alias_cn": [
+			"马袖强"
+		]
+	},
+	"mahathir": {
+		"name_cn": "马哈迪·莫哈末",
+		"party": null,
+		"alias_en": [
+			"Mahathir bin Mohamad",
+			"Tun Dr Mahathir Mohamad",
+			"Tun M"
+		],
+		"alias_cn": [
+			"马哈迪",
+			"老马",
+			"敦马",
+			"老番薯",
+			"跛马",
+			"pattern马",
+			"老家伙",
+			"马哈蒂"
+		]
+	},
+	"mahfuz omar": {
+		"name_cn": "拿督馬夫茲",
+		"party": null,
+		"alias_en": [
+			"Dato ' Haji Mahfuz bin Haji Omar"
+		],
+		"alias_cn": [
+			"馬夫茲"
+		]
+	},
+	"muhyiddin": {
+		"name_cn": "丹斯里慕尤丁",
+		"party": null,
+		"alias_en": [
+			"Tan Sri Dato ' (Dr.) Haji Muhyiddin bin Haji Mohd. Yassin"
+		],
+		"alias_cn": [
+			"慕尤丁",
+			"阿慕"
+		]
+	},
+	"mukhriz": {
+		"name_cn": "慕克利兹",
+		"party": null,
+		"alias_en": [
+			"Dato ' Seri Mukhriz bin Mahathir",
+			"Mukhriz Mahathir"
+		],
+		"alias_cn": [
+			"慕克利"
+		]
+	},
+	"najib": {
+		"name_cn": "纳吉·阿都拉萨",
+		"party": null,
+		"alias_en": [
+			"Dato ' Sri Haji Mohammad Najib bin Tun Haji Abdul Razak",
+			"Najib Razak",
+			"Jib",
+			"Ah Jib Gor",
+			"mo1",
+			"pm",
+			"Jibby"
+		],
+		"alias_cn": [
+			"纳吉",
+			"鸡哥",
+			"那鸡",
+			"那只鸡",
+			"纳鸡",
+			"阿鸡",
+			"鸡哥",
+			"大马1号哥",
+			"大马一号哥",
+			"一马哥",
+			"1马哥",
+			"Jib Gor",
+			"纳吉布",
+			"那贼",
+			"那吉",
+			"MO1",
+			"垃圾",
+			"老那鸡",
+			"阿基",
+			"那只鸡",
+			"鸡鸡",
+			"Tun Najib"
+		]
+	},
+	"nik mohamad abduh nik abdul aziz": {
+		"name_cn": "聂莫哈末阿都",
+		"party": null,
+		"alias_en": [
+			"Yang Berhormat Ustaz Haji Nik Mohamad Abduh bin Nik Abdul Aziz",
+			"Ustaz Nik Abduh"
+		],
+		"alias_cn": [
+			"聶阿都",
+			"聶阿卜杜勒"
+		]
+	},
+	"nik nazmi": {
+		"name_cn": "聂纳兹米",
+		"party": null,
+		"alias_en": [
+			"Nik Nazmi bin Nik Ahmad"
+		],
+		"alias_cn": [
+			"聂纳兹米"
+		]
+	},
+	"nurul izzah": {
+		"name_cn": "努爾· 伊扎· 安瓦爾",
+		"party": null,
+		"alias_en": [
+			"Nurul Izzah Anwar"
+		],
+		"alias_cn": [
+			"努魯伊莎",
+			"努魯"
+		]
+	},
+	"ong ka chuan": {
+		"name_cn": "黄家泉",
+		"party": null,
+		"alias_en": [
+			"Dato ' Seri Ong Ka Chuan"
+		],
+		"alias_cn": [
+			"黄家泉"
+		]
+	},
+	"ong kian ming": {
+		"name_cn": "王建民",
+		"party": null,
+		"alias_en": [
+			"YB Dr.Ong Kian Ming"
+		],
+		"alias_cn": [
+			"王建民"
+		]
+	},
+	"rafizi": {
+		"name_cn": "拉菲兹·南利",
+		"party": null,
+		"alias_en": [
+			"Rafizi Ramli, Mohd Rafizi bin Ramli, Rafizi Sotong"
+		],
+		"alias_cn": [
+			"拉菲兹"
+		]
+	},
+	"rosmah": {
+		"name_cn": "罗斯玛·曼梳",
+		"party": null,
+		"alias_en": [
+			"Rosmah Mansor",
+			"Datin Paduka Seri Hajjah Rosma Mansor"
+		],
+		"alias_cn": [
+			"罗斯玛",
+			"螺丝玛",
+			"螺丝马",
+			"河马",
+			"罗死马",
+			"国母"
+		]
+	},
+	"samy vellu": {
+		"name_cn": "三美维鲁",
+		"party": null,
+		"alias_en": [
+			"Tun Samy Vellu Sangalimuthu"
+		],
+		"alias_cn": [
+			"萨米· 维鲁"
+		]
+	},
+	"shahrizat": {
+		"name_cn": "莎丽查",
+		"party": null,
+		"alias_en": [
+			"Tan Sri Shahrizat binti Abdul Jalil",
+			"Shahrizat Abdul Jalil"
+		],
+		"alias_cn": [
+			"莎丽查"
+		]
+	},
+	"shamsul iskandar": {
+		"name_cn": "三蘇依斯干達",
+		"party": null,
+		"alias_en": [
+			"Shamsul Iskandar @ Yusre bin Hj Mohd Akin"
+		],
+		"alias_cn": [
+			"三蘇",
+			"山苏依斯干达"
+		]
+	},
+	"sivarasa rasiah": {
+		"name_cn": "西华拉沙",
+		"party": null,
+		"alias_en": [
+			"R Sivarasa"
+		],
+		"alias_cn": [
+			"西华"
+		]
+	},
+	"subramaniam": {
+		"name_cn": "苏巴马廉",
+		"party": null,
+		"alias_en": [
+			"Datuk Seri Dr.Subramaniam s / o.K.V.Sathasivam",
+			"DATUK SERI DR S.SUBRAMANIAM"
+		],
+		"alias_cn": [
+			"蘇巴瑪廉"
+		]
+	},
+	"tengku adnan tengku mansor": {
+		"name_cn": "登姑• 阿德南• 宾• 登姑• 曼苏尔",
+		"party": null,
+		"alias_en": [
+			"Datuk Seri Tengku Adnan bin Mansor",
+			"Datuk Seri Utama Tengku Adnan bin Tengku Mansor",
+			"Ku nan"
+		],
+		"alias_cn": [
+			"登姑• 阿德南"
+		]
+	},
+	"tengku razaleigh": {
+		"name_cn": "東姑拉沙里",
+		"party": null,
+		"alias_en": [
+			"Tan Sri Tengku Razaleigh bin Tengku Mohd Hamzah",
+			"Yang Berhormat Mulia Tengku Tan Sri Razaleigh bin Tengku Mohd Hamzah"
+		],
+		"alias_cn": [
+			"東姑拉沙里"
+		]
+	},
+	"teresa kok": {
+		"name_cn": "郭素沁",
+		"party": null,
+		"alias_en": [
+			"Teresa Kok Suh Sim",
+			"Teresa Cock"
+		],
+		"alias_cn": [
+			"郭素沁"
+		]
+	},
+	"tian chua": {
+		"name_cn": "蔡添强",
+		"party": null,
+		"alias_en": [
+			"Chua Tian Chang"
+		],
+		"alias_cn": [
+			"蔡添强"
+		]
+	},
+	"tony pua": {
+		"name_cn": "潘俭伟",
+		"party": null,
+		"alias_en": [
+			"Tony Pua Kiam Wee",
+			"Tony Puaka"
+		],
+		"alias_cn": [
+			"潘俭伟"
+		]
+	},
+	"tuan ibrahim tuan man": {
+		"name_cn": "端依布拉欣端曼",
+		"party": null,
+		"alias_en": [
+			"Dato Tuan Ibrahim bin Tuan Man",
+			"Ustaz Dato' Tuan Ibrahim Tuan Man"
+		],
+		"alias_cn": [
+			"依布拉欣"
+		]
+	},
+	"wan azizah": {
+		"name_cn": "旺阿兹沙",
+		"party": null,
+		"alias_en": [
+			"Dr Wan Azizah Wan Ismail",
+			"Datuk Seri Wan Azizah binti Wan Ismail",
+			"Datuk Seri Datin Dr.Wan Azizah Wan Ismail"
+		],
+		"alias_cn": [
+			"旺· 阿兹沙",
+			"旺姐"
+		]
+	},
+	"zairil khir johari": {
+		"name_cn": "基佐哈里",
+		"party": null,
+		"alias_en": [
+			"Zairil Khir Johari aka Christopher Ross Lim",
+			"Zairil",
+			"YB Tuan Zairil Khir Johari"
+		],
+		"alias_cn": [
+			"再里爾"
+		]
+	},
+	"chow kon yeow": {
+		"name_cn": "曹观友",
+		"party": null,
+		"alias_en": [
+			"YB Tuan Chow Kon Yeow"
+		],
+		"alias_cn": [
+			"曹观友"
+		]
+	},
+	"teh yee cheu": {
+		"name_cn": "郑雨周",
+		"party": null,
+		"alias_en": [],
+		"alias_cn": [
+			"郑雨周"
+		]
+	},
+	"wee ka siong": {
+		"name_cn": "魏家祥",
+		"party": null,
+		"alias_en": [
+			"Datuk Seri Ir.Dr.Wee Ka Siong",
+			"Ka Siong"
+		],
+		"alias_cn": [
+			"魏家祥"
+		]
+	},
+	"koh tsu koon": {
+		"name_cn": "许子根",
+		"party": null,
+		"alias_en": [
+			"Tan Sri Dr.Koh Tsu Koon"
+		],
+		"alias_cn": [
+			"许子根",
+			"好好先生"
+		]
+	}
+}

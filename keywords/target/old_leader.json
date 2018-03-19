@@ -1,0 +1,340 @@
+{
+    "abdul hadi awang": {
+        "name_cn": "哈迪阿旺",
+        "party": "pas",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "ahmad yakob": {
+        "name_cn": null,
+        "party": "pas",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "ahmad zahid hamidi": {
+        "name_cn": null,
+        "party": "bn",
+        "alias_en": ["zahid", "ahmad zahid"],
+        "alias_cn": []
+    },
+    "amar nik abdullah": {
+        "name_cn": null,
+        "party": null,
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "anwar": {
+        "name_cn": "安华·依布拉欣",
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": [
+            "安华",
+            "安华"
+        ]
+    },
+    "azmin ali": {
+        "name_cn": null,
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "charles anthony santiago": {
+        "name_cn": null,
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "chen man hin": {
+        "name_cn": null,
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "gobind singh deo": {
+        "name_cn": null,
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "hannah yeoh": {
+        "name_cn": null,
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "haron din": {
+        "name_cn": null,
+        "party": "pas",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "hishammuddin": {
+        "name_cn": null,
+        "party": "umno",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "idris ahmad": {
+        "name_cn": null,
+        "party": "pas",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "idris haron": {
+        "name_cn": null,
+        "party": "umno",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "jeff ooi": {
+        "name_cn": null,
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "khairy": {
+        "name_cn": null,
+        "party": "umno",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "lim guan eng": {
+        "name_cn": "林冠英",
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": [
+            "林家",
+            "林神",
+            "冠英",
+            "林大炮",
+            "林观音",
+            "林x英"
+        ]
+    },
+    "lim kit siang": {
+        "name_cn": "林吉祥",
+        "party": "dap",
+        "alias_en": [
+            "lks"
+        ],
+        "alias_cn": []
+    },
+    "liow tiong lai": {
+        "name_cn": "廖中莱",
+        "party": "mca",
+        "alias_en": [],
+        "alias_cn": [
+            "尿中莱",
+            "尿中来",
+            "廖中菜"
+        ]
+    },
+    "mah siew keong": {
+        "name_cn": "马袖强",
+        "party": "gerakan",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "mahathir": {
+        "name_cn": "马哈迪·莫哈末",
+        "party": "ppbm",
+        "alias_en": [],
+        "alias_cn": [
+            "马哈迪",
+            "老马",
+            "敦马",
+            "老番薯"
+        ]
+    },
+    "mahfuz omar": {
+        "name_cn": null,
+        "party": "pas",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "muhyiddin": {
+        "name_cn": null,
+        "party": "ppbm",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "mukhriz": {
+        "name_cn": null,
+        "party": "ppbm",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "najib": {
+        "name_cn": "纳吉·阿都拉萨",
+        "party": "umno",
+        "alias_en": [
+            "mo1",
+            "pm"
+        ],
+        "alias_cn": [
+            "纳吉",
+            "鸡哥",
+            "那鸡",
+            "那只鸡",
+            "纳鸡",
+            "阿鸡",
+            "鸡哥",
+            "大马1号哥",
+            "大马一号哥",
+            "一马哥",
+            "1马哥"
+        ]
+    },
+    "nik mohamad abduh nik abdul aziz": {
+        "name_cn": null,
+        "party": "pas",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "nik nazmi": {
+        "name_cn": null,
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "nurul izzah": {
+        "name_cn": null,
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "ong ka chuan": {
+        "name_cn": null,
+        "party": "mca",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "ong kian ming": {
+        "name_cn": null,
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "rafizi": {
+        "name_cn": "拉菲兹·南利",
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": [
+            "拉菲兹"
+        ]
+    },
+    "rosmah": {
+        "name_cn": "罗斯玛·曼梳",
+        "party": null,
+        "alias_en": [],
+        "alias_cn": [
+            "罗斯玛",
+            "螺丝玛",
+            "螺丝马",
+            "河马",
+            "罗死马"
+        ]
+    },
+    "samy vellu": {
+        "name_cn": null,
+        "party": "mic",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "shahrizat": {
+        "name_cn": null,
+        "party": "umno",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "shamsul iskandar": {
+        "name_cn": null,
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "sivarasa rasiah": {
+        "name_cn": null,
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "subramaniam": {
+        "name_cn": "苏巴马廉",
+        "party": "mic",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "tengku adnan tengku mansor": {
+        "name_cn": null,
+        "party": "umno",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "tengku razaleigh": {
+        "name_cn": null,
+        "party": "umno",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "teresa kok": {
+        "name_cn": "郭素沁",
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "tian chua": {
+        "name_cn": "蔡添强",
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "tony pua": {
+        "name_cn": "潘俭伟",
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "tuan ibrahim tuan man": {
+        "name_cn": null,
+        "party": "pas",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "wan azizah": {
+        "name_cn": null,
+        "party": "pkr",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "zairil khir johari": {
+        "name_cn": null,
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "chow kon yeow": {
+        "name_cn": "曹观友",
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "teh yee cheu": {
+        "name_cn": "郑雨周",
+        "party": "dap",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "wee ka siong": {
+        "name_cn": "魏家祥",
+        "party": "mca",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "koh tsu koon": {
+        "name_cn": "许子根",
+        "party": "gerakan",
+        "alias_en": [],
+        "alias_cn": []
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "amanah": {
+        "name_cn": "诚信党",
+        "parent_party": "pakatan harapan",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "bn": {
+        "name_cn": "国阵",
+        "parent_party": "barisan nasional",
+        "alias_en": ["barisan", "barisan nasional"],
+        "alias_cn": []
+    },
+    "dap": {
+        "name_cn": "行动党",
+        "parent_party": "pakatan harapan",
+        "alias_en": [],
+        "alias_cn": [
+            "行动党",
+            "行洞党",
+            "火箭",
+            "火贱"
+        ]
+    },
+    "gerakan": {
+        "name_cn": "民政",
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "ldp": {
+        "name_cn": null,
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "mca": {
+        "name_cn": "马华",
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": [
+            "卖花",
+            "卖华"
+        ]
+    },
+    "mic": {
+        "name_cn": "马来西亚印度国民大会党",
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": ["国大党"]
+    },
+    "pakatan harapan": {
+        "name_cn": "希盟",
+        "parent_party": "pakatan harapan",
+        "alias_en": [
+            "ph"
+        ],
+        "alias_cn": [
+            "希望联盟"
+        ]
+    },
+    "pakatan": {
+        "name_cn": "民联",
+        "parent_party": null,
+        "alias_en": [
+            "pakatan rakyat"
+        ],
+        "alias_cn": []
+    },
+    "ppbm": {
+        "name_cn": "土团党",
+        "parent_party": "pakatan harapan",
+        "alias_en": ["parti pribumi bersatu malaysia"],
+        "alias_cn": ["团结党", "土著团结党", "土着党"]
+    },
+    "pas": {
+        "name_cn": "马来西亚伊斯兰党",
+        "parent_party": null,
+        "alias_en": [],
+        "alias_cn": ["回教党", "伊党", "伊斯兰党"]
+    },
+    "pbb": {
+        "name_cn": null,
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "pbrs": {
+        "name_cn": null,
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "pbs": {
+        "name_cn": null,
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "pkr": {
+        "name_cn": "蓝眼",
+        "parent_party": "pakatan harapan",
+        "alias_en": ["keadilan"],
+        "alias_cn": ["公正党", "人民公正党"]
+    },
+    "myppp": {
+        "name_cn": null,
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "prs": {
+        "name_cn": null,
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "spdp": {
+        "name_cn": null,
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "supp": {
+        "name_cn": null,
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": []
+    },
+    "umno": {
+        "name_cn": "巫统",
+        "parent_party": "barisan nasional",
+        "alias_en": [],
+        "alias_cn": [
+            "巫桶",
+            "汚桶"
+        ]
+    }
+}

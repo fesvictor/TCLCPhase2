@@ -1,0 +1,303 @@
+﻿{
+	"amanah": {
+		"name_cn": "国家诚信党",
+		"parent_party": null,
+		"alias_en": [
+			"national trust party",
+			"amanah",
+			"pan"
+		],
+		"alias_cn": [
+			"誠信黨",
+			"诚信党"
+		]
+	},
+	"bn": {
+		"name_cn": "國陣,國民陣線",
+		"parent_party": null,
+		"alias_en": [
+			"the national front",
+			"barisan",
+			"barisan nasional"
+		],
+		"alias_cn": [
+			"国阵",
+			"國陣"
+		]
+	},
+	"dap": {
+		"name_cn": "行动党",
+		"parent_party": null,
+		"alias_en": [
+			"democratic action party",
+			"dap",
+			"dapig",
+			"rocket"
+		],
+		"alias_cn": [
+			"行动党",
+			"行洞党",
+			"火箭",
+			"火贱",
+			"行動黨",
+			"行洞黨",
+			"民行黨"
+		]
+	},
+	"gerakan": {
+		"name_cn": "馬來西亞民政運動",
+		"parent_party": null,
+		"alias_en": [
+			"the malaysian people's movement party",
+			"gelakan"
+		],
+		"alias_cn": [
+			"民政",
+			"民政党"
+		]
+	},
+	"keadilan": {
+		"name_cn": "人民公正党",
+		"parent_party": null,
+		"alias_en": [
+			"people's justice party",
+			"pkr"
+		],
+		"alias_cn": [
+			"蓝眼",
+			"藍眼",
+			"公正黨"
+		]
+	},
+	"kimma": {
+		"name_cn": "馬來西亞印裔穆斯林國民大會",
+		"parent_party": null,
+		"alias_en": [
+			"malaysia indian muslim congress",
+			"kongres india muslim malaysia"
+		],
+		"alias_cn": [
+			"大马印裔穆斯林大会"
+		]
+	},
+	"ldp": {
+		"name_cn": "自由民主党",
+		"parent_party": null,
+		"alias_en": [
+			"parti liberal demokratik",
+			"liberal demokratik party"
+		],
+		"alias_cn": [
+			"自民党"
+		]
+	},
+	"mca": {
+		"name_cn": "馬來西亞華人公會",
+		"parent_party": null,
+		"alias_en": [
+			"malaysian chinese association"
+		],
+		"alias_cn": [
+			"卖花",
+			"卖华",
+			"馬華公會",
+			"马华",
+			"馬華",
+			"卖花",
+			"卖华",
+			"mca",
+			"卖华1.0",
+			"麻花",
+			"刮阵麻花"
+		]
+	},
+	"mic": {
+		"name_cn": "马来西亚印度国民大会党",
+		"parent_party": null,
+		"alias_en": [
+			"malaysia indian congress"
+		],
+		"alias_cn": [
+			"国大党"
+		]
+	},
+	"pakatan harapan": {
+		"name_cn": "希望聯盟",
+		"parent_party": null,
+		"alias_en": [
+			"ph",
+			"pakaton harapan",
+			"pakatun harapan",
+			"ph"
+		],
+		"alias_cn": [
+			"希盟"
+		]
+	},
+	"pakatan rakyat": {
+		"name_cn": "人民聯盟",
+		"parent_party": null,
+		"alias_en": [
+			"pakatan rakyat"
+		],
+		"alias_cn": [
+			"民联"
+		]
+	},
+	"parti islam amanah negara": {
+		"name_cn": "誠信黨",
+		"parent_party": null,
+		"alias_en": [
+			"national trust party",
+			"pan",
+			"amanah"
+		],
+		"alias_cn": [
+			"誠信黨",
+			"诚信党"
+		]
+	},
+	"parti pribumi bersatu malaysia": {
+		"name_cn": "土著团结党",
+		"parent_party": null,
+		"alias_en": [
+			"the malaysian united indigenous party",
+			"ppbm",
+			"parti bersatu",
+			"parti bunga"
+		],
+		"alias_cn": [
+			"团结党"
+		]
+	},
+	"pas": {
+		"name_cn": "马来西亚伊斯兰党",
+		"parent_party": null,
+		"alias_en": [
+			"malaysian islamic party"
+		],
+		"alias_cn": [
+			"回教党",
+			"伊党",
+			"伊斯兰党"
+		]
+	},
+	"pbb": {
+		"name_cn": "砂拉越土著保守黨",
+		"parent_party": null,
+		"alias_en": [
+			"sarawak united bumiputera heritage party"
+		],
+		"alias_cn": [
+			"土保党"
+		]
+	},
+	"pbrs": {
+		"name_cn": "沙巴人民團結黨",
+		"parent_party": null,
+		"alias_en": [
+			"united sabah people 's party"
+		],
+		"alias_cn": [
+			"沙人团党"
+		]
+	},
+	"pbs": {
+		"name_cn": "沙巴團結黨",
+		"parent_party": null,
+		"alias_en": [
+			"united sabah party"
+		],
+		"alias_cn": [
+			"沙团结党"
+		]
+	},
+	"pkr": {
+		"name_cn": "人民公正党",
+		"parent_party": null,
+		"alias_en": [
+			"people 's justice party"
+		],
+		"alias_cn": [
+			"公正党",
+			"蓝眼"
+		]
+	},
+	"ppbm": {
+		"name_cn": "土着团结党",
+		"parent_party": null,
+		"alias_en": [
+			"the malaysian united indigenous party",
+			"ppbm",
+			"parti bersatu",
+			"parti bunga"
+		],
+		"alias_cn": [
+			"土团党"
+		]
+	},
+	"ppp": {
+		"name_cn": "人民進步黨",
+		"parent_party": null,
+		"alias_en": [
+			"people 's progressive party",
+			"myppp"
+		],
+		"alias_cn": [
+			"進步黨"
+		]
+	},
+	"prs": {
+		"name_cn": "砂拉越人民黨",
+		"parent_party": null,
+		"alias_en": [
+			"sarawak peoples party"
+		],
+		"alias_cn": [
+			"砂人民党"
+		]
+	},
+	"spdp": {
+		"name_cn": "民主进步党",
+		"parent_party": null,
+		"alias_en": [
+			"sarawak progressive democratic party"
+		],
+		"alias_cn": [
+			"民进党"
+		]
+	},
+	"supp": {
+		"name_cn": "砂拉越人民聯合黨",
+		"parent_party": null,
+		"alias_en": [
+			"sarawak united peoples ' party"
+		],
+		"alias_cn": [
+			"人联党"
+		]
+	},
+	"swp": {
+		"name_cn": "砂拉越工人党",
+		"parent_party": null,
+		"alias_en": [
+			"sarawak workers party"
+		],
+		"alias_cn": [
+			"工人党"
+		]
+	},
+	"umno": {
+		"name_cn": "馬來西亞全國巫人統一機構",
+		"parent_party": null,
+		"alias_en": [
+			"he united malays national organisation"
+		],
+		"alias_cn": [
+			"巫统",
+			"巫桶",
+			"汚桶",
+			"五桶"
+		]
+	}
+}
