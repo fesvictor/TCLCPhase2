@@ -1,0 +1,101 @@
+鸡 --> najib
+错
+废
+贪污
+假
+卖华 --> doesn't mention definitely MCA, if mention 1.0 -> MCA, 2.0 - > DAP
+骗
+狗
+差
+贪
+贱
+所谓 --> can be +ve or -ve
+极端
+活动 --> can be anything
+傻
+严重
+汉奸
+简单  --> can be anything
+厉害 --> can be anything
+欺骗
+出卖
+推翻 --> can be anything
+煽动
+屎 
+恨
+错误
+垃圾
+失败
+非法
+不对
+腐败
+策略 --> can be anything
+弱 
+教训
+不公
+保守
+无能
+可怜
+累
+笨
+似乎 --> can be anything
+恐怖
+背后
+独裁
+不利
+不当
+没用
+白痴
+随便
+洗脑
+不爽
+倒台
+不喜欢
+污蔑
+天真
+世俗 --> can be anything
+难以 --> can be anything
+不行
+讨厌
+卖国
+危险
+麻烦
+走狗
+糟糕
+唾弃
+懒
+贪腐
+负面
+憎
+可怕
+孤立
+盲目
+大便
+愚蠢
+无知
+轻易
+做戏
+幕后
+丢脸
+吃钱
+骗人
+老实 --> positive
+大炮
+落后
+荷兰
+投机 --> can be anything
+不清楚 --> can be anything
+没关系 --> can be anything
+废物
+辛苦 --> can be anything
+诈骗
+无力
+混乱
+贫穷
+弱势
+困难
+呸
+洗黑钱
+多事
+白白 --> can be anything
+混合 --> can be anything
