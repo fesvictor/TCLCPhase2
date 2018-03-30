@@ -1,0 +1,101 @@
+支持
+经济 --> neutral
+可能 --> neutral
+强
+希望
+其实 --> neutral
+民主 --> neutral
+公正
+根本 --> neutral
+肯定 --> neutral
+一定 --> neutral
+团结
+决定 --> neutral
+重要
+喜欢
+完全
+改变 --> neutral
+成功
+清楚
+公开
+清真 --> no meaning
+诚信
+真正
+自由
+基本 --> no meaning
+负责
+主要 --> no meaning
+简单 --> neutral
+精神
+安全
+公平
+最好
+最高
+明白
+中心 --> neutral
+自然 --> neutral
+承诺  --> neutral
+容易
+捍卫 --> neutral
+光耀 --> neutral
+明显  --> neutral
+依然  --> neutral
+确实   --> neutral
+现实 --> neutral
+必要 --> neutral
+信心
+标准 --> neutral
+贡献
+系统
+维护
+尊重
+积极
+关键
+好好
+便宜
+有钱 --> neutral
+实在
+有利
+有能力
+强大
+坦白 --> neutral
+大量 --> neutral
+显然 --> neutral
+正确
+合理
+开明
+正义
+稳定
+免费
+进步
+有效
+平等
+人和
+实际
+重点 --> neutral
+良好 
+随便 --> neutral
+和谐
+实际上 --> neutral
+合法
+重大 --> neutral
+基础 --> neutral
+高层 --> neutral
+正常 --> neutral
+明了  --> neutral
+传统 --> neutral
+主导 
+最新 --> neutral
+在行
+先进
+不错
+相当 --> neutral
+确定 --> neutral
+有用
+天真 --> neutral
+胜利
+最佳
+好过
+英明
+事实上 --> neutral
+和平
