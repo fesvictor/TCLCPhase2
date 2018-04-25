@@ -49,5 +49,8 @@ def correct_date_format_of_twitter(date):
     return year + month + day.zfill(2)
 
 
+from datetime import datetime
 def correct_date_format_of_facebook_json(epoch):
+    if type(epoch) == str:
+        return epoch.split('T')[0].replace('-', '')
     return time.strftime('%Y%m%d', time.localtime(epoch))
