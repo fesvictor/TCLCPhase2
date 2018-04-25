@@ -29,10 +29,10 @@ input_dir=../analysis/results
 output_dir=./results-json
 
 # Start and end period
-start_year=2017
-end_year=2017
-start_month=7
-end_month=12
+start_year=2018
+end_year=2018
+start_month=1
+end_month=4
 
 # Graph types
 graph_types=positive,negative,overall

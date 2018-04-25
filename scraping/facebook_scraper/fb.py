@@ -31,7 +31,7 @@ def strip_next_page_token(url):
 class FacebookScraper:
     def __init__(self, token):
         self.access_token = token
-        self.graph = facebook.GraphAPI(access_token=token, version="2.11")
+        self.graph = facebook.GraphAPI(access_token=token, version="2.12")
         
     def get_posts(self, page_ids, start_date, end_date, verbose=False):
         self.posts_list = []        
@@ -111,9 +111,6 @@ class FacebookScraper:
                 cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100)")
                 comments = []
 
-                if counter == 360:
-                    print(cursor)
-
                 if "comments" in cursor:
                     while "next" in cursor["comments"]["paging"]:
                         next_page = strip_next_page_token(cursor["comments"]["paging"]["next"])
@@ -170,9 +167,40 @@ class FacebookScraper:
         if not hasattr(self, 'posts_list'):
             raise Exception("get_posts is not ran yet")
 
-        posts = []
         counter = 1
         total_comment_count = 0
+        total_nested_comment_count = 0
+
+        for counter, post in enumerate(self.posts_list):
+            try:
+                post_id = post["id"]
+                if verbose:
+                    print("[%5d/%5d]" % (counter, len(self.posts_list)), end=' ')
+                
+                cursor = self.graph.get_object(id=post_id, fields="comments.limit(100){message,comment_count}")
+            
+                if "comments" in cursor:
+                    total_comment_count += len(cursor["comments"]["data"])
+                    for comment in cursor["comments"]["data"]:
+                        total_nested_comment_count += comment["comment_count"]
+                        total_comment_count += comment["comment_count"]
+                    while "next" in cursor["comments"]["paging"]:
+                        next_page = strip_next_page_token(cursor["comments"]["paging"]["next"])
+                        
+                        cursor = self.graph.get_object(id=post_id, fields="comments.after(%s).limit(100){message, comment_count}" % (next_page))
+                        total_comment_count += len(cursor["comments"]["data"])
+                        for comment in cursor["comments"]["data"]:
+                            total_nested_comment_count += comment["comment_count"]
+                            total_comment_count += comment["comment_count"]
+
+                if verbose:
+                    print("tcc: %8d   tncc: %8d" % (total_comment_count, total_nested_comment_count))
+            except facebook.GraphAPIError as e:
+                print(e)
+                self.reinsert_access_token()
+        self.total_comment_count = total_comment_count
+        self.total_nested_comment_count = 0
+        self.comment_count = {"Total comment count": total_comment_count, "Total nested comment count": total_nested_comment_count}
     
     def reinsert_access_token(self):
         n = notify2.Notification("Access token expired")

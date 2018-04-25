@@ -5,1042 +5,1287 @@
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
-            "mahathir",
-            "najib"
+            "najib",
+            "mahathir"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p0"
     },
     {
         "date": "20170723",
-        "value": "{unknown} jho low, the 'unofficial' consultant of 1mdb, a friend of najib's stepson.",
+        "value": "  jho low, the 'unofficial' consultant of 1mdb, a friend of najib's stepson",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p1"
+    },
+    {
+        "date": "20170723",
+        "value": "  salam dato rocky",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "najib"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
     },
     {
         "date": "20170723",
-        "value": "{rd.} salam dato rocky.\"then please give me the name of one malaysian individual who deserves or qualifies to be called a crony of najib razak.\"answer: razak baginda, deepak carpet and jho low.... to name the prominent few.at least, with dr.m's cronies such as ytl, ananda krishnan, syed mohktar bukhary... hundreds of thousand rakyat could earn a living and raise families, working for them. the gomen too could collect taxes in form of employees remuneration, corporate taxes and the wealth of dr.m's cronies... eternally, as long as their companies is doing well.however, with najib's cronies (razak baginda, deepak carpet and jho low)... what does the rakyat and gomen, get in return? lick their dick?",
+        "value": "\"then please give me the name of one malaysian individual who deserves or qualifies to be called a crony of najib razak",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "najib"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
     },
     {
         "date": "20170723",
-        "value": "{anonymous} the dedak has really damage you brain en rocky (pun intended for your datukship is illegitimate). najib only enrich himself, rosmah, his family and his advisor such as jho lo, farid ridzuan, habibur rahman and few other major dedakians...cant believe you didnt know that but dedak will do that to people",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "rosmah",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170723",
-        "value": "{rockybru} salam rd,the last line is not you, if i may just say. :-=)i knew jho lo's name would come u, though.. but if he was a crony of the prime minister, he wouldn't need to \"steal\" 1mdb's money, which is what he's been accused of, he would just need to ask the crony master what he wanted and he'd get it! no need to have trouble with the law.\"... razak baginda and deepak, to name the prominent few\"?more like scraping the barrel! neither deepak nor razak are big at all. certainly not when you put them side by side with the names of mahathir's so-called cronies that you have listed down (to name a few). at least you did not list \"china\"n as a najib crony because someone did!but i don't blame you, bro rd. ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170723",
-        "value": "{xnakdedak} latuk,you are forgetting a certain pink diamond wearer and her son, the wolf of wall st.also, those who got those cheques from mo1's ambank slush fund.hope to see you on that forensic trail soon : )",
+        "value": "\"answer: razak baginda, deepak carpet and jho low",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "najib"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": " to name the prominent few",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": "at least, with dr",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": "m's cronies such as ytl, ananda krishnan, syed mohktar bukhary",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": " hundreds of thousand rakyat could earn a living and raise families, working for them",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": " the gomen too could collect taxes in form of employees remuneration, corporate taxes and the wealth of dr",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": "m's cronies",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": " eternally, as long as their companies is doing well",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": "however, with najib's cronies (razak baginda, deepak carpet and jho low)",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": " what does the rakyat and gomen, get in return",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": " lick their dick",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p2"
+    },
+    {
+        "date": "20170723",
+        "value": "  the dedak has really damage you brain en rocky (pun intended for your datukship is illegitimate)",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "rosmah"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p3"
+    },
+    {
+        "date": "20170723",
+        "value": " najib only enrich himself, rosmah, his family and his advisor such as jho lo, farid ridzuan, habibur rahman and few other major dedakians",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "rosmah"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p3"
+    },
+    {
+        "date": "20170723",
+        "value": "cant believe you didnt know that but dedak will do that to people",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "rosmah"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p3"
+    },
+    {
+        "date": "20170723",
+        "value": "  salam rd,the last line is not you, if i may just say",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": " :-=)i knew jho lo's name would come u, though",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": " but if he was a crony of the prime minister, he wouldn't need to \"steal\" 1mdb's money, which is what he's been accused of, he would just need to ask the crony master what he wanted and he'd get it! no need to have trouble with the law",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": "\"",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": " razak baginda and deepak, to name the prominent few\"",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": "more like scraping the barrel! neither deepak nor razak are big at all",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": " certainly not when you put them side by side with the names of mahathir's so-called cronies that you have listed down (to name a few)",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": " at least you did not list \"china\"n as a najib crony because someone did!but i don't blame you, bro rd",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": " ",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "mahathir"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p4"
+    },
+    {
+        "date": "20170723",
+        "value": "  latuk,you are forgetting a certain pink diamond wearer and her son, the wolf of wall st",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p5"
+    },
+    {
+        "date": "20170723",
+        "value": "also, those who got those cheques from mo1's ambank slush fund",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p5"
+    },
+    {
+        "date": "20170723",
+        "value": "hope to see you on that forensic trail soon : )",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p5"
     },
     {
         "date": "20170718",
-        "value": "the mrt, if pakatan came to power ...",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "pakatan"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170718",
-        "value": "{anonymous} what dr.m and anwar gave was list of highways and ipps given to their cronies..if only they build the mrt during their time i wouldn't have wasted so much time on the road. and yes..this mrt is impressive, to me it's better than hong kong and london mrt ",
+        "value": "  what dr",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "anwar"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p6"
+    },
+    {
+        "date": "20170718",
+        "value": "m and anwar gave was list of highways and ipps given to their cronies",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "anwar"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p6"
+    },
+    {
+        "date": "20170718",
+        "value": "if only they build the mrt during their time i wouldn't have wasted so much time on the road",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "anwar"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p6"
+    },
+    {
+        "date": "20170718",
+        "value": " and yes",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "anwar"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p6"
+    },
+    {
+        "date": "20170718",
+        "value": "this mrt is impressive, to me it's better than hong kong and london mrt ",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "anwar"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p6"
     },
     {
         "date": "20170708",
-        "value": "what's even more remarkable than mahathir's \"remarkable political u-turn\" ...",
+        "value": "what's even more remarkable than mahathir's \"remarkable political u-turn\" ",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "mahathir"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p7"
     },
     {
         "date": "20170708",
-        "value": "{anonymous} biar lah saya zalim pada satu orang daripada saya zalim pada seluruh rakyat malaysia.saya tidak rela negara ini mempuanyi seorang pm yang mengamalkan hubungan sejenis.lebih kurang macam itu lah bunyi cakap madey semasa dia memecat, menangkap, menzalimi dan mencampakananwar ke dalam penjara.mudah nya madey lupa.sama ada orang tua ini sudah nyanyuk tahap gaban atau pun sememang nya dia ni bapa segala pembelit, pembohong, penipu dan penyamun",
+        "value": "  biar lah saya zalim pada satu orang daripada saya zalim pada seluruh rakyat malaysia",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "najib"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p8"
     },
     {
         "date": "20170708",
-        "value": "{rd.} salam dato rocky.\"this time he's said that anwar ibrahim (whose name, by the way, is today synonymous with sodomy because of mahathir) \"is a victim of political vendetta\".\"i'm sure... what dr.m meant was sodomy-ii, where rm9.5 million went into shafie's personnal bank account, although nancy sukri said he was only paid rm1000.i use to be against, that sodomite being pm too. but now, after 1mdb-jho low's shit hits the fan... i kind of, made a u-turn too... if that's what it take to rid kleptocracy. at least anwar sodomized/fucked just a few young men and a china-doll. and they themselves, voluntarily bend-over before him. but a kleptocrat, behind our back, literally sodomize the whole nation of 1malaysia... even the unborn.kleptocracy also brought about disgrace to agama, bangsa & negara... dato. sudah la islam dikaitkan dengan keganasan, sekarang dikaitkan pula dengan menyamun wang rakyat. saya malu dikaitkan dengan islam, dato.",
+        "value": "saya tidak rela negara ini mempuanyi seorang pm yang mengamalkan hubungan sejenis",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p8"
+    },
+    {
+        "date": "20170708",
+        "value": "lebih kurang macam itu lah bunyi cakap madey semasa dia memecat, menangkap, menzalimi dan mencampakananwar ke dalam penjara",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p8"
+    },
+    {
+        "date": "20170708",
+        "value": "mudah nya madey lupa",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p8"
+    },
+    {
+        "date": "20170708",
+        "value": "sama ada orang tua ini sudah nyanyuk tahap gaban atau pun sememang nya dia ni bapa segala pembelit, pembohong, penipu dan penyamun",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p8"
+    },
+    {
+        "date": "20170708",
+        "value": "  salam dato rocky",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
             "anwar",
             "mahathir",
-            "najib"
+            "1mdb"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
     },
     {
         "date": "20170708",
-        "value": "{anonymous} mahathir banyak sangat u-turn boleh kita nak percaya? letak mahathir tepi baik aku ambil/undi bn/umno yg rasa aku lebih baik/banyak berjasa/boleh dipercayai kan kan kan",
+        "value": "\"this time he's said that anwar ibrahim (whose name, by the way, is today synonymous with sodomy because of mahathir) \"is a victim of political vendetta\"",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": "\"i'm sure",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " what dr",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": "m meant was sodomy-ii, where rm9",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": "5 million went into shafie's personnal bank account, although nancy sukri said he was only paid rm1000",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": "i use to be against, that sodomite being pm too",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " but now, after 1mdb-jho low's shit hits the fan",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " i kind of, made a u-turn too",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " if that's what it take to rid kleptocracy",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " at least anwar sodomized/fucked just a few young men and a china-doll",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " and they themselves, voluntarily bend-over before him",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " but a kleptocrat, behind our back, literally sodomize the whole nation of 1malaysia",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " even the unborn",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": "kleptocracy also brought about disgrace to agama, bangsa & negara",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " dato",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " sudah la islam dikaitkan dengan keganasan, sekarang dikaitkan pula dengan menyamun wang rakyat",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": " saya malu dikaitkan dengan islam, dato",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "najib",
+            "anwar",
+            "mahathir",
+            "1mdb"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p9"
+    },
+    {
+        "date": "20170708",
+        "value": "  mahathir banyak sangat u-turn boleh kita nak percaya",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "umno",
-            "bn",
-            "mahathir"
+            "mahathir",
+            "bn"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p10"
+    },
+    {
+        "date": "20170708",
+        "value": " letak mahathir tepi baik aku ambil/undi bn/umno yg rasa aku lebih baik/banyak berjasa/boleh dipercayai kan kan kan",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "umno",
+            "mahathir",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p10"
     },
     {
         "date": "20170620",
-        "value": "{anonymous} rosmah & anaknya beli harta dari duit tabung yg mereka simpan puluhan  tahun pun orang masih tuduh mereka mencuri...tak adil dan bodoh betul rakyat malaysia ini.",
+        "value": "  rosmah & anaknya beli harta dari duit tabung yg mereka simpan puluhan  tahun pun orang masih tuduh mereka mencuri",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "rosmah"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p11"
     },
     {
         "date": "20170620",
-        "value": "{rahman} what rocky is saying is that mahathir is so great that he could instruct the doj to do whatever that he want",
+        "value": "tak adil dan bodoh betul rakyat malaysia ini",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "rosmah"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p11"
+    },
+    {
+        "date": "20170620",
+        "value": "  what rocky is saying is that mahathir is so great that he could instruct the doj to do whatever that he want",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
             "mahathir"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p12"
     },
     {
         "date": "20170619",
-        "value": "{shah} while the whole world is sensing something is amiss and pushing for accountability, only bn and bn is saying no wrong has been done.    1. the guardian (uk) reported:    https://www.theguardian.com/world/2017/jun/16/leonardo-dicaprio-returns-a-picasso-as-us-investigates-1mdb-scandal    -but no, the guardian is wrong. bn is correct.    2. the new york times (us) reported:    https://www.nytimes.com/2017/06/16/world/asia/1mdb-malaysia-najib-razak.html     but no, the ny times is wrong, bn is correct.    3. reuters (uk) reported:    http://www.reuters.com/article/us-malaysia-scandal-rosmah-iduskbn1970yk     but no, reuters is wrong, bn is correct.    4. al jazeera (qatar) reported:    http://www.aljazeera.com/news/2017/06/moves-seize-540m-malaysia-1mdb-fund-170616183309579.html     but no, aj is wrong, bn is correct.    5. financial times (uk) reported:    https://www.ft.com/content/c7669654-51e8-11e7-bfb8-997009366969     but no, ft is wrong, bn is correct.    6. the wall street journal (us) reported:    https://www.wsj.com/articles/u-s-targets-540-million-of-new-assets-in-1mdb-fraud-case-1497539922     but no, wsj is wrong, bn is correct.    7. fortune (us) reported:    http://fortune.com/2017/06/16/1mdb-leonardo-dicaprio-fund-picasso/     but no, fortune is wrong, bn is correct.    8. cnbc (us) reported:    http://www.cnbc.com/2017/06/16/us-acts-to-seize-assets-allegedly-looted-from-malaysia-fund-1mdb.html     but no, cnbc is wrong, bn is correct.    9. the australian (australia) reported: http://www.theaustralian.com.au/news/world/miranda-kerrs-diamonds-hit-by-1mdb-freeze/news-story/95d648d5bbd47b0792fb22653e569fd0     but no, the australian is wrong, bn is correct.",
+        "value": "  while the whole world is sensing something is amiss and pushing for accountability, only bn and bn is saying no wrong has been done",
         "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
         "source": "blog",
         "related_to": [
-            "bn",
-            "rosmah",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170617",
-        "value": "{anonymous} i think something is wrong with this judgement. judge is not always right for he is also a human being who is open to anything negative. a foreigner should not allowed to become adun here because his faith to the country is questionable. agree if citizenship of this adun is taken off, thus he is still not fit to be adun according to the constitution. the authority also should investigate further if similar thing happen to any other aduns and mps. i read there's one in perak dap representative.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "dap"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170617",
-        "value": "{bumi-non-malay} if a bangla can be bumiputera ....  a right originally intended for orang asli can be stolen and abuse by umno-pas malay bangsat negara.... and pujut speaker and election commission acting beyond their jurisdiction to enforce cowbouy is islam laws.....  to hell with malaysia system of justice and judiciary.  goes to show sultan-agong_govenor is islam will continue to condone is radical islam umno-pas chaotic agenda because they thinks their few guns can control the 99% malaysian sick of their ongoing felda corruption!!",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno",
-            "pas"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170616",
-        "value": "{rd.} salam ramadan dato rocky.to me... the first thing apandi or najib need to do... if they really wanted to show that nothing was wrong in 1mdb is to declassified all reports that have been osaed.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170616",
-        "value": "{m. bakri musa} few points to bear in mind so as to enlighten your readers as well as to put things in perspective. the doj lawsuit is a civil - not criminal - one. the pace of all civil suits in america is glacial, meaning, it is normal for it to take years before coming to trial. for another, the suit is againts the assets, not inviduals. of course those assets belong to someone, so indirectly it is a suit against their owners.  however if there is a criminal indictment initiated during the process, then the pace would hasten quickly as there is the axiom in law that justice delayed is justice denied. the only reason doj can \"campor tangan\" in the matter is because those funds to buy those assets flowed through american banks. even if low and aziz and mo1 could smuggle all those millions in their suitcases and diplomatic puches through the airport, they could still get into trouble.  in america, all cash transactions exceeding $10,000 must be reported to the authorities. so you cannot escape. the central crux of the matter is this:  where did all the money to acquire those properties come from?  in case of jho low one could concieveably believe it was family's wealth through years of hard work by his ancestors, as he claimed. for reza aziz?  wealth from his father? a nondescript malaysian army officer? stepfather najib, who had been government all his adult life? mother rosmah is the daugheter of a village school teacher from my kampung in ns. look at the house where she was born! no weatlh to speak of. however if you believe that some sheik in saudi araba was generous to give reza hundreds of millions for no apparent reason, as he claimed, then there is some mangrove swamps in lumut i can sell you.that my friend is the crux of the problem. until someone can give a better explanation, i believe the doj version. everything else is spin. ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "rosmah",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170616",
-        "value": "{anonymous} datuk rocky,i wish you will post my comments.1. if they have nothing to hide, why don't jho low allow himself to be questioned by cops here and elswhere?2. have you read the report? ramadhan month , don't lie.3. why don't mo1 and wife sue doj? serious allegations been made. need to clean oneself.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170614",
-        "value": "{xnakdedak} no maintenance culture?not true!the united states department of justice (doj) may have finally shed light on what happened to the us$620 million that malaysian official 1 (mo1) had returned to his \"donor\".in a latest civil forfeiture suit filing, the doj alleged that at least us$27.3 million was used to buy a 22-carat pink diamond pendant and necklace for mo1's wife.on june 2013, two months before the sum was returned, the doj said low had contacted jeweller lorraine schwartz, asking urgently for a diamond necklace with a \"18 carrot (sic) pink heart diamond\".the next month, schwartz travelled to monaco with a 22-carat pink diamond, to meet low as well as then aabar chief executive officer mohamed ahmed badawy al-husseiny aboard a yacht.also on board the yacht were the wife of mo1, and her friend - dubbed by the doj as \"malaysian friend\".on the yacht, the group purportedly discussed the design of the necklace which would hold the pink diamond.according to the doj, schwartz's next encounter with mo1's wife was in new york on sept 28 to show a layout of the necklace's design.najib and his wife rosmah mansor were in new york at the time for the un general assembly. najib addressed the assembly on sept 28.besides the us$27.3 million pink diamond necklace, the doj also accused low of purchasing 27 different 18-carat gold necklaces and bracelets for mo1's wife, worth a total of us$1.3 million.well maintained, i'd say.too well.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "rosmah",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170612",
-        "value": "{xnakdedak}  in the end, najib razak will have to step in, once again. like he had to with 1mdb and src, to manfully songlap billions into his own pockets.what a troubleshooter the bugis pirate is.i'm just in awe.ohhhhh by the way, \"eagle high najib\".google it, dear readers.the bugis pirate is corrupt everywhere - including felda. ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170612",
-        "value": "{shah} najib steps in?after stepping into public funds lah...see how he used his 1mdb stolen money in ambank?the pre-election cash bonanzas included a rm100,000,000 cheque handed to pertubuhan kebangsaan malaya bersatu (umno) 11th april 2013 a week after the election had been announced.  on 22nd april umno malaysia again received two further cheques of rm50 million each.individual cheques were also handed out to all umno and related bn divisions, for example badan perhubungan umno negeri pahang received rm15 million on 18th april and the following day, april 19th, umno penang received rm5 million. kelantan division received rm5 million on 10th april.amongst the many other similar payments was rm5 million both the umno state party of kedah and the mca selangor liason committee on 8th april and rm20 million to umno selangor on april 24th.  umno perak received its handout on april 29th of rm25 million with another five million each going to umno selangor and the mca selangor liason committee again the following day.  also on 30th april johor umno received rm25 million, less than a week before the election.the umno womens divisions also received significant pay outs, signifying the partys appreciation of the importance of winning the female vote: pergerakan puteri umno malaysia received a rm5 million cheque 27th february and pergerakan wanita umno selangor rm1.1 million 22nd march and wanita barisan nasional selangor rm1 million on 17th may.allied parties also received big money, for example the liberal democratic party received rm1 million 5th april, the malaysian indian congress received rm10 million on the 18th april and a further rm5 million 26th april. supp received rm2 million 20th march.  the previous year upco had received rm2 million, indeed over the election huge sums were dished out to sabah and particularly sarawak (of which more later).saudi storysince all this money came from stolen public funds, borrowed at punishing rates of interest under false pretenses, the ultimate cost to the malaysian taxpayer will be at least double the sums handed out in this exercise to buy votes for the ruling party, who was abusing its position in such a spectacular fashion.people are entitled to assume that a man who is willing to raid his countrys development fund, as well as the civil servant pension fund, the pilgrims fund, the farmers fund and doubtless other sources of public money, is unlikely to hesitate to attempt to bribe voters with a little of that money back in the form of payment for votes.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno",
-            "bn",
-            "supp",
-            "mca",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170612",
-        "value": "{anonymous} if najib has to keep stepping in to every ego driven mistake, it does serve any purpose to gave ministers and government representative chairmen.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170605",
-        "value": "najib's trojan horse?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170605",
-        "value": "{kapalperang} walaupun dikhabarkan di parlimen bahawa peguam hebat bertaraf 5 bintang ini hanya dibayar 1 ribu untuk khidmat guamannya, sesuatu yang tak masuk dek akal, pendedahan sensasi clare rewcastle had opened up a can of worms.peguam yang dikenali ramai kerana kepetahannya tiba-tiba kelu lidah tidak terkata. diam seribu bahasa. pm najib yang dikaitkan juga diam 2 ribu bahasa. nancy shukry diam 3 ribu bahasa. jabatan peguam negara diam 4 ribu bahasa. salleh keruak yang aktif menulis blog masih tiada entri baharu. blogger pro kerajaan seperti mykemut, ringgitbru dan cucu tok klepet diam dan sunyi sepi seolah-olah mengiyakan tuduhan clare.adakah pihak kerajaan hanya membiarkan isu ini tidak terjawab? sampai bila hendak berdiam diri? orang tua-tua kata diam tanda setuju. ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170601",
-        "value": "{xnakdedak} according to the documents obtained by sarawak report, the controversial lawyer muhammed shafee abdullah was one of the biggest individual recipients of money from najibs 1mdb slush fund accounts.shaffee, who is known to be an extremely close confidante of najib and who was controversially appointed as the public prosecutor during the appeal against the acquittal of opposition leader anwar ibrahim on sodomy charges in 2014, received two payments. 11th september 2013 najib paid him rm4,300,000 from his ambank account no 2112022011906 and again on 17th february 2014 he received rm5,200,000 from the same account. this account has been identified as having been funded by money stolen by the prime minister from the 1mdb subsidiary src, which had borrowed some rm4 billion from the civil service pension fund kwap.ag apandi inadvertently confirmed that finding by waving macc investigation papers showing the money trail into account no 2112022011906 in january 2016, at the very press conference during which he announced that no wrong-doings had been committed and he was closing down investigations into 1mdb.can a senior lawyer sue the sr?i guess so.let's wait, huh?next tuesday kut.when is the wsj being sued?next tuesday?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "anwar",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170601",
-        "value": "{anonymous} ya and continue to lick najib harder for there are bigger reward is waiting for ya...",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170529",
-        "value": "{anonymous} berapa gantang dedak najib supply bagi datok bulan ni ? raya dah nak mai ,kena lebih sikit lah kot",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170523",
-        "value": "mahathir's inevitable parting of ways with everybody else",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170513",
-        "value": "{labu8455} so what is your point latok ? i guess you must have been seeing najib as an angel of god given specially for malaysia....",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170504",
-        "value": "{anonymous} anonymous said...(9.06pm)\"dedak, sedap ke?malam, boleh tidur ke?\"dedak tentulah sedap. kalau tidak kejadah apa nak mempertahankan mo1 yg sudah pun kelihatan di-bogelkan seluroh dunia tapi penyokong dalam parti masih lagi tak nampak yg mo1 dah bogel pun.malam tak boleh tidur no problem...ada valium...carlsberg special brew,or jack daniels on the rock...boleh cover malu lagi...bukan buat tidur aja.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170504",
-        "value": "{xnakdedak} \"but why did you make all those accusations against the pm and about the so-called missing rm42 billion?\"they didn't.please post a link to any such claim made by the edge.pissing on fellow journos with fake accusations = not cool.malam, bolih tidur ke?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170504",
-        "value": "{anonymous} wow en rocky....consuming the dedak really brings out the true stupidity in you! trying to emulate your mo1 in being a moron i suppose...hehe",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170504",
-        "value": "{anonymous} hi rockybru, i'm a new comer in this blog. just wanted to point out to the above comments. can't you guys just accept the fact mo1 has was freed from fraud/corruption charges? you guys yang makan dedak kot. he did nothing wrong at all and there was already a bipartisan pac investigating this as well.about the 2.6 donation it is legally right in malaysia but ethically wrong for him to do so. so thats up to you guys to hate on him. but please stop with all these conspiracy \"macc,police,jabatan audit,bnm\" all takut/control by najib when he was acquitted of the allegation after their investigation. and the 42billion debt claimed by your holy grail malaysiakini,drm,the edge were nothing but a misleading statement.it was true but its 42 billion asset debt. who buys a 100k house with 10k downpayment and go tell everyone they are at 90k debt?so its a financial term but since most of you were so dumb you thought it was stolen,laundered somewhere else.its shameful on what opposition supporters can come out with. ingat semua support najib makan dedak ke? that kind of labelling shows how pathethic you guys are. ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170502",
-        "value": "{anonymous} is he the same person when brought to court found sheding tears some years ago when the sleeping pm's men went on a rampage at the corridor of power? is he the same person acted as a baggage man to a present minister in a pmo during sleeping pm' time?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170421",
-        "value": "{anonymous} aiya latuk lu bikin malu la, \"agreement to settle dispute\" bukan cakap itu najib talak culi 1mdb punya luit. ini macam punya \"agreement\" sapa pun boleh bikin mau cover up ma...",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170421",
-        "value": "{rd.} ehmmm... not even once, was jho low's name mention... by you or the straits time.by the looks of it... #hidup umno-najib, hidup jho low.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170421",
-        "value": "{anonymous} the doj has an avalanche of evidence regarding 1mdb. it does not need any further evidence to prosecute all those involved. it is just playing the waiting game. their time will come. the us will prosecute them all. and this new deal? well, it can't unlock the civil case - unless somebody from the umno administration gets on a plane to the us and takes the stand as a witness against the doj filing. we all know that will never happen. because contempt in the us courts will get you a few years for your trouble. and nobody has gone so far. ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170421",
-        "value": "{xnakdedak} whatever qualifications were achieved by mohd puad zakarshi, they plainly did not demand logic.because, the settlement by 1mdb doesnt undermine the doj case, to the contrary it confirms it. period.if 1mdb had really paid $3.5 billion in guarantee deposits to ipic, as najib continues to laughably claim, then malaysia would never have lost the arbitration case and been forced to pay back the $1.2 billion that ipic later bailed them out with.instead, the court would have pointed out that the bail out was just a third of the up-front deposit and ipic would actually still have over $2 billion of 1mdbs money left.this is not what has happened.  the settlement involves an agreement by 1mdb to pay back the bail out money and to take over the responsibility for the remainder of its debts.it is therefore a concrete admission by malaysia that it could not prove its claims that it had deposited a single cent let alone billions with ipic.and that means that the money trails supplied by the doj investigations, showing instead that all the money was siphoned off into a bogus bvi account to pay for jho low, rosmah and khadem al qubaisis fun and frolics, has been confirmed by the settlement and not weakened.it is plain as daylight, yet this minister of disinformation is attempting to say the opposite. how stupid does he think people are in malaysia?he is also asking people to believe that the payment is going to come from the monetisation of non-existant units that 1mdb also doesnt have, because all the petrosaudi money was funnelled into another off-shore company (good star limited) and stolen as well.puad says we should believe his story because the pms office said it (just like they said ipic received money which it didnt).so, who is going to believe this illogical and mendacious fellow when he goes on to say that najib wont be touching taxpayers funds to repay the debt?is there a single voter who believes that?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "rosmah",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170413",
-        "value": "{william arul} i'm thinking naming the bn candidates for the next election will be a task that will undertaken by the special minister. usually the job of the deputy prime minister. reckon?  ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "bn"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170412",
-        "value": "{rd.} - dalam diam-diam... najib akan mengakibatkan pupus dan lenyap ciri-ciri atau identity melayu seperti gasing, congkak, tapak-sireh, wau-bulan dan bangunan parlimen bersama bulan-sabit (melambangkan islam) menaungi bintang bersegi-14 yang telah sekian lama terpahat pada duit syiling-lama... bila dimansuhkan kegunaannya nanti... mungkin menjelang tn50.digantikan dengan syiling-baru ciptaan najib sebaik saja jadi pm yang bercorak atau bermotifkan, seolah-olah bintang-5 komunis dan bunga teratai.itu pun... melayu yang menyokong umno-najib masih buta, tak nampak dan sudah tentu mereka akan pekik... hidup melayu... dalam pau nanti.- dalam diam-diam... najib telah menghantar asset dan anggota atm untuk membantu arab saudi mengebom yemen, negara arab paling miskin di dunia sehingga tentera udara pun mereka tak mampu miliki.- dalam diam... negara kita telah bersubahat, membunuh anak-anak-kecil, orang-tua dan wanita yang tidak berdosa di yemen.- dalam diam... negara kita telah masuk-campur dalam pertelingkahan bodoh pak-pak arab, suka berbunuhan sesama sendiri yang menguntungkan negara kapir yang kuat & maju. kedua-dua pihak berlumba-lumba beli senjata dari negara kapir yang kaya untuk membunuh sesama sendiri. bodoh sunggoh puak-puak sunni & syiah ini.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170412",
-        "value": "{xnakdedak} \"kuala lumpur, april 15 ? prime minister datuk seri najib razak has urged barisan nasionals social media activists to go on the offensive against political rivals ahead of the next general elections.we have spent far too long in a defensive mode. enough. now is the time to attack, he said in a posting in his blog, after meeting some bn social media activists at an event yesterday.najib said that the response from the bn supporters must be swift and warned against a repeat of rumours that spread around during the 13th general elections.\"latuk,as the \"bapak ayam\" to a whole host of lesser \"dedakers\", i'm sure you'll take this to heart.heck, maybe you wrote mo1's speech : )",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "bn",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170407",
-        "value": "{drmpower} gentleman agreement is okay and often involved two gentlemensee my point there? it needs gentleman for this to work. khairy is a gentleman?norza is?gentleman is not only a gentle person per se, but also a person with statue and might and of course qualifiedis norza? is khairy? for the love of god, these two should clear the deck. nothing much to be missed if these two go. one is there because of fil the other his friend, and found guilty of something very fundamentalit seems being in wilderness doesnt cure his acute illnessyou want it then you fight for it",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "khairy"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170401",
-        "value": "{wak kasem} sirul has long not been on mahathir's crying calls.he had to stop on br1m cause opposition do not agree with him.it only left him with 1mdb. so far singapore case is only infringement of banking rules issue. do or pay the penalties and good bye.many countries claim to be investigating but came to meet aryl at 1mdb. us court now willing to hear jho loh's family application. soon 1mdb will be a lost cost.slowly and quietly najib solving one problem after another. bringing major investments after another. economy and employment will recover eventually.mahathir and his worshippers will be left with nothing but fake news and false facts to scream and bark on.the likes of outsyed, kadir, zam, firdaus, kcd, perkasa, ... reduced to stray dogs.mahathir sobbing over his losy ipps, crooked bridge and dead cronies. lets built a crooked bridge but as monument in kubang pasu to remember the most crooked msian that ever live and rose to be longest pm.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170401",
-        "value": "{anonymous} i wish i can migrate but i have no money..the reasons, najib and gst.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170401",
-        "value": "{anonymous} dalam diam pada pru akan datang pengundi yg celik akal tidak akan mengundi bn lagi.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "bn"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170401",
-        "value": "{rd.} the facts of the matters... nobody would made a fuss about implementing gst, if:-1. there were no billions of 1mdb-jho low's debts, some not accounted for.2. najib was not a spendthrift and had spend rakyat's money prudently. e.g... spend rm7.2 billions in his first 5 years as pm, on consultant & advisers. only when the country is short of money that he decided to consult universities' professors for advise.alas... his wife's jet-setting and extravagant shopping3. najib abides kpdnkk's jihad to eradicate the role of middlemen... such as razak baginda, deepak carpet & jho low... in government's dealings.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170401",
-        "value": "{best article by rocky} jadi, yang 51% tak sokong bn dan kerajaan najib juga patut migrate la ke mana-mana negara lain sebab cuma kat malaysia saja ada bn & najibapa punya logik???bodoh quietly enough la, ni go tell the whole world pulak!!!bukan main bodoh lagi kau ni rocky!",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "bn",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170331",
-        "value": "najib's school of diplomacy (don't mess with malaysia part ll)",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170331",
-        "value": "{xnakdedak} mo1 school of lying......najib has conveniently and mischievously failed to disclose the multiple elephants squeezed into the room, pua said before elaborating on the various debts or guarantees by putrajaya in relation to the state-owned investment firm.pua listed them as follows:a 30-year rm5 billion bond which is guaranteed by the federal government;two 10-year us$1.75 billion bonds which were guaranteed by abu dhabis international petroleum investment corporation (ipic) but have since been indemnified by the ministry of finance, incorporated (mof inc);10-year us$3 billion bond, guaranteed with a letter of support issued by the finance minister;us$1 billion advance by ipic, indemnified by mof inc; andat least us$230 million worth of interest payments by ipic on behalf of 1mdb, indemnified by mof inc.hence, the total amount of 1mdb debt still outstanding, and directly or indirectly guaranteed by the federal government are rm5 billion and at least us$7.73 billion, bringing it to a grand total of more than rm39 billion.this is despite the fact that the federal government has already bailed out 1mdbs real estate division by assuming 1mdbs rm2.4 billion worth of sukuk and another rm800 million borrowed from socso, pua said, adding that the rm39 billion was still outstanding despite 1mdb having already disposed of its power plant assets for a total of rm9.83 billion.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170331",
-        "value": "{saz} kami yang percaya kepada pm dan kerajaan sentiasa berdoa yang terbaik.insyallah...",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170331",
-        "value": "{anonymous} dlm diam najib curi duit 1mdb take tulis pun.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170314",
-        "value": "{rd.} salam dato rocky.what if... its the pm himself, not telling the truth to the public through bulletin-tv3?i heard him said on bulletin tv3... that forest city condos was being sold, leasehold for 99 years. upon hearing najib himself said so, immediately i felt very guilty then... because i'd just wrote in fb, complaining and swearing... kepala-bu**h la rakyat didahulukan... about it being sold freehold to foreigners, when... to its own rakyats gomen insisted... leasehold.i felt miserable the whole night for disseminating lies about najib and forest city then.luckily, the next morning when i was about to apologize to najib and my friends on fb, it turned out that it was najib who lied on tv3.so... i suppose tv3 should lead by example... use this sebenarnya.my portal to check on the authenticity of news before spreading \"half-truths and outright lies\" to the rakyat.salam again, dato.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170314",
-        "value": "{xnakdedak} sir,i have a question.i read on a blog that najib never got 2.6 billion in his ambank account because the swift code was wrong and \"it's not bullshit\" that the saudis gave him the money......in his ambank account.tolong lah.help me sense of these lunatic bloggers.\"sebenarnya......\"",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170308",
-        "value": "\"@#* yours, too!\", umno mp tells rafizi",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "rafizi",
-            "umno"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170308",
-        "value": "{you rock, rocky} my goodnessif a supposedly top news editor admire yb shahidan over his almost childish manner in parliament debate \"how seasoned umno politician yb shahidan kasim schooled pkr strategic-something yb rafizi\", this editor himself must be at least several class lower in his own mental faculty.this only enhance and provide further confirmation to what is rocky's real capability!",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "rafizi",
-            "umno",
-            "pkr"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170307",
-        "value": "{mohd jais bin jasin} mais denied the  existence of such a decree. it could means mais council intentionally gave the contractor a hard time for some intended purpose. what is it is not known. it is the usual practise of little napolean civil servants to give contractors a hardtime to extract kickback. once paid off, everything runs smoothly.the chairman is the state financial officer before the amla-charged ksu, dato ariff. if not him, top state government officials are also members of mais council. if not him, there are former top state government officials like dato khusrin, but he is said to be a straight arrow. we cannot discount anyone can we. worst case, there is also the mufti. suppose there is no kickback. possibly mais could be trying to divert the business away from redha to a subsidiary of mais. they just learn the scheme involved to raise finance and thought, \"ah, i can do that too!\"\"we been cheated!\" they claim. so they decide to do it themselves. then they should have dig up and learn how to undertake it themselves then just follow mahathir great con job called privatisation!this is the conflict of interest danger when govt outfit also insist on pursuing to do business. they should be doing what they know best and that is administer and govern. make it more efficient.its a shame of mais to act this way. they are supposed to set a good example. ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170306",
-        "value": "{rd.} salam dato.just wondering ...why they made dpm zahid looks 'bigger' than pm najib?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "ahmad zahid hamidi",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170306",
-        "value": "{anonymous} who will be pakatan's answer to najib, zahid and anifah?so far they can't even offer a pm-designate. mahathir was initially trying to sneak in mukhriz but it seem he maybe running in langkawi. it could be himself coz ppbm do not have much chance to win seats. pathetic of msia to have a 91 year old as pm.and deputy could be 80 something kit siang. two mortal enemies fighting each other for decades. can they work together after the initial honeymoon?malaysia will be moving backward instead of forward with old school antiques steering the country.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "ahmad zahid hamidi",
-            "pakatan",
-            "ppbm",
-            "mukhriz",
-            "mahathir",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170227",
-        "value": "{rd.} salam dato rocky.the last time, he did that too, with obama in the beast. i'm sure china is watching.well... he should better be careful whom he befriend, especially a war-monger.the saudis are chummy with us. in-fact they hosted an american military base where american jet-fighters took-off to bomb iraq and literally send saddam to the gallows. today... iraq is shia controlled. bodoh betol.unprovoked, the saudis, hand in glove with us, bombed yemen then coined the coalition of islamic nation against terrorist and najib was a part, of which jokowi steadfastly declined.as a matter of fact, najib discreetly send our boys for that coalition's military exercise, code-named, northern thunder.now... to the saudis, shias can also mean 'terrorist', because they are 'terrified' of shia's iran and technically in a proxy-war with them in yemen. i'm sure najib and king salman would talk about shia 'terror' too.well...to me, the malays should not get involve in arabic stupidity.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170227",
-        "value": "{al kelakerns} bro. adakah derma dari saudi di sah kan? lu kalau nak mengampu pon. look at the bigger picture bro. stakat selfie ini boleh membersehkan penyamunan najib terkutuk pada negara dan bangsa. you grow up brader. kami yang menbaca jaringanmu bukan anak anak.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170227",
-        "value": "{xnakdedak} meanwhile his statement the presence of king salman is sufficient to prove najib was telling the truth of course lacks logic or explanation.when other leaders visit malaysia it is not because they gave najib a billion dollars and when he visits other countries it is not because he gave the leader a billion dollars.unfortunately for najib, this is one of the worlds biggest corruption cases, so yes, not only will the opposition continue harping on about it, but so will global law enforcers who are busy closing in on the rm2.6 bn . and indeed all the additional payments that have now been identified going into najibs accounts from src, blackstone asia (bvi) etc.i guess your home country of singapore is insane, eh latuk?chasing 1mdb cases & prosecutions, when everyone on this side of the border really believes it's 100% halal.right?is the bugis worrier's fat chinese songlap clerk, jho low, going to escape?should he?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "bn",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170227",
-        "value": "{xnakdedak} \"raja salmon's visit may make you realise that, hey, he could have donated the rm2.6 billion, after all\".salman has been king since 2015.the bugis pirate's windfall was in 2013.how astonishing that neither he nor \"i saw the documents\" zahid just asks the saudis to forward the forensic evidence of the \"transfer\" to the 7 countries, and close the matter.why?because there isn't any.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "ahmad zahid hamidi"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170227",
-        "value": "{anonymous} kejap king salman kejap king aziz yg kasi. check the timeline.. hehe spin.. gaji buta betul cyber troppers umno nih.. -cam shial-",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170227",
-        "value": "{anonymous} defending the indefensible eh, latuk ? when najib goes to jail, what will you write in your blog ? \"bukan gua bikin?\" \"saya memang tak tahu.\" we trust the doj, the swiss ag, the singapore cad, more than we trust sycophants like you.godfather",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170224",
-        "value": "{xnakdedak} \"if our royals start attacking personalities who are not our political enemies or current national leaders and mbs in public, for the right or the wrong reasons, what then? will we still clap our hands and say, \"ampun tuanku\"?\"your \"current leader\" gave the royals the middle finger on the passing of the nsc (najib saving act).i think if you did a poll among them they won't be too happy with that.how funny that the minister of ass-kissing blogging from sabah can't remember that.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170224",
-        "value": "{penyokong kebenaran} dear rocky...i suggest that you just keep your comment to youself.you are one disgraceful 'dedak eater' who will do anything to please the current leadership...and of course to keep on attacking mahathir.remember...you once before said in your blog....'critise mahathir yes but dont demonise him'.i hold to that..but your action at this very moment...are all full of shits.you are just shit.now you are trying to get the monarch to support your course all are to please and show support to the leader who has been accused many times of robbing the rakyat's moneyplease be honest and accept the fact that the .'dedak' that you stuff in your stomach is also ours.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170224",
-        "value": "{anonymous} tun mahathir received a dk(1) johor in apr 1989 from almarhum sultan iskandar...",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170224",
-        "value": "{damansaraman} sultan marah mahathir sebab menyentuh isu forest city dimana sultan mempunyai kepentingan keuntungan secara langsung. bukan pun pasal mempertahankan bangsa johor.seorang menteri pusat malah dengan bongkak dan bangganya mengiakan kata-kata tuanku sebagai betul dan tepat.cuma dia lupa yang sultan juga mengkritik seorang menteri pusat yang bodoh kerana bercakap mengenai idea perluasan wilayah persekutuan.isunya, jika kini sultan secara terang mengkritik secara terbuka, apa akan jadi jika sultan mengkritik kepimpinan kerajaan? apakah menteri terlalu amat bijak dari kota belud akan sekali lagi melompat gembira? hiduplah dalam alam impian manapun, realitinya perkara itu bakal berlaku segera. lebih teruk pula jika sultan dan institusi raja pula dikritik balik oleh rakyat / kerajaan atau sesiapa sahaja atas nama hak demokrasi?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170224",
-        "value": "{anonymous} why did parliament follow mahathir in limiting sovereign immunity of the rulers to their official functions (acts) only and not any other acts? did something happen like a sultan gambling in uk and not being able to pay his losses and having the federal govt to pick up the bill (i have never heard of that) or worse still killing someone because the ruler was upset (good heavens - that never happened in malaysia).  it is time to be clear that if no such things happen, then the rulers have nothing to fear from the legislation limiting their immunity to official acts only. mega ignoramus.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170215",
-        "value": "{rd.} salam dato rocky.please note that i've always salam to you although i know you're not going to salam be back by publishing my comment. but... still i respect you for not blocking me like bigdog have done. anyway, i'm amazed that you and almost all najib's sympathizers are too scared to mention 1mdb and jho low's name. even the opposition is gagged, in parliament... that is.\"... with the way some 'jokers' in his own party are using a certain thorny international crisis to revive their political fortunes.\"'a certain thorny international crisis'.... ehmm... well, at least you acknowledge that najib's 1mdb with dubious jho low... is an 'international crisis' of which malaysia is famous, the world-over for a shameful reason... i.e... klepetocracy.thank you dato.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170215",
-        "value": "{xnakdedak} \"but najib needs to make sure that this man stays by his side on this final straight. jesters are a dime and a dozen as the general election draws closer; what the prime minister needs are people who take their work seriously and who put the people and the nation above their own politics and survival.\"latuk,can you see the \"yuuuuuge\" irony that the most debased display of \"their own politics and survival\" is the bugis lanun himself?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170215",
-        "value": "{jasa} bro rocky boleh pretend xtahu apa.tp zahid hamidi bergegas ke sabah.musa aman bakal diganti. anifah menunjukkan solidariti.tidakkan aneh azmin tidak menyatakan nama sesiapa tp zahid dgn yakin menyatakan bukan anifah aman.kalau bro rocky masih ingt zahid inilah juga yg mengaku bertemu dgn penderma penderma, bukan penderma sahaja.tp tidak lama kemudian apandi pula berkata hanya penderma sahaja dan sudah pun meninggal dunia.semoga ingatan rocky masih kuat",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "ahmad zahid hamidi"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170213",
-        "value": "{it.scheiss} i attended a talk by my remisier yesterday - a solidly pro-opposition man in a dap stronghold - and he told us that the uncertain times of 2016 are over for bursa malaysia and the kl composite index, and that with the strong likelihood that the u.s. economy will recover and do well this year, that with ge 14 coming, the government will likely spend more on infrastructure development, such as the mrt, with gradually rising crude oil prices, growing demand for palm oil (especially for biodiesel) it is likely that the shares of export-oriented companies, the construction industry and the oil & gas industry including o&g service industries will likely pick up, so watch the movement of share prices in these industries.whatever tariff measures the trump administration may implement, however malaysia's oil palm industry will not be affected especially where exports are to china and other countries besides the u.s.he also told us that shares of fgv are likely to recover and when they have recovered sufficiently, that is when najib could call the elections.i also believe that with investments from china, including the building of the east coast rail link, malaysian industries and workers are bound to benefit from the collateral benefits.so unless world war iii breaks out or something like that, the future looks promising for stock market investors and traders at least in 2017 and 2018.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "dap",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170210",
-        "value": "{rd.} errgh.... dato' rocky.7 years ago. 1mdb-jho low's billion of debt (some went missing) haven't hit the fan. hence that... \"prompting prime minister najib razak to thrown diplomatic caution to the wind and slam israel as \"world gangster\".today... he is quiet like a mouse. not even a word or twit about trump's executive orders to ban visitors from 7 muslim majority countries. iraq & libya are the countries the us ruined. yet, turn a blind eye towards saudi arabia whose citizens made-up most of sept-11 perpetrators.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170208",
-        "value": "{xnakdedak} \"but body language speaks clearly. not just kit siang's but also dr mahathir's. look at just how uneasy the old man is. lots of squirming and red faces back there, too. what an ordeal it must have been\"...oh, hardly.try all the honest journos and publications who've been locked up and shut down just for telling the truth about your master.try not to come off as a smug sell-out hack, hensum.not cool, kan : )",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170208",
-        "value": "{anonymous} latuk locky, you don wan to oso show how last time zahid hamili chided malaysiakini reporter ka ? lu mau cakap itu uncle lim talak baguik ka ? lu apa punya latuk ?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "ahmad zahid hamidi"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170208",
-        "value": "{hantu gigi jarang} yes, rci for both bmf and 1mdb/src. will support najib if usd2.6 is proven a \"donation\" and not in any way related to 1mdb.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170207",
-        "value": "{xnakdedak} \"it merely reaffirms my belief that malaysian politicians have actually proved, beyond reasonable doubts, that there are no permanent friends nor foes when it comes to their profession. lim kit siang and dr mahathir mohamad at the same press conference - one to receive zaid as dap member and the other to  congratulate him for the \"weird decision\" - you can't do better than that!\"errrrr........http://s147.photobucket.com/user/malaysianunplug/media/rockybigdogmahathir.jpg.htmlstones, glass houses, you know the drill.a bit amphibious, are we latuk?well, until your next post in 3 weeks time.....",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "dap",
-            "lim kit siang",
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170207",
-        "value": "{anonymous} what do you call paid umno  bloggers who has delusion of grandeurs? umno toadies!!",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170207",
-        "value": "{rd.} salam dato rocky.aiit... dah hilang posting 'kit siang wanabe trump'.tu la dato... bukan senang nak defend the indefensible.so... dato sokong ditubuhkan rci untuk korek scandal bmf & kerugian forex?dato kena ingat, tiada laporan yang di osa ketika scandal bmf & forex.tiada wang rakyat, masuk akaun sesiapa.semuanya... dibincang dalam kabinet dimana najib adalah sebahagian darinya.cuba bandingkan dengan 1mdb-jho low.mungkin selepas diadakan rci nanti... baru rakyat, terutamanya anak-anak muda, tahu bahawa bbmb - bank bumiputra malaysia berhad (induk bmf - bumiputra malaysia finance) telah bertukar menjadi cimb. maklumlah... bukan-melayu allergic pada perkataan bumiputra. adik najib amat sedar hakikat ini.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170207",
-        "value": "{rockybru} hope you enjoyed the motorcycle program, saudagar mimpi. but i don't see how this posting on zaid ibrahim joining dap is me \"playing with race sentiments\". dear rd,i checked again: the said posting [kit siang wannabe trump] is still there. ;-)http://www.rockybru.com.my/2017/02/watch-kit-siangs-trump-wannabe-moment.htmlas for rci on forex and bmf, it's pure politics lah. tun m taught najib and the younger malaysian politicians very well so he can't blame them for doing this on him. mahathir would have done this to his political enemies - no, he'd do worse to them - earlier!but if the rci happens, rakyat tak rugi. at least we'll get to know what really happened back then!",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "dap",
-            "mahathir",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170120",
-        "value": "{rd.} dear dato rocky.from chedet.\"16. let all transactions be transparent. publish all documents about the investments, the number of workers, their home countries, the buyers, the banks which finance and all expatriation of funds. do this honestly. no hiding. please dont ask a certain tunku aziz to verify. he may have been the malaysian head of transparency international, but he approves completely the stealing and the corruption of 1mdb.\"so... is the gomen under najib going to publish those 'fact & figures'.i bought my home, leased for a hundred years in selangor. therefore... i would like to know whether the gomen sold land to mainland chinese... on lease or freehold.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170120",
-        "value": "{xnakdedak} latukcepat sikit lah latuk.spending your gains in monte carlo ke?(don't be like kak lina ya : )come on bro...cut and paste on petrol, at least?article on annuar musa proving that umno is squeaky clean despite being \"led\" by the biggest thief in human history?\"endless possibilities\", bro....",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170120",
-        "value": "{xnakdedak} prima, another failed mo1 scam......\"the penang government's policies had allowed 20,887 affordable housing units to be built since 2008 with another 65,796 units to be built over the next 10 to 15 years.state exco member in charge of housing jagdeep singh deo said that in contrast, not a single affordable home under putrajaya's pr1ma and ppa1m housing scheme has been built in the state.\"ps: has your dedak supply been pulled or what?or still in monte carlo?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170116",
-        "value": "{it.scheiss} good that tuanku tarok mahathir kau kau.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170116",
-        "value": "{xnakdedak} even the yahudi pm cries about being \"toppled\"......\"tel aviv, jan 17  israeli prime minister benjamin netanyahu, who has been questioned by police in a corruption probe, yesterday denounced an unprecedented media campaign to bring down his government.police have questioned netanyahu in a probe into whether he unlawfully received gifts from wealthy supporters.they are also looking into a recording of a conversation he had with the owner of top-selling yedioth aharonot newspaper about getting favourable coverage.\"wow, what a bunch of sell-outs the yahudi journos are!he should hire a top-notch investigative journalist like you, latuk.look how you've single-handedly saved the global rep of the pink bugis jelly.a job well done.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170116",
-        "value": "{mahiadin} keling masuk umno terus jadi hero melayu",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "umno"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170111",
-        "value": "dr mahathir's 17th u-turn",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170111",
-        "value": "{mat cendana} if people say that \"too many\" projects in malaysia are by the chinese, then how many would be \"just right\"? among the realities that we are living with in the world right now is that china has the resources, as well as it being a major buyer of resources that it requires. we as the small fry must accept the realities and adapt accordingly to ensure that we too will benefit from situations. or we can choose to be hostile and make things difficult for china's investors. there will be less of their companies coming in as a result. but will that be beneficial to us all?the fact that these china companies are willing to risk their capital, time and energy in malaysia says something about their confidence in the country and its potentials. sure, it may be better if the investments are more balanced. i'm very sure najib would also be welcoming of companies from the us, europe, japan and middle east coming in with big projects. in fact, i believe he will also welcome the taliban should it want to come in with capital to develop some new port and township in malaysia.right now it's the chinese who are willing to invest in a big way. would be great if us and european companies were to come in too and counter-balance the chinese. but they have their own problems, priorities and plans. they might do so in future but for now it's better that we try to make the best of what is on the table.rather than scaremongering about china buying over malaysia, the more productive thing to do is to monitor these companies. among other things, to ensure that the benefits reach as many malaysians as possible. and not just the few with access to the government and investors.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170111",
-        "value": "{anonymous} kumpul lah dedak haram kamu tu din.....jatuh bn nanti dah tak boleh gi shopping",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "bn"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170111",
-        "value": "{anonymous} if bn jatuh, hope power not still with maddie. we can call for a special commission to investigate and put him and his family to trial.suggest maddie balik kerala or malbari or pakistan, whereby his root was.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "bn"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170111",
-        "value": "{anonymous} tak habis dgn dedak korang tuh..jatuh bn jatuh juga org melayu..melayu mmg seronok jadi loosers...dah jadi satu hobi pulak fitnah mengfitnah kpd bangsa sendiri. ",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "bn"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170111",
-        "value": "{rosmah badak} mati accident motor nanti mamat ni, byk mkn dedak najib sgt",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "rosmah",
-            "najib"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170111",
-        "value": "{mahiaddin} untuk pengikut mahathir sekalian, selamat mengundi lim kit siang.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "lim kit siang",
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170110",
-        "value": "small fries, big sharks: zahid defends the macc",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "ahmad zahid hamidi"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170110",
-        "value": "{rosmah badak} mr president of malaysia tak kena la zahid? you laa kat in malaysia ada mr president. you sudah gila la zahid? mau bikin komedi la bro?",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "rosmah",
-            "ahmad zahid hamidi"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170109",
-        "value": "if dr mahathir wins ...",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "mahathir"
-        ],
-        "semantic_value": "unassigned"
-    },
-    {
-        "date": "20170109",
-        "value": "{mat cendana} some of them look to be better than a few ministers that we have at the moment. now that najib is in a more solid position as compared to a year or so ago, he is now able to put in better people. i believe he will, in due time. one thing about najib is that he isn't hurried. which is a good and bad thing depending on the situations.anyway back to this list of shadow ministers - for one thing, they will have to actually win a seat in parliament first. it's true that many of them are already mps. but there's no guarantee they will retain their seats. especially those in pkr and pan. they had depended on the goodwill of pas supporters for the extra edge. but they don't have this anymore. pan doesn't bring anything to the table for pkr, dap and bersatu. setakat telor dua butir aje. bersatu... i'd say it's as strong as pan. which isn't a comforting compliment.going to save this list of shadow ministers. will be useful for a few laughs in the future.",
-        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
-        "source": "blog",
-        "related_to": [
-            "pas",
-            "dap",
+            "1mdb",
             "najib",
-            "pkr"
+            "rosmah",
+            "bn"
         ],
-        "semantic_value": "unassigned"
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "    1",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " the guardian (uk) reported:    https://www",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "theguardian",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "com/world/2017/jun/16/leonardo-dicaprio-returns-a-picasso-as-us-investigates-1mdb-scandal    -but no, the guardian is wrong",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " bn is correct",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "    2",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " the new york times (us) reported:    https://www",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "nytimes",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "com/2017/06/16/world/asia/1mdb-malaysia-najib-razak",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "html     but no, the ny times is wrong, bn is correct",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "    3",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " reuters (uk) reported:    http://www",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "reuters",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "com/article/us-malaysia-scandal-rosmah-iduskbn1970yk     but no, reuters is wrong, bn is correct",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "    4",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " al jazeera (qatar) reported:    http://www",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "aljazeera",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "com/news/2017/06/moves-seize-540m-malaysia-1mdb-fund-170616183309579",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "html     but no, aj is wrong, bn is correct",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "    5",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " financial times (uk) reported:    https://www",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "ft",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "com/content/c7669654-51e8-11e7-bfb8-997009366969     but no, ft is wrong, bn is correct",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "    6",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " the wall street journal (us) reported:    https://www",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "wsj",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "com/articles/u-s-targets-540-million-of-new-assets-in-1mdb-fraud-case-1497539922     but no, wsj is wrong, bn is correct",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "    7",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " fortune (us) reported:    http://fortune",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "com/2017/06/16/1mdb-leonardo-dicaprio-fund-picasso/     but no, fortune is wrong, bn is correct",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "    8",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": " cnbc (us) reported:    http://www",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "cnbc",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "com/2017/06/16/us-acts-to-seize-assets-allegedly-looted-from-malaysia-fund-1mdb",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
+    },
+    {
+        "date": "20170619",
+        "value": "html     but no, cnbc is wrong, bn is correct",
+        "origin": "scrape-results/blog/rockybru_20170801_160034.csv",
+        "source": "blog",
+        "related_to": [
+            "1mdb",
+            "najib",
+            "rosmah",
+            "bn"
+        ],
+        "semantic_value": "unassigned",
+        "belongs_to": "p13"
     }
 ]

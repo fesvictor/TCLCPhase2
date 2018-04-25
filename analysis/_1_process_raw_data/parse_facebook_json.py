@@ -12,7 +12,7 @@ Thus, I will ignore data that contain key "story".
 According to Dr. Victor, he said since post message will be neutral,
 we will not get its value, so we will only extract comments at the moment
 """
-EXTRACT_POST_MESSAGE = False
+EXTRACT_POST_MESSAGE = True
 
 def parse_facebook_json(file_path):
     result = []

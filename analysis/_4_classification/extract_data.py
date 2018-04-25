@@ -17,6 +17,8 @@ def extract_data(all_posts, start_date, end_date, language):
         if post['date'] != current.strftime("%Y%m%d"):
             current += timedelta(days=1)
             index += 1
+            if index >= length:
+                break
         for name in post['related_to']:
             if not name in data:
                 data[name] = create_semantic_object(length)
