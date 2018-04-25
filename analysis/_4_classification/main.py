@@ -9,8 +9,8 @@ from analysis.libs.log import log
 from analysis.libs.save_posts import save_posts
 import json
 
-START_DATE = '20170701'
-END_DATE = '20171231'
+START_DATE = '20180101'
+END_DATE = '20180430'
 
 
 def main(language):
