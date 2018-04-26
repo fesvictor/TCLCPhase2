@@ -20,7 +20,7 @@ def plot_graph(language, START_DATE, END_DATE):
             f"Month (e.g. 1 means January) [start={START_DATE},end={END_DATE}]")
         plt.ylabel("Frequency")
         plt.legend()
-        plt.savefig("analysis/_5_analyze_source/filtered_chinese_source.png")
+        plt.savefig(f"analysis/_5_analyze_source/filtered_{language}_source.png")
         # plt.show()
 
 

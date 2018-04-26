@@ -5,8 +5,8 @@ from analysis._5_analyze_source.group_dates import group_dates
 from analysis._5_analyze_source.plot_graph import plot_graph
 import json
 
-MIN_DATE = '20120601'
-MAX_DATE = '20180404'
+MIN_DATE = '20180101' 
+MAX_DATE = '20180430'
 
 
 def main(language):
@@ -14,7 +14,8 @@ def main(language):
     dir1 = '_1_process_raw_data/output' # use dir1 to analyze raw source
     dir2 = '_2_remove_unrelated_data' # use dir2 to analyze filtered source
     all_posts = load_posts(
-        f'analysis/{dir2}/{language}.json')
+        f'analysis/{dir1}/{language}.json')
+    all_posts = [x for x in all_posts if x["date"] != '']
     standardized = standardize_date_format(all_posts)
     dic = {}
     date_list = []
@@ -23,8 +24,9 @@ def main(language):
         date = p['date']
         if not source in dic:
             dic[source] = []
-        dic[source].append(date)
-        date_list.append(date)
+        if date > MIN_DATE:
+            dic[source].append(date)
+            date_list.append(date) 
     date_list = filter_date(date_list)
 
     for source_name in dic:

@@ -1,5 +1,5 @@
 Pytesting test_load_posts.py:.
-1 passed in 0.01 seconds
+1 passed in 0.00 seconds
 Pytesting test_parse_blog.py:.
 1 passed in 0.13 seconds
 Pytesting test_parse_carinet.py:.
@@ -9,22 +9,22 @@ Pytesting test_parse_facebook_csv.py:.
 Pytesting test_parse_jbtalks.py:.
 1 passed in 0.01 seconds
 Pytesting test_parse_lowyat.py:.
-1 passed in 0.39 seconds
+1 passed in 0.44 seconds
 Pytesting test_parse_twitter.py:..
-2 passed in 0.40 seconds
+2 passed in 0.41 seconds
 Pytesting test_label_post.py:.
 1 passed in 0.01 seconds
 Pytesting test_load_labels.py:..
 2 passed in 0.01 seconds
 no exist
 Pytesting test_extract_data.py:.
-1 passed in 0.02 seconds
+1 passed in 0.01 seconds
 Pytesting test_get_keywords.py:..
 2 passed in 0.01 seconds
 Pytesting test_replace_synonyms.py:.
 1 passed in 0.00 seconds
 Pytesting test_standardize_date_format.py:..
-2 passed in 0.01 seconds
+2 passed in 0.00 seconds
 Post-ifying scrapped data
 ---Parsing english posts
 ------Parsing files from scrape-results/blog/
@@ -33,37 +33,18 @@ Post-ifying scrapped data
 ------Parsing files from scrape-results/forum/lowyat/
 ------Parsing files from scrape-results/twitter/
 ---Saving output to analysis/_1_process_raw_data/output/english.json
----Number of english posts created : 92212
----Parsing chinese posts
-------Parsing files from scrape-results/facebook/chinese/
-------Parsing files from scrape-results/forum/jbtalks/
-------Parsing files from scrape-results/forum/carinet/
----Saving output to analysis/_1_process_raw_data/output/chinese.json
----Number of chinese posts created : 221841
+---Number of english posts created : 727686
 Removing unrelated posts
 ---Loading posts from analysis/_1_process_raw_data/output/english.json
----Number of removed posts = 63148
+---Number of removed posts = 566356
 ---Saving output to analysis/_2_remove_unrelated_data/english.json
----Loading chinese posts
----Loading posts from analysis/_1_process_raw_data/output/chinese.json
----Loading chinese labels from keywords/target/leader.json
-------157 chinese labels loaded
----Loading chinese labels from keywords/target/party.json
-------67 chinese labels loaded
----Labelling post
----Removing unrelated posts
----Number of removed posts = 168048
----Saving output to analysis/_2_remove_unrelated_data/chinese.json
 Labelling semantics for each posts
 ---Loading posts from analysis/_2_remove_unrelated_data/english.json
 ------Searching post that have negated positive words
-------Labelled 391 as negative posts which are identified by negated positive keywords
-------28673 posts left to be labelled
+------Labelled 1041 as negative posts which are identified by negated positive keywords
+------160289 posts left to be labelled
 ---Labelling semantic of english post
 ---Saving output to analysis/_3_label_semantic/english.json
----Loading posts from analysis/_2_remove_unrelated_data/chinese.json
----Labelling semantic of chinese post
----Saving output to analysis/_3_label_semantic/chinese.json
 DONE.
 Classifying posts
 Standardizing date format of each english posts
@@ -143,81 +124,6 @@ Replacing [ sarawak workers party, ] with 'swp'
 Replacing [ he united malays national organisation, ] with 'umno'
 ---Sorting post based on date
 ---Storing results to analysis/results/english_extracted.json
-Standardizing date format of each chinese posts
----Loading posts from analysis/_3_label_semantic/chinese.json
----Loading chinese labels
-Replacing [ 一马,  一马公司, ] with '一个马来西亚发展有限公司'
-Replacing [ 哈迪, ] with '哈迪阿旺'
-Replacing [ 阿末耶谷, ] with '阿末耶谷'
-Replacing [ 阿末诈死,  阿末扎希, ] with '阿末扎希·哈米迪'
-Replacing [ 拿督 datuk,  莫哈末阿玛, ] with '莫哈末阿玛阿都拉'
-Replacing [ 安华,  华哥, ] with '安华·依布拉欣'
-Replacing [ 阿兹敏阿里,  阿兹敏, ] with '阿兹敏阿里'
-Replacing [ 查尔斯, ] with '查尔斯圣地亚哥'
-Replacing [ 曾敏兴, ] with '曾敏兴'
-Replacing [ 希沙慕丁,  希山慕丁, ] with '希沙慕丁·宾·敦·侯赛因'
-Replacing [ 依德里斯阿末, ] with 'None'
-Replacing [ 依德里斯哈伦,  拿督斯里, ] with '依德里斯哈伦'
-Replacing [ 黄泉安, ] with '黄泉安'
-Replacing [ 卡巴星, ] with '卡巴星'
-Replacing [ kj,  凯里, ] with '凯里·嘉马鲁丁'
-Replacing [ 老板,  淋神,  神经病的人,  林大炮,  冠英,  林观音,  林x英,  槟首长,  林家,  林首长,  林神, ] with '林冠英'
-Replacing [ 林吉祥,  林老, ] with '林吉祥'
-Replacing [ 尿中莱,  鸟肿来,  廖中菜,  尿中来, ] with '廖中莱'
-Replacing [ 马袖强, ] with '马袖强'
-Replacing [ 老番薯,  马哈蒂,  pattern马,  马哈迪,  老马,  敦马,  老家伙,  跛马, ] with '马哈迪·莫哈末'
-Replacing [ 马夫兹, ] with '拿督马夫兹'
-Replacing [ 慕尤丁,  阿慕, ] with '丹斯里慕尤丁'
-Replacing [ 慕克利, ] with '慕克利兹'
-Replacing [ 阿基,  mo1,  那鸡,  大马一号哥,  那只鸡,  tun najib,  纳吉布,  jib gor,  垃圾,  那吉,  纳吉,  纳鸡,  1马哥,  大马1号哥,  一马哥,  鸡哥,  阿鸡,  老那鸡,  那贼,  鸡鸡, ] with '纳吉·阿都拉萨'
-Replacing [ 聂阿都,  聂阿卜杜勒, ] with '聂莫哈末阿都'
-Replacing [ 聂纳兹米, ] with '聂纳兹米'
-Replacing [ 努鲁,  努鲁伊莎, ] with '努尔· 伊扎· 安瓦尔'
-Replacing [ 黄家泉, ] with '黄家泉'
-Replacing [ 王建民, ] with '王建民'
-Replacing [ 拉菲兹, ] with '拉菲兹·南利'
-Replacing [ 河马,  罗斯玛,  罗死马,  国母,  螺丝玛,  螺丝马, ] with '罗斯玛·曼梳'
-Replacing [ 萨米· 维鲁, ] with '三美维鲁'
-Replacing [ 莎丽查, ] with '莎丽查'
-Replacing [ 三苏,  山苏依斯干达, ] with '三苏依斯干达'
-Replacing [ 西华, ] with '西华拉沙'
-Replacing [ 苏巴玛廉, ] with '苏巴马廉'
-Replacing [ 登姑• 阿德南, ] with '登姑• 阿德南• 宾• 登姑• 曼苏尔'
-Replacing [ 东姑拉沙里, ] with '东姑拉沙里'
-Replacing [ 郭素沁, ] with '郭素沁'
-Replacing [ 蔡添强, ] with '蔡添强'
-Replacing [ 潘俭伟, ] with '潘俭伟'
-Replacing [ 依布拉欣, ] with '端依布拉欣端曼'
-Replacing [ 旺姐,  旺· 阿兹沙, ] with '旺阿兹沙'
-Replacing [ 再里尔, ] with '基佐哈里'
-Replacing [ 曹观友, ] with '曹观友'
-Replacing [ 郑雨周, ] with '郑雨周'
-Replacing [ 魏家祥, ] with '魏家祥'
-Replacing [ 许子根,  好好先生, ] with '许子根'
-Replacing [ 诚信党, ] with '国家诚信党'
-Replacing [ 国阵, ] with '国阵,国民阵线'
-Replacing [ 行洞党,  火箭,  民行党,  行动党,  火贱, ] with '行动党'
-Replacing [ 民政,  民政党, ] with '马来西亚民政运动'
-Replacing [ 大马印裔穆斯林大会, ] with '马来西亚印裔穆斯林国民大会'
-Replacing [ 自民党, ] with '自由民主党'
-Replacing [ 卖花,  卖华,  马华公会,  mca,  麻花,  卖华1.0,  刮阵麻花,  马华, ] with '马来西亚华人公会'
-Replacing [ 国大党, ] with '马来西亚印度国民大会党'
-Replacing [ 希望联盟,  希盟, ] with '希望联盟'
-Replacing [ 民联, ] with '人民联盟'
-Replacing [ 伊斯兰党,  伊党,  回教党, ] with '马来西亚伊斯兰党'
-Replacing [ 土保党, ] with '砂拉越土着保守党'
-Replacing [ 沙人团党, ] with '沙巴人民团结党'
-Replacing [ 沙团结党, ] with '沙巴团结党'
-Replacing [ 蓝眼,  人民公正党,  公正党, ] with '人民公正党'
-Replacing [ 土团党,  土着党,  土着团结党,  团结党, ] with '土着团结党'
-Replacing [ 进步党, ] with '人民进步党'
-Replacing [ 砂人民党, ] with '砂拉越人民党'
-Replacing [ 民进党, ] with '民主进步党'
-Replacing [ 人联党, ] with '砂拉越人民联合党'
-Replacing [ 工人党, ] with '砂拉越工人党'
-Replacing [ 巫桶,  巫统,  汚桶,  五桶, ] with '马来西亚全国巫人统一机构'
----Sorting post based on date
----Storing results to analysis/results/chinese_extracted.json
 DONE
 Analyzing frequencies of each semantic keyword
 ---Analyzing positive keywords for english data
@@ -230,34 +136,35 @@ Analyzing frequencies of each semantic keyword
 ------Top 100 keywords are save as analysis/_6_analyze_keyword/english_top_negative_keywords.txt
 ------Plotting word cloud
 ------Saving word cloud as analysis/_6_analyze_keyword/english_negative_keywordcloud.png
----Analyzing positive keywords for chinese data
----Loading posts from analysis/_3_label_semantic/chinese.json
-------Top 100 keywords are save as analysis/_6_analyze_keyword/chinese_top_positive_keywords.txt
-------Plotting word cloud
-------Saving word cloud as analysis/_6_analyze_keyword/chinese_positive_keywordcloud.png
----Analyzing negative keywords for chinese data
----Loading posts from analysis/_3_label_semantic/chinese.json
-------Top 100 keywords are save as analysis/_6_analyze_keyword/chinese_top_negative_keywords.txt
-------Plotting word cloud
-------Saving word cloud as analysis/_6_analyze_keyword/chinese_negative_keywordcloud.png
 DONE.
 The following keywords are not found in english_extracted.json
 ['ahmah zahid hamidi',
- 'haron din',
+ 'charles anthony santiago',
+ 'chen man hin',
+ 'jeff ooi',
+ 'mahfuz omar',
  'nik mohamad abduh nik abdul aziz',
+ 'shamsul iskandar',
+ 'koh tsu koon',
  'kimma',
  'pbrs',
+ 'pbs',
  'spdp',
  'swp']
 The following keywords are not found in chinese_extracted.json
-['慕克利兹',
- '聂莫哈末阿都',
- '聂纳兹米',
+['哈伦丁',
+ '黄泉安',
+ '慕克利兹',
+ '三美维鲁',
  '莎丽查',
+ '苏巴马廉',
  '登姑• 阿德南• 宾• 登姑• 曼苏尔',
  '马来西亚印裔穆斯林国民大会',
+ '自由民主党',
  '沙巴人民团结党',
- '砂拉越人民党']
-The analysis process started at : Mon Mar 19 22:23:35 +08 2018
-The analysis process ended at   : Mon Mar 19 22:29:29 +08 2018
-The analysis process took 5 minutes 54 seconds. 
+ '沙巴团结党',
+ '砂拉越人民党',
+ '砂拉越工人党']
+The analysis process started at : Thu Apr 26 18:13:00 +08 2018
+The analysis process ended at   : Thu Apr 26 18:15:49 +08 2018
+The analysis process took 2 minutes 49 seconds. 
