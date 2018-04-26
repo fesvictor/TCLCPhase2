@@ -31,7 +31,7 @@ def strip_next_page_token(url):
 class FacebookScraper:
     def __init__(self, token):
         self.access_token = token
-        self.graph = facebook.GraphAPI(access_token=token, version="2.11")
+        self.graph = facebook.GraphAPI(access_token=token, version="2.12")
         
     def get_posts(self, page_ids, start_date, end_date, verbose=False):
         self.posts_list = []        
