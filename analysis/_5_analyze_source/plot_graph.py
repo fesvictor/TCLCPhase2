@@ -17,10 +17,11 @@ def plot_graph(language, START_DATE, END_DATE):
         plt.title(
             f"Scraped-result weightage from various sources ({language})")
         plt.xlabel(
-            f"Month (e.g. 1 means January) [start={'20170101'},end={END_DATE}]")
+            f"Month (e.g. 1 means January) [start={START_DATE},end={END_DATE}]")
         plt.ylabel("Frequency")
         plt.legend()
-        plt.show()
+        plt.savefig("analysis/_5_analyze_source/filtered_chinese_source.png")
+        # plt.show()
 
 
 def build_xticks(start_date, end_date):
