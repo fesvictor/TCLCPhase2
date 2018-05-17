@@ -65,8 +65,8 @@ function scrapeData(html): State {
     return {
         parliamentSeatsSummary: electionSummaries[0],
         parliamentSeats: seatss[0],
-        stateSeatsSummary: electionSummaries[1],
-        stateSeats: seatss[1],
+        stateSeatsSummary: electionSummaries[1] ? electionSummaries[1] : null,
+        stateSeats: seatss[1] ? seatss[1] : null,
     };
 }
 
@@ -160,7 +160,6 @@ function getVoteInfo($: CheerioStatic, parent: CheerioElement): VoteInfo {
             voteInfo.demographics = getDemographics($(element).text());
         }
     });
-    console.log(voteInfo);
     return voteInfo;
 }
 
@@ -173,17 +172,19 @@ function getVoterTurnout(input: string): VoterTurnout {
 }
 
 function getDemographics(input: string): Demographic {
-    const races: Race[] = input.split(";").map((x) => ({
-        type: x.split(" ")[0],
-        percentage: parseFloat(x.split(" ")[1].slice(0, -1)),
-    }));
+    const races: Race[] = input.split(";").map((x) => {
+        return {
+            type: x.trim().split(" ").slice(0, -1).join(" "),
+            percentage: parseFloat(x.split(" ").slice(-1)[0].slice(0, -1)),
+        };
+    });
     return { races };
 
 }
 
 function main() {
     const fs = require("fs");
-    STATE_NAMES.slice(1, 2).forEach((x) => {
+    STATE_NAMES.forEach((x) => {
         fs.readFile(`./htmls/${x}.html`, (error, data) => {
             if (error) {
                 console.log(error);

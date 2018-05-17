@@ -1,14 +1,13 @@
-export interface FinalOutput {
-    [statename: string]: State;  // e.g. for statement is "Perak"
-}
-
 export interface State {
-    electionSummary: ElectionSummary;
-    seats: Seat[];
+    parliamentSeatsSummary: ElectionSummary;
+    stateSeatsSummary: ElectionSummary;
+    parliamentSeats: Seat[];
+    stateSeats: Seat[];
 }
 
 export interface ElectionSummary {
-    partyDetail: PartyDetail;
+    pakatanSummaries: [number, number, number, number]; // [BN, PAS, PH, OTHERS]
+    partyDetails: PartyDetail[];
 }
 
 export interface PartyDetail {
@@ -21,7 +20,7 @@ export interface PartyDetail {
 // P stands for Parliament seats
 // S stands for State seats
 export interface Seat {
-    code: string;            // e.g. P114
+    codeName: string;        // e.g. P114
     name: string;            // e.g. Kepong
     relatedSeatCode: string; // e.g. P114
     contestants: Contestant[];
@@ -42,7 +41,8 @@ export interface VoteInfo {
     spoiltVotes: number;
     unreturnedVotes: number;
     voterTurnout: VoterTurnout;
-    demographic: Demographic;
+    demographics: Demographic;
+    incumbent: string; // Person in charge
 }
 
 export interface VoterTurnout {

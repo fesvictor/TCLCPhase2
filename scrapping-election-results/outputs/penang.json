@@ -1,0 +1,3964 @@
+{
+  "parliamentSeatsSummary": {
+    "pakatanSummaries": [
+      2,
+      0,
+      11,
+      0
+    ],
+    "partyDetails": [
+      {
+        "name": "DAP (PH)",
+        "wonSeats": 7,
+        "contestingSeats": 7
+      },
+      {
+        "name": "PKR (PH)",
+        "wonSeats": 4,
+        "contestingSeats": 4
+      },
+      {
+        "name": "BN",
+        "wonSeats": 2,
+        "contestingSeats": 13
+      },
+      {
+        "name": "AMANAH (PH)",
+        "wonSeats": 0,
+        "contestingSeats": 1
+      },
+      {
+        "name": "PAS",
+        "wonSeats": 0,
+        "contestingSeats": 7
+      },
+      {
+        "name": "PPBM (PH)",
+        "wonSeats": 0,
+        "contestingSeats": 1
+      },
+      {
+        "name": "PCM",
+        "wonSeats": 0,
+        "contestingSeats": 1
+      },
+      {
+        "name": "MUP",
+        "wonSeats": 0,
+        "contestingSeats": 5
+      },
+      {
+        "name": "PFP",
+        "wonSeats": 0,
+        "contestingSeats": 1
+      },
+      {
+        "name": "IND",
+        "wonSeats": 0,
+        "contestingSeats": 1
+      }
+    ]
+  },
+  "parliamentSeats": [
+    {
+      "codeName": "P41",
+      "name": "KEPALA BATAS",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Reezal Merican Naina Merican",
+          "partyName": "BN - UMNO",
+          "voteCount": 22459,
+          "votePercentage": 37.1
+        },
+        {
+          "isWinner": false,
+          "name": "Zaidi Zakaria",
+          "partyName": "PH - AMANAH",
+          "voteCount": 17723,
+          "votePercentage": 29.3
+        },
+        {
+          "isWinner": false,
+          "name": "Siti Mastura Muhammad",
+          "partyName": "PAS",
+          "voteCount": 12120,
+          "votePercentage": 20
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 60523,
+        "majority": 4736,
+        "spoiltVotes": 715,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 53127,
+          "percentage": 87.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 78.56
+            },
+            {
+              "type": "Chinese",
+              "percentage": 17.02
+            },
+            {
+              "type": "Indian",
+              "percentage": 4.17
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.06
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.06
+            },
+            {
+              "type": "Others",
+              "percentage": 0.13
+            }
+          ]
+        },
+        "incumbent": "Reezal Merican Naina Merican"
+      }
+    },
+    {
+      "codeName": "P42",
+      "name": "TASEK GELUGOR",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Shabudin Yahaya",
+          "partyName": "BN - UMNO",
+          "voteCount": 18547,
+          "votePercentage": 30.5
+        },
+        {
+          "isWinner": false,
+          "name": "Marzuki Yahya",
+          "partyName": "PH - PPBM",
+          "voteCount": 18466,
+          "votePercentage": 30.3
+        },
+        {
+          "isWinner": false,
+          "name": "Rizal Hafiz Ruslan",
+          "partyName": "PAS",
+          "voteCount": 14891,
+          "votePercentage": 24.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 60850,
+        "majority": 81,
+        "spoiltVotes": 689,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 0,
+          "percentage": 0
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 78.23
+            },
+            {
+              "type": "Chinese",
+              "percentage": 14.71
+            },
+            {
+              "type": "Indian",
+              "percentage": 6.59
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.12
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.15
+            },
+            {
+              "type": "Others",
+              "percentage": 0.21
+            }
+          ]
+        },
+        "incumbent": "Shabudin Yahaya"
+      }
+    },
+    {
+      "codeName": "P43",
+      "name": "BAGAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Lim Guan Eng",
+          "partyName": "PH - DAP",
+          "voteCount": 51653,
+          "votePercentage": 72.2
+        },
+        {
+          "isWinner": false,
+          "name": "Lee Beng Seng",
+          "partyName": "BN - MCA",
+          "voteCount": 7751,
+          "votePercentage": 10.8
+        },
+        {
+          "isWinner": false,
+          "name": "Huan Cheng Guan",
+          "partyName": "PCM",
+          "voteCount": 502,
+          "votePercentage": 0.7
+        },
+        {
+          "isWinner": false,
+          "name": "Koay Xing Boon",
+          "partyName": "MUP",
+          "voteCount": 181,
+          "votePercentage": 0.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 71583,
+        "majority": 43902,
+        "spoiltVotes": 463,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 60642,
+          "percentage": 84.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 13.35
+            },
+            {
+              "type": "Chinese",
+              "percentage": 71.27
+            },
+            {
+              "type": "Indian",
+              "percentage": 15.03
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.05
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.28
+            }
+          ]
+        },
+        "incumbent": "Lim Guan Eng"
+      }
+    },
+    {
+      "codeName": "P44",
+      "name": "PERMATANG PAUH",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Nurul Izzah Anwar",
+          "partyName": "PH - PKR",
+          "voteCount": 35534,
+          "votePercentage": 43.4
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Zaidi Mohd Said",
+          "partyName": "BN - UMNO",
+          "voteCount": 19866,
+          "votePercentage": 24.3
+        },
+        {
+          "isWinner": false,
+          "name": "Afnan Hamimi Taib Azamudden",
+          "partyName": "PAS",
+          "voteCount": 14428,
+          "votePercentage": 17.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 81789,
+        "majority": 15668,
+        "spoiltVotes": 658,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 70686,
+          "percentage": 86.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 71.94
+            },
+            {
+              "type": "Chinese",
+              "percentage": 21.41
+            },
+            {
+              "type": "Indian",
+              "percentage": 6.16
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.07
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.06
+            },
+            {
+              "type": "Others",
+              "percentage": 0.36
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P45",
+      "name": "BUKIT MERTAJAM",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Sim Chee Keong",
+          "partyName": "PH - DAP",
+          "voteCount": 63784,
+          "votePercentage": 71.7
+        },
+        {
+          "isWinner": false,
+          "name": "Gui Guat Lye",
+          "partyName": "BN - MCA",
+          "voteCount": 10907,
+          "votePercentage": 12.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 88998,
+        "majority": 52877,
+        "spoiltVotes": 1109,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 75977,
+          "percentage": 85.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 19.34
+            },
+            {
+              "type": "Chinese",
+              "percentage": 70.36
+            },
+            {
+              "type": "Indian",
+              "percentage": 9.95
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.06
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.26
+            }
+          ]
+        },
+        "incumbent": "Sim Chee Keong"
+      }
+    },
+    {
+      "codeName": "P46",
+      "name": "BATU KAWAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Kasthuriraani Patto",
+          "partyName": "PH - DAP",
+          "voteCount": 42683,
+          "votePercentage": 65.3
+        },
+        {
+          "isWinner": false,
+          "name": "Jayanthi Devi Balaguru",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 9130,
+          "votePercentage": 14
+        },
+        {
+          "isWinner": false,
+          "name": "Jay Kumar Balakrishna",
+          "partyName": "PAS",
+          "voteCount": 2636,
+          "votePercentage": 4
+        },
+        {
+          "isWinner": false,
+          "name": "Ooi Khar Giap",
+          "partyName": "PFP",
+          "voteCount": 256,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 65394,
+        "majority": 33553,
+        "spoiltVotes": 675,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 55479,
+          "percentage": 84.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 20.94
+            },
+            {
+              "type": "Chinese",
+              "percentage": 55.87
+            },
+            {
+              "type": "Indian",
+              "percentage": 22.76
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.08
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.06
+            },
+            {
+              "type": "Others",
+              "percentage": 0.3
+            }
+          ]
+        },
+        "incumbent": "Kasthuriraani Patto"
+      }
+    },
+    {
+      "codeName": "P47",
+      "name": "NIBONG TEBAL",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mansor Othman",
+          "partyName": "PH - PKR",
+          "voteCount": 35395,
+          "votePercentage": 48.2
+        },
+        {
+          "isWinner": false,
+          "name": "Shaik Hussein Mydin",
+          "partyName": "BN - UMNO",
+          "voteCount": 19578,
+          "votePercentage": 26.7
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Helmi Haron",
+          "partyName": "PAS",
+          "voteCount": 6875,
+          "votePercentage": 9.4
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Tee Beng",
+          "partyName": "IND",
+          "voteCount": 331,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 73383,
+        "majority": 15817,
+        "spoiltVotes": 860,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 63199,
+          "percentage": 86.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 47.7
+            },
+            {
+              "type": "Chinese",
+              "percentage": 35.03
+            },
+            {
+              "type": "Indian",
+              "percentage": 16.95
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.07
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.2
+            }
+          ]
+        },
+        "incumbent": "Mansor Othman"
+      }
+    },
+    {
+      "codeName": "P48",
+      "name": "BUKIT BENDERA",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Wong Hon Wai",
+          "partyName": "PH - DAP",
+          "voteCount": 50049,
+          "votePercentage": 66.7
+        },
+        {
+          "isWinner": false,
+          "name": "Andy Yong Kim Seng",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 9318,
+          "votePercentage": 12.4
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Gim Theam",
+          "partyName": "MUP",
+          "voteCount": 339,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 75069,
+        "majority": 40731,
+        "spoiltVotes": 512,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 60429,
+          "percentage": 80.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 14.65
+            },
+            {
+              "type": "Chinese",
+              "percentage": 72.83
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.29
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.09
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.09
+            },
+            {
+              "type": "Others",
+              "percentage": 1.05
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P49",
+      "name": "TANJONG",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Chow Kon Yeow",
+          "partyName": "PH - DAP",
+          "voteCount": 34663,
+          "votePercentage": 69.9
+        },
+        {
+          "isWinner": false,
+          "name": "Ng Siew Lai",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 5064,
+          "votePercentage": 10.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 49586,
+        "majority": 29599,
+        "spoiltVotes": 347,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 40130,
+          "percentage": 80.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 5.89
+            },
+            {
+              "type": "Chinese",
+              "percentage": 84.17
+            },
+            {
+              "type": "Indian",
+              "percentage": 9.55
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.04
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.31
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P50",
+      "name": "JELUTONG",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Sanisvara Nethaji Rayer Rajaji",
+          "partyName": "PH - DAP",
+          "voteCount": 50700,
+          "votePercentage": 65.9
+        },
+        {
+          "isWinner": false,
+          "name": "Baljit Singh Jigiri Singh",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 12529,
+          "votePercentage": 16.3
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Sim Bee",
+          "partyName": "MUP",
+          "voteCount": 437,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 76991,
+        "majority": 38171,
+        "spoiltVotes": 720,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 64584,
+          "percentage": 83.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 22.62
+            },
+            {
+              "type": "Chinese",
+              "percentage": 65.21
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.67
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.06
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.39
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P51",
+      "name": "BUKIT GELUGOR",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ramkarpal Singh Karpal Singh",
+          "partyName": "PH - DAP",
+          "voteCount": 65622,
+          "votePercentage": 71.6
+        },
+        {
+          "isWinner": false,
+          "name": "Low Joo Hiap",
+          "partyName": "BN - MCA",
+          "voteCount": 9671,
+          "votePercentage": 10.6
+        },
+        {
+          "isWinner": false,
+          "name": "Lai Xue Ching",
+          "partyName": "MUP",
+          "voteCount": 412,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 91595,
+        "majority": 55951,
+        "spoiltVotes": 528,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 76489,
+          "percentage": 83.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 14.33
+            },
+            {
+              "type": "Chinese",
+              "percentage": 73.86
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.27
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.06
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.45
+            }
+          ]
+        },
+        "incumbent": "Ramkarpal Singh Karpal Singh"
+      }
+    },
+    {
+      "codeName": "P52",
+      "name": "BAYAN BARU",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Sim Tze Tzin",
+          "partyName": "PH - PKR",
+          "voteCount": 51555,
+          "votePercentage": 56.8
+        },
+        {
+          "isWinner": false,
+          "name": "Chuah Seng Guan",
+          "partyName": "BN - MCA",
+          "voteCount": 13804,
+          "votePercentage": 15.2
+        },
+        {
+          "isWinner": false,
+          "name": "Iszuree Ibrahim",
+          "partyName": "PAS",
+          "voteCount": 8757,
+          "votePercentage": 9.6
+        },
+        {
+          "isWinner": false,
+          "name": "David Yim Boon Leong",
+          "partyName": "MUP",
+          "voteCount": 733,
+          "votePercentage": 0.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 90780,
+        "majority": 37751,
+        "spoiltVotes": 762,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 75884,
+          "percentage": 83.6
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 39.6
+            },
+            {
+              "type": "Chinese",
+              "percentage": 48.51
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.02
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.19
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.18
+            },
+            {
+              "type": "Others",
+              "percentage": 0.49
+            }
+          ]
+        },
+        "incumbent": "Sim Tze Tzin"
+      }
+    },
+    {
+      "codeName": "P53",
+      "name": "BALIK PULAU",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Muhammad Bakhtiar Wan Chik",
+          "partyName": "PH - PKR",
+          "voteCount": 25471,
+          "votePercentage": 43.1
+        },
+        {
+          "isWinner": false,
+          "name": "Hilmi Yahaya",
+          "partyName": "BN - UMNO",
+          "voteCount": 19007,
+          "votePercentage": 32.2
+        },
+        {
+          "isWinner": false,
+          "name": "Muhammad Imran Muhammad Sa'ad",
+          "partyName": "PAS",
+          "voteCount": 5298,
+          "votePercentage": 9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 59086,
+        "majority": 6464,
+        "spoiltVotes": 631,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 50564,
+          "percentage": 85.6
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 64.9
+            },
+            {
+              "type": "Chinese",
+              "percentage": 30.16
+            },
+            {
+              "type": "Indian",
+              "percentage": 4.43
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.15
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.1
+            },
+            {
+              "type": "Others",
+              "percentage": 0.27
+            }
+          ]
+        },
+        "incumbent": "Hilmi Yahaya"
+      }
+    }
+  ],
+  "stateSeatsSummary": {
+    "pakatanSummaries": [
+      2,
+      1,
+      37,
+      0
+    ],
+    "partyDetails": [
+      {
+        "name": "DAP (PH)",
+        "wonSeats": 19,
+        "contestingSeats": 19
+      },
+      {
+        "name": "PKR (PH)",
+        "wonSeats": 14,
+        "contestingSeats": 14
+      },
+      {
+        "name": "BN",
+        "wonSeats": 2,
+        "contestingSeats": 40
+      },
+      {
+        "name": "PPBM (PH)",
+        "wonSeats": 2,
+        "contestingSeats": 3
+      },
+      {
+        "name": "AMANAH (PH)",
+        "wonSeats": 2,
+        "contestingSeats": 3
+      },
+      {
+        "name": "PAS",
+        "wonSeats": 1,
+        "contestingSeats": 21
+      },
+      {
+        "name": "PRM",
+        "wonSeats": 0,
+        "contestingSeats": 16
+      },
+      {
+        "name": "MUP",
+        "wonSeats": 0,
+        "contestingSeats": 20
+      },
+      {
+        "name": "PFP",
+        "wonSeats": 0,
+        "contestingSeats": 11
+      },
+      {
+        "name": "PAP",
+        "wonSeats": 0,
+        "contestingSeats": 2
+      }
+    ]
+  },
+  "stateSeats": [
+    {
+      "codeName": "N1",
+      "name": "PENAGA",
+      "relatedSeatCode": "P41",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mohd Yusni Mat Piah",
+          "partyName": "PAS",
+          "voteCount": 8530,
+          "votePercentage": 44.7
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Zain Ahmad",
+          "partyName": "BN - UMNO",
+          "voteCount": 7398,
+          "votePercentage": 38.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 19089,
+        "majority": 1132,
+        "spoiltVotes": 843,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 16801,
+          "percentage": 88
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 91.92
+            },
+            {
+              "type": "Chinese",
+              "percentage": 7.5
+            },
+            {
+              "type": "Indian",
+              "percentage": 0.39
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.05
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.1
+            }
+          ]
+        },
+        "incumbent": "Mohd Zain Ahmad"
+      }
+    },
+    {
+      "codeName": "N2",
+      "name": "BERTAM",
+      "relatedSeatCode": "P41",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Khaliq Mehtab Mohd Ishaq",
+          "partyName": "PH - PPBM",
+          "voteCount": 6485,
+          "votePercentage": 35.3
+        },
+        {
+          "isWinner": false,
+          "name": "Shariful Azhar Othman",
+          "partyName": "BN - UMNO",
+          "voteCount": 6268,
+          "votePercentage": 34.1
+        },
+        {
+          "isWinner": false,
+          "name": "Mokhtar Ramly",
+          "partyName": "PAS",
+          "voteCount": 2986,
+          "votePercentage": 16.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 18378,
+        "majority": 217,
+        "spoiltVotes": 211,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 15984,
+          "percentage": 87
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 67.98
+            },
+            {
+              "type": "Chinese",
+              "percentage": 22.81
+            },
+            {
+              "type": "Indian",
+              "percentage": 8.86
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.1
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.1
+            },
+            {
+              "type": "Others",
+              "percentage": 0.16
+            }
+          ]
+        },
+        "incumbent": "Shariful Azhar Othman"
+      }
+    },
+    {
+      "codeName": "N3",
+      "name": "PINANG TUNGGAL",
+      "relatedSeatCode": "P41",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ahmad Zaki Yuddin Ahmad Rahman",
+          "partyName": "PH - PKR",
+          "voteCount": 7754,
+          "votePercentage": 33.6
+        },
+        {
+          "isWinner": false,
+          "name": "Roslan Saidin",
+          "partyName": "BN - UMNO",
+          "voteCount": 7627,
+          "votePercentage": 33.1
+        },
+        {
+          "isWinner": false,
+          "name": "Bukhori Ghazali",
+          "partyName": "PAS",
+          "voteCount": 4622,
+          "votePercentage": 20
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 23056,
+        "majority": 127,
+        "spoiltVotes": 296,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 20396,
+          "percentage": 88.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 75.92
+            },
+            {
+              "type": "Chinese",
+              "percentage": 20.29
+            },
+            {
+              "type": "Indian",
+              "percentage": 3.56
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.05
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.05
+            },
+            {
+              "type": "Others",
+              "percentage": 0.13
+            }
+          ]
+        },
+        "incumbent": "Roslan Saidin"
+      }
+    },
+    {
+      "codeName": "N4",
+      "name": "PERMATANG BERANGAN",
+      "relatedSeatCode": "P42",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Nor Hafizah Othman",
+          "partyName": "BN - UMNO",
+          "voteCount": 6870,
+          "votePercentage": 32.5
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Sobri Saleh",
+          "partyName": "PAS",
+          "voteCount": 6224,
+          "votePercentage": 29.5
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Shariff Omar",
+          "partyName": "PH - PPBM",
+          "voteCount": 5021,
+          "votePercentage": 23.8
+        },
+        {
+          "isWinner": false,
+          "name": "Azman Shah Othman",
+          "partyName": "PRM",
+          "voteCount": 24,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 21120,
+        "majority": 646,
+        "spoiltVotes": 296,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 18622,
+          "percentage": 88.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 84.84
+            },
+            {
+              "type": "Chinese",
+              "percentage": 7.15
+            },
+            {
+              "type": "Indian",
+              "percentage": 7.82
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.03
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.12
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N5",
+      "name": "SUNGAI DUA",
+      "relatedSeatCode": "P42",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Muhamad Yusoff Mohd Noor",
+          "partyName": "BN - UMNO",
+          "voteCount": 7314,
+          "votePercentage": 35.6
+        },
+        {
+          "isWinner": false,
+          "name": "Zahadi Mohd",
+          "partyName": "PAS",
+          "voteCount": 5380,
+          "votePercentage": 26.2
+        },
+        {
+          "isWinner": false,
+          "name": "Yusri Ishak",
+          "partyName": "PH - AMANAH",
+          "voteCount": 5115,
+          "votePercentage": 24.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 20558,
+        "majority": 1934,
+        "spoiltVotes": 207,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 18066,
+          "percentage": 87.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 83.01
+            },
+            {
+              "type": "Chinese",
+              "percentage": 14.53
+            },
+            {
+              "type": "Indian",
+              "percentage": 2.17
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.12
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.05
+            },
+            {
+              "type": "Others",
+              "percentage": 0.11
+            }
+          ]
+        },
+        "incumbent": "Muhamad Yusoff Mohd Noor"
+      }
+    },
+    {
+      "codeName": "N6",
+      "name": "TELOK AYER TAWAR",
+      "relatedSeatCode": "P42",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mustafa Kamal Ahmad",
+          "partyName": "PH - PKR",
+          "voteCount": 7072,
+          "votePercentage": 36.9
+        },
+        {
+          "isWinner": false,
+          "name": "Zamri Che Ros",
+          "partyName": "BN - UMNO",
+          "voteCount": 4869,
+          "votePercentage": 25.4
+        },
+        {
+          "isWinner": false,
+          "name": "Mohamad Hanif Haron",
+          "partyName": "PAS",
+          "voteCount": 3900,
+          "votePercentage": 20.3
+        },
+        {
+          "isWinner": false,
+          "name": "Lee Thian Hong",
+          "partyName": "PRM",
+          "voteCount": 88,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 19172,
+        "majority": 2203,
+        "spoiltVotes": 219,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 16198,
+          "percentage": 84.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 65.8
+            },
+            {
+              "type": "Chinese",
+              "percentage": 23.21
+            },
+            {
+              "type": "Indian",
+              "percentage": 9.96
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.22
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.38
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.42
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N7",
+      "name": "SUNGAI PUYU",
+      "relatedSeatCode": "P43",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Phee Boon Poh",
+          "partyName": "PH - DAP",
+          "voteCount": 21705,
+          "votePercentage": 78.4
+        },
+        {
+          "isWinner": false,
+          "name": "Lim Hai Song",
+          "partyName": "BN - MCA",
+          "voteCount": 2136,
+          "votePercentage": 7.7
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Lay Hock",
+          "partyName": "PRM",
+          "voteCount": 101,
+          "votePercentage": 0.4
+        },
+        {
+          "isWinner": false,
+          "name": "Neoh Bok Keng",
+          "partyName": "MUP",
+          "voteCount": 79,
+          "votePercentage": 0.3
+        },
+        {
+          "isWinner": false,
+          "name": "Ong Yin Yin",
+          "partyName": "PFP",
+          "voteCount": 51,
+          "votePercentage": 0.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 27671,
+        "majority": 19569,
+        "spoiltVotes": 137,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 24234,
+          "percentage": 87.6
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 6.42
+            },
+            {
+              "type": "Chinese",
+              "percentage": 85.87
+            },
+            {
+              "type": "Indian",
+              "percentage": 7.47
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.03
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.19
+            }
+          ]
+        },
+        "incumbent": "Phee Boon Poh"
+      }
+    },
+    {
+      "codeName": "N8",
+      "name": "BAGAN JERMAL",
+      "relatedSeatCode": "P43",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Soon Lip Chee",
+          "partyName": "PH - DAP",
+          "voteCount": 18134,
+          "votePercentage": 70.8
+        },
+        {
+          "isWinner": false,
+          "name": "Ang Chor Keong",
+          "partyName": "BN - MCA",
+          "voteCount": 2898,
+          "votePercentage": 11.3
+        },
+        {
+          "isWinner": false,
+          "name": "Hari Devyndran Muniswaran",
+          "partyName": "MUP",
+          "voteCount": 106,
+          "votePercentage": 0.4
+        },
+        {
+          "isWinner": false,
+          "name": "Teoh Chai Deng",
+          "partyName": "PRM",
+          "voteCount": 74,
+          "votePercentage": 0.3
+        },
+        {
+          "isWinner": false,
+          "name": "Fabian George Albart",
+          "partyName": "PFP",
+          "voteCount": 30,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 25621,
+        "majority": 15236,
+        "spoiltVotes": 185,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 21459,
+          "percentage": 83.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 14.74
+            },
+            {
+              "type": "Chinese",
+              "percentage": 69.36
+            },
+            {
+              "type": "Indian",
+              "percentage": 15.49
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.06
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.32
+            }
+          ]
+        },
+        "incumbent": "Soon Lip Chee"
+      }
+    },
+    {
+      "codeName": "N9",
+      "name": "BAGAN DALAM",
+      "relatedSeatCode": "P43",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Satees Muniandy",
+          "partyName": "PH - DAP",
+          "voteCount": 10701,
+          "votePercentage": 58.5
+        },
+        {
+          "isWinner": false,
+          "name": "Dhinagaran Jayabalan",
+          "partyName": "BN - MIC",
+          "voteCount": 3918,
+          "votePercentage": 21.4
+        },
+        {
+          "isWinner": false,
+          "name": "Teoh Uat Lye",
+          "partyName": "MUP",
+          "voteCount": 51,
+          "votePercentage": 0.3
+        },
+        {
+          "isWinner": false,
+          "name": "Teoh Huck Ping",
+          "partyName": "PRM",
+          "voteCount": 45,
+          "votePercentage": 0.2
+        },
+        {
+          "isWinner": false,
+          "name": "Jasper Ooi Zong Han",
+          "partyName": "PFP",
+          "voteCount": 36,
+          "votePercentage": 0.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 18291,
+        "majority": 6783,
+        "spoiltVotes": 164,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14948,
+          "percentage": 81.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 21.87
+            },
+            {
+              "type": "Chinese",
+              "percentage": 51.85
+            },
+            {
+              "type": "Indian",
+              "percentage": 25.81
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.09
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.02
+            },
+            {
+              "type": "Others",
+              "percentage": 0.36
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N10",
+      "name": "SEBERANG JAYA",
+      "relatedSeatCode": "P44",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Afif Bahardin",
+          "partyName": "PH - PKR",
+          "voteCount": 16014,
+          "votePercentage": 45.1
+        },
+        {
+          "isWinner": false,
+          "name": "Abu Bakar Sidekh Zainul Abidin",
+          "partyName": "BN - UMNO",
+          "voteCount": 8593,
+          "votePercentage": 24.2
+        },
+        {
+          "isWinner": false,
+          "name": "Ahmad Rafaei Rashid",
+          "partyName": "PAS",
+          "voteCount": 5540,
+          "votePercentage": 15.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 35541,
+        "majority": 7421,
+        "spoiltVotes": 268,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 30496,
+          "percentage": 85.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 66.66
+            },
+            {
+              "type": "Chinese",
+              "percentage": 20.76
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.93
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.11
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.1
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.43
+            }
+          ]
+        },
+        "incumbent": "Afif Bahardin"
+      }
+    },
+    {
+      "codeName": "N11",
+      "name": "PERMATANG PASIR",
+      "relatedSeatCode": "P44",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Muhammad Faiz Fadzil",
+          "partyName": "PH - AMANAH",
+          "voteCount": 9708,
+          "votePercentage": 39.1
+        },
+        {
+          "isWinner": false,
+          "name": "Muhammad Fauzi Yusoff",
+          "partyName": "PAS",
+          "voteCount": 6727,
+          "votePercentage": 27.1
+        },
+        {
+          "isWinner": false,
+          "name": "Anuar Faisal Yahaya",
+          "partyName": "BN - UMNO",
+          "voteCount": 4979,
+          "votePercentage": 20.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 24811,
+        "majority": 2981,
+        "spoiltVotes": 191,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 21659,
+          "percentage": 87.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 74.37
+            },
+            {
+              "type": "Chinese",
+              "percentage": 23.75
+            },
+            {
+              "type": "Indian",
+              "percentage": 1.69
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.04
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.14
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N12",
+      "name": "PENANTI",
+      "relatedSeatCode": "P44",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Norlela Ariffin",
+          "partyName": "PH - PKR",
+          "voteCount": 8221,
+          "votePercentage": 38.3
+        },
+        {
+          "isWinner": false,
+          "name": "Suhaimi Sabudin",
+          "partyName": "BN - UMNO",
+          "voteCount": 5277,
+          "votePercentage": 24.6
+        },
+        {
+          "isWinner": false,
+          "name": "Muhammad Fawwaz Mohamad Jan",
+          "partyName": "PAS",
+          "voteCount": 4791,
+          "votePercentage": 22.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 21437,
+        "majority": 2944,
+        "spoiltVotes": 176,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 18526,
+          "percentage": 86.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 77.87
+            },
+            {
+              "type": "Chinese",
+              "percentage": 19.78
+            },
+            {
+              "type": "Indian",
+              "percentage": 1.78
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.05
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.48
+            }
+          ]
+        },
+        "incumbent": "Norlela Ariffin"
+      }
+    },
+    {
+      "codeName": "N13",
+      "name": "BERAPIT",
+      "relatedSeatCode": "P45",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Heng Lee Lee",
+          "partyName": "PH - DAP",
+          "voteCount": 18378,
+          "votePercentage": 77.3
+        },
+        {
+          "isWinner": false,
+          "name": "Goh Swee Gim",
+          "partyName": "BN - MCA",
+          "voteCount": 1397,
+          "votePercentage": 5.9
+        },
+        {
+          "isWinner": false,
+          "name": "Lee Poh Kong",
+          "partyName": "PFP",
+          "voteCount": 105,
+          "votePercentage": 0.4
+        },
+        {
+          "isWinner": false,
+          "name": "Song Chee Meng",
+          "partyName": "PRM",
+          "voteCount": 84,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 23779,
+        "majority": 16981,
+        "spoiltVotes": 202,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 20207,
+          "percentage": 85
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 4.31
+            },
+            {
+              "type": "Chinese",
+              "percentage": 85.31
+            },
+            {
+              "type": "Indian",
+              "percentage": 9.98
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.04
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.33
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N14",
+      "name": "MACHANG BUBUK",
+      "relatedSeatCode": "P45",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Lee Khai Loon",
+          "partyName": "PH - PKR",
+          "voteCount": 21819,
+          "votePercentage": 58.6
+        },
+        {
+          "isWinner": false,
+          "name": "Md Jamil Abd Rahman",
+          "partyName": "PAS",
+          "voteCount": 5072,
+          "votePercentage": 13.6
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Teik Cheng",
+          "partyName": "BN - MCA",
+          "voteCount": 4658,
+          "votePercentage": 12.5
+        },
+        {
+          "isWinner": false,
+          "name": "Tang Ah Ba",
+          "partyName": "PRM",
+          "voteCount": 53,
+          "votePercentage": 0.1
+        },
+        {
+          "isWinner": false,
+          "name": "Lim Jhun Hou",
+          "partyName": "MUP",
+          "voteCount": 28,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 37260,
+        "majority": 16747,
+        "spoiltVotes": 376,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 32138,
+          "percentage": 86.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 34.94
+            },
+            {
+              "type": "Chinese",
+              "percentage": 53
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.72
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.08
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.23
+            }
+          ]
+        },
+        "incumbent": "Lee Khai Loon"
+      }
+    },
+    {
+      "codeName": "N15",
+      "name": "PADANG LALANG",
+      "relatedSeatCode": "P45",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Chong Eng",
+          "partyName": "PH - DAP",
+          "voteCount": 20764,
+          "votePercentage": 74.3
+        },
+        {
+          "isWinner": false,
+          "name": "Kuan Hin Yeep",
+          "partyName": "BN - MCA",
+          "voteCount": 2400,
+          "votePercentage": 8.6
+        },
+        {
+          "isWinner": false,
+          "name": "Lai Yean Nee",
+          "partyName": "PRM",
+          "voteCount": 154,
+          "votePercentage": 0.6
+        },
+        {
+          "isWinner": false,
+          "name": "Liew Ee Jin",
+          "partyName": "PFP",
+          "voteCount": 101,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 27959,
+        "majority": 18364,
+        "spoiltVotes": 224,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 23694,
+          "percentage": 84.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 11.35
+            },
+            {
+              "type": "Chinese",
+              "percentage": 80.78
+            },
+            {
+              "type": "Indian",
+              "percentage": 7.57
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.04
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.02
+            },
+            {
+              "type": "Others",
+              "percentage": 0.25
+            }
+          ]
+        },
+        "incumbent": "Chong Eng"
+      }
+    },
+    {
+      "codeName": "N16",
+      "name": "PERAI",
+      "relatedSeatCode": "P46",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ramasamy Palanisamy",
+          "partyName": "PH - DAP",
+          "voteCount": 11243,
+          "votePercentage": 66
+        },
+        {
+          "isWinner": false,
+          "name": "Suresh Muniandy",
+          "partyName": "BN - MIC",
+          "voteCount": 2194,
+          "votePercentage": 12.9
+        },
+        {
+          "isWinner": false,
+          "name": "Ooi Khar Giap",
+          "partyName": "PFP",
+          "voteCount": 104,
+          "votePercentage": 0.6
+        },
+        {
+          "isWinner": false,
+          "name": "Samuganathan Muniandy",
+          "partyName": "PRM",
+          "voteCount": 37,
+          "votePercentage": 0.2
+        },
+        {
+          "isWinner": false,
+          "name": "Asoghan Govindaraju",
+          "partyName": "PAP",
+          "voteCount": 33,
+          "votePercentage": 0.2
+        },
+        {
+          "isWinner": false,
+          "name": "Kumary Retnam",
+          "partyName": "IND",
+          "voteCount": 23,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 17032,
+        "majority": 9049,
+        "spoiltVotes": 168,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 13819,
+          "percentage": 81.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 11.56
+            },
+            {
+              "type": "Chinese",
+              "percentage": 51.4
+            },
+            {
+              "type": "Indian",
+              "percentage": 36.22
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.05
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.06
+            },
+            {
+              "type": "Others",
+              "percentage": 0.7
+            }
+          ]
+        },
+        "incumbent": "Ramasamy Palanisamy"
+      }
+    },
+    {
+      "codeName": "N17",
+      "name": "BUKIT TENGAH",
+      "relatedSeatCode": "P46",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Gooi Hsiao-Leung",
+          "partyName": "PH - PKR",
+          "voteCount": 12535,
+          "votePercentage": 56.3
+        },
+        {
+          "isWinner": false,
+          "name": "Thor Teong Gee",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 3977,
+          "votePercentage": 17.9
+        },
+        {
+          "isWinner": false,
+          "name": "Norazman Ishak",
+          "partyName": "PAS",
+          "voteCount": 2355,
+          "votePercentage": 10.6
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Hiang Lye",
+          "partyName": "PRM",
+          "voteCount": 53,
+          "votePercentage": 0.2
+        },
+        {
+          "isWinner": false,
+          "name": "Edward Joseph",
+          "partyName": "PFP",
+          "voteCount": 27,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 22276,
+        "majority": 8558,
+        "spoiltVotes": 215,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 19192,
+          "percentage": 86.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 35.52
+            },
+            {
+              "type": "Chinese",
+              "percentage": 47.33
+            },
+            {
+              "type": "Indian",
+              "percentage": 16.79
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.11
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.07
+            },
+            {
+              "type": "Others",
+              "percentage": 0.18
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N18",
+      "name": "BUKIT TAMBUN",
+      "relatedSeatCode": "P46",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Goh Choon Aik",
+          "partyName": "PH - PKR",
+          "voteCount": 18064,
+          "votePercentage": 69.2
+        },
+        {
+          "isWinner": false,
+          "name": "Hartini Tan Abdullah",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 3184,
+          "votePercentage": 12.2
+        },
+        {
+          "isWinner": false,
+          "name": "Kumaravelu Arumugam",
+          "partyName": "PAS",
+          "voteCount": 735,
+          "votePercentage": 2.8
+        },
+        {
+          "isWinner": false,
+          "name": "Goh Bee Koon",
+          "partyName": "PRM",
+          "voteCount": 117,
+          "votePercentage": 0.4
+        },
+        {
+          "isWinner": false,
+          "name": "Ong Seong Lu",
+          "partyName": "PFP",
+          "voteCount": 54,
+          "votePercentage": 0.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 26086,
+        "majority": 14880,
+        "spoiltVotes": 253,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 22455,
+          "percentage": 86.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 14.61
+            },
+            {
+              "type": "Chinese",
+              "percentage": 66.07
+            },
+            {
+              "type": "Indian",
+              "percentage": 19.08
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.07
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.14
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N19",
+      "name": "JAWI",
+      "relatedSeatCode": "P47",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "H'ng Mooi Lye",
+          "partyName": "PH - DAP",
+          "voteCount": 17559,
+          "votePercentage": 65.8
+        },
+        {
+          "isWinner": false,
+          "name": "Kiew Hen Chong",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 4188,
+          "votePercentage": 15.7
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Beng Huat",
+          "partyName": "PAP",
+          "voteCount": 309,
+          "votePercentage": 1.2
+        },
+        {
+          "isWinner": false,
+          "name": "Koay Xing Boon",
+          "partyName": "MUP",
+          "voteCount": 165,
+          "votePercentage": 0.6
+        },
+        {
+          "isWinner": false,
+          "name": "Daphne Edward",
+          "partyName": "PFP",
+          "voteCount": 73,
+          "votePercentage": 0.3
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Chew Suan",
+          "partyName": "PRM",
+          "voteCount": 51,
+          "votePercentage": 0.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 26699,
+        "majority": 13371,
+        "spoiltVotes": 377,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 22778,
+          "percentage": 85.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 19.5
+            },
+            {
+              "type": "Chinese",
+              "percentage": 55.43
+            },
+            {
+              "type": "Indian",
+              "percentage": 24.84
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.07
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.12
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N20",
+      "name": "SUNGAI BAKAP",
+      "relatedSeatCode": "P47",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Amar Pritpal Abdullah",
+          "partyName": "PH - PKR",
+          "voteCount": 10386,
+          "votePercentage": 38.9
+        },
+        {
+          "isWinner": false,
+          "name": "Mohamed Sani Bakar",
+          "partyName": "BN - UMNO",
+          "voteCount": 8038,
+          "votePercentage": 30.1
+        },
+        {
+          "isWinner": false,
+          "name": "Osman Jaafar",
+          "partyName": "PAS",
+          "voteCount": 4316,
+          "votePercentage": 16.2
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Joon Long @ Tan Chow Kang",
+          "partyName": "PRM",
+          "voteCount": 55,
+          "votePercentage": 0.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 26666,
+        "majority": 2348,
+        "spoiltVotes": 353,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 23217,
+          "percentage": 87.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 61.06
+            },
+            {
+              "type": "Chinese",
+              "percentage": 22.18
+            },
+            {
+              "type": "Indian",
+              "percentage": 16.42
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.07
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.05
+            },
+            {
+              "type": "Others",
+              "percentage": 0.22
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N21",
+      "name": "SUNGAI ACHEH",
+      "relatedSeatCode": "P47",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Zulkifli Ibrahim",
+          "partyName": "PH - PKR",
+          "voteCount": 7486,
+          "votePercentage": 37.4
+        },
+        {
+          "isWinner": false,
+          "name": "Mahmud Zakaria",
+          "partyName": "BN - UMNO",
+          "voteCount": 7070,
+          "votePercentage": 35.3
+        },
+        {
+          "isWinner": false,
+          "name": "Nor Zamri Latiff",
+          "partyName": "PAS",
+          "voteCount": 2383,
+          "votePercentage": 11.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 20018,
+        "majority": 416,
+        "spoiltVotes": 221,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17205,
+          "percentage": 85.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 67.52
+            },
+            {
+              "type": "Chinese",
+              "percentage": 24.95
+            },
+            {
+              "type": "Indian",
+              "percentage": 7.14
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.06
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.02
+            },
+            {
+              "type": "Others",
+              "percentage": 0.27
+            }
+          ]
+        },
+        "incumbent": "Mahmud Zakaria"
+      }
+    },
+    {
+      "codeName": "N22",
+      "name": "TANJONG BUNGA",
+      "relatedSeatCode": "P48",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Zairil Khir Johari",
+          "partyName": "PH - DAP",
+          "voteCount": 13245,
+          "votePercentage": 60.8
+        },
+        {
+          "isWinner": false,
+          "name": "Teng Chang Yeow",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 3902,
+          "votePercentage": 17.9
+        },
+        {
+          "isWinner": false,
+          "name": "Chua Cheong Wee",
+          "partyName": "PRM",
+          "voteCount": 122,
+          "votePercentage": 0.6
+        },
+        {
+          "isWinner": false,
+          "name": "Lee Zheng Yong",
+          "partyName": "MUP",
+          "voteCount": 74,
+          "votePercentage": 0.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 21768,
+        "majority": 9343,
+        "spoiltVotes": 163,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17571,
+          "percentage": 80.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 26.34
+            },
+            {
+              "type": "Chinese",
+              "percentage": 60.33
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.57
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.11
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.11
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 1.53
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N23",
+      "name": "AIR PUTIH",
+      "relatedSeatCode": "P48",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Lim Guan Eng",
+          "partyName": "PH - DAP",
+          "voteCount": 9362,
+          "votePercentage": 69.3
+        },
+        {
+          "isWinner": false,
+          "name": "Tang Heap Seng",
+          "partyName": "BN - MCA",
+          "voteCount": 1404,
+          "votePercentage": 10.4
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Gim Theam",
+          "partyName": "MUP",
+          "voteCount": 87,
+          "votePercentage": 0.6
+        },
+        {
+          "isWinner": false,
+          "name": "Manikandan Ramayah",
+          "partyName": "PCM",
+          "voteCount": 83,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 13509,
+        "majority": 7958,
+        "spoiltVotes": 88,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 11072,
+          "percentage": 82
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 9.88
+            },
+            {
+              "type": "Chinese",
+              "percentage": 80.83
+            },
+            {
+              "type": "Indian",
+              "percentage": 8.77
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.07
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.07
+            },
+            {
+              "type": "Others",
+              "percentage": 0.36
+            }
+          ]
+        },
+        "incumbent": "Lim Guan Eng"
+      }
+    },
+    {
+      "codeName": "N24",
+      "name": "KEBUN BUNGA",
+      "relatedSeatCode": "P48",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ong Khan Lee",
+          "partyName": "PH - PKR",
+          "voteCount": 14851,
+          "votePercentage": 69.5
+        },
+        {
+          "isWinner": false,
+          "name": "Ooi Zhi Yi",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 2254,
+          "votePercentage": 10.5
+        },
+        {
+          "isWinner": false,
+          "name": "Wu Kai Min",
+          "partyName": "MUP",
+          "voteCount": 110,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 21369,
+        "majority": 12597,
+        "spoiltVotes": 165,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17422,
+          "percentage": 81.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 7.09
+            },
+            {
+              "type": "Chinese",
+              "percentage": 77.05
+            },
+            {
+              "type": "Indian",
+              "percentage": 15.09
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.75
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N25",
+      "name": "PULAU TIKUS",
+      "relatedSeatCode": "P48",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Lee Chun Kit",
+          "partyName": "PH - DAP",
+          "voteCount": 11679,
+          "votePercentage": 63.4
+        },
+        {
+          "isWinner": false,
+          "name": "Loo Jieh Sheng",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 2434,
+          "votePercentage": 13.2
+        },
+        {
+          "isWinner": false,
+          "name": "Wee Kean Wai",
+          "partyName": "MUP",
+          "voteCount": 75,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 18423,
+        "majority": 9245,
+        "spoiltVotes": 138,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14379,
+          "percentage": 78
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 13.12
+            },
+            {
+              "type": "Chinese",
+              "percentage": 76.82
+            },
+            {
+              "type": "Indian",
+              "percentage": 8.39
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.18
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.17
+            },
+            {
+              "type": "Others",
+              "percentage": 1.32
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N26",
+      "name": "PADANG KOTA",
+      "relatedSeatCode": "P49",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Chow Kon Yeow",
+          "partyName": "PH - DAP",
+          "voteCount": 9278,
+          "votePercentage": 64.1
+        },
+        {
+          "isWinner": false,
+          "name": "H'ng Khoon Leng",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 1470,
+          "votePercentage": 10.2
+        },
+        {
+          "isWinner": false,
+          "name": "Goh Saik Wei",
+          "partyName": "MUP",
+          "voteCount": 71,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 14476,
+        "majority": 7808,
+        "spoiltVotes": 130,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 10961,
+          "percentage": 75.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 7.28
+            },
+            {
+              "type": "Chinese",
+              "percentage": 75.97
+            },
+            {
+              "type": "Indian",
+              "percentage": 16.19
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.03
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.52
+            }
+          ]
+        },
+        "incumbent": "Chow Kon Yeow"
+      }
+    },
+    {
+      "codeName": "N27",
+      "name": "PENGKALAN KOTA",
+      "relatedSeatCode": "P49",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Gooi Zi Sen",
+          "partyName": "PH - DAP",
+          "voteCount": 15037,
+          "votePercentage": 74.9
+        },
+        {
+          "isWinner": false,
+          "name": "Lim Swee Bok",
+          "partyName": "BN - MCA",
+          "voteCount": 1647,
+          "votePercentage": 8.2
+        },
+        {
+          "isWinner": false,
+          "name": "Ragindran Sivasamy",
+          "partyName": "IND",
+          "voteCount": 87,
+          "votePercentage": 0.4
+        },
+        {
+          "isWinner": false,
+          "name": "Koay Teng Lye",
+          "partyName": "MUP",
+          "voteCount": 82,
+          "votePercentage": 0.4
+        },
+        {
+          "isWinner": false,
+          "name": "Chew Seng Tung",
+          "partyName": "PRM",
+          "voteCount": 68,
+          "votePercentage": 0.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 20069,
+        "majority": 13390,
+        "spoiltVotes": 166,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17112,
+          "percentage": 85.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 1.69
+            },
+            {
+              "type": "Chinese",
+              "percentage": 92.12
+            },
+            {
+              "type": "Indian",
+              "percentage": 6.01
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.02
+            },
+            {
+              "type": "Others",
+              "percentage": 0.15
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N28",
+      "name": "KOMTAR",
+      "relatedSeatCode": "P49",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Teh Lai Heng",
+          "partyName": "PH - DAP",
+          "voteCount": 10113,
+          "votePercentage": 67.2
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Hing Teik",
+          "partyName": "BN - MCA",
+          "voteCount": 1750,
+          "votePercentage": 11.6
+        },
+        {
+          "isWinner": false,
+          "name": "Ong Chun Jiet",
+          "partyName": "MUP",
+          "voteCount": 85,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 15041,
+        "majority": 8363,
+        "spoiltVotes": 98,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 12059,
+          "percentage": 80.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 10.17
+            },
+            {
+              "type": "Chinese",
+              "percentage": 81.45
+            },
+            {
+              "type": "Indian",
+              "percentage": 7.88
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.08
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.09
+            },
+            {
+              "type": "Others",
+              "percentage": 0.34
+            }
+          ]
+        },
+        "incumbent": "Teh Lai Heng"
+      }
+    },
+    {
+      "codeName": "N29",
+      "name": "DATOK KERAMAT",
+      "relatedSeatCode": "P50",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jagdeep Singh Deo Karpal Singh",
+          "partyName": "PH - DAP",
+          "voteCount": 13712,
+          "votePercentage": 60.6
+        },
+        {
+          "isWinner": false,
+          "name": "Lee Boon Ten",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 4151,
+          "votePercentage": 18.3
+        },
+        {
+          "isWinner": false,
+          "name": "Lim Boo Chang",
+          "partyName": "MUP",
+          "voteCount": 194,
+          "votePercentage": 0.9
+        },
+        {
+          "isWinner": false,
+          "name": "Muhammad Majnun Abdul Wahab",
+          "partyName": "IND",
+          "voteCount": 146,
+          "votePercentage": 0.6
+        },
+        {
+          "isWinner": false,
+          "name": "Nicholas Diane Morgan",
+          "partyName": "PFP",
+          "voteCount": 18,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 22630,
+        "majority": 9561,
+        "spoiltVotes": 216,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 18504,
+          "percentage": 81.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 28.83
+            },
+            {
+              "type": "Chinese",
+              "percentage": 56.53
+            },
+            {
+              "type": "Indian",
+              "percentage": 14.11
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.09
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.09
+            },
+            {
+              "type": "Others",
+              "percentage": 0.35
+            }
+          ]
+        },
+        "incumbent": "Jagdeep Singh Deo Karpal Singh"
+      }
+    },
+    {
+      "codeName": "N30",
+      "name": "SUNGAI PINANG",
+      "relatedSeatCode": "P50",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Lim Siew Khim",
+          "partyName": "PH - DAP",
+          "voteCount": 15362,
+          "votePercentage": 57.1
+        },
+        {
+          "isWinner": false,
+          "name": "Ng Fook On",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 4974,
+          "votePercentage": 18.5
+        },
+        {
+          "isWinner": false,
+          "name": "Yacoob Omar",
+          "partyName": "PAS",
+          "voteCount": 1575,
+          "votePercentage": 5.9
+        },
+        {
+          "isWinner": false,
+          "name": "Teh Yee Cheu",
+          "partyName": "PSM",
+          "voteCount": 223,
+          "votePercentage": 0.8
+        },
+        {
+          "isWinner": false,
+          "name": "Mohamed Yacoob Mohamed Noor",
+          "partyName": "IND",
+          "voteCount": 119,
+          "votePercentage": 0.4
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Sim Bee",
+          "partyName": "MUP",
+          "voteCount": 79,
+          "votePercentage": 0.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 26917,
+        "majority": 10388,
+        "spoiltVotes": 291,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 22704,
+          "percentage": 84.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 33.19
+            },
+            {
+              "type": "Chinese",
+              "percentage": 51.56
+            },
+            {
+              "type": "Indian",
+              "percentage": 14.75
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.07
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.41
+            }
+          ]
+        },
+        "incumbent": "Lim Siew Khim"
+      }
+    },
+    {
+      "codeName": "N31",
+      "name": "BATU LANCANG",
+      "relatedSeatCode": "P50",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ong Ah Teong",
+          "partyName": "PH - DAP",
+          "voteCount": 20615,
+          "votePercentage": 75.1
+        },
+        {
+          "isWinner": false,
+          "name": "Koo Pei Chee",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 2407,
+          "votePercentage": 8.8
+        },
+        {
+          "isWinner": false,
+          "name": "Kee Lean Ee",
+          "partyName": "MUP",
+          "voteCount": 139,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 27444,
+        "majority": 18208,
+        "spoiltVotes": 161,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 23370,
+          "percentage": 85.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 7.12
+            },
+            {
+              "type": "Chinese",
+              "percentage": 85.77
+            },
+            {
+              "type": "Indian",
+              "percentage": 6.64
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.03
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.03
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.42
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N32",
+      "name": "SERI DELIMA",
+      "relatedSeatCode": "P51",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Syerleena Abdul Rashid",
+          "partyName": "PH - DAP",
+          "voteCount": 16553,
+          "votePercentage": 65.6
+        },
+        {
+          "isWinner": false,
+          "name": "Khoo Kay Teong",
+          "partyName": "BN - MCA",
+          "voteCount": 3342,
+          "votePercentage": 13.2
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Yang Yung",
+          "partyName": "MUP",
+          "voteCount": 159,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 25232,
+        "majority": 13211,
+        "spoiltVotes": 141,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 20285,
+          "percentage": 80.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 22.31
+            },
+            {
+              "type": "Chinese",
+              "percentage": 65.54
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.39
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.02
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.71
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N33",
+      "name": "AIR ITAM",
+      "relatedSeatCode": "P51",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Joseph Ng Soon Siang",
+          "partyName": "PH - DAP",
+          "voteCount": 12588,
+          "votePercentage": 64.2
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Kah Leong",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 3047,
+          "votePercentage": 15.5
+        },
+        {
+          "isWinner": false,
+          "name": "Kang Teik Woi",
+          "partyName": "MUP",
+          "voteCount": 148,
+          "votePercentage": 0.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 19622,
+        "majority": 9541,
+        "spoiltVotes": 151,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 15988,
+          "percentage": 81.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 22.68
+            },
+            {
+              "type": "Chinese",
+              "percentage": 66.99
+            },
+            {
+              "type": "Indian",
+              "percentage": 9.9
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.04
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.37
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N34",
+      "name": "PAYA TERUBONG",
+      "relatedSeatCode": "P51",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Yeoh Soon Hin",
+          "partyName": "PH - DAP",
+          "voteCount": 35315,
+          "votePercentage": 75.6
+        },
+        {
+          "isWinner": false,
+          "name": "Wong Chin Chong",
+          "partyName": "BN - MCA",
+          "voteCount": 4126,
+          "votePercentage": 8.8
+        },
+        {
+          "isWinner": false,
+          "name": "Kuan Aun Wan",
+          "partyName": "MUP",
+          "voteCount": 421,
+          "votePercentage": 0.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 46741,
+        "majority": 31189,
+        "spoiltVotes": 235,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 40185,
+          "percentage": 86
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 6.51
+            },
+            {
+              "type": "Chinese",
+              "percentage": 81.24
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.78
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.09
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.34
+            }
+          ]
+        },
+        "incumbent": "Yeoh Soon Hin"
+      }
+    },
+    {
+      "codeName": "N35",
+      "name": "BATU UBAN",
+      "relatedSeatCode": "P52",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Kumaresan Aramugam",
+          "partyName": "PH - PKR",
+          "voteCount": 21079,
+          "votePercentage": 66
+        },
+        {
+          "isWinner": false,
+          "name": "Hng Chee Wey",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 3806,
+          "votePercentage": 11.9
+        },
+        {
+          "isWinner": false,
+          "name": "Vikneswaran Muniandy",
+          "partyName": "PAS",
+          "voteCount": 1176,
+          "votePercentage": 3.7
+        },
+        {
+          "isWinner": false,
+          "name": "Teoh Kok Siang",
+          "partyName": "MUP",
+          "voteCount": 116,
+          "votePercentage": 0.4
+        },
+        {
+          "isWinner": false,
+          "name": "Teoh Kean Liang",
+          "partyName": "PFP",
+          "voteCount": 32,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 31924,
+        "majority": 17273,
+        "spoiltVotes": 235,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 26523,
+          "percentage": 83.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 25.57
+            },
+            {
+              "type": "Chinese",
+              "percentage": 60.42
+            },
+            {
+              "type": "Indian",
+              "percentage": 13.25
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.16
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.09
+            },
+            {
+              "type": "Others",
+              "percentage": 0.51
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N36",
+      "name": "PANTAI JEREJAK",
+      "relatedSeatCode": "P52",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Saifuddin Nasution Ismail",
+          "partyName": "PH - PKR",
+          "voteCount": 14014,
+          "votePercentage": 59.3
+        },
+        {
+          "isWinner": false,
+          "name": "Oh Tong Keong",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 3298,
+          "votePercentage": 13.9
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Farhan Yusri",
+          "partyName": "PAS",
+          "voteCount": 1670,
+          "votePercentage": 7.1
+        },
+        {
+          "isWinner": false,
+          "name": "Yim Boon Leong",
+          "partyName": "MUP",
+          "voteCount": 97,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 23646,
+        "majority": 10716,
+        "spoiltVotes": 150,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 19315,
+          "percentage": 81.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 37.25
+            },
+            {
+              "type": "Chinese",
+              "percentage": 50.33
+            },
+            {
+              "type": "Indian",
+              "percentage": 11.64
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.12
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.04
+            },
+            {
+              "type": "Others",
+              "percentage": 0.61
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N37",
+      "name": "BATU MAUNG",
+      "relatedSeatCode": "P52",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Abdul Halim Hussain",
+          "partyName": "PH - PKR",
+          "voteCount": 17380,
+          "votePercentage": 49.4
+        },
+        {
+          "isWinner": false,
+          "name": "Liakat Ali Mohamed Ali",
+          "partyName": "BN - UMNO",
+          "voteCount": 9063,
+          "votePercentage": 25.7
+        },
+        {
+          "isWinner": false,
+          "name": "Saiful Lizan Md Yusoff",
+          "partyName": "PAS",
+          "voteCount": 3153,
+          "votePercentage": 9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 35210,
+        "majority": 8317,
+        "spoiltVotes": 352,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 30046,
+          "percentage": 85.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 53.91
+            },
+            {
+              "type": "Chinese",
+              "percentage": 36.49
+            },
+            {
+              "type": "Indian",
+              "percentage": 8.58
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.28
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.36
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.38
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N38",
+      "name": "BAYAN LEPAS",
+      "relatedSeatCode": "P53",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Azrul Mahathir Aziz",
+          "partyName": "PH - AMANAH",
+          "voteCount": 12504,
+          "votePercentage": 47.1
+        },
+        {
+          "isWinner": false,
+          "name": "Rusli Hashim",
+          "partyName": "BN - UMNO",
+          "voteCount": 7259,
+          "votePercentage": 27.3
+        },
+        {
+          "isWinner": false,
+          "name": "Zarina Shinta Madar",
+          "partyName": "PAS",
+          "voteCount": 2497,
+          "votePercentage": 9.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 26570,
+        "majority": 5245,
+        "spoiltVotes": 275,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 22618,
+          "percentage": 85.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 64.41
+            },
+            {
+              "type": "Chinese",
+              "percentage": 29.81
+            },
+            {
+              "type": "Indian",
+              "percentage": 5.29
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.13
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.06
+            },
+            {
+              "type": "Others",
+              "percentage": 0.3
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N39",
+      "name": "PULAU BETONG",
+      "relatedSeatCode": "P53",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mohd Tuah Ismail",
+          "partyName": "PH - PKR",
+          "voteCount": 7675,
+          "votePercentage": 42.2
+        },
+        {
+          "isWinner": false,
+          "name": "Muhamad Farid Saad",
+          "partyName": "BN - UMNO",
+          "voteCount": 6079,
+          "votePercentage": 33.4
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Taufik Hashim",
+          "partyName": "PAS",
+          "voteCount": 1645,
+          "votePercentage": 9
+        },
+        {
+          "isWinner": false,
+          "name": "Yeoh Cheng Huat",
+          "partyName": "PRM",
+          "voteCount": 64,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 18177,
+        "majority": 1596,
+        "spoiltVotes": 220,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 15719,
+          "percentage": 86.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 64.79
+            },
+            {
+              "type": "Chinese",
+              "percentage": 30.53
+            },
+            {
+              "type": "Indian",
+              "percentage": 4.02
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.24
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.2
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.21
+            }
+          ]
+        },
+        "incumbent": "Muhamad Farid Saad"
+      }
+    },
+    {
+      "codeName": "N40",
+      "name": "TELOK BAHANG",
+      "relatedSeatCode": "P53",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Zolkifly Md Lazim",
+          "partyName": "PH - PPBM",
+          "voteCount": 5482,
+          "votePercentage": 38.2
+        },
+        {
+          "isWinner": false,
+          "name": "Shah Haedan Ayoob Hussain Shah",
+          "partyName": "BN - UMNO",
+          "voteCount": 5057,
+          "votePercentage": 35.3
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Ali Othman",
+          "partyName": "PAS",
+          "voteCount": 1469,
+          "votePercentage": 10.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 14339,
+        "majority": 425,
+        "spoiltVotes": 179,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 12231,
+          "percentage": 85.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Malay",
+              "percentage": 65.94
+            },
+            {
+              "type": "Chinese",
+              "percentage": 30.32
+            },
+            {
+              "type": "Indian",
+              "percentage": 3.35
+            },
+            {
+              "type": "B/P Sabah",
+              "percentage": 0.05
+            },
+            {
+              "type": "B/P Sarawak",
+              "percentage": 0.05
+            },
+            {
+              "type": "Orang Asli (Pen. Msia)",
+              "percentage": 0.01
+            },
+            {
+              "type": "Others",
+              "percentage": 0.28
+            }
+          ]
+        },
+        "incumbent": "Shah Haedan Ayoob Hussain Shah"
+      }
+    }
+  ]
+}

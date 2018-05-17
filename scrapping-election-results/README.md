@@ -28,6 +28,11 @@ Then, run
 ts-node scrape.js
 ```
 
+## What is happening?
+1. Load the data from `htmls` folder.
+2. Scrape their content, and save it to `outputs`.
+3. That's all.
+
 ## Suggested editor
 Visual Studio Code.
 

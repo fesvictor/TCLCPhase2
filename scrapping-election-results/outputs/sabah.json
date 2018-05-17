@@ -1,0 +1,5799 @@
+{
+  "parliamentSeatsSummary": {
+    "pakatanSummaries": [
+      10,
+      0,
+      6,
+      9
+    ],
+    "partyDetails": [
+      {
+        "name": "BN",
+        "wonSeats": 10,
+        "contestingSeats": 25
+      },
+      {
+        "name": "WARISAN",
+        "wonSeats": 8,
+        "contestingSeats": 16
+      },
+      {
+        "name": "PKR (PH)",
+        "wonSeats": 3,
+        "contestingSeats": 6
+      },
+      {
+        "name": "DAP (PH)",
+        "wonSeats": 3,
+        "contestingSeats": 3
+      },
+      {
+        "name": "Sabah STAR",
+        "wonSeats": 1,
+        "contestingSeats": 5
+      },
+      {
+        "name": "PPRS",
+        "wonSeats": 0,
+        "contestingSeats": 2
+      },
+      {
+        "name": "PHRS",
+        "wonSeats": 0,
+        "contestingSeats": 14
+      },
+      {
+        "name": "PCS",
+        "wonSeats": 0,
+        "contestingSeats": 8
+      },
+      {
+        "name": "PAS",
+        "wonSeats": 0,
+        "contestingSeats": 8
+      },
+      {
+        "name": "SAPP",
+        "wonSeats": 0,
+        "contestingSeats": 2
+      }
+    ]
+  },
+  "parliamentSeats": [
+    {
+      "codeName": "P167",
+      "name": "KUDAT",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Abd Rahim Bakri",
+          "partyName": "BN - UMNO",
+          "voteCount": 18503,
+          "votePercentage": 35.4
+        },
+        {
+          "isWinner": false,
+          "name": "Sh Azman Sh Along",
+          "partyName": "WARISAN",
+          "voteCount": 17144,
+          "votePercentage": 32.8
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Ashraf Chin Abdullah",
+          "partyName": "PPRS",
+          "voteCount": 1432,
+          "votePercentage": 2.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 52251,
+        "majority": 1359,
+        "spoiltVotes": 955,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 38205,
+          "percentage": 73.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 56.87
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 33.59
+            },
+            {
+              "type": "Chinese",
+              "percentage": 9.12
+            },
+            {
+              "type": "Others",
+              "percentage": 0.42
+            }
+          ]
+        },
+        "incumbent": "Abd Rahim Bakri"
+      }
+    },
+    {
+      "codeName": "P168",
+      "name": "KOTA MARUDU",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Johnity @ Maximus Ongkili",
+          "partyName": "BN - PBS",
+          "voteCount": 13033,
+          "votePercentage": 27.7
+        },
+        {
+          "isWinner": false,
+          "name": "Maijol Mahap",
+          "partyName": "PHRS",
+          "voteCount": 11259,
+          "votePercentage": 24
+        },
+        {
+          "isWinner": false,
+          "name": "Barlus Mangabis",
+          "partyName": "WARISAN",
+          "voteCount": 7113,
+          "votePercentage": 15.1
+        },
+        {
+          "isWinner": false,
+          "name": "Paul Porodong",
+          "partyName": "PCS",
+          "voteCount": 2501,
+          "votePercentage": 5.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 47007,
+        "majority": 1774,
+        "spoiltVotes": 1179,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 35231,
+          "percentage": 74.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 28.5
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 68.89
+            },
+            {
+              "type": "Chinese",
+              "percentage": 2.22
+            },
+            {
+              "type": "Others",
+              "percentage": 0.39
+            }
+          ]
+        },
+        "incumbent": "Johnity @ Maximus Ongkili"
+      }
+    },
+    {
+      "codeName": "P169",
+      "name": "KOTA BELUD",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Isnaraissah Munirah Majilis @ Fakharudy",
+          "partyName": "WARISAN",
+          "voteCount": 23429,
+          "votePercentage": 40.5
+        },
+        {
+          "isWinner": false,
+          "name": "Md Salleh Md Said",
+          "partyName": "BN - UMNO",
+          "voteCount": 19167,
+          "votePercentage": 33.1
+        },
+        {
+          "isWinner": false,
+          "name": "Miasin @ Aimaduddin Mion",
+          "partyName": "PHRS",
+          "voteCount": 2092,
+          "votePercentage": 3.6
+        },
+        {
+          "isWinner": false,
+          "name": "Laiman Ikin @ Ag Laiman B Kakimin",
+          "partyName": "PAS",
+          "voteCount": 1410,
+          "votePercentage": 2.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 57919,
+        "majority": 4262,
+        "spoiltVotes": 1173,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 47565,
+          "percentage": 82.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 60.28
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 38.02
+            },
+            {
+              "type": "Chinese",
+              "percentage": 1.42
+            },
+            {
+              "type": "Others",
+              "percentage": 0.29
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P170",
+      "name": "TUARAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Madius Tangau",
+          "partyName": "BN - UPKO",
+          "voteCount": 22494,
+          "votePercentage": 41.3
+        },
+        {
+          "isWinner": false,
+          "name": "Chrisnadia Sinam",
+          "partyName": "PH - PKR",
+          "voteCount": 14870,
+          "votePercentage": 27.3
+        },
+        {
+          "isWinner": false,
+          "name": "Kalakau @ Kalakan Untol @ Entol",
+          "partyName": "PCS",
+          "voteCount": 2611,
+          "votePercentage": 4.8
+        },
+        {
+          "isWinner": false,
+          "name": "Syra Peter @ P Gom",
+          "partyName": "PHRS",
+          "voteCount": 2311,
+          "votePercentage": 4.2
+        },
+        {
+          "isWinner": false,
+          "name": "Paumin @ Mohd Aminuddin Aling",
+          "partyName": "PAS",
+          "voteCount": 1357,
+          "votePercentage": 2.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 54400,
+        "majority": 7624,
+        "spoiltVotes": 958,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 44834,
+          "percentage": 82.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 47.58
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 46.53
+            },
+            {
+              "type": "Chinese",
+              "percentage": 5.33
+            },
+            {
+              "type": "Others",
+              "percentage": 0.56
+            }
+          ]
+        },
+        "incumbent": "Madius Tangau"
+      }
+    },
+    {
+      "codeName": "P171",
+      "name": "SEPANGGAR",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mohd Azis Jamman",
+          "partyName": "WARISAN",
+          "voteCount": 28420,
+          "votePercentage": 45.5
+        },
+        {
+          "isWinner": false,
+          "name": "Abd Rahman Dahlan",
+          "partyName": "BN - UMNO",
+          "voteCount": 15436,
+          "votePercentage": 24.7
+        },
+        {
+          "isWinner": false,
+          "name": "Jeffrey Kumin",
+          "partyName": "SAPP",
+          "voteCount": 2958,
+          "votePercentage": 4.7
+        },
+        {
+          "isWinner": false,
+          "name": "Robert Sopining",
+          "partyName": "PCS",
+          "voteCount": 971,
+          "votePercentage": 1.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 62415,
+        "majority": 12984,
+        "spoiltVotes": 913,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 49012,
+          "percentage": 78.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 55.25
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 24.63
+            },
+            {
+              "type": "Chinese",
+              "percentage": 18.98
+            },
+            {
+              "type": "Others",
+              "percentage": 1.14
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P172",
+      "name": "KOTA KINABALU",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Chan Foong Hin",
+          "partyName": "PH - DAP",
+          "voteCount": 31632,
+          "votePercentage": 56.3
+        },
+        {
+          "isWinner": false,
+          "name": "Joseph Lee Han Kyun",
+          "partyName": "BN - PBS",
+          "voteCount": 7546,
+          "votePercentage": 13.4
+        },
+        {
+          "isWinner": false,
+          "name": "Yong Teck Lee",
+          "partyName": "SAPP",
+          "voteCount": 3132,
+          "votePercentage": 5.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 56220,
+        "majority": 24086,
+        "spoiltVotes": 563,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 0,
+          "percentage": 0
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 22.35
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 13.82
+            },
+            {
+              "type": "Chinese",
+              "percentage": 62.52
+            },
+            {
+              "type": "Others",
+              "percentage": 1.31
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P173",
+      "name": "PUTATAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Awang Husaini Sahari",
+          "partyName": "PH - PKR",
+          "voteCount": 14106,
+          "votePercentage": 34.1
+        },
+        {
+          "isWinner": false,
+          "name": "Makin @ Marcus Majigoh",
+          "partyName": "BN - UPKO",
+          "voteCount": 11767,
+          "votePercentage": 28.5
+        },
+        {
+          "isWinner": false,
+          "name": "Zulzaim Hilmee Abidin",
+          "partyName": "PAS",
+          "voteCount": 2434,
+          "votePercentage": 5.9
+        },
+        {
+          "isWinner": false,
+          "name": "Jivol @ Edmund Doudilim",
+          "partyName": "PHRS",
+          "voteCount": 1755,
+          "votePercentage": 4.2
+        },
+        {
+          "isWinner": false,
+          "name": "Mil Kusin Abdillah",
+          "partyName": "PKAN",
+          "voteCount": 728,
+          "votePercentage": 1.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 41312,
+        "majority": 2339,
+        "spoiltVotes": 826,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 31865,
+          "percentage": 77.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 69.24
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 14.35
+            },
+            {
+              "type": "Chinese",
+              "percentage": 15.43
+            },
+            {
+              "type": "Others",
+              "percentage": 0.99
+            }
+          ]
+        },
+        "incumbent": "Makin @ Marcus Majigoh"
+      }
+    },
+    {
+      "codeName": "P174",
+      "name": "PENAMPANG",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ignatius Dorell Leiking",
+          "partyName": "WARISAN",
+          "voteCount": 32470,
+          "votePercentage": 61.1
+        },
+        {
+          "isWinner": false,
+          "name": "Ceasar Mandela Malakun",
+          "partyName": "BN - UPKO",
+          "voteCount": 8997,
+          "votePercentage": 16.9
+        },
+        {
+          "isWinner": false,
+          "name": "Cleftus Stephen Spine",
+          "partyName": "Sabah STAR",
+          "voteCount": 1196,
+          "votePercentage": 2.3
+        },
+        {
+          "isWinner": false,
+          "name": "Edwin @ Jack Bosi",
+          "partyName": "PKAN",
+          "voteCount": 445,
+          "votePercentage": 0.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 53131,
+        "majority": 23473,
+        "spoiltVotes": 417,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 43659,
+          "percentage": 82.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 13.95
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 51.79
+            },
+            {
+              "type": "Chinese",
+              "percentage": 32.56
+            },
+            {
+              "type": "Others",
+              "percentage": 1.71
+            }
+          ]
+        },
+        "incumbent": "Ignatius Dorell Leiking"
+      }
+    },
+    {
+      "codeName": "P175",
+      "name": "PAPAR",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ahmad Hassan",
+          "partyName": "WARISAN",
+          "voteCount": 17394,
+          "votePercentage": 39.9
+        },
+        {
+          "isWinner": false,
+          "name": "Rosnah Abd Rashid Shirlin",
+          "partyName": "BN - UMNO",
+          "voteCount": 17069,
+          "votePercentage": 39.2
+        },
+        {
+          "isWinner": false,
+          "name": "Jamil William Core",
+          "partyName": "Sabah STAR",
+          "voteCount": 892,
+          "votePercentage": 2
+        },
+        {
+          "isWinner": false,
+          "name": "Elbert Sikuil",
+          "partyName": "PCS",
+          "voteCount": 481,
+          "votePercentage": 1.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 43586,
+        "majority": 325,
+        "spoiltVotes": 543,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 36540,
+          "percentage": 83.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 66.71
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 25.31
+            },
+            {
+              "type": "Chinese",
+              "percentage": 7.46
+            },
+            {
+              "type": "Others",
+              "percentage": 0.52
+            }
+          ]
+        },
+        "incumbent": "Rosnah Abd Rashid Shirlin"
+      }
+    },
+    {
+      "codeName": "P176",
+      "name": "KIMANIS",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Anifah Aman @ Haniff Amman",
+          "partyName": "BN - UMNO",
+          "voteCount": 11942,
+          "votePercentage": 40.3
+        },
+        {
+          "isWinner": false,
+          "name": "Karim Bujang",
+          "partyName": "WARISAN",
+          "voteCount": 11786,
+          "votePercentage": 39.8
+        },
+        {
+          "isWinner": false,
+          "name": "Jaafar Ismail",
+          "partyName": "PHRS",
+          "voteCount": 1300,
+          "votePercentage": 4.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 29618,
+        "majority": 156,
+        "spoiltVotes": 385,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 25519,
+          "percentage": 86.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 66.54
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 29.93
+            },
+            {
+              "type": "Chinese",
+              "percentage": 3.19
+            },
+            {
+              "type": "Others",
+              "percentage": 0.34
+            }
+          ]
+        },
+        "incumbent": "Anifah Aman @ Haniff Amman"
+      }
+    },
+    {
+      "codeName": "P177",
+      "name": "BEAUFORT",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Azizah Mohd Dun",
+          "partyName": "BN - UMNO",
+          "voteCount": 11354,
+          "votePercentage": 34.1
+        },
+        {
+          "isWinner": false,
+          "name": "Lajim Ukin",
+          "partyName": "PHRS",
+          "voteCount": 8023,
+          "votePercentage": 24.1
+        },
+        {
+          "isWinner": false,
+          "name": "Johan @ Christopher Ot Ghani",
+          "partyName": "PH - PKR",
+          "voteCount": 7835,
+          "votePercentage": 23.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 33342,
+        "majority": 3331,
+        "spoiltVotes": 799,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 28154,
+          "percentage": 84.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 65.98
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 26.11
+            },
+            {
+              "type": "Chinese",
+              "percentage": 7.46
+            },
+            {
+              "type": "Others",
+              "percentage": 0.45
+            }
+          ]
+        },
+        "incumbent": "Azizah Mohd Dun"
+      }
+    },
+    {
+      "codeName": "P178",
+      "name": "SIPITANG",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Yamani Hafez Musa",
+          "partyName": "BN - UMNO",
+          "voteCount": 12038,
+          "votePercentage": 37.8
+        },
+        {
+          "isWinner": false,
+          "name": "Noor Hayaty Mustapha",
+          "partyName": "WARISAN",
+          "voteCount": 11186,
+          "votePercentage": 35.1
+        },
+        {
+          "isWinner": false,
+          "name": "Dayang Aezzy Liman",
+          "partyName": "PHRS",
+          "voteCount": 1547,
+          "votePercentage": 4.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 31882,
+        "majority": 852,
+        "spoiltVotes": 596,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 25483,
+          "percentage": 79.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 76.27
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 19.48
+            },
+            {
+              "type": "Chinese",
+              "percentage": 3.74
+            },
+            {
+              "type": "Others",
+              "percentage": 0.52
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P179",
+      "name": "RANAU",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jonathan Yasin",
+          "partyName": "PH - PKR",
+          "voteCount": 14880,
+          "votePercentage": 34
+        },
+        {
+          "isWinner": false,
+          "name": "Ewon Ebin",
+          "partyName": "BN - UPKO",
+          "voteCount": 13804,
+          "votePercentage": 31.6
+        },
+        {
+          "isWinner": false,
+          "name": "Soudi @ Sami Andang",
+          "partyName": "Sabah STAR",
+          "voteCount": 3148,
+          "votePercentage": 7.2
+        },
+        {
+          "isWinner": false,
+          "name": "Andau Yasun @ Bruno",
+          "partyName": "PCS",
+          "voteCount": 1110,
+          "votePercentage": 2.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 43706,
+        "majority": 1076,
+        "spoiltVotes": 769,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 33904,
+          "percentage": 77.6
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 40.03
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 57.22
+            },
+            {
+              "type": "Chinese",
+              "percentage": 1.71
+            },
+            {
+              "type": "Others",
+              "percentage": 1.05
+            }
+          ]
+        },
+        "incumbent": "Ewon Ebin"
+      }
+    },
+    {
+      "codeName": "P180",
+      "name": "KENINGAU",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jeffrey Kitingan",
+          "partyName": "Sabah STAR",
+          "voteCount": 13286,
+          "votePercentage": 26
+        },
+        {
+          "isWinner": false,
+          "name": "Jikulin Nointin @ Anastasius",
+          "partyName": "WARISAN",
+          "voteCount": 13241,
+          "votePercentage": 25.9
+        },
+        {
+          "isWinner": false,
+          "name": "Daniel Kinsik",
+          "partyName": "BN - PBS",
+          "voteCount": 12742,
+          "votePercentage": 24.9
+        },
+        {
+          "isWinner": false,
+          "name": "Jius Awang",
+          "partyName": "PCS",
+          "voteCount": 433,
+          "votePercentage": 0.8
+        },
+        {
+          "isWinner": false,
+          "name": "Maimin Rijan",
+          "partyName": "IND",
+          "voteCount": 248,
+          "votePercentage": 0.5
+        },
+        {
+          "isWinner": false,
+          "name": "Justin Guka",
+          "partyName": "IND",
+          "voteCount": 199,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 51177,
+        "majority": 45,
+        "spoiltVotes": 522,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 40913,
+          "percentage": 79.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 28.03
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 62.11
+            },
+            {
+              "type": "Chinese",
+              "percentage": 8.67
+            },
+            {
+              "type": "Others",
+              "percentage": 1.2
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P181",
+      "name": "TENOM",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Noorita Sual",
+          "partyName": "PH - DAP",
+          "voteCount": 11363,
+          "votePercentage": 38.9
+        },
+        {
+          "isWinner": false,
+          "name": "Rubin Balang",
+          "partyName": "BN - UMNO",
+          "voteCount": 10230,
+          "votePercentage": 35.1
+        },
+        {
+          "isWinner": false,
+          "name": "Laimoi @ Yuslinah Laikim",
+          "partyName": "PHRS",
+          "voteCount": 645,
+          "votePercentage": 2.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 29182,
+        "majority": 1133,
+        "spoiltVotes": 661,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 23027,
+          "percentage": 78.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 28.01
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 61.31
+            },
+            {
+              "type": "Chinese",
+              "percentage": 10.17
+            },
+            {
+              "type": "Others",
+              "percentage": 0.51
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P182",
+      "name": "PENSIANGAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Arthur Joseph Kurup",
+          "partyName": "BN - PBRS",
+          "voteCount": 11783,
+          "votePercentage": 37.6
+        },
+        {
+          "isWinner": false,
+          "name": "Raymond Ahuar",
+          "partyName": "PH - PKR",
+          "voteCount": 9469,
+          "votePercentage": 30.2
+        },
+        {
+          "isWinner": false,
+          "name": "Joh Jimmy @ Richard Joe Jimmy",
+          "partyName": "Sabah STAR",
+          "voteCount": 2839,
+          "votePercentage": 9
+        },
+        {
+          "isWinner": false,
+          "name": "Maidin Atak @ Maidin Osman",
+          "partyName": "PCS",
+          "voteCount": 212,
+          "votePercentage": 0.7
+        },
+        {
+          "isWinner": false,
+          "name": "Engah Sintan @ Dahlan Abdullah",
+          "partyName": "IND",
+          "voteCount": 65,
+          "votePercentage": 0.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 31377,
+        "majority": 2314,
+        "spoiltVotes": 528,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 24955,
+          "percentage": 79.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 24.27
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 73.93
+            },
+            {
+              "type": "Chinese",
+              "percentage": 1.3
+            },
+            {
+              "type": "Others",
+              "percentage": 0.5
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P183",
+      "name": "BELURAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ronald Kiandee",
+          "partyName": "BN - UMNO",
+          "voteCount": 13007,
+          "votePercentage": 45.6
+        },
+        {
+          "isWinner": false,
+          "name": "Japar Zairun",
+          "partyName": "WARISAN",
+          "voteCount": 5892,
+          "votePercentage": 20.7
+        },
+        {
+          "isWinner": false,
+          "name": "Sipin Kadandi",
+          "partyName": "PHRS",
+          "voteCount": 996,
+          "votePercentage": 3.5
+        },
+        {
+          "isWinner": false,
+          "name": "Toidy Luit",
+          "partyName": "PCS",
+          "voteCount": 284,
+          "votePercentage": 1
+        },
+        {
+          "isWinner": false,
+          "name": "Lem @ Salim Matin",
+          "partyName": "PERPADUAN",
+          "voteCount": 273,
+          "votePercentage": 1
+        },
+        {
+          "isWinner": false,
+          "name": "Salimah Oyong",
+          "partyName": "IND",
+          "voteCount": 246,
+          "votePercentage": 0.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 28509,
+        "majority": 7115,
+        "spoiltVotes": 832,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 21606,
+          "percentage": 75.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 54.05
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 44.26
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.84
+            },
+            {
+              "type": "Others",
+              "percentage": 0.85
+            }
+          ]
+        },
+        "incumbent": "Ronald Kiandee"
+      }
+    },
+    {
+      "codeName": "P184",
+      "name": "LIBARAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Zakaria Mohd Edris @ Tubau",
+          "partyName": "BN - UMNO",
+          "voteCount": 17799,
+          "votePercentage": 37.1
+        },
+        {
+          "isWinner": false,
+          "name": "Irwanshah Mustapa",
+          "partyName": "WARISAN",
+          "voteCount": 17121,
+          "votePercentage": 35.7
+        },
+        {
+          "isWinner": false,
+          "name": "Alfian Mansyur",
+          "partyName": "PHRS",
+          "voteCount": 1223,
+          "votePercentage": 2.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 47914,
+        "majority": 678,
+        "spoiltVotes": 948,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 37248,
+          "percentage": 77.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 76.77
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 6.15
+            },
+            {
+              "type": "Chinese",
+              "percentage": 16.47
+            },
+            {
+              "type": "Others",
+              "percentage": 0.62
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P185",
+      "name": "BATU SAPI",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Liew Vui Keong",
+          "partyName": "WARISAN",
+          "voteCount": 12976,
+          "votePercentage": 39.8
+        },
+        {
+          "isWinner": false,
+          "name": "LindaTsen Thau Lin",
+          "partyName": "BN - PBS",
+          "voteCount": 8357,
+          "votePercentage": 25.7
+        },
+        {
+          "isWinner": false,
+          "name": "Hamza A. Abdullah @ Hamzah",
+          "partyName": "PH - AMANAH",
+          "voteCount": 980,
+          "votePercentage": 3
+        },
+        {
+          "isWinner": false,
+          "name": "Norsah Bongsu",
+          "partyName": "PAS",
+          "voteCount": 948,
+          "votePercentage": 2.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 32574,
+        "majority": 4619,
+        "spoiltVotes": 655,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 24029,
+          "percentage": 73.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 65.06
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 4.09
+            },
+            {
+              "type": "Chinese",
+              "percentage": 30.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.82
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "P186",
+      "name": "SANDAKAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Wong Tien Fatt @ Wong Nyuk Foh",
+          "partyName": "PH - DAP",
+          "voteCount": 19094,
+          "votePercentage": 48
+        },
+        {
+          "isWinner": false,
+          "name": "Lim Ming Hoo",
+          "partyName": "BN - LDP",
+          "voteCount": 8996,
+          "votePercentage": 22.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 39777,
+        "majority": 10098,
+        "spoiltVotes": 502,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 28668,
+          "percentage": 72.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 43.9
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 5.71
+            },
+            {
+              "type": "Chinese",
+              "percentage": 49.29
+            },
+            {
+              "type": "Others",
+              "percentage": 1.09
+            }
+          ]
+        },
+        "incumbent": "Wong Tien Fatt @ Wong Nyuk Foh"
+      }
+    },
+    {
+      "codeName": "P187",
+      "name": "KINABATANGAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Moktar Radin",
+          "partyName": "BN - UMNO",
+          "voteCount": 14465,
+          "votePercentage": 50.3
+        },
+        {
+          "isWinner": false,
+          "name": "M A Ghazali Abdul Ghani",
+          "partyName": "WARISAN",
+          "voteCount": 4987,
+          "votePercentage": 17.4
+        },
+        {
+          "isWinner": false,
+          "name": "Mustapa Datu Tambuyong",
+          "partyName": "PHRS",
+          "voteCount": 2066,
+          "votePercentage": 7.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 28730,
+        "majority": 9478,
+        "spoiltVotes": 661,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 22257,
+          "percentage": 77.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 72.48
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 26.47
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.56
+            },
+            {
+              "type": "Others",
+              "percentage": 0.49
+            }
+          ]
+        },
+        "incumbent": "Moktar Radin"
+      }
+    },
+    {
+      "codeName": "P188",
+      "name": "SILAM",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mohamaddin Ketapi",
+          "partyName": "WARISAN",
+          "voteCount": 23352,
+          "votePercentage": 38.3
+        },
+        {
+          "isWinner": false,
+          "name": "Datu Nasrun Datu Mansur",
+          "partyName": "BN - UMNO",
+          "voteCount": 16951,
+          "votePercentage": 27.8
+        },
+        {
+          "isWinner": false,
+          "name": "Ramli Pataruddin",
+          "partyName": "PAS",
+          "voteCount": 1431,
+          "votePercentage": 2.3
+        },
+        {
+          "isWinner": false,
+          "name": "Siti Shazianti Ajak",
+          "partyName": "PHRS",
+          "voteCount": 1306,
+          "votePercentage": 2.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 60942,
+        "majority": 6401,
+        "spoiltVotes": 1079,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 44294,
+          "percentage": 72.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 79.86
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 8.98
+            },
+            {
+              "type": "Chinese",
+              "percentage": 10.35
+            },
+            {
+              "type": "Others",
+              "percentage": 0.81
+            }
+          ]
+        },
+        "incumbent": "Datu Nasrun Datu Mansur"
+      }
+    },
+    {
+      "codeName": "P189",
+      "name": "SEMPORNA",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mohd Shafie Apdal",
+          "partyName": "WARISAN",
+          "voteCount": 26809,
+          "votePercentage": 55.6
+        },
+        {
+          "isWinner": false,
+          "name": "Ramlee Marahaban",
+          "partyName": "BN - UMNO",
+          "voteCount": 6135,
+          "votePercentage": 12.7
+        },
+        {
+          "isWinner": false,
+          "name": "Abdul Nasir Ab Raup",
+          "partyName": "PAS",
+          "voteCount": 384,
+          "votePercentage": 0.8
+        },
+        {
+          "isWinner": false,
+          "name": "Asmara Asmad",
+          "partyName": "PHRS",
+          "voteCount": 98,
+          "votePercentage": 0.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 48248,
+        "majority": 20674,
+        "spoiltVotes": 982,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 34613,
+          "percentage": 71.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 96.43
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 1.68
+            },
+            {
+              "type": "Chinese",
+              "percentage": 1.58
+            },
+            {
+              "type": "Others",
+              "percentage": 0.32
+            }
+          ]
+        },
+        "incumbent": "Mohd Shafie Apdal"
+      }
+    },
+    {
+      "codeName": "P190",
+      "name": "TAWAU",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Liew Chin Jin",
+          "partyName": "PH - PKR",
+          "voteCount": 21400,
+          "votePercentage": 35.7
+        },
+        {
+          "isWinner": false,
+          "name": "Yap Kain Ching @ Mary Yap Ken Jin",
+          "partyName": "BN - PBS",
+          "voteCount": 16673,
+          "votePercentage": 27.8
+        },
+        {
+          "isWinner": false,
+          "name": "Mohamad Husain",
+          "partyName": "PAS",
+          "voteCount": 2518,
+          "votePercentage": 4.2
+        },
+        {
+          "isWinner": false,
+          "name": "Alizaman Jijurahman",
+          "partyName": "PHRS",
+          "voteCount": 2162,
+          "votePercentage": 3.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 59919,
+        "majority": 4727,
+        "spoiltVotes": 981,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 43861,
+          "percentage": 73.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 60.71
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 4.91
+            },
+            {
+              "type": "Chinese",
+              "percentage": 33.56
+            },
+            {
+              "type": "Others",
+              "percentage": 0.82
+            }
+          ]
+        },
+        "incumbent": "Yap Kain Ching @ Mary Yap Ken Jin"
+      }
+    },
+    {
+      "codeName": "P191",
+      "name": "KALABAKAN",
+      "relatedSeatCode": null,
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ma'mun Sulaiman",
+          "partyName": "WARISAN",
+          "voteCount": 18486,
+          "votePercentage": 35.4
+        },
+        {
+          "isWinner": false,
+          "name": "Abdul Ghapur Salleh",
+          "partyName": "BN - UMNO",
+          "voteCount": 15299,
+          "votePercentage": 29.3
+        },
+        {
+          "isWinner": false,
+          "name": "Norbin Aloh",
+          "partyName": "PAS",
+          "voteCount": 2813,
+          "votePercentage": 5.4
+        },
+        {
+          "isWinner": false,
+          "name": "Ahmad Lahama",
+          "partyName": "PPRS",
+          "voteCount": 311,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 52199,
+        "majority": 3187,
+        "spoiltVotes": 840,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 38041,
+          "percentage": 72.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 84.4
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 6.18
+            },
+            {
+              "type": "Chinese",
+              "percentage": 8.54
+            },
+            {
+              "type": "Others",
+              "percentage": 0.88
+            }
+          ]
+        },
+        "incumbent": "Abdul Ghapur Salleh"
+      }
+    }
+  ],
+  "stateSeatsSummary": {
+    "pakatanSummaries": [
+      29,
+      0,
+      8,
+      23
+    ],
+    "partyDetails": [
+      {
+        "name": "BN",
+        "wonSeats": 29,
+        "contestingSeats": 60
+      },
+      {
+        "name": "WARISAN",
+        "wonSeats": 21,
+        "contestingSeats": 45
+      },
+      {
+        "name": "DAP (PH)",
+        "wonSeats": 6,
+        "contestingSeats": 7
+      },
+      {
+        "name": "Sabah STAR",
+        "wonSeats": 2,
+        "contestingSeats": 18
+      },
+      {
+        "name": "PKR (PH)",
+        "wonSeats": 2,
+        "contestingSeats": 8
+      },
+      {
+        "name": "PHRS",
+        "wonSeats": 0,
+        "contestingSeats": 26
+      },
+      {
+        "name": "PPRS",
+        "wonSeats": 0,
+        "contestingSeats": 9
+      },
+      {
+        "name": "PKS",
+        "wonSeats": 0,
+        "contestingSeats": 16
+      },
+      {
+        "name": "PAS",
+        "wonSeats": 0,
+        "contestingSeats": 18
+      },
+      {
+        "name": "PCS",
+        "wonSeats": 0,
+        "contestingSeats": 18
+      }
+    ]
+  },
+  "stateSeats": [
+    {
+      "codeName": "N1",
+      "name": "BANGGI",
+      "relatedSeatCode": "P167",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mohammad Mohamarin",
+          "partyName": "WARISAN",
+          "voteCount": 3613,
+          "votePercentage": 32.7
+        },
+        {
+          "isWinner": false,
+          "name": "Abd Mijul Unaini",
+          "partyName": "BN - UMNO",
+          "voteCount": 3234,
+          "votePercentage": 29.3
+        },
+        {
+          "isWinner": false,
+          "name": "Norlaji Amir Hassan",
+          "partyName": "Sabah STAR",
+          "voteCount": 367,
+          "votePercentage": 3.3
+        },
+        {
+          "isWinner": false,
+          "name": "Abidula Amsana",
+          "partyName": "PHRS",
+          "voteCount": 198,
+          "votePercentage": 1.8
+        },
+        {
+          "isWinner": false,
+          "name": "Kusugan Ali",
+          "partyName": "PPRS",
+          "voteCount": 105,
+          "votePercentage": 0.9
+        },
+        {
+          "isWinner": false,
+          "name": "Abdul Nasir Jamaluddin",
+          "partyName": "PKS",
+          "voteCount": 43,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 11054,
+        "majority": 379,
+        "spoiltVotes": 279,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 7868,
+          "percentage": 71.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 61.54
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 37.9
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.27
+            },
+            {
+              "type": "Others",
+              "percentage": 0.28
+            }
+          ]
+        },
+        "incumbent": "Abd Mijul Unaini"
+      }
+    },
+    {
+      "codeName": "N2",
+      "name": "TANJONG KAPOR",
+      "relatedSeatCode": "P167",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Chong Chen Bin",
+          "partyName": "WARISAN",
+          "voteCount": 9124,
+          "votePercentage": 38.1
+        },
+        {
+          "isWinner": false,
+          "name": "Teo Chee Kang",
+          "partyName": "BN - LDP",
+          "voteCount": 6132,
+          "votePercentage": 25.6
+        },
+        {
+          "isWinner": false,
+          "name": "Aliasgar Omolong",
+          "partyName": "PAS",
+          "voteCount": 617,
+          "votePercentage": 2.6
+        },
+        {
+          "isWinner": false,
+          "name": "Tsen Chou Yin @ Thomas Tsen Chau Yin",
+          "partyName": "PCS",
+          "voteCount": 481,
+          "votePercentage": 2
+        },
+        {
+          "isWinner": false,
+          "name": "Allaidly Poyon",
+          "partyName": "PPRS",
+          "voteCount": 446,
+          "votePercentage": 1.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 23928,
+        "majority": 2992,
+        "spoiltVotes": 345,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17242,
+          "percentage": 72.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 57.56
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 22.61
+            },
+            {
+              "type": "Chinese",
+              "percentage": 19.37
+            },
+            {
+              "type": "Others",
+              "percentage": 0.46
+            }
+          ]
+        },
+        "incumbent": "Teo Chee Kang"
+      }
+    },
+    {
+      "codeName": "N3",
+      "name": "PITAS",
+      "relatedSeatCode": "P167",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Bolkiah Ismail",
+          "partyName": "BN - UMNO",
+          "voteCount": 5606,
+          "votePercentage": 32.5
+        },
+        {
+          "isWinner": false,
+          "name": "Maklin Masiau",
+          "partyName": "WARISAN",
+          "voteCount": 4324,
+          "votePercentage": 25
+        },
+        {
+          "isWinner": false,
+          "name": "Bakir Mancaing",
+          "partyName": "PHRS",
+          "voteCount": 1527,
+          "votePercentage": 8.8
+        },
+        {
+          "isWinner": false,
+          "name": "Ramlah Nasir",
+          "partyName": "PKS",
+          "voteCount": 508,
+          "votePercentage": 2.9
+        },
+        {
+          "isWinner": false,
+          "name": "Pransol Tiying",
+          "partyName": "PKAN",
+          "voteCount": 400,
+          "votePercentage": 2.3
+        },
+        {
+          "isWinner": false,
+          "name": "Dausieh Queck @ Paraman",
+          "partyName": "PAS",
+          "voteCount": 262,
+          "votePercentage": 1.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 17269,
+        "majority": 1282,
+        "spoiltVotes": 416,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 13095,
+          "percentage": 75.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 52.91
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 46.05
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.59
+            },
+            {
+              "type": "Others",
+              "percentage": 0.45
+            }
+          ]
+        },
+        "incumbent": "Bolkiah Ismail"
+      }
+    },
+    {
+      "codeName": "N4",
+      "name": "MATUNGGONG",
+      "relatedSeatCode": "P168",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Julita Mojungki",
+          "partyName": "BN - PBS",
+          "voteCount": 6946,
+          "votePercentage": 30.3
+        },
+        {
+          "isWinner": false,
+          "name": "Sazalye Donol Abdullah",
+          "partyName": "PH - PKR",
+          "voteCount": 5259,
+          "votePercentage": 23
+        },
+        {
+          "isWinner": false,
+          "name": "Marunsai Dawai",
+          "partyName": "Sabah STAR",
+          "voteCount": 2968,
+          "votePercentage": 13
+        },
+        {
+          "isWinner": false,
+          "name": "Jornah Mozihim",
+          "partyName": "PCS",
+          "voteCount": 1348,
+          "votePercentage": 5.9
+        },
+        {
+          "isWinner": false,
+          "name": "Rahim Madhakong",
+          "partyName": "PKS",
+          "voteCount": 98,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 22906,
+        "majority": 1687,
+        "spoiltVotes": 557,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17248,
+          "percentage": 75.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 24.88
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 73.78
+            },
+            {
+              "type": "Chinese",
+              "percentage": 1.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.3
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N5",
+      "name": "TANDEK",
+      "relatedSeatCode": "P168",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Lasiah Baranting @ Anita",
+          "partyName": "BN - UMNO",
+          "voteCount": 8877,
+          "votePercentage": 36.8
+        },
+        {
+          "isWinner": false,
+          "name": "Baintin Adun",
+          "partyName": "WARISAN",
+          "voteCount": 4285,
+          "votePercentage": 17.8
+        },
+        {
+          "isWinner": false,
+          "name": "Joel Masilung",
+          "partyName": "Sabah STAR",
+          "voteCount": 3621,
+          "votePercentage": 15
+        },
+        {
+          "isWinner": false,
+          "name": "Johnson Assan @ Johnson Gaban",
+          "partyName": "PCS",
+          "voteCount": 553,
+          "votePercentage": 2.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 24101,
+        "majority": 4592,
+        "spoiltVotes": 584,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 18000,
+          "percentage": 74.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 31.93
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 64.24
+            },
+            {
+              "type": "Chinese",
+              "percentage": 3.35
+            },
+            {
+              "type": "Others",
+              "percentage": 0.48
+            }
+          ]
+        },
+        "incumbent": "Lasiah Baranting @ Anita"
+      }
+    },
+    {
+      "codeName": "N6",
+      "name": "TEMPASUK",
+      "relatedSeatCode": "P169",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Musbah Jamli",
+          "partyName": "BN - UMNO",
+          "voteCount": 7742,
+          "votePercentage": 40.5
+        },
+        {
+          "isWinner": false,
+          "name": "Mustapha @ Mohd Yunus Sakmud",
+          "partyName": "PH - PKR",
+          "voteCount": 5478,
+          "votePercentage": 28.6
+        },
+        {
+          "isWinner": false,
+          "name": "Suwah Buleh @ Bulleh",
+          "partyName": "Sabah STAR",
+          "voteCount": 1494,
+          "votePercentage": 7.8
+        },
+        {
+          "isWinner": false,
+          "name": "Mustaqim Aling",
+          "partyName": "PAS",
+          "voteCount": 521,
+          "votePercentage": 2.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 19129,
+        "majority": 2264,
+        "spoiltVotes": 392,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 15726,
+          "percentage": 82.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 68.5
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 31.07
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.21
+            },
+            {
+              "type": "Others",
+              "percentage": 0.22
+            }
+          ]
+        },
+        "incumbent": "Musbah Jamli"
+      }
+    },
+    {
+      "codeName": "N7",
+      "name": "KADAMAIAN",
+      "relatedSeatCode": "P169",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ewon Benedick",
+          "partyName": "BN - UPKO",
+          "voteCount": 6861,
+          "votePercentage": 38.2
+        },
+        {
+          "isWinner": false,
+          "name": "Lukia Indan",
+          "partyName": "PH - PKR",
+          "voteCount": 3567,
+          "votePercentage": 19.8
+        },
+        {
+          "isWinner": false,
+          "name": "Rubbin Guribah",
+          "partyName": "Sabah STAR",
+          "voteCount": 3034,
+          "votePercentage": 16.9
+        },
+        {
+          "isWinner": false,
+          "name": "Mail Balinu",
+          "partyName": "PCS",
+          "voteCount": 764,
+          "votePercentage": 4.2
+        },
+        {
+          "isWinner": false,
+          "name": "Satail Manjungkat",
+          "partyName": "PAS",
+          "voteCount": 129,
+          "votePercentage": 0.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 17982,
+        "majority": 3294,
+        "spoiltVotes": 251,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14712,
+          "percentage": 81.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 17.4
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 81.54
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.6
+            },
+            {
+              "type": "Others",
+              "percentage": 0.46
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N8",
+      "name": "USUKAN",
+      "relatedSeatCode": "P169",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Japlin Akim @ Abd Hamid",
+          "partyName": "BN - UMNO",
+          "voteCount": 8738,
+          "votePercentage": 42
+        },
+        {
+          "isWinner": false,
+          "name": "Abd Bahtrin @ Abdul Bahkrin Mohd Yusof",
+          "partyName": "WARISAN",
+          "voteCount": 7513,
+          "votePercentage": 36.1
+        },
+        {
+          "isWinner": false,
+          "name": "Adzmin Awang",
+          "partyName": "PAS",
+          "voteCount": 355,
+          "votePercentage": 1.7
+        },
+        {
+          "isWinner": false,
+          "name": "Amsor Tuah",
+          "partyName": "IND",
+          "voteCount": 70,
+          "votePercentage": 0.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 20808,
+        "majority": 1225,
+        "spoiltVotes": 356,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17138,
+          "percentage": 82.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 89.77
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 6.79
+            },
+            {
+              "type": "Chinese",
+              "percentage": 3.22
+            },
+            {
+              "type": "Others",
+              "percentage": 0.22
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N9",
+      "name": "TAMPARULI",
+      "relatedSeatCode": "P170",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jahid @ Noordin Jahim",
+          "partyName": "BN - PBS",
+          "voteCount": 6818,
+          "votePercentage": 36.2
+        },
+        {
+          "isWinner": false,
+          "name": "Dausil Kundayong",
+          "partyName": "PH - PKR",
+          "voteCount": 4738,
+          "votePercentage": 25.2
+        },
+        {
+          "isWinner": false,
+          "name": "Mojilip Bumburing @ Wilfred",
+          "partyName": "PCS",
+          "voteCount": 2541,
+          "votePercentage": 13.5
+        },
+        {
+          "isWinner": false,
+          "name": "Samin @ Jasmin Dulin",
+          "partyName": "Sabah STAR",
+          "voteCount": 901,
+          "votePercentage": 4.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 18836,
+        "majority": 2080,
+        "spoiltVotes": 228,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 15313,
+          "percentage": 81.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 26.51
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 61.22
+            },
+            {
+              "type": "Chinese",
+              "percentage": 11.47
+            },
+            {
+              "type": "Others",
+              "percentage": 0.8
+            }
+          ]
+        },
+        "incumbent": "Mojilip Bumburing @ Wilfred"
+      }
+    },
+    {
+      "codeName": "N10",
+      "name": "SULAMAN",
+      "relatedSeatCode": "P170",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Hajiji Noor",
+          "partyName": "BN - UMNO",
+          "voteCount": 12966,
+          "votePercentage": 57.3
+        },
+        {
+          "isWinner": false,
+          "name": "Abdullah Sani Daud",
+          "partyName": "WARISAN",
+          "voteCount": 5192,
+          "votePercentage": 23
+        },
+        {
+          "isWinner": false,
+          "name": "Arifin Harith",
+          "partyName": "PHRS",
+          "voteCount": 467,
+          "votePercentage": 2.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 22611,
+        "majority": 7774,
+        "spoiltVotes": 341,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 19055,
+          "percentage": 84.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 84.4
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 13.23
+            },
+            {
+              "type": "Chinese",
+              "percentage": 2.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.34
+            }
+          ]
+        },
+        "incumbent": "Hajiji Noor"
+      }
+    },
+    {
+      "codeName": "N11",
+      "name": "KIULU",
+      "relatedSeatCode": "P170",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Joniston Lumai @ Bangkuai",
+          "partyName": "BN - PBS",
+          "voteCount": 4336,
+          "votePercentage": 33.5
+        },
+        {
+          "isWinner": false,
+          "name": "Jo-Anna Sue Henley Rampas",
+          "partyName": "WARISAN",
+          "voteCount": 2893,
+          "votePercentage": 22.3
+        },
+        {
+          "isWinner": false,
+          "name": "Terence Sinti",
+          "partyName": "Sabah STAR",
+          "voteCount": 2457,
+          "votePercentage": 19
+        },
+        {
+          "isWinner": false,
+          "name": "Gaibin Ransoi",
+          "partyName": "PCS",
+          "voteCount": 543,
+          "votePercentage": 4.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 12953,
+        "majority": 1443,
+        "spoiltVotes": 175,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 10459,
+          "percentage": 80.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 13.96
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 83.29
+            },
+            {
+              "type": "Chinese",
+              "percentage": 2.16
+            },
+            {
+              "type": "Others",
+              "percentage": 0.59
+            }
+          ]
+        },
+        "incumbent": "Joniston Lumai @ Bangkuai"
+      }
+    },
+    {
+      "codeName": "N12",
+      "name": "KARAMBUNAI",
+      "relatedSeatCode": "P171",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Azhar Matussin",
+          "partyName": "WARISAN",
+          "voteCount": 14157,
+          "votePercentage": 41.1
+        },
+        {
+          "isWinner": false,
+          "name": "Jainab Ahmad",
+          "partyName": "BN - UMNO",
+          "voteCount": 8791,
+          "votePercentage": 25.5
+        },
+        {
+          "isWinner": false,
+          "name": "Aspar Oyet @ Akbar",
+          "partyName": "PAS",
+          "voteCount": 1696,
+          "votePercentage": 4.9
+        },
+        {
+          "isWinner": false,
+          "name": "Ahsim Oyok Jamat",
+          "partyName": "SAPP",
+          "voteCount": 1258,
+          "votePercentage": 3.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 34451,
+        "majority": 5366,
+        "spoiltVotes": 613,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 26658,
+          "percentage": 77.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 79.32
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 9.12
+            },
+            {
+              "type": "Chinese",
+              "percentage": 10.37
+            },
+            {
+              "type": "Others",
+              "percentage": 1.18
+            }
+          ]
+        },
+        "incumbent": "Jainab Ahmad"
+      }
+    },
+    {
+      "codeName": "N13",
+      "name": "INANAM",
+      "relatedSeatCode": "P171",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Kenny Chua Teck Ho",
+          "partyName": "PH - PKR",
+          "voteCount": 13633,
+          "votePercentage": 48.8
+        },
+        {
+          "isWinner": false,
+          "name": "Goh Chin Lok @ Johnny Goh",
+          "partyName": "BN - PBS",
+          "voteCount": 5850,
+          "votePercentage": 20.9
+        },
+        {
+          "isWinner": false,
+          "name": "John Stephen Dionysius",
+          "partyName": "SAPP",
+          "voteCount": 1695,
+          "votePercentage": 6.1
+        },
+        {
+          "isWinner": false,
+          "name": "Terence Tsen Kim Fatt",
+          "partyName": "PKAN",
+          "voteCount": 480,
+          "votePercentage": 1.7
+        },
+        {
+          "isWinner": false,
+          "name": "Jakariah Janit",
+          "partyName": "PKS",
+          "voteCount": 156,
+          "votePercentage": 0.6
+        },
+        {
+          "isWinner": false,
+          "name": "Situl Mintow",
+          "partyName": "IND",
+          "voteCount": 57,
+          "votePercentage": 0.2
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 27964,
+        "majority": 7783,
+        "spoiltVotes": 316,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 22360,
+          "percentage": 80
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 25.59
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 43.73
+            },
+            {
+              "type": "Chinese",
+              "percentage": 29.58
+            },
+            {
+              "type": "Others",
+              "percentage": 1.09
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N14",
+      "name": "LIKAS",
+      "relatedSeatCode": "P172",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Tan Lee Fatt",
+          "partyName": "PH - DAP",
+          "voteCount": 9163,
+          "votePercentage": 60.6
+        },
+        {
+          "isWinner": false,
+          "name": "Chin Shu Ying",
+          "partyName": "BN - LDP",
+          "voteCount": 1261,
+          "votePercentage": 8.3
+        },
+        {
+          "isWinner": false,
+          "name": "Yong We Kong",
+          "partyName": "SAPP",
+          "voteCount": 673,
+          "votePercentage": 4.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 15126,
+        "majority": 7902,
+        "spoiltVotes": 84,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 11219,
+          "percentage": 74.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 12.76
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 13.76
+            },
+            {
+              "type": "Chinese",
+              "percentage": 72
+            },
+            {
+              "type": "Others",
+              "percentage": 1.48
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N15",
+      "name": "API-API",
+      "relatedSeatCode": "P172",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Liew Chin Jin",
+          "partyName": "PH - PKR",
+          "voteCount": 8174,
+          "votePercentage": 42.4
+        },
+        {
+          "isWinner": false,
+          "name": "Yee Moh Chai",
+          "partyName": "BN - PBS",
+          "voteCount": 5220,
+          "votePercentage": 27.1
+        },
+        {
+          "isWinner": false,
+          "name": "Lim Kat Chung",
+          "partyName": "SAPP",
+          "voteCount": 598,
+          "votePercentage": 3.1
+        },
+        {
+          "isWinner": false,
+          "name": "Len Lip Fong @ Land Lip Fong",
+          "partyName": "PKAN",
+          "voteCount": 244,
+          "votePercentage": 1.3
+        },
+        {
+          "isWinner": false,
+          "name": "Chan Chee Ching",
+          "partyName": "IND",
+          "voteCount": 94,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 19279,
+        "majority": 2954,
+        "spoiltVotes": 378,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14729,
+          "percentage": 76.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 44.41
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 12.11
+            },
+            {
+              "type": "Chinese",
+              "percentage": 42.39
+            },
+            {
+              "type": "Others",
+              "percentage": 1.08
+            }
+          ]
+        },
+        "incumbent": "Liew Chin Jin"
+      }
+    },
+    {
+      "codeName": "N16",
+      "name": "LUYANG",
+      "relatedSeatCode": "P172",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Phoong Jin Zhe",
+          "partyName": "PH - DAP",
+          "voteCount": 14237,
+          "votePercentage": 65.3
+        },
+        {
+          "isWinner": false,
+          "name": "Pamela Yong",
+          "partyName": "BN - MCA",
+          "voteCount": 1829,
+          "votePercentage": 8.4
+        },
+        {
+          "isWinner": false,
+          "name": "Gee Tien Siong",
+          "partyName": "SAPP",
+          "voteCount": 807,
+          "votePercentage": 3.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 21815,
+        "majority": 12408,
+        "spoiltVotes": 112,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17031,
+          "percentage": 78.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 9.49
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 15.38
+            },
+            {
+              "type": "Chinese",
+              "percentage": 73.74
+            },
+            {
+              "type": "Others",
+              "percentage": 1.39
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N17",
+      "name": "TANJONG ARU",
+      "relatedSeatCode": "P173",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Wong Hong Jun",
+          "partyName": "WARISAN",
+          "voteCount": 9794,
+          "votePercentage": 41.1
+        },
+        {
+          "isWinner": false,
+          "name": "Yong Oui Fah",
+          "partyName": "BN - PBS",
+          "voteCount": 5184,
+          "votePercentage": 21.8
+        },
+        {
+          "isWinner": false,
+          "name": "Hamid Ismail",
+          "partyName": "PAS",
+          "voteCount": 1379,
+          "votePercentage": 5.8
+        },
+        {
+          "isWinner": false,
+          "name": "Noraiza Mohammad Noor",
+          "partyName": "PHRS",
+          "voteCount": 566,
+          "votePercentage": 2.4
+        },
+        {
+          "isWinner": false,
+          "name": "Chong Wei Leung",
+          "partyName": "PKAN",
+          "voteCount": 494,
+          "votePercentage": 2.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 23829,
+        "majority": 4610,
+        "spoiltVotes": 342,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17871,
+          "percentage": 75
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 65.33
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 11.21
+            },
+            {
+              "type": "Chinese",
+              "percentage": 22.61
+            },
+            {
+              "type": "Others",
+              "percentage": 0.85
+            }
+          ]
+        },
+        "incumbent": "Yong Oui Fah"
+      }
+    },
+    {
+      "codeName": "N18",
+      "name": "PETAGAS",
+      "relatedSeatCode": "P173",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Uda Sulai",
+          "partyName": "WARISAN",
+          "voteCount": 6526,
+          "votePercentage": 37.3
+        },
+        {
+          "isWinner": false,
+          "name": "Yahyah @ Yahya Hussin @ Ag Husin",
+          "partyName": "BN - UMNO",
+          "voteCount": 6318,
+          "votePercentage": 36.1
+        },
+        {
+          "isWinner": false,
+          "name": "Ester Otion",
+          "partyName": "PHRS",
+          "voteCount": 760,
+          "votePercentage": 4.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 17483,
+        "majority": 208,
+        "spoiltVotes": 294,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14021,
+          "percentage": 80.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 74.56
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 18.62
+            },
+            {
+              "type": "Chinese",
+              "percentage": 5.63
+            },
+            {
+              "type": "Others",
+              "percentage": 1.18
+            }
+          ]
+        },
+        "incumbent": "Yahyah @ Yahya Hussin @ Ag Husin"
+      }
+    },
+    {
+      "codeName": "N19",
+      "name": "KAPAYAN",
+      "relatedSeatCode": "P174",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jannie Lasimbang",
+          "partyName": "PH - DAP",
+          "voteCount": 19558,
+          "votePercentage": 58.1
+        },
+        {
+          "isWinner": false,
+          "name": "Goh Fah Sun",
+          "partyName": "BN - MCA",
+          "voteCount": 6308,
+          "votePercentage": 18.7
+        },
+        {
+          "isWinner": false,
+          "name": "Chong Pit Fah",
+          "partyName": "Sabah STAR",
+          "voteCount": 1318,
+          "votePercentage": 3.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 33675,
+        "majority": 13250,
+        "spoiltVotes": 276,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 27557,
+          "percentage": 81.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 17.43
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 33.55
+            },
+            {
+              "type": "Chinese",
+              "percentage": 47.07
+            },
+            {
+              "type": "Others",
+              "percentage": 1.95
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N20",
+      "name": "MOYOG",
+      "relatedSeatCode": "P174",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jenifer Lasimbang",
+          "partyName": "WARISAN",
+          "voteCount": 9745,
+          "votePercentage": 50.1
+        },
+        {
+          "isWinner": false,
+          "name": "Donald Peter Mojuntin",
+          "partyName": "BN - UPKO",
+          "voteCount": 5303,
+          "votePercentage": 27.3
+        },
+        {
+          "isWinner": false,
+          "name": "Danim @ Aloysius Siap",
+          "partyName": "Sabah STAR",
+          "voteCount": 605,
+          "votePercentage": 3.1
+        },
+        {
+          "isWinner": false,
+          "name": "Bandasan @ Dionisius Dennis J Tunding",
+          "partyName": "PCS",
+          "voteCount": 222,
+          "votePercentage": 1.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 19456,
+        "majority": 4442,
+        "spoiltVotes": 202,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 16100,
+          "percentage": 82.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 7.93
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 83.35
+            },
+            {
+              "type": "Chinese",
+              "percentage": 7.43
+            },
+            {
+              "type": "Others",
+              "percentage": 1.29
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N21",
+      "name": "KAWANG",
+      "relatedSeatCode": "P175",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Gulamhaidar @ Yusof Khan Bahadar",
+          "partyName": "BN - UMNO",
+          "voteCount": 10388,
+          "votePercentage": 45
+        },
+        {
+          "isWinner": false,
+          "name": "Salleh Eddris",
+          "partyName": "WARISAN",
+          "voteCount": 7526,
+          "votePercentage": 32.6
+        },
+        {
+          "isWinner": false,
+          "name": "Matlin Jilon",
+          "partyName": "PHRS",
+          "voteCount": 781,
+          "votePercentage": 3.4
+        },
+        {
+          "isWinner": false,
+          "name": "Wahid @ Harith Ismail",
+          "partyName": "PKAN",
+          "voteCount": 201,
+          "votePercentage": 0.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 23102,
+        "majority": 2862,
+        "spoiltVotes": 322,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 19585,
+          "percentage": 84.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 67.6
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 26.04
+            },
+            {
+              "type": "Chinese",
+              "percentage": 5.77
+            },
+            {
+              "type": "Others",
+              "percentage": 0.59
+            }
+          ]
+        },
+        "incumbent": "Gulamhaidar @ Yusof Khan Bahadar"
+      }
+    },
+    {
+      "codeName": "N22",
+      "name": "PANTAI MANIS",
+      "relatedSeatCode": "P175",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Aidi Moktar",
+          "partyName": "WARISAN",
+          "voteCount": 9234,
+          "votePercentage": 45.1
+        },
+        {
+          "isWinner": false,
+          "name": "Abdul Rahim Ismail",
+          "partyName": "BN - UMNO",
+          "voteCount": 7126,
+          "votePercentage": 34.8
+        },
+        {
+          "isWinner": false,
+          "name": "James @ Ebi Ghani",
+          "partyName": "PHRS",
+          "voteCount": 448,
+          "votePercentage": 2.2
+        },
+        {
+          "isWinner": false,
+          "name": "Jawasing Mianus @ Herman J Mianus",
+          "partyName": "PCS",
+          "voteCount": 129,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 20484,
+        "majority": 2108,
+        "spoiltVotes": 227,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17217,
+          "percentage": 84.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 65.7
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 24.49
+            },
+            {
+              "type": "Chinese",
+              "percentage": 9.36
+            },
+            {
+              "type": "Others",
+              "percentage": 0.44
+            }
+          ]
+        },
+        "incumbent": "Abdul Rahim Ismail"
+      }
+    },
+    {
+      "codeName": "N23",
+      "name": "BONGAWAN",
+      "relatedSeatCode": "P176",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Daud Yusof",
+          "partyName": "WARISAN",
+          "voteCount": 6912,
+          "votePercentage": 42.6
+        },
+        {
+          "isWinner": false,
+          "name": "Mohamad Alamin",
+          "partyName": "BN - UMNO",
+          "voteCount": 6117,
+          "votePercentage": 37.7
+        },
+        {
+          "isWinner": false,
+          "name": "Jaafar Ismail",
+          "partyName": "PHRS",
+          "voteCount": 627,
+          "votePercentage": 3.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 16239,
+        "majority": 795,
+        "spoiltVotes": 228,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 13953,
+          "percentage": 85.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 65.86
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 30.22
+            },
+            {
+              "type": "Chinese",
+              "percentage": 3.61
+            },
+            {
+              "type": "Others",
+              "percentage": 0.31
+            }
+          ]
+        },
+        "incumbent": "Mohamad Alamin"
+      }
+    },
+    {
+      "codeName": "N24",
+      "name": "MEMBAKUT",
+      "relatedSeatCode": "P176",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mohd Arifin Mohd Arif",
+          "partyName": "BN - UMNO",
+          "voteCount": 6495,
+          "votePercentage": 48.5
+        },
+        {
+          "isWinner": false,
+          "name": "Abd Sani Marip @ Marif",
+          "partyName": "WARISAN",
+          "voteCount": 4092,
+          "votePercentage": 30.6
+        },
+        {
+          "isWinner": false,
+          "name": "Ali Omar Mohd Idris",
+          "partyName": "PHRS",
+          "voteCount": 456,
+          "votePercentage": 3.4
+        },
+        {
+          "isWinner": false,
+          "name": "Rosjelen Salimat",
+          "partyName": "PCS",
+          "voteCount": 223,
+          "votePercentage": 1.7
+        },
+        {
+          "isWinner": false,
+          "name": "Yahya Ahmad",
+          "partyName": "IND",
+          "voteCount": 85,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 13379,
+        "majority": 2403,
+        "spoiltVotes": 182,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 11565,
+          "percentage": 86.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 67.36
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 29.58
+            },
+            {
+              "type": "Chinese",
+              "percentage": 2.68
+            },
+            {
+              "type": "Others",
+              "percentage": 0.38
+            }
+          ]
+        },
+        "incumbent": "Mohd Arifin Mohd Arif"
+      }
+    },
+    {
+      "codeName": "N25",
+      "name": "KLIAS",
+      "relatedSeatCode": "P177",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Isnin Aliasnih @ Liasnih",
+          "partyName": "BN - UMNO",
+          "voteCount": 6173,
+          "votePercentage": 36.4
+        },
+        {
+          "isWinner": false,
+          "name": "Lajim Ukin",
+          "partyName": "PHRS",
+          "voteCount": 3837,
+          "votePercentage": 22.6
+        },
+        {
+          "isWinner": false,
+          "name": "Johair Mat Lani",
+          "partyName": "WARISAN",
+          "voteCount": 3725,
+          "votePercentage": 22
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 16948,
+        "majority": 2336,
+        "spoiltVotes": 393,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14187,
+          "percentage": 83.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 73.29
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 15.55
+            },
+            {
+              "type": "Chinese",
+              "percentage": 10.69
+            },
+            {
+              "type": "Others",
+              "percentage": 0.47
+            }
+          ]
+        },
+        "incumbent": "Lajim Ukin"
+      }
+    },
+    {
+      "codeName": "N26",
+      "name": "KUALA PENYU",
+      "relatedSeatCode": "P177",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Limus Jury",
+          "partyName": "BN - UPKO",
+          "voteCount": 7352,
+          "votePercentage": 44.8
+        },
+        {
+          "isWinner": false,
+          "name": "Dikin Musah",
+          "partyName": "PH - PKR",
+          "voteCount": 3807,
+          "votePercentage": 23.2
+        },
+        {
+          "isWinner": false,
+          "name": "Jonas Sungin @ Sunggim",
+          "partyName": "PHRS",
+          "voteCount": 1749,
+          "votePercentage": 10.7
+        },
+        {
+          "isWinner": false,
+          "name": "Nikol Tiunsu @ Herman Tiongsoh",
+          "partyName": "PCS",
+          "voteCount": 548,
+          "votePercentage": 3.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 16394,
+        "majority": 3545,
+        "spoiltVotes": 439,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14056,
+          "percentage": 85.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 58.41
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 37.03
+            },
+            {
+              "type": "Chinese",
+              "percentage": 4.12
+            },
+            {
+              "type": "Others",
+              "percentage": 0.44
+            }
+          ]
+        },
+        "incumbent": "Limus Jury"
+      }
+    },
+    {
+      "codeName": "N27",
+      "name": "LUMADAN",
+      "relatedSeatCode": "P178",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Matbali Musah",
+          "partyName": "BN - UMNO",
+          "voteCount": 6836,
+          "votePercentage": 45.5
+        },
+        {
+          "isWinner": false,
+          "name": "Md Samlih Juaisin",
+          "partyName": "WARISAN",
+          "voteCount": 3901,
+          "votePercentage": 26
+        },
+        {
+          "isWinner": false,
+          "name": "Asmat Japar",
+          "partyName": "PHRS",
+          "voteCount": 1331,
+          "votePercentage": 8.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 15009,
+        "majority": 2935,
+        "spoiltVotes": 286,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 12420,
+          "percentage": 82.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 89.11
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 7.3
+            },
+            {
+              "type": "Chinese",
+              "percentage": 3.19
+            },
+            {
+              "type": "Others",
+              "percentage": 0.4
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N28",
+      "name": "SINDUMIN",
+      "relatedSeatCode": "P178",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Yusof @ Josree Yacob",
+          "partyName": "WARISAN",
+          "voteCount": 6648,
+          "votePercentage": 39.4
+        },
+        {
+          "isWinner": false,
+          "name": "Sapawi Amat Wasali @ Ahmad",
+          "partyName": "BN - UMNO",
+          "voteCount": 5888,
+          "votePercentage": 34.9
+        },
+        {
+          "isWinner": false,
+          "name": "Patrick Sadom",
+          "partyName": "PHRS",
+          "voteCount": 273,
+          "votePercentage": 1.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 16873,
+        "majority": 760,
+        "spoiltVotes": 204,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 13065,
+          "percentage": 77.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 64.84
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 30.31
+            },
+            {
+              "type": "Chinese",
+              "percentage": 4.22
+            },
+            {
+              "type": "Others",
+              "percentage": 0.62
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N29",
+      "name": "KUNDASANG",
+      "relatedSeatCode": "P179",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Joachim Gunsalam",
+          "partyName": "BN - PBS",
+          "voteCount": 3971,
+          "votePercentage": 26.7
+        },
+        {
+          "isWinner": false,
+          "name": "Siriman @ Mohd Fazid Basir",
+          "partyName": "WARISAN",
+          "voteCount": 3716,
+          "votePercentage": 25
+        },
+        {
+          "isWinner": false,
+          "name": "Japiril Suhaimin",
+          "partyName": "Sabah STAR",
+          "voteCount": 2105,
+          "votePercentage": 14.2
+        },
+        {
+          "isWinner": false,
+          "name": "Henrynus Amin",
+          "partyName": "PKAN",
+          "voteCount": 733,
+          "votePercentage": 4.9
+        },
+        {
+          "isWinner": false,
+          "name": "Jinus Sodiong",
+          "partyName": "PKS",
+          "voteCount": 166,
+          "votePercentage": 1.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 14864,
+        "majority": 255,
+        "spoiltVotes": 325,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 11070,
+          "percentage": 74.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 39.32
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 59.43
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.4
+            },
+            {
+              "type": "Others",
+              "percentage": 0.85
+            }
+          ]
+        },
+        "incumbent": "Joachim Gunsalam"
+      }
+    },
+    {
+      "codeName": "N30",
+      "name": "KARANAAN",
+      "relatedSeatCode": "P179",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Masidi Manjun @ Masdi",
+          "partyName": "BN - UMNO",
+          "voteCount": 6849,
+          "votePercentage": 50.7
+        },
+        {
+          "isWinner": false,
+          "name": "Chong Peck Hing @ Chong Poh Sing",
+          "partyName": "PH - PKR",
+          "voteCount": 3067,
+          "votePercentage": 22.7
+        },
+        {
+          "isWinner": false,
+          "name": "Aman @ Adzman Manaf",
+          "partyName": "PHRS",
+          "voteCount": 685,
+          "votePercentage": 5.1
+        },
+        {
+          "isWinner": false,
+          "name": "Juhaili Sidek",
+          "partyName": "PKAN",
+          "voteCount": 104,
+          "votePercentage": 0.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 13517,
+        "majority": 3782,
+        "spoiltVotes": 155,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 10928,
+          "percentage": 80.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 46.61
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 48.2
+            },
+            {
+              "type": "Chinese",
+              "percentage": 4.32
+            },
+            {
+              "type": "Others",
+              "percentage": 0.87
+            }
+          ]
+        },
+        "incumbent": "Masidi Manjun @ Masdi"
+      }
+    },
+    {
+      "codeName": "N31",
+      "name": "PAGINATAN",
+      "relatedSeatCode": "P179",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Abidin Madingkir",
+          "partyName": "BN - UPKO",
+          "voteCount": 5666,
+          "votePercentage": 37
+        },
+        {
+          "isWinner": false,
+          "name": "Julian @ Paul Sidin",
+          "partyName": "WARISAN",
+          "voteCount": 3600,
+          "votePercentage": 23.5
+        },
+        {
+          "isWinner": false,
+          "name": "Pedderin @ Feddrin Tuliang @ Tuling",
+          "partyName": "Sabah STAR",
+          "voteCount": 1870,
+          "votePercentage": 12.2
+        },
+        {
+          "isWinner": false,
+          "name": "Satiol Indong",
+          "partyName": "PCS",
+          "voteCount": 362,
+          "votePercentage": 2.4
+        },
+        {
+          "isWinner": false,
+          "name": "Mat Jaili Samat",
+          "partyName": "PPRS",
+          "voteCount": 104,
+          "votePercentage": 0.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 15325,
+        "majority": 2066,
+        "spoiltVotes": 234,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 11905,
+          "percentage": 77.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 34.91
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 63.03
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.67
+            },
+            {
+              "type": "Others",
+              "percentage": 1.39
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N32",
+      "name": "TAMBUNAN",
+      "relatedSeatCode": "P180",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jeffrey Kitingan",
+          "partyName": "Sabah STAR",
+          "voteCount": 6136,
+          "votePercentage": 37.7
+        },
+        {
+          "isWinner": false,
+          "name": "Joseph Pairin Kitingan",
+          "partyName": "BN - PBS",
+          "voteCount": 5099,
+          "votePercentage": 31.4
+        },
+        {
+          "isWinner": false,
+          "name": "Justin Alip",
+          "partyName": "WARISAN",
+          "voteCount": 1427,
+          "votePercentage": 8.8
+        },
+        {
+          "isWinner": false,
+          "name": "Nestor Joannes",
+          "partyName": "PCS",
+          "voteCount": 456,
+          "votePercentage": 2.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 16255,
+        "majority": 1037,
+        "spoiltVotes": 118,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 13322,
+          "percentage": 82
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 12.59
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 84.74
+            },
+            {
+              "type": "Chinese",
+              "percentage": 1.18
+            },
+            {
+              "type": "Others",
+              "percentage": 1.49
+            }
+          ]
+        },
+        "incumbent": "Joseph Pairin Kitingan"
+      }
+    },
+    {
+      "codeName": "N33",
+      "name": "BINGKOR",
+      "relatedSeatCode": "P180",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Robert Tawik @ Nordin",
+          "partyName": "Sabah STAR",
+          "voteCount": 4552,
+          "votePercentage": 25.6
+        },
+        {
+          "isWinner": false,
+          "name": "Jino @ Peter Allion @ Alliun",
+          "partyName": "BN - PBS",
+          "voteCount": 4387,
+          "votePercentage": 24.7
+        },
+        {
+          "isWinner": false,
+          "name": "Odom @ Peter Dhoms Saili @ Soili",
+          "partyName": "PH - DAP",
+          "voteCount": 4233,
+          "votePercentage": 23.8
+        },
+        {
+          "isWinner": false,
+          "name": "Aisat @ Ellik Igau @ Iggau",
+          "partyName": "PKAN",
+          "voteCount": 290,
+          "votePercentage": 1.6
+        },
+        {
+          "isWinner": false,
+          "name": "Justin Guka",
+          "partyName": "IND",
+          "voteCount": 182,
+          "votePercentage": 1
+        },
+        {
+          "isWinner": false,
+          "name": "Uling @ Thomas Anggan",
+          "partyName": "PKS",
+          "voteCount": 69,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 17761,
+        "majority": 165,
+        "spoiltVotes": 190,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 13984,
+          "percentage": 78.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 27.01
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 62.44
+            },
+            {
+              "type": "Chinese",
+              "percentage": 9.56
+            },
+            {
+              "type": "Others",
+              "percentage": 0.99
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N34",
+      "name": "LIAWAN",
+      "relatedSeatCode": "P180",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Rasinin Koutis @ Kautis",
+          "partyName": "WARISAN",
+          "voteCount": 6387,
+          "votePercentage": 37.2
+        },
+        {
+          "isWinner": false,
+          "name": "Sapin @ Sairin Karano @ Karno",
+          "partyName": "BN - UMNO",
+          "voteCount": 5005,
+          "votePercentage": 29.2
+        },
+        {
+          "isWinner": false,
+          "name": "Kong Fui Seng",
+          "partyName": "S'wak STAR",
+          "voteCount": 1809,
+          "votePercentage": 10.5
+        },
+        {
+          "isWinner": false,
+          "name": "Hussein @ Jaimis Kassim @ Madatin",
+          "partyName": "PCS",
+          "voteCount": 176,
+          "votePercentage": 1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 17161,
+        "majority": 1382,
+        "spoiltVotes": 154,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 13610,
+          "percentage": 79.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 43.71
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 40.32
+            },
+            {
+              "type": "Chinese",
+              "percentage": 14.84
+            },
+            {
+              "type": "Others",
+              "percentage": 1.14
+            }
+          ]
+        },
+        "incumbent": "Sapin @ Sairin Karano @ Karno"
+      }
+    },
+    {
+      "codeName": "N35",
+      "name": "MELALAP",
+      "relatedSeatCode": "P181",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Peter Anthony",
+          "partyName": "WARISAN",
+          "voteCount": 5010,
+          "votePercentage": 35.8
+        },
+        {
+          "isWinner": false,
+          "name": "Radin Malleh",
+          "partyName": "BN - PBS",
+          "voteCount": 4717,
+          "votePercentage": 33.7
+        },
+        {
+          "isWinner": false,
+          "name": "Jaineh Juata @ Jimmy Jawatah",
+          "partyName": "Sabah STAR",
+          "voteCount": 861,
+          "votePercentage": 6.2
+        },
+        {
+          "isWinner": false,
+          "name": "Chinly Moniu @ Mah Tsen Li",
+          "partyName": "PCS",
+          "voteCount": 69,
+          "votePercentage": 0.5
+        },
+        {
+          "isWinner": false,
+          "name": "Lidos Rabih @ George Rejos",
+          "partyName": "PKS",
+          "voteCount": 45,
+          "votePercentage": 0.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 13996,
+        "majority": 293,
+        "spoiltVotes": 222,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 10986,
+          "percentage": 78.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 30.32
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 53.52
+            },
+            {
+              "type": "Chinese",
+              "percentage": 15.55
+            },
+            {
+              "type": "Others",
+              "percentage": 0.61
+            }
+          ]
+        },
+        "incumbent": "Radin Malleh"
+      }
+    },
+    {
+      "codeName": "N36",
+      "name": "KEMABONG",
+      "relatedSeatCode": "P181",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jamawi Ja'afar",
+          "partyName": "BN - UMNO",
+          "voteCount": 6093,
+          "votePercentage": 40.1
+        },
+        {
+          "isWinner": false,
+          "name": "Haris Bolos",
+          "partyName": "WARISAN",
+          "voteCount": 5198,
+          "votePercentage": 34.2
+        },
+        {
+          "isWinner": false,
+          "name": "Tay Jin Kiong @ Alfred",
+          "partyName": "PCS",
+          "voteCount": 152,
+          "votePercentage": 1
+        },
+        {
+          "isWinner": false,
+          "name": "Yahia @ Yahya Raimah",
+          "partyName": "PHRS",
+          "voteCount": 124,
+          "votePercentage": 0.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 15186,
+        "majority": 895,
+        "spoiltVotes": 410,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 12030,
+          "percentage": 79.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 25.89
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 68.49
+            },
+            {
+              "type": "Chinese",
+              "percentage": 5.21
+            },
+            {
+              "type": "Others",
+              "percentage": 0.41
+            }
+          ]
+        },
+        "incumbent": "Jamawi Ja'afar"
+      }
+    },
+    {
+      "codeName": "N37",
+      "name": "SOOK",
+      "relatedSeatCode": "P182",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Ellron Angin",
+          "partyName": "BN - PBRS",
+          "voteCount": 8042,
+          "votePercentage": 42.1
+        },
+        {
+          "isWinner": false,
+          "name": "Martin Tomy @ Tommy",
+          "partyName": "WARISAN",
+          "voteCount": 3557,
+          "votePercentage": 18.6
+        },
+        {
+          "isWinner": false,
+          "name": "Baritus Gungkit",
+          "partyName": "Sabah STAR",
+          "voteCount": 3402,
+          "votePercentage": 17.8
+        },
+        {
+          "isWinner": false,
+          "name": "Beaty Fred @ Peter Beaty",
+          "partyName": "PKAN",
+          "voteCount": 113,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 19121,
+        "majority": 4485,
+        "spoiltVotes": 350,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 15503,
+          "percentage": 81.1
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 25.83
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 71.82
+            },
+            {
+              "type": "Chinese",
+              "percentage": 1.73
+            },
+            {
+              "type": "Others",
+              "percentage": 0.63
+            }
+          ]
+        },
+        "incumbent": "Ellron Angin"
+      }
+    },
+    {
+      "codeName": "N38",
+      "name": "NABAWAN",
+      "relatedSeatCode": "P182",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Bobbey Ah Fang Suan",
+          "partyName": "BN - UPKO",
+          "voteCount": 5474,
+          "votePercentage": 44.7
+        },
+        {
+          "isWinner": false,
+          "name": "Ahuar Rasam",
+          "partyName": "WARISAN",
+          "voteCount": 3402,
+          "votePercentage": 27.8
+        },
+        {
+          "isWinner": false,
+          "name": "Apandy @ Lukan Angindi",
+          "partyName": "PHRS",
+          "voteCount": 165,
+          "votePercentage": 1.3
+        },
+        {
+          "isWinner": false,
+          "name": "Angin @ Nasruddin Lambahan",
+          "partyName": "PCS",
+          "voteCount": 156,
+          "votePercentage": 1.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 12256,
+        "majority": 2072,
+        "spoiltVotes": 228,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 9443,
+          "percentage": 77
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 21.84
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 77.22
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.64
+            },
+            {
+              "type": "Others",
+              "percentage": 0.29
+            }
+          ]
+        },
+        "incumbent": "Bobbey Ah Fang Suan"
+      }
+    },
+    {
+      "codeName": "N39",
+      "name": "SUGUT",
+      "relatedSeatCode": "P183",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "James Ratib",
+          "partyName": "BN - UMNO",
+          "voteCount": 4704,
+          "votePercentage": 40.2
+        },
+        {
+          "isWinner": false,
+          "name": "Aspah Abdullah Sani",
+          "partyName": "WARISAN",
+          "voteCount": 3183,
+          "votePercentage": 27.2
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Arshad Abdul",
+          "partyName": "PPRS",
+          "voteCount": 436,
+          "votePercentage": 3.7
+        },
+        {
+          "isWinner": false,
+          "name": "Ag Osman Asibih",
+          "partyName": "PKS",
+          "voteCount": 111,
+          "votePercentage": 0.9
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 11703,
+        "majority": 1521,
+        "spoiltVotes": 428,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 8882,
+          "percentage": 75.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 56.91
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 42.06
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.48
+            },
+            {
+              "type": "Others",
+              "percentage": 0.56
+            }
+          ]
+        },
+        "incumbent": "James Ratib"
+      }
+    },
+    {
+      "codeName": "N40",
+      "name": "LABUK",
+      "relatedSeatCode": "P183",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Abdul Rahman Kongkawang",
+          "partyName": "BN - PBS",
+          "voteCount": 6665,
+          "votePercentage": 39.7
+        },
+        {
+          "isWinner": false,
+          "name": "Ramsah Tasim @ Ramsah Tashim",
+          "partyName": "WARISAN",
+          "voteCount": 4065,
+          "votePercentage": 24.2
+        },
+        {
+          "isWinner": false,
+          "name": "Rainus Awang",
+          "partyName": "Sabah STAR",
+          "voteCount": 1171,
+          "votePercentage": 7
+        },
+        {
+          "isWinner": false,
+          "name": "James Miki",
+          "partyName": "PCS",
+          "voteCount": 383,
+          "votePercentage": 2.3
+        },
+        {
+          "isWinner": false,
+          "name": "Albert Thomas Enti",
+          "partyName": "PKS",
+          "voteCount": 141,
+          "votePercentage": 0.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 16806,
+        "majority": 2600,
+        "spoiltVotes": 247,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 12733,
+          "percentage": 75.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 52.06
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 45.8
+            },
+            {
+              "type": "Chinese",
+              "percentage": 1.09
+            },
+            {
+              "type": "Others",
+              "percentage": 1.05
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N41",
+      "name": "GUM-GUM",
+      "relatedSeatCode": "P184",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Arunarnsin Taib",
+          "partyName": "WARISAN",
+          "voteCount": 4710,
+          "votePercentage": 37.8
+        },
+        {
+          "isWinner": false,
+          "name": "Juslie Ajirol",
+          "partyName": "BN - UMNO",
+          "voteCount": 4112,
+          "votePercentage": 33
+        },
+        {
+          "isWinner": false,
+          "name": "Dahil Masdik",
+          "partyName": "PHRS",
+          "voteCount": 252,
+          "votePercentage": 2
+        },
+        {
+          "isWinner": false,
+          "name": "Joilin @ Christine Bugung",
+          "partyName": "PKS",
+          "voteCount": 81,
+          "votePercentage": 0.7
+        },
+        {
+          "isWinner": false,
+          "name": "Jamaludin Lamba",
+          "partyName": "PPRS",
+          "voteCount": 63,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 12460,
+        "majority": 598,
+        "spoiltVotes": 229,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 9493,
+          "percentage": 76.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 67.66
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 10.99
+            },
+            {
+              "type": "Chinese",
+              "percentage": 20.93
+            },
+            {
+              "type": "Others",
+              "percentage": 0.42
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N42",
+      "name": "SUNGAI SIBUGA",
+      "relatedSeatCode": "P184",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Musa Aman",
+          "partyName": "BN - UMNO",
+          "voteCount": 14503,
+          "votePercentage": 40.9
+        },
+        {
+          "isWinner": false,
+          "name": "Asmara Abdul Rahman",
+          "partyName": "WARISAN",
+          "voteCount": 12319,
+          "votePercentage": 34.7
+        },
+        {
+          "isWinner": false,
+          "name": "Osman Enting",
+          "partyName": "PKS",
+          "voteCount": 241,
+          "votePercentage": 0.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 35454,
+        "majority": 2184,
+        "spoiltVotes": 525,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 27752,
+          "percentage": 78.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 79.97
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 4.45
+            },
+            {
+              "type": "Chinese",
+              "percentage": 14.9
+            },
+            {
+              "type": "Others",
+              "percentage": 0.69
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N43",
+      "name": "SEKONG",
+      "relatedSeatCode": "P185",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Arifin Asgali",
+          "partyName": "WARISAN",
+          "voteCount": 6740,
+          "votePercentage": 40.8
+        },
+        {
+          "isWinner": false,
+          "name": "Samsudin Yahya",
+          "partyName": "BN - UMNO",
+          "voteCount": 4705,
+          "votePercentage": 28.5
+        },
+        {
+          "isWinner": false,
+          "name": "Sahar Abdul Majid",
+          "partyName": "PAS",
+          "voteCount": 366,
+          "votePercentage": 2.2
+        },
+        {
+          "isWinner": false,
+          "name": "Abdul Rashid Abdul Rahman",
+          "partyName": "S'wak STAR",
+          "voteCount": 48,
+          "votePercentage": 0.3
+        },
+        {
+          "isWinner": false,
+          "name": "Datu Mohd Faisal Datu Bachtiyal",
+          "partyName": "IND",
+          "voteCount": 43,
+          "votePercentage": 0.3
+        },
+        {
+          "isWinner": false,
+          "name": "Alias Rahmad Benjamin",
+          "partyName": "PKS",
+          "voteCount": 16,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 16522,
+        "majority": 2035,
+        "spoiltVotes": 337,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 12304,
+          "percentage": 74.5
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 75.44
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 3.92
+            },
+            {
+              "type": "Chinese",
+              "percentage": 20.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.6
+            }
+          ]
+        },
+        "incumbent": "Samsudin Yahya"
+      }
+    },
+    {
+      "codeName": "N44",
+      "name": "KARAMUNTING",
+      "relatedSeatCode": "P185",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Hiew Vun Zin",
+          "partyName": "WARISAN",
+          "voteCount": 7243,
+          "votePercentage": 45.1
+        },
+        {
+          "isWinner": false,
+          "name": "Lim Kai Min",
+          "partyName": "BN - LDP",
+          "voteCount": 3395,
+          "votePercentage": 21.2
+        },
+        {
+          "isWinner": false,
+          "name": "Norsah Bongsu",
+          "partyName": "PAS",
+          "voteCount": 677,
+          "votePercentage": 4.2
+        },
+        {
+          "isWinner": false,
+          "name": "Besarun Kecha",
+          "partyName": "Sabah STAR",
+          "voteCount": 61,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 16052,
+        "majority": 3848,
+        "spoiltVotes": 267,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 11724,
+          "percentage": 73
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 54.37
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 4.25
+            },
+            {
+              "type": "Chinese",
+              "percentage": 40.32
+            },
+            {
+              "type": "Others",
+              "percentage": 1.05
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N45",
+      "name": "ELOPURA",
+      "relatedSeatCode": "P186",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Chong Ket Kiun",
+          "partyName": "PH - DAP",
+          "voteCount": 12219,
+          "votePercentage": 48.3
+        },
+        {
+          "isWinner": false,
+          "name": "Chan Tzun Hei",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 5572,
+          "votePercentage": 22
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 25285,
+        "majority": 6647,
+        "spoiltVotes": 256,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 18100,
+          "percentage": 71.6
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 42.65
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 7.12
+            },
+            {
+              "type": "Chinese",
+              "percentage": 48.86
+            },
+            {
+              "type": "Others",
+              "percentage": 1.37
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N46",
+      "name": "TANJONG PAPAT",
+      "relatedSeatCode": "P186",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Poon Ming Fung",
+          "partyName": "PH - DAP",
+          "voteCount": 5818,
+          "votePercentage": 40.1
+        },
+        {
+          "isWinner": false,
+          "name": "Tan Shu Kiah",
+          "partyName": "BN - GERAKAN",
+          "voteCount": 4002,
+          "votePercentage": 27.6
+        },
+        {
+          "isWinner": false,
+          "name": "Jufazli Shi Ahmad",
+          "partyName": "IND",
+          "voteCount": 533,
+          "votePercentage": 3.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 14492,
+        "majority": 1816,
+        "spoiltVotes": 196,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 10567,
+          "percentage": 72.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 46.09
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 3.26
+            },
+            {
+              "type": "Chinese",
+              "percentage": 50.05
+            },
+            {
+              "type": "Others",
+              "percentage": 0.6
+            }
+          ]
+        },
+        "incumbent": "Tan Shu Kiah"
+      }
+    },
+    {
+      "codeName": "N47",
+      "name": "KUAMUT",
+      "relatedSeatCode": "P187",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Masiung Banah",
+          "partyName": "BN - UPKO",
+          "voteCount": 8042,
+          "votePercentage": 45
+        },
+        {
+          "isWinner": false,
+          "name": "Norfaizah Chua @ Giak Kiang",
+          "partyName": "WARISAN",
+          "voteCount": 3921,
+          "votePercentage": 21.9
+        },
+        {
+          "isWinner": false,
+          "name": "James Ait",
+          "partyName": "Sabah STAR",
+          "voteCount": 1132,
+          "votePercentage": 6.3
+        },
+        {
+          "isWinner": false,
+          "name": "Jumaidin Lakalla",
+          "partyName": "PAS",
+          "voteCount": 330,
+          "votePercentage": 1.8
+        },
+        {
+          "isWinner": false,
+          "name": "Edward Podok",
+          "partyName": "PCS",
+          "voteCount": 205,
+          "votePercentage": 1.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 17875,
+        "majority": 4121,
+        "spoiltVotes": 408,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14093,
+          "percentage": 78.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 58.46
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 40.38
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.48
+            },
+            {
+              "type": "Others",
+              "percentage": 0.68
+            }
+          ]
+        },
+        "incumbent": "Masiung Banah"
+      }
+    },
+    {
+      "codeName": "N48",
+      "name": "SUKAU",
+      "relatedSeatCode": "P187",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Saddi Abdu Rahman",
+          "partyName": "BN - UMNO",
+          "voteCount": 4660,
+          "votePercentage": 42.9
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Ismail Ayob",
+          "partyName": "WARISAN",
+          "voteCount": 3032,
+          "votePercentage": 27.9
+        },
+        {
+          "isWinner": false,
+          "name": "Muariffidin Abdul Malek",
+          "partyName": "PHRS",
+          "voteCount": 117,
+          "votePercentage": 1.1
+        },
+        {
+          "isWinner": false,
+          "name": "Abdulgani Kosui",
+          "partyName": "PPRS",
+          "voteCount": 71,
+          "votePercentage": 0.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 10855,
+        "majority": 1628,
+        "spoiltVotes": 253,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 8163,
+          "percentage": 75.2
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 95.56
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 3.57
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.68
+            },
+            {
+              "type": "Others",
+              "percentage": 0.19
+            }
+          ]
+        },
+        "incumbent": "Saddi Abdu Rahman"
+      }
+    },
+    {
+      "codeName": "N49",
+      "name": "TUNGKU",
+      "relatedSeatCode": "P188",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Assaffal @ Samsul Kamal P Alian",
+          "partyName": "WARISAN",
+          "voteCount": 6295,
+          "votePercentage": 35.4
+        },
+        {
+          "isWinner": false,
+          "name": "Mizma Appehdullah",
+          "partyName": "BN - UMNO",
+          "voteCount": 5294,
+          "votePercentage": 29.8
+        },
+        {
+          "isWinner": false,
+          "name": "Bulangan Panasi",
+          "partyName": "PHRS",
+          "voteCount": 928,
+          "votePercentage": 5.2
+        },
+        {
+          "isWinner": false,
+          "name": "Abd Rahman Taggoh",
+          "partyName": "PKS",
+          "voteCount": 102,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 17773,
+        "majority": 1001,
+        "spoiltVotes": 352,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 12976,
+          "percentage": 73
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 77.88
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 13.38
+            },
+            {
+              "type": "Chinese",
+              "percentage": 8.11
+            },
+            {
+              "type": "Others",
+              "percentage": 0.64
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N50",
+      "name": "LAHAD DATU",
+      "relatedSeatCode": "P188",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Dumi Pg Masdal",
+          "partyName": "WARISAN",
+          "voteCount": 11304,
+          "votePercentage": 39.4
+        },
+        {
+          "isWinner": false,
+          "name": "Mohammad Yusof Apdal",
+          "partyName": "BN - UMNO",
+          "voteCount": 8372,
+          "votePercentage": 29.2
+        },
+        {
+          "isWinner": false,
+          "name": "Wong Yu Chin",
+          "partyName": "PHRS",
+          "voteCount": 663,
+          "votePercentage": 2.3
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 28658,
+        "majority": 2932,
+        "spoiltVotes": 432,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 20834,
+          "percentage": 72.7
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 75.23
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 8.26
+            },
+            {
+              "type": "Chinese",
+              "percentage": 15.48
+            },
+            {
+              "type": "Others",
+              "percentage": 1.03
+            }
+          ]
+        },
+        "incumbent": "Mohammad Yusof Apdal"
+      }
+    },
+    {
+      "codeName": "N51",
+      "name": "KUNAK",
+      "relatedSeatCode": "P188",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Norazlinah Arif",
+          "partyName": "WARISAN",
+          "voteCount": 4898,
+          "votePercentage": 33.8
+        },
+        {
+          "isWinner": false,
+          "name": "Nilwan Kabang",
+          "partyName": "BN - UMNO",
+          "voteCount": 4630,
+          "votePercentage": 31.9
+        },
+        {
+          "isWinner": false,
+          "name": "Kasman Karate",
+          "partyName": "PAS",
+          "voteCount": 492,
+          "votePercentage": 3.4
+        },
+        {
+          "isWinner": false,
+          "name": "Sahing Taking",
+          "partyName": "PHRS",
+          "voteCount": 141,
+          "votePercentage": 1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 14511,
+        "majority": 268,
+        "spoiltVotes": 223,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 10413,
+          "percentage": 71.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 91.45
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 5.02
+            },
+            {
+              "type": "Chinese",
+              "percentage": 2.96
+            },
+            {
+              "type": "Others",
+              "percentage": 0.57
+            }
+          ]
+        },
+        "incumbent": "Nilwan Kabang"
+      }
+    },
+    {
+      "codeName": "N52",
+      "name": "SULABAYAN",
+      "relatedSeatCode": "P189",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Jaujan Sambakong",
+          "partyName": "WARISAN",
+          "voteCount": 7116,
+          "votePercentage": 50.9
+        },
+        {
+          "isWinner": false,
+          "name": "Harman Mohamad",
+          "partyName": "BN - UMNO",
+          "voteCount": 2190,
+          "votePercentage": 15.7
+        },
+        {
+          "isWinner": false,
+          "name": "Abdul Nasir Ab Raup",
+          "partyName": "PAS",
+          "voteCount": 139,
+          "votePercentage": 1
+        },
+        {
+          "isWinner": false,
+          "name": "Untung Tanjong Baru",
+          "partyName": "PHRS",
+          "voteCount": 54,
+          "votePercentage": 0.4
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 13984,
+        "majority": 4926,
+        "spoiltVotes": 324,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 9868,
+          "percentage": 70.6
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 98.53
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 1.34
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.03
+            },
+            {
+              "type": "Others",
+              "percentage": 0.09
+            }
+          ]
+        },
+        "incumbent": "Jaujan Sambakong"
+      }
+    },
+    {
+      "codeName": "N53",
+      "name": "SENALLANG",
+      "relatedSeatCode": "P189",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Mohd Shafie Apdal",
+          "partyName": "WARISAN",
+          "voteCount": 7754,
+          "votePercentage": 53.9
+        },
+        {
+          "isWinner": false,
+          "name": "Nasir Sakaran",
+          "partyName": "BN - UMNO",
+          "voteCount": 2453,
+          "votePercentage": 17
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 14399,
+        "majority": 5301,
+        "spoiltVotes": 244,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 10514,
+          "percentage": 73
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 93.78
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 1.8
+            },
+            {
+              "type": "Chinese",
+              "percentage": 3.94
+            },
+            {
+              "type": "Others",
+              "percentage": 0.47
+            }
+          ]
+        },
+        "incumbent": "Nasir Sakaran"
+      }
+    },
+    {
+      "codeName": "N54",
+      "name": "BUGAYA",
+      "relatedSeatCode": "P189",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Manis Buka Mohd Darah",
+          "partyName": "WARISAN",
+          "voteCount": 10662,
+          "votePercentage": 53.7
+        },
+        {
+          "isWinner": false,
+          "name": "Razak Sakaran Dandai",
+          "partyName": "BN - UMNO",
+          "voteCount": 2811,
+          "votePercentage": 14.2
+        },
+        {
+          "isWinner": false,
+          "name": "Mahamod Sarahil",
+          "partyName": "PAS",
+          "voteCount": 144,
+          "votePercentage": 0.7
+        },
+        {
+          "isWinner": false,
+          "name": "Kulli Maralam",
+          "partyName": "PKS",
+          "voteCount": 67,
+          "votePercentage": 0.3
+        },
+        {
+          "isWinner": false,
+          "name": "Said Tiblan",
+          "partyName": "PPRS",
+          "voteCount": 57,
+          "votePercentage": 0.3
+        },
+        {
+          "isWinner": false,
+          "name": "Abd Muksin Mohammad Hassan",
+          "partyName": "IND",
+          "voteCount": 15,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 19865,
+        "majority": 7851,
+        "spoiltVotes": 381,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 14224,
+          "percentage": 71.6
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 96.86
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 1.82
+            },
+            {
+              "type": "Chinese",
+              "percentage": 0.95
+            },
+            {
+              "type": "Others",
+              "percentage": 0.36
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N55",
+      "name": "BALUNG",
+      "relatedSeatCode": "P190",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Osman Jamal @ Jamar",
+          "partyName": "BN - UMNO",
+          "voteCount": 4887,
+          "votePercentage": 33.6
+        },
+        {
+          "isWinner": false,
+          "name": "Andi Rus Diana  Andi Paladjareng",
+          "partyName": "WARISAN",
+          "voteCount": 4713,
+          "votePercentage": 32.4
+        },
+        {
+          "isWinner": false,
+          "name": "Amboase Ramano",
+          "partyName": "PAS",
+          "voteCount": 428,
+          "votePercentage": 2.9
+        },
+        {
+          "isWinner": false,
+          "name": "Razali Hamzah",
+          "partyName": "PHRS",
+          "voteCount": 233,
+          "votePercentage": 1.6
+        },
+        {
+          "isWinner": false,
+          "name": "Alipa Jackery",
+          "partyName": "USNO BARU",
+          "voteCount": 119,
+          "votePercentage": 0.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 14541,
+        "majority": 174,
+        "spoiltVotes": 252,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 10669,
+          "percentage": 73.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 85.41
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 7.61
+            },
+            {
+              "type": "Chinese",
+              "percentage": 6.18
+            },
+            {
+              "type": "Others",
+              "percentage": 0.8
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N56",
+      "name": "APAS",
+      "relatedSeatCode": "P190",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Nizam Abu Bakar Titingan",
+          "partyName": "BN - UMNO",
+          "voteCount": 7243,
+          "votePercentage": 38.2
+        },
+        {
+          "isWinner": false,
+          "name": "Abdul Salip Ejal",
+          "partyName": "WARISAN",
+          "voteCount": 5456,
+          "votePercentage": 28.7
+        },
+        {
+          "isWinner": false,
+          "name": "Daud Jalaluddin",
+          "partyName": "PAS",
+          "voteCount": 487,
+          "votePercentage": 2.6
+        },
+        {
+          "isWinner": false,
+          "name": "Alizaman Jijurahman",
+          "partyName": "PHRS",
+          "voteCount": 333,
+          "votePercentage": 1.8
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 18978,
+        "majority": 1787,
+        "spoiltVotes": 290,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 13841,
+          "percentage": 72.9
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 81.88
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 3.22
+            },
+            {
+              "type": "Chinese",
+              "percentage": 14.45
+            },
+            {
+              "type": "Others",
+              "percentage": 0.45
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N57",
+      "name": "SRI TANJONG",
+      "relatedSeatCode": "P190",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Wong Sze Phin @ Jimmy",
+          "partyName": "PH - DAP",
+          "voteCount": 13673,
+          "votePercentage": 51.8
+        },
+        {
+          "isWinner": false,
+          "name": "Lo Su Fui",
+          "partyName": "BN - PBS",
+          "voteCount": 4290,
+          "votePercentage": 16.3
+        },
+        {
+          "isWinner": false,
+          "name": "Pang Thou Chung",
+          "partyName": "PHRS",
+          "voteCount": 873,
+          "votePercentage": 3.3
+        },
+        {
+          "isWinner": false,
+          "name": "Leong Yun Fui",
+          "partyName": "PKS",
+          "voteCount": 154,
+          "votePercentage": 0.6
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 26400,
+        "majority": 9383,
+        "spoiltVotes": 285,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 19352,
+          "percentage": 73.3
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 31.88
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 4.64
+            },
+            {
+              "type": "Chinese",
+              "percentage": 62.38
+            },
+            {
+              "type": "Others",
+              "percentage": 1.1
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N58",
+      "name": "MEROTAI",
+      "relatedSeatCode": "P191",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Sarifuddin Hata",
+          "partyName": "WARISAN",
+          "voteCount": 7707,
+          "votePercentage": 37.4
+        },
+        {
+          "isWinner": false,
+          "name": "Lim Ting Khai",
+          "partyName": "BN - LDP",
+          "voteCount": 5557,
+          "votePercentage": 26.9
+        },
+        {
+          "isWinner": false,
+          "name": "Ahmad Dullah",
+          "partyName": "PAS",
+          "voteCount": 1209,
+          "votePercentage": 5.9
+        },
+        {
+          "isWinner": false,
+          "name": "Arbaani Akum",
+          "partyName": "PH - AMANAH",
+          "voteCount": 193,
+          "votePercentage": 0.9
+        },
+        {
+          "isWinner": false,
+          "name": "Sharatha Masyaroh John Ridwan Lincon",
+          "partyName": "PHRS",
+          "voteCount": 125,
+          "votePercentage": 0.6
+        },
+        {
+          "isWinner": false,
+          "name": "Mohd Nasir Sumadi",
+          "partyName": "USNO BARU",
+          "voteCount": 28,
+          "votePercentage": 0.1
+        },
+        {
+          "isWinner": false,
+          "name": "Azizul Tandek",
+          "partyName": "PKS",
+          "voteCount": 20,
+          "votePercentage": 0.1
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 20634,
+        "majority": 2150,
+        "spoiltVotes": 275,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 15263,
+          "percentage": 74
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 77.4
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 5.02
+            },
+            {
+              "type": "Chinese",
+              "percentage": 16.56
+            },
+            {
+              "type": "Others",
+              "percentage": 1.03
+            }
+          ]
+        },
+        "incumbent": null
+      }
+    },
+    {
+      "codeName": "N59",
+      "name": "TANJONG BATU",
+      "relatedSeatCode": "P191",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Hamisa Samat",
+          "partyName": "BN - UMNO",
+          "voteCount": 8538,
+          "votePercentage": 35.6
+        },
+        {
+          "isWinner": false,
+          "name": "Ismail Senang",
+          "partyName": "WARISAN",
+          "voteCount": 6552,
+          "votePercentage": 27.4
+        },
+        {
+          "isWinner": false,
+          "name": "Usman Madeaming",
+          "partyName": "PAS",
+          "voteCount": 1506,
+          "votePercentage": 6.3
+        },
+        {
+          "isWinner": false,
+          "name": "Ardi Arsah @ Samsi",
+          "partyName": "PPRS",
+          "voteCount": 171,
+          "votePercentage": 0.7
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 23951,
+        "majority": 1986,
+        "spoiltVotes": 451,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 17335,
+          "percentage": 72.4
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 89.08
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 7.28
+            },
+            {
+              "type": "Chinese",
+              "percentage": 2.79
+            },
+            {
+              "type": "Others",
+              "percentage": 0.86
+            }
+          ]
+        },
+        "incumbent": "Hamisa Samat"
+      }
+    },
+    {
+      "codeName": "N60",
+      "name": "SEBATIK",
+      "relatedSeatCode": "P191",
+      "contestants": [
+        {
+          "isWinner": true,
+          "name": "Abd Muis Picho",
+          "partyName": "BN - UMNO",
+          "voteCount": 2468,
+          "votePercentage": 32.4
+        },
+        {
+          "isWinner": false,
+          "name": "Hassan A Gani Pg Amir",
+          "partyName": "WARISAN",
+          "voteCount": 2275,
+          "votePercentage": 29.9
+        },
+        {
+          "isWinner": false,
+          "name": "Roslan Ramli",
+          "partyName": "PAS",
+          "voteCount": 504,
+          "votePercentage": 6.6
+        },
+        {
+          "isWinner": false,
+          "name": "Yusri Yunus",
+          "partyName": "PPRS",
+          "voteCount": 38,
+          "votePercentage": 0.5
+        }
+      ],
+      "voteInfo": {
+        "howManyVoters": 7614,
+        "majority": 193,
+        "spoiltVotes": 109,
+        "unreturnedVotes": 0,
+        "voterTurnout": {
+          "count": 5394,
+          "percentage": 70.8
+        },
+        "demographics": {
+          "races": [
+            {
+              "type": "Muslim bumiputra",
+              "percentage": 88.65
+            },
+            {
+              "type": "Non-Muslim bumiputra",
+              "percentage": 5.91
+            },
+            {
+              "type": "Chinese",
+              "percentage": 4.89
+            },
+            {
+              "type": "Others",
+              "percentage": 0.55
+            }
+          ]
+        },
+        "incumbent": "Abd Muis Picho"
+      }
+    }
+  ]
+}
