@@ -44,28 +44,36 @@ Make sure you are in the dir of `analysis`.
 ```
 
 ## How to run only a specific process
-```
+
+```shell
 # For example, if I only want to run step 1
 cd ./_1_process_raw_data
 ./run
 ```
+
 You can specify `--english` or `--chinese` if you want to run it for specific language.
 
 ## How to run test for each process?
+
 Make sure you are in the dir of `analysis`.
-```
+
+```shell
 ./test
 ```
 
 ## How to install missing packages?
+
+```shell
+python -m pip install <package_name>
 ```
-$ python -m pip install <package_name>
-```
+
 That's all, enjoy!
 
 ## Algorithm benchmark
+
 The benchmarker is named `benchmark_labelling_algo.py`.
 ```
+
 regex = 5.67s
 dic_and_tokens = 1.89s
 ```

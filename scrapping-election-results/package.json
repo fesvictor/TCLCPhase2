@@ -1,0 +1,19 @@
+{
+  "name": "scrapping-election-results",
+  "version": "1.0.0",
+  "description": "We will be scrapping the data from https://election.thestar.com.my/selangor.html",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.86.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.7",
+    "@types/request": "^2.47.0"
+  }
+}

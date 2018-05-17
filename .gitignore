@@ -5,6 +5,9 @@ temp_data/
 scrape-results/
 scraping/**/*.json
 
+# Node modules
+**/node_modules/**
+
 # Processed data
 chinese.json
 english.json
