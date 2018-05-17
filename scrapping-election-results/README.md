@@ -25,7 +25,7 @@ npm install -g typescript
 ```
 Then, run 
 ```
-ts-node scrape.js
+ts-node scrape.ts
 ```
 
 ## What is happening?
@@ -36,6 +36,5 @@ ts-node scrape.js
 ## Suggested editor
 Visual Studio Code.
 
-## Output format
+## What is the output format?
 Look at the `outputInterfaces.ts`.
-I will describe the format using Typescript's `interfaces`.
