@@ -23,9 +23,13 @@ Secondly, install Typescript
 npm install -g ts-node
 npm install -g typescript
 ```
-Then, run 
+
+Then, go into one of the following folder using `cd`:
+    - resultOfEachState
+    - partiesDetails
+    - resultsOverview
 ```
-ts-node scrape.ts
+ts-node index.ts
 ```
 
 ## What is happening?
