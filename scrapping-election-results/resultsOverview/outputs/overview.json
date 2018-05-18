@@ -1,0 +1,358 @@
+{
+  "parliamentSeatsResultByParties": {
+    "parties": [
+      {
+        "name": "BN",
+        "wonSeats": 79,
+        "contestingSeats": 222
+      },
+      {
+        "name": "PKR (PH)",
+        "wonSeats": 48,
+        "contestingSeats": 71
+      },
+      {
+        "name": "DAP (PH)",
+        "wonSeats": 42,
+        "contestingSeats": 47
+      },
+      {
+        "name": "PAS",
+        "wonSeats": 18,
+        "contestingSeats": 157
+      },
+      {
+        "name": "PPBM (PH)",
+        "wonSeats": 12,
+        "contestingSeats": 52
+      },
+      {
+        "name": "AMANAH (PH)",
+        "wonSeats": 11,
+        "contestingSeats": 34
+      },
+      {
+        "name": "WARISAN",
+        "wonSeats": 8,
+        "contestingSeats": 17
+      },
+      {
+        "name": "IND",
+        "wonSeats": 3,
+        "contestingSeats": 24
+      },
+      {
+        "name": "Sabah STAR",
+        "wonSeats": 1,
+        "contestingSeats": 5
+      },
+      {
+        "name": "PFP",
+        "wonSeats": 0,
+        "contestingSeats": 2
+      }
+    ]
+  },
+  "parliamentSeatsResultByStates": {
+    "states": [
+      {
+        "result": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "name": "F.T.",
+        "totalSeatsCount": 13,
+        "result": [
+          2,
+          10,
+          0,
+          1
+        ]
+      },
+      {
+        "name": "Johor",
+        "totalSeatsCount": 26,
+        "result": [
+          8,
+          18,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Kedah",
+        "totalSeatsCount": 15,
+        "result": [
+          2,
+          10,
+          3,
+          0
+        ]
+      },
+      {
+        "name": "Kelantan",
+        "totalSeatsCount": 14,
+        "result": [
+          5,
+          0,
+          9,
+          0
+        ]
+      },
+      {
+        "name": "Melaka",
+        "totalSeatsCount": 6,
+        "result": [
+          2,
+          4,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Negri S.",
+        "totalSeatsCount": 8,
+        "result": [
+          3,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Pahang",
+        "totalSeatsCount": 14,
+        "result": [
+          9,
+          5,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Penang",
+        "totalSeatsCount": 13,
+        "result": [
+          2,
+          11,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Perak",
+        "totalSeatsCount": 24,
+        "result": [
+          11,
+          13,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Perlis",
+        "totalSeatsCount": 3,
+        "result": [
+          2,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Sabah",
+        "totalSeatsCount": 25,
+        "result": [
+          10,
+          6,
+          0,
+          9
+        ]
+      },
+      {
+        "name": "Sarawak",
+        "totalSeatsCount": 31,
+        "result": [
+          19,
+          10,
+          0,
+          2
+        ]
+      },
+      {
+        "name": "Selangor",
+        "totalSeatsCount": 22,
+        "result": [
+          2,
+          20,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Terengganu",
+        "totalSeatsCount": 8,
+        "result": [
+          2,
+          0,
+          6,
+          0
+        ]
+      },
+      {
+        "name": "TOTAL",
+        "result": [
+          79,
+          113,
+          18,
+          12
+        ]
+      }
+    ]
+  },
+  "stateSeatsResultByStates": {
+    "states": [
+      {
+        "result": [
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Johor",
+        "totalSeatsCount": 56,
+        "result": [
+          19,
+          36,
+          1,
+          0
+        ]
+      },
+      {
+        "name": "Kedah",
+        "totalSeatsCount": 36,
+        "result": [
+          3,
+          18,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "Kelantan",
+        "totalSeatsCount": 45,
+        "result": [
+          8,
+          0,
+          37,
+          0
+        ]
+      },
+      {
+        "name": "Melaka",
+        "totalSeatsCount": 28,
+        "result": [
+          13,
+          15,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Negri S.",
+        "totalSeatsCount": 36,
+        "result": [
+          16,
+          20,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "Pahang",
+        "totalSeatsCount": 42,
+        "result": [
+          25,
+          9,
+          8,
+          0
+        ]
+      },
+      {
+        "name": "Penang",
+        "totalSeatsCount": 40,
+        "result": [
+          2,
+          37,
+          1,
+          0
+        ]
+      },
+      {
+        "name": "Perak",
+        "totalSeatsCount": 59,
+        "result": [
+          27,
+          29,
+          3,
+          0
+        ]
+      },
+      {
+        "name": "Perlis",
+        "totalSeatsCount": 15,
+        "result": [
+          10,
+          3,
+          2,
+          0
+        ]
+      },
+      {
+        "name": "Sabah",
+        "totalSeatsCount": 60,
+        "result": [
+          29,
+          8,
+          0,
+          23
+        ]
+      },
+      {
+        "name": "Selangor",
+        "totalSeatsCount": 56,
+        "result": [
+          4,
+          51,
+          1,
+          0
+        ]
+      },
+      {
+        "name": "Terengganu",
+        "totalSeatsCount": 32,
+        "result": [
+          10,
+          0,
+          22,
+          0
+        ]
+      },
+      {
+        "name": "TOTAL",
+        "result": [
+          166,
+          226,
+          90,
+          23
+        ]
+      }
+    ]
+  }
+}

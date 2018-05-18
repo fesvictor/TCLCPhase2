@@ -24,10 +24,12 @@ npm install -g ts-node
 npm install -g typescript
 ```
 
-Then, go into one of the following folder using `cd`:
-    - resultOfEachState
-    - partiesDetails
-    - resultsOverview
+Then, go into one of the following folder using `cd`:  
+- resultOfEachState  
+- partiesDetails  
+- resultsOverview  
+
+Then,
 ```
 ts-node index.ts
 ```
