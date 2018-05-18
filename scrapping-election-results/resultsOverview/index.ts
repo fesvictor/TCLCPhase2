@@ -5,6 +5,7 @@ import { ResultByParties, ResultByStates, ResultsOverview, StateDetail } from ".
 
 function main() {
     const fs = require("fs");
+    // The file is obtained from https://election.thestar.com.my/
     fs.readFile(`./htmls/overview.html`, (error, data) => {
         if (error) {
             console.log(error);

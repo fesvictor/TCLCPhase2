@@ -1,0 +1,328 @@
+{
+  "partyDetails": [
+    {
+      "category": "Barisan Nasional (BN)",
+      "chairman": "Datuk Seri Najib Tun Razak",
+      "fullname": "Barisan Nasional",
+      "shortname": "BN"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Seri Najib Tun Razak",
+      "fullname": "United Malays National Organisation",
+      "shortname": "Umno"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Seri Liow Tiong Lai",
+      "fullname": "Malaysian Chinese Association",
+      "shortname": "MCA"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Seri Dr S. Subramaniam",
+      "fullname": "Malaysian Indian Congress",
+      "shortname": "MIC"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Patinggi Abang Johari Tun Openg",
+      "fullname": "Parti Pesaka Bumiputera Bersatu",
+      "shortname": "PBB"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Dr Sim Kui Hian",
+      "fullname": "Sarawak United Peoples' Party",
+      "shortname": "SUPP"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Seri Mah Siew Keong",
+      "fullname": "Parti Gerakan Rakyat Malaysia",
+      "shortname": "Gerakan"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Tan Sri M. Kayveas",
+      "fullname": "Parti Progresif Penduduk Malaysia",
+      "shortname": "MyPPP"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Teo Chee Kang",
+      "fullname": "Liberal Democratic Party",
+      "shortname": "LDP"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Tan Sri Joseph Kurup",
+      "fullname": "Parti Bersatu Rakyat Sabah",
+      "shortname": "PBRS"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Tan Sri Joseph Pairin Kitingan",
+      "fullname": "Parti Bersatu Sabah",
+      "shortname": "PBS"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Seri Tiong King Sing",
+      "fullname": "Progressive Democratic Party",
+      "shortname": "PDP"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Tan Sri James Masing",
+      "fullname": "Parti Rakyat Sarawak",
+      "shortname": "PRS"
+    },
+    {
+      "category": "Barisan Nasional component parties",
+      "chairman": "Datuk Seri Wilfred Madius Tangau",
+      "fullname": "United Pasokmomogun Kadazandusun Murut Organisation",
+      "shortname": "UPKO"
+    },
+    {
+      "category": "Barisan Nasional friendly parties",
+      "chairman": "Datuk Peter Nansian",
+      "fullname": "Parti Tenaga Rakyat Sarawak",
+      "shortname": "Teras"
+    },
+    {
+      "category": "Barisan Nasional friendly parties",
+      "chairman": "Datuk Seri Wong Soon Koh",
+      "fullname": "United People's Party",
+      "shortname": "UPP"
+    },
+    {
+      "category": "Barisan Nasional associate member",
+      "chairman": "Datuk Seri R.S. Thanenthiran",
+      "fullname": "Parti Makkal Sakti",
+      "shortname": null
+    },
+    {
+      "category": "Barisan Nasional associate member",
+      "chairman": "Datuk M. Sambanthan",
+      "fullname": "All Malaysian Indian Progressive Front",
+      "shortname": "IPF"
+    },
+    {
+      "category": "Barisan Nasional associate member",
+      "chairman": "Gurjeet Singh Rhande",
+      "fullname": "Parti Punjabi Malaysia",
+      "shortname": "PPM"
+    },
+    {
+      "category": "Umno associate member",
+      "chairman": "Datuk Seri Syed Ibrahim Kader",
+      "fullname": "Parti Kongres Indian Muslim Malaysia",
+      "shortname": "Kimma"
+    },
+    {
+      "category": "Pakatan Harapan*",
+      "chairman": "Lim Guan Eng",
+      "fullname": "Democratic Action Party",
+      "shortname": "DAP"
+    },
+    {
+      "category": "Pakatan Harapan*",
+      "chairman": "Datuk Seri Dr Wan Azizah Wan Ismail",
+      "fullname": "Parti Keadilan Rakyat",
+      "shortname": "PKR"
+    },
+    {
+      "category": "Pakatan Harapan*",
+      "chairman": "Tan Sri Muhyiddin Yassin",
+      "fullname": "Parti Pribumi Bersatu Malaysia",
+      "shortname": "Pribumi"
+    },
+    {
+      "category": "Pakatan Harapan*",
+      "chairman": "Mohamad Sabu",
+      "fullname": "Amanah",
+      "shortname": null
+    },
+    {
+      "category": "Gagasan Sejahtera*",
+      "chairman": "Datuk Seri Haji Abdul Hadi Awang",
+      "fullname": "Parti Islam Se-Malaysia",
+      "shortname": "PAS"
+    },
+    {
+      "category": "Gagasan Sejahtera*",
+      "chairman": "Tan Sri Abdul Kadir Sheikh Fadzir",
+      "fullname": "Parti Ikatan Bangsa Malaysia",
+      "shortname": "Ikatan"
+    },
+    {
+      "category": "Gagasan Sejahtera*",
+      "chairman": "Abd Kadir Mamat",
+      "fullname": "Barisan Jemaah Islamiah Se-Malaysia",
+      "shortname": "Berjasa"
+    },
+    {
+      "category": "Gagasan Sejahtera*",
+      "chairman": "Datuk Huan Cheng Guan",
+      "fullname": "Parti Cinta Malaysia",
+      "shortname": "PCM"
+    },
+    {
+      "category": "United Sabah Alliance*",
+      "chairman": "Dr Jeffrey Kitingan",
+      "fullname": "Parti Solidariti Tanah Airku",
+      "shortname": "Sabah STAR"
+    },
+    {
+      "category": "United Sabah Alliance*",
+      "chairman": "Datuk Yong Teck Lee",
+      "fullname": "Sabah Progressive Party",
+      "shortname": "SAPP"
+    },
+    {
+      "category": "United Sabah Alliance*",
+      "chairman": "Datuk Lajim Ukin",
+      "fullname": "Parti Harapan Rakyat Sabah",
+      "shortname": "Harapan Rakyat"
+    },
+    {
+      "category": "United Sabah Alliance*",
+      "chairman": "Datuk Mohd Arshad Abdul Mualap",
+      "fullname": "Parti Perpaduan Rakyat Sabah",
+      "shortname": "PPRS"
+    },
+    {
+      "category": "Gabungan Rakyat Saksama*",
+      "chairman": "Lina Soo",
+      "fullname": "Sarawak Reform Party",
+      "shortname": "Sarawak Star"
+    },
+    {
+      "category": "Gabungan Rakyat Saksama*",
+      "chairman": null,
+      "fullname": "Parti Sejahtera Angkatan Perpaduan Sabah",
+      "shortname": "Sapu"
+    },
+    {
+      "category": "Gabungan Rakyat Saksama*",
+      "chairman": "Philip Among",
+      "fullname": "Malaysia United People's Party",
+      "shortname": "MUPP"
+    },
+    {
+      "category": "Gabungan Rakyat Saksama*",
+      "chairman": "Zulkifli Mohd Noor",
+      "fullname": "Parti Alternatif Rakyat",
+      "shortname": "PAP"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Koh Swe Yong",
+      "fullname": "Parti Rakyat Malaysia",
+      "shortname": "PRM"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Masrum Dayat",
+      "fullname": "Parti Kesejahteraan Insan Tanah Air",
+      "shortname": "KITA"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Datuk Dr NKS Tharmaseelan",
+      "fullname": "Malaysian Ceylonese Congress Party of Malaysia",
+      "shortname": "MCC"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Dr Mohd Nasir Hashim",
+      "fullname": "Parti Sosialis Malaysia",
+      "shortname": "PSM"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Tan Gim Theam",
+      "fullname": "Malaysian United Party",
+      "shortname": null
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": null,
+      "fullname": "Sabah Peace Party",
+      "shortname": null
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Dulli Tiaseh",
+      "fullname": "United Sabah National Organisation",
+      "shortname": "USNO Baru"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Datuk Henrynus Amin",
+      "fullname": "Parti Kerjasama Anak Negeri",
+      "shortname": null
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Datuk Seri Panglima Wilfred Bumburing",
+      "fullname": "Parti Cinta Sabah",
+      "shortname": null
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Datuk Seri Mohd Shafie Apdal",
+      "fullname": "Parti Warisan Sabah",
+      "shortname": "Warisan"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "S. Gobi Krishnan",
+      "fullname": "New Generation Party",
+      "shortname": null
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Jack Giau",
+      "fullname": "Pertubuhan Perpaduan Rakyat Kebangsaan Sabah",
+      "shortname": "Perpaduan"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Yu Chin Liik",
+      "fullname": "Parti Bumi Kenyalang",
+      "shortname": null
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Cobbold John",
+      "fullname": "Parti Bansa Dayak Sarawak Baru",
+      "shortname": "PBDSB"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Thomas Anggan",
+      "fullname": "Parti Kebangsaan Sabah",
+      "shortname": "PKS"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Julian Petrus Jout",
+      "fullname": "Parti Rakyat Gabungan Jaksa Pendamai",
+      "shortname": "Peace Party-Sarawak"
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Datuk Patrick Ooi",
+      "fullname": "Penang Front Party",
+      "shortname": null
+    },
+    {
+      "category": "Other Opposition parties",
+      "chairman": "Munan Laja",
+      "fullname": "Sarawak Workers Party",
+      "shortname": "SWP"
+    }
+  ]
+}
