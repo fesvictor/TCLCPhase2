@@ -11,15 +11,6 @@ from analysis._1_process_raw_data.parse_twitter import parse_twitter
 from analysis._1_process_raw_data.parse_carinet import parse_carinet
 
 
-def main(jobs, language):
-    posts = []
-    log(f"Parsing {language} posts", 1)
-    for job in jobs:
-        posts += job.run()
-    save_posts(posts, f'analysis/_1_process_raw_data/output/{language}.json')
-    log(f"Number of {language} posts created : " + str(len(posts)), 1)
-
-
 class Job():
     def __init__(self, directory, parser):
         self.parser = parser
@@ -63,6 +54,17 @@ CHINESE_JOBS = [
 ]
 
 
+def main(jobs, language):
+    posts = []
+    log(f"Parsing {language} posts", 1)
+    # Run every job
+    for job in jobs:
+        posts += job.run()
+    save_posts(posts, f'analysis/_1_process_raw_data/output/{language}.json')
+    log(f"Number of {language} posts created : " + str(len(posts)), 1)
+
+
+# Create a class that inherit from AnalysisRunner
 class ProcessRawData(AnalysisRunner):
     def run_english(self):
         main(ENGLISH_JOBS, 'english')
