@@ -4,13 +4,18 @@ import os
 import pathlib
 
 def plot_semiannual_graph(name, data, category, plot_kind="overall", save=False, show=True, suffix=None, params=None):
+    # Set the font for Chinese
     if isinstance(suffix,str):
         if suffix == "chinese":
             plt.rcParams["font.family"] = "simhei"
         else:
             plt.rcParams["font.family"] = "sans-serif"
+            
+    # x-axis
     weeks = [i for i in range(0, len(data[list(data.keys())[0]][plot_kind]))]
     dpi = 96
+    
+    # Plot configuration
     plt.figure(figsize=(1366/dpi,768/dpi), dpi=dpi)
     plt.gca().set_color_cycle(['green', 'red', 'blue', 'purple', 'yellow', 'gray', 'orange', 'magenta'])
     
@@ -21,6 +26,8 @@ def plot_semiannual_graph(name, data, category, plot_kind="overall", save=False,
     graph_title = name + " " + plot_kind
     
     plt.suptitle(graph_title, fontsize=20)
+    
+    # Plot the data to graph
     for n in data:
         plt.plot(weeks, data[n][plot_kind], label=n)
         

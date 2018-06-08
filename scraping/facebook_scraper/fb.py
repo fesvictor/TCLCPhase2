@@ -36,6 +36,7 @@ class FacebookScraper:
     def get_posts(self, page_ids, start_date, end_date, verbose=False):
         self.posts_list = []        
 
+        # Try to get the name 
         try:
             self.name = self.graph.get_object(id=page_ids[0], fields="name")["name"]
         except facebook.GraphAPIError:
@@ -47,6 +48,7 @@ class FacebookScraper:
 
         for page_id in page_ids:
             try:
+                # Get the cursor for the current object
                 cursor = self.graph.get_object(id=page_id, fields="posts.limit(100)")
                 
                 posts = []
@@ -58,9 +60,11 @@ class FacebookScraper:
 
                 bypass = True
                 while "next" in cursor["posts"]["paging"]:
+                    # Get cursor for next page
                     next_page = strip_next_page_token(cursor["posts"]["paging"]["next"])
 
                     if bypass:
+                        # Ignore date
                         if bypass_date(cursor["posts"]["data"][0]["created_time"], end_date):
                             if verbose:
                                 print("Bypassing %s" % (cursor["posts"]["data"][0]["created_time"]))
@@ -74,6 +78,7 @@ class FacebookScraper:
 
                     for post in cursor["posts"]["data"]:
                         if date_in_range(post["created_time"], start_date, end_date):
+                            # Replace time with UNIX time
                             post["created_time"] = int(parser.parse(post["created_time"]).timestamp())
                             posts.append(post)
 
@@ -82,6 +87,7 @@ class FacebookScraper:
                         print("Current # of posts: %d" % (counter))
 
                     if date_in_range(last_post_time, start_date, end_date):
+                        # Enter next object
                         cursor = self.graph.get_object(id=page_id, fields="posts.limit(100).after(%s)" % (next_page))
                     else:
                         filter_stop = True
@@ -108,18 +114,23 @@ class FacebookScraper:
                 if verbose:
                     print("[%5d/%5d]" % (counter + 1, len(self.posts_list)), post_id)
 
+                # Get first object cursor
                 cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100)")
                 comments = []
 
                 if "comments" in cursor:
                     while "next" in cursor["comments"]["paging"]:
+                        # Get next object cursor link
                         next_page = strip_next_page_token(cursor["comments"]["paging"]["next"])
                         _comments = cursor["comments"]["data"]
 
+                        # L128-L131 Can be pythonized using map(func, col)
                         for _comment in _comments:
+                            # Convert to UNIX time
                             _comment["created_time"] = int(parser.parse(_comment["created_time"]).timestamp())
                         comments += _comments
 
+                        # Move to next object cursor
                         cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100).after(%s)" % (next_page))
 
                 post["comments"] = comments
@@ -143,18 +154,26 @@ class FacebookScraper:
                     print("[%5d/%5d]" % (counter, len(self.posts_list)), post_id)
                     counter += 1
 
+                # Get first object cursor
                 cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100)")
                 comment_count = 0
                 post["comment_count"] = 0
                 if "comments" in cursor:
                     while "next" in cursor["comments"]["paging"]:
+                        # Get next object cursor link
                         next_page = strip_next_page_token(cursor["comments"]["paging"]["next"])
+
+                        # Grab the comments (in list form)
                         _comments = cursor["comments"]["data"]
 
+                        # Get the count of comments
                         comment_count += len(_comments)
                         print(comment_count)
+
+                        # Move to next page
                         cursor = self.graph.get_object(id=post_id, fields="message,comments.limit(100).after(%s)" % (next_page))
 
+                        # Add to master
                         post["comment_count"] = comment_count
                         total_comment_count += comment_count
                 posts.append(post)
@@ -177,18 +196,29 @@ class FacebookScraper:
                 if verbose:
                     print("[%5d/%5d]" % (counter, len(self.posts_list)), end=' ')
                 
+                # Get first object cursor
                 cursor = self.graph.get_object(id=post_id, fields="comments.limit(100){message,comment_count}")
             
                 if "comments" in cursor:
                     total_comment_count += len(cursor["comments"]["data"])
+
+                    # Loop through nested comments and get the total count
                     for comment in cursor["comments"]["data"]:
                         total_nested_comment_count += comment["comment_count"]
                         total_comment_count += comment["comment_count"]
+
+                    # Will not run no next object cursor
                     while "next" in cursor["comments"]["paging"]:
+                        # Get next object cursor link
                         next_page = strip_next_page_token(cursor["comments"]["paging"]["next"])
                         
+                        # Move to next object cursor
                         cursor = self.graph.get_object(id=post_id, fields="comments.after(%s).limit(100){message, comment_count}" % (next_page))
+
+                        # Sum top level comment count
                         total_comment_count += len(cursor["comments"]["data"])
+
+                        # Loop through nested comments and get the total count
                         for comment in cursor["comments"]["data"]:
                             total_nested_comment_count += comment["comment_count"]
                             total_comment_count += comment["comment_count"]
@@ -203,8 +233,13 @@ class FacebookScraper:
         self.comment_count = {"Total comment count": total_comment_count, "Total nested comment count": total_nested_comment_count}
     
     def reinsert_access_token(self):
+        """
+        Notify user that access token had expired. Will appear through the official notification stream of the OS.
+        """
         n = notify2.Notification("Access token expired")
         n.show()
+
+        # Input new access token through console
         access_token = input("Access token expired. Please enter a new access token: ")
         self.graph.access_token = access_token
         self.access_token = access_token

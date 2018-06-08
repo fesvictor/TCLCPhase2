@@ -7,6 +7,9 @@ import notify2
 if __name__ == "__main__":
     notify2.init("Facebook scrapper")
     token = ""
+
+    # Parse json file.
+    # Please refer to gdrive for the file.
     with open('params.json') as fin:
         obj = json.loads(fin.read())
         token = obj["token"]    
@@ -30,7 +33,10 @@ if __name__ == "__main__":
 
         output_filename = "fb__%s__%s__to__%s.json" % (fs.name, start_date, end_date)
 
+        # Create directory
         pathlib.Path('data').mkdir(parents=True, exist_ok=True)
+
+        # Write to json file
         with open(os.path.join('data', output_filename), "w") as fout:
             fout.write(json.dumps(output))
 

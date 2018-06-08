@@ -1,3 +1,4 @@
+# Should be deprecated
 def map_name_from_file(filename):
     name_dict = {}
     with open(filename) as inFile:
@@ -16,9 +17,11 @@ def map_name_from_json(filename, language="en", name_dict={}):
 
         for k in js:
             if language == "en":
+                # Map self to self
                 name_dict[k] = k
                 
                 for name in js[k]["alias_en"]:
+                    # Map alias to self
                     name_dict[name] = k
             elif language == "cn":
                 # Must map an English to Chinese for params to map to chinese
